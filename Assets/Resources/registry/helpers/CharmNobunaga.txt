@@ -1,0 +1,25 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_Nobunaga
+desc = @helper_Nobunaga_desc
+prefab = Characters/PFNobunagaBig
+lane = back
+HUDIcon = Sprites/Icons/ally_nobanoga
+usesBladeWeapon = true
+hideInStore = True
+waveToUnlock = 999
+resourcesCost = 0.0
+cooldownTimer = 1.0
+attackFrequency = 1.7
+health = 22000
+speedMin = 120
+speedMax = 120
+meleeRange = 200
+meleeDamage = 100
+knockbackPower = 90
+knockbackResistance = 100
+
+

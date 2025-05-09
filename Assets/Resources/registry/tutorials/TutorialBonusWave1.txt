@@ -1,0 +1,32 @@
+[events]
+	welcome
+	allies
+	charm
+	unlock
+
+[welcome]
+	condition = 1
+	endCondition = touchScreen
+	blocking = true
+	text = @tutorial_bonus_1
+
+[allies]
+	condition = 0
+	endCondition = touchScreen
+	blocking = true
+	position = C+40, 480
+	leftArrow = 630, 700
+	text = @tutorial_bonus_2
+
+[charm]
+	condition = 0
+	endCondition = touchScreen
+	blocking = true
+	position = C, 350
+	rightArrow = 300, 130
+	text = @tutorial_bonus_3
+
+[unlock]
+	condition = 4
+	endCondition = 5
+	text = @tutorial_bonus_4

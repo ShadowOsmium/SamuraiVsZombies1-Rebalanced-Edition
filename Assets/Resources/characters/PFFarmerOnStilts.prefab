@@ -1,0 +1,1354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1275838222696109}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1275838222696109
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4812543434317335}
+  - 111: {fileID: 111268308831287607}
+  - 114: {fileID: 114025584680338805}
+  - 114: {fileID: 114938927366469031}
+  - 114: {fileID: 114361632687781575}
+  - 114: {fileID: 114083061593519198}
+  - 114: {fileID: 114628638555307057}
+  - 114: {fileID: 114307503465460239}
+  m_Layer: 0
+  m_Name: PFFarmerOnStilts
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4812543434317335
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.084633, y: -0.77619934, z: 1209.9312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4790986028339791}
+  m_Father: {fileID: 0}
+--- !u!111 &111268308831287607
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 8b89f539ee7ef7046943c7db196bf668, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b0911d5dcc0c6024f9b22cea6213fada, type: 2}
+  - {fileID: 7400000, guid: bc35fa3f20c3f2742a61066e6c57409f, type: 2}
+  - {fileID: 7400000, guid: 8b89f539ee7ef7046943c7db196bf668, type: 2}
+  - {fileID: 7400000, guid: e029dcb3fec62384fbb1fb35df869798, type: 2}
+  - {fileID: 7400000, guid: f5cdc3ad76b793a489731a5959d793af, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114025584680338805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111655948074252896}
+  defaultBlendSpeed: 0.3
+  specificAnimSettings: []
+  alsoPlayOnAllChildren: 0
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114938927366469031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: melee_weapon
+    joint: {fileID: 4394037868243925}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: impact_target
+    joint: {fileID: 4484130465356167}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: head_effect
+    joint: {fileID: 4503903740889497}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: body_effect
+    joint: {fileID: 4226067306187531}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: buff_icon
+    joint: {fileID: 4048070453603934}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 210, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!114 &114361632687781575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  m_Name:
+  attackActive: 0
+  animatedWalkSpeed: 100
+  randomAnimSets: []
+  arrowImpactEffect: {fileID: 0}
+  bladeImpactEffect: {fileID: 0}
+  bladeCriticalImpactEffect: {fileID: 0}
+  bluntImpactEffect: {fileID: 0}
+  bluntCriticalImpactEffect: {fileID: 0}
+  snapToGround: 1
+--- !u!114 &114083061593519198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/PFFarmerOnStilts.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114628638555307057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dbae7d6e4503ccce4e243938d2e0ad, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114516242085937728, guid: db8bc1e1bd656904894de36427f820b4, type: 2}
+  defaultMinDistance: 1
+  defaultMaxDistance: 500
+  defaultCustomEffect: {fileID: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  autoPlayEvent: Spawn
+  events: []
+--- !u!114 &114307503465460239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275838222696109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1409769214800346
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4790986028339791}
+  - 111: {fileID: 111655948074252896}
+  - 114: {fileID: 114939726319064174}
+  m_Layer: 0
+  m_Name: farmeronstilts
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4790986028339791
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409769214800346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4226067306187531}
+  - {fileID: 4048070453603934}
+  m_Father: {fileID: 4812543434317335}
+--- !u!111 &111655948074252896
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409769214800346}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 752988b353639244689e83cb33c7a5c3, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e0b37537431fd2942ab58e25dd24d320, type: 2}
+  - {fileID: 7400000, guid: 1d00c3fcbdb03594892c81fbe0710299, type: 2}
+  - {fileID: 7400000, guid: 752988b353639244689e83cb33c7a5c3, type: 2}
+  - {fileID: 7400000, guid: 963379825d87cca42a3e38a1d745dc79, type: 2}
+  - {fileID: 7400000, guid: 9716c9066ee794f4a8a8ef0d4c0e3c81, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114939726319064174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409769214800346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/FarmerOnStilts/farmeronstilts.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114939726319064174}
+  - {fileID: 137940424047488942}
+--- !u!1 &1584577884568002
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4226067306187531}
+  m_Layer: 0
+  m_Name: farmeronstilts:FarmerOnStilts
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4226067306187531
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584577884568002}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4790986028339791}
+--- !u!1 &1183099048078263
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4048070453603934}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4048070453603934
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1183099048078263}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4430032901744496}
+  - {fileID: 4423477546505627}
+  m_Father: {fileID: 4790986028339791}
+--- !u!1 &1554996623692393
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4430032901744496}
+  - 137: {fileID: 137940424047488942}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4430032901744496
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554996623692393}
+  m_LocalRotation: {x: 0.48424414, y: -0.51527435, z: -0.48424414, w: 0.51527435}
+  m_LocalPosition: {x: -4.9303807E-32, y: 99.73022, z: -0.082215436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 3.5563707, z: 90.00001}
+  m_Children:
+  - {fileID: 4642457503367359}
+  - {fileID: 4484130465356167}
+  m_Father: {fileID: 4048070453603934}
+--- !u!137 &137940424047488942
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554996623692393}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8b692ef10ebe3854aafca8af25fef332, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 57a030b2c2d7a734ab4911ea7fe1f38e, type: 2}
+  m_Bones:
+  - {fileID: 4430032901744496}
+  - {fileID: 4484130465356167}
+  - {fileID: 4764046437716096}
+  - {fileID: 4019377329833452}
+  - {fileID: 4018894617644889}
+  - {fileID: 4503903740889497}
+  - {fileID: 4759904661871519}
+  - {fileID: 4239969272938979}
+  - {fileID: 4409020161231651}
+  - {fileID: 4349316019675789}
+  - {fileID: 4577865068185850}
+  - {fileID: 4424578157859427}
+  - {fileID: 4994901414852889}
+  - {fileID: 4615532313987921}
+  - {fileID: 4201448369064350}
+  - {fileID: 4954010078231543}
+  - {fileID: 4865879951953814}
+  - {fileID: 4090017212047144}
+  - {fileID: 4098919923853324}
+  - {fileID: 4973405755849642}
+  - {fileID: 4423393954426468}
+  - {fileID: 4150807447620922}
+  - {fileID: 4929829354639256}
+  - {fileID: 4306223533542193}
+  - {fileID: 4642457503367359}
+  - {fileID: 4065632017652458}
+  - {fileID: 4797828128430659}
+  - {fileID: 4514118422639422}
+  - {fileID: 4984181669610490}
+  - {fileID: 4548345322121398}
+  - {fileID: 4748705185916466}
+  - {fileID: 4612645698935581}
+  - {fileID: 4350322414628436}
+  m_AABB:
+    m_Center: {x: 7.759281, y: 12.945404, z: 5.1779785}
+    m_Extent: {x: 94.5941, y: 88.79491, z: 75.38822}
+  m_DirtyAABB: 0
+--- !u!1 &1135328418947714
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4642457503367359}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4642457503367359
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135328418947714}
+  m_LocalRotation: {x: -2.1188272E-16, y: -4.678974E-17, z: -0.026151968, w: 0.999658}
+  m_LocalPosition: {x: 1.8229858, y: -0.09544728, z: 7.77778E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.4131449E-14, y: 5.9948443E-15, z: 2.9971366}
+  m_Children:
+  - {fileID: 4065632017652458}
+  - {fileID: 4548345322121398}
+  m_Father: {fileID: 4430032901744496}
+--- !u!1 &1449477256818608
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4065632017652458}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4065632017652458
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1449477256818608}
+  m_LocalRotation: {x: -0, y: 0, z: 0.9976513, w: -0.06849755}
+  m_LocalPosition: {x: 3.145244, y: -0.09102723, z: 7.015634}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 172.1446}
+  m_Children:
+  - {fileID: 4797828128430659}
+  m_Father: {fileID: 4642457503367359}
+--- !u!1 &1579502000958947
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4797828128430659}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4797828128430659
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579502000958947}
+  m_LocalRotation: {x: 2.6817974E-22, y: -4.186837E-15, z: -0.14256673, w: 0.9897852}
+  m_LocalPosition: {x: -2.8146467, y: -2.3314684E-15, z: -6.9442064E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 6.840015E-14, y: 4.7487535E-13, z: 16.392797}
+  m_Children:
+  - {fileID: 4514118422639422}
+  m_Father: {fileID: 4065632017652458}
+--- !u!1 &1547329146478006
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4514118422639422}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4514118422639422
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547329146478006}
+  m_LocalRotation: {x: 0, y: 0, z: 0.09036182, w: 0.99590904}
+  m_LocalPosition: {x: -3.2382555, y: 8.0854335E-16, z: -2.681811E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -10.368844}
+  m_Children:
+  - {fileID: 4984181669610490}
+  m_Father: {fileID: 4797828128430659}
+--- !u!1 &1213772272536494
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4984181669610490}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4984181669610490
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1213772272536494}
+  m_LocalRotation: {x: -6.5735002E-24, y: -5.1275695E-16, z: 0.6784718, w: 0.73462653}
+  m_LocalPosition: {x: -88.27041, y: -3.5507736E-14, z: -7.694401E-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -3.9865382E-14, y: 4.31649E-14, z: -85.44867}
+  m_Children: []
+  m_Father: {fileID: 4514118422639422}
+--- !u!1 &1801538112815951
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4548345322121398}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4548345322121398
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1801538112815951}
+  m_LocalRotation: {x: 8.1146343E-26, y: -4.7180963E-16, z: 0.06849754, w: 0.9976513}
+  m_LocalPosition: {x: 3.1452823, y: -0.09102804, z: -7.01563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -3.703347E-15, y: 5.3938418E-14, z: -7.8553905}
+  m_Children:
+  - {fileID: 4748705185916466}
+  m_Father: {fileID: 4642457503367359}
+--- !u!1 &1267878378909531
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4748705185916466}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4748705185916466
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267878378909531}
+  m_LocalRotation: {x: 1.1574945E-23, y: -3.7232416E-16, z: -0.14256671, w: 0.9897852}
+  m_LocalPosition: {x: 2.8146002, y: 7.1358213E-06, z: 1.7763568E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 6.0826393E-15, y: 4.222939E-14, z: 16.392796}
+  m_Children:
+  - {fileID: 4612645698935581}
+  m_Father: {fileID: 4548345322121398}
+--- !u!1 &1349118494636445
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4612645698935581}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4612645698935581
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349118494636445}
+  m_LocalRotation: {x: 7.4201005E-09, y: 6.732468E-10, z: 0.09036178, w: 0.99590904}
+  m_LocalPosition: {x: 3.238243, y: -1.6199342E-06, z: 8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 8.537736E-07, y: 1.0769645E-13, z: -10.36884}
+  m_Children:
+  - {fileID: 4350322414628436}
+  m_Father: {fileID: 4748705185916466}
+--- !u!1 &1069386402944136
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4350322414628436}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4350322414628436
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069386402944136}
+  m_LocalRotation: {x: 3.1344404E-24, y: -5.1134617E-16, z: 0.6784718, w: 0.73462653}
+  m_LocalPosition: {x: 88.27043, y: -3.7684322E-06, z: 3.7303494E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -3.9755698E-14, y: 4.3046136E-14, z: -85.44867}
+  m_Children: []
+  m_Father: {fileID: 4612645698935581}
+--- !u!1 &1507446546080721
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4484130465356167}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4484130465356167
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507446546080721}
+  m_LocalRotation: {x: 0.9999741, y: -0.007199365, z: 1.639455E-16, w: 6.241426E-17}
+  m_LocalPosition: {x: -6.765535, y: -7.993606E-15, z: -2.6238758E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 1.8837774E-14, z: 0.8249936}
+  m_Children:
+  - {fileID: 4764046437716096}
+  m_Father: {fileID: 4430032901744496}
+--- !u!1 &1207376038502712
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4764046437716096}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_spine_hi_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4764046437716096
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1207376038502712}
+  m_LocalRotation: {x: 7.4484645E-09, y: -1.7757329E-10, z: 0.023833493, w: 0.999716}
+  m_LocalPosition: {x: -8.788598, y: 2.0428104E-14, z: 2.4365549E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 8.528037E-07, y: 4.0685244E-08, z: -2.7313755}
+  m_Children:
+  - {fileID: 4019377329833452}
+  m_Father: {fileID: 4484130465356167}
+--- !u!1 &1252345529566575
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4019377329833452}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_spine_end_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4019377329833452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252345529566575}
+  m_LocalRotation: {x: -1.9957696E-26, y: -2.5483325E-17, z: 0.20808715, w: 0.9781103}
+  m_LocalPosition: {x: -7.0664115, y: 2.5055904E-14, z: 3.138117E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -6.076507E-16, y: 2.8562523E-15, z: -24.020555}
+  m_Children:
+  - {fileID: 4577865068185850}
+  - {fileID: 4018894617644889}
+  - {fileID: 4090017212047144}
+  m_Father: {fileID: 4764046437716096}
+--- !u!1 &1973114489835479
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4577865068185850}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4577865068185850
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973114489835479}
+  m_LocalRotation: {x: -0.37342408, y: 0.70562506, z: -0.3715077, w: -0.47395125}
+  m_LocalPosition: {x: -0.92458045, y: 1.0127848, z: -8.348586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -148.2005, y: 71.14218, z: 147.25264}
+  m_Children:
+  - {fileID: 4424578157859427}
+  m_Father: {fileID: 4019377329833452}
+--- !u!1 &1588494485339986
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4424578157859427}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4424578157859427
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588494485339986}
+  m_LocalRotation: {x: 0.018809991, y: 0.11760339, z: -0.019334178, w: 0.99269426}
+  m_LocalPosition: {x: -3.945831, y: -1.0241774E-14, z: 2.921551E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.9332966, y: -13.5454, z: 2.001938}
+  m_Children:
+  - {fileID: 4994901414852889}
+  m_Father: {fileID: 4577865068185850}
+--- !u!1 &1471755920061256
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4994901414852889}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4994901414852889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471755920061256}
+  m_LocalRotation: {x: 0.007024213, y: 0.050190095, z: -7.778735E-05, w: 0.998715}
+  m_LocalPosition: {x: -8.308448, y: 1.213813E-14, z: 2.5765004E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.80752873, y: -5.753699, z: -0.031655952}
+  m_Children:
+  - {fileID: 4615532313987921}
+  m_Father: {fileID: 4424578157859427}
+--- !u!1 &1124451079870077
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4615532313987921}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4615532313987921
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124451079870077}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.659671, y: 1.7327767E-14, z: -4.076166E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4201448369064350}
+  m_Father: {fileID: 4994901414852889}
+--- !u!1 &1002941424072473
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4201448369064350}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4201448369064350
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1002941424072473}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.4210855E-14, z: -8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4865879951953814}
+  - {fileID: 4954010078231543}
+  m_Father: {fileID: 4615532313987921}
+--- !u!1 &1833723414807609
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4865879951953814}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4865879951953814
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833723414807609}
+  m_LocalRotation: {x: -0.70879436, y: 2.4763993E-05, z: -0.043519717, w: 0.70407146}
+  m_LocalPosition: {x: -6.159874, y: 0.36280543, z: 2.300642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90.27433, y: 3.5349963, z: 3.5221255}
+  m_Children: []
+  m_Father: {fileID: 4201448369064350}
+--- !u!1 &1820393922661989
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4954010078231543}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4954010078231543
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820393922661989}
+  m_LocalRotation: {x: -0.7123786, y: 0.11540049, z: 0.47615278, w: 0.50247186}
+  m_LocalPosition: {x: -2.1326094, y: -0.95860386, z: 1.9729452}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.9271, y: -52.596085, z: -31.136486}
+  m_Children: []
+  m_Father: {fileID: 4201448369064350}
+--- !u!1 &1405190598989283
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4018894617644889}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4018894617644889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405190598989283}
+  m_LocalRotation: {x: 0.52104217, y: -0.4780325, z: 0.52104217, w: 0.4780325}
+  m_LocalPosition: {x: -8.473595, y: -7.1054274E-15, z: 2.4844738E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 94.93007, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4503903740889497}
+  m_Father: {fileID: 4019377329833452}
+--- !u!1 &1248573936675288
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4503903740889497}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4503903740889497
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248573936675288}
+  m_LocalRotation: {x: -0.1456703, y: 7.42933E-18, z: 2.4778268E-09, w: 0.9893332}
+  m_LocalPosition: {x: 9.634237E-16, y: 3.8218594, z: 3.9487176E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -16.752193, y: -4.136134E-08, z: -2.8090932E-07}
+  m_Children:
+  - {fileID: 4759904661871519}
+  - {fileID: 4349316019675789}
+  m_Father: {fileID: 4018894617644889}
+--- !u!1 &1812202318882588
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4759904661871519}
+  m_Layer: 0
+  m_Name: farmeronstilts:beardJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4759904661871519
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812202318882588}
+  m_LocalRotation: {x: -0.10577885, y: -0.009999045, z: -0.093575604, w: 0.9899265}
+  m_LocalPosition: {x: -4.2713403E-08, y: -1.8898593, z: 17.213459}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -11.988662, y: 2.269121, z: 10.561702}
+  m_Children:
+  - {fileID: 4239969272938979}
+  m_Father: {fileID: 4503903740889497}
+--- !u!1 &1731858787596318
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4239969272938979}
+  m_Layer: 0
+  m_Name: farmeronstilts:beard2Jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4239969272938979
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731858787596318}
+  m_LocalRotation: {x: 0, y: 0, z: 0.05843522, w: 0.9982912}
+  m_LocalPosition: {x: -0, y: -21.698204, z: 4.339641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -6.7}
+  m_Children:
+  - {fileID: 4409020161231651}
+  m_Father: {fileID: 4759904661871519}
+--- !u!1 &1924857318677548
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4409020161231651}
+  m_Layer: 0
+  m_Name: farmeronstilts:beard3Jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4409020161231651
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924857318677548}
+  m_LocalRotation: {x: 0, y: 0, z: 0.17192909, w: 0.9851093}
+  m_LocalPosition: {x: -8.881784E-15, y: -17.358564, z: 1.9890021}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -19.8}
+  m_Children: []
+  m_Father: {fileID: 4239969272938979}
+--- !u!1 &1497316979638160
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4349316019675789}
+  m_Layer: 0
+  m_Name: farmeronstilts:HatJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4349316019675789
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497316979638160}
+  m_LocalRotation: {x: -0.1062504, y: 4.751409E-10, z: 4.446584E-09, w: 0.9943394}
+  m_LocalPosition: {x: -3.0778273E-07, y: 24.420824, z: -1.341384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -12.198424, y: -1.0827787E-07, z: -5.0087164E-07}
+  m_Children: []
+  m_Father: {fileID: 4503903740889497}
+--- !u!1 &1461121408415137
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4090017212047144}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4090017212047144
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461121408415137}
+  m_LocalRotation: {x: 0.7056251, y: 0.37342405, z: 0.47395128, w: -0.3715077}
+  m_LocalPosition: {x: -0.9250099, y: 1.0129812, z: 8.34859}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -148.2005, y: 71.14218, z: -32.747353}
+  m_Children:
+  - {fileID: 4098919923853324}
+  m_Father: {fileID: 4019377329833452}
+--- !u!1 &1734698824855866
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4098919923853324}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4098919923853324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734698824855866}
+  m_LocalRotation: {x: 0.018809991, y: 0.11760339, z: -0.019334178, w: 0.99269426}
+  m_LocalPosition: {x: 3.945817, y: 5.746467E-05, z: -1.9255123E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.9332966, y: -13.5454, z: 2.001938}
+  m_Children:
+  - {fileID: 4973405755849642}
+  m_Father: {fileID: 4090017212047144}
+--- !u!1 &1716455561133269
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4973405755849642}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4973405755849642
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1716455561133269}
+  m_LocalRotation: {x: 0.007024213, y: 0.050190095, z: -7.778735E-05, w: 0.998715}
+  m_LocalPosition: {x: 8.308616, y: 0.0007809517, z: 8.7052325E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.80752873, y: -5.753699, z: -0.031655952}
+  m_Children:
+  - {fileID: 4423393954426468}
+  m_Father: {fileID: 4098919923853324}
+--- !u!1 &1472968613347793
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4423393954426468}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4423393954426468
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1472968613347793}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.659525, y: -0.0005596818, z: -6.2836343E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4150807447620922}
+  m_Father: {fileID: 4973405755849642}
+--- !u!1 &1865299846637759
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4150807447620922}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4150807447620922
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1865299846637759}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.7763568E-15, y: 1.4210855E-14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4394037868243925}
+  - {fileID: 4306223533542193}
+  - {fileID: 4929829354639256}
+  m_Father: {fileID: 4423393954426468}
+--- !u!1 &1862956781029215
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4394037868243925}
+  m_Layer: 0
+  m_Name: farmeronstilts:prop_prop
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4394037868243925
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1862956781029215}
+  m_LocalRotation: {x: 0.9971094, y: -0.06939645, z: 0.030861713, w: 0.0021479023}
+  m_LocalPosition: {x: 5.0706925, y: 3.742963, z: -0.24857159}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 3.545612, z: 7.962461}
+  m_Children: []
+  m_Father: {fileID: 4150807447620922}
+--- !u!1 &1336473444753125
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4306223533542193}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4306223533542193
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336473444753125}
+  m_LocalRotation: {x: -0.70879436, y: 2.4763993E-05, z: -0.043519717, w: 0.70407146}
+  m_LocalPosition: {x: 6.159884, y: -0.36279103, z: -2.30064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90.27433, y: 3.5349963, z: 3.5221255}
+  m_Children: []
+  m_Father: {fileID: 4150807447620922}
+--- !u!1 &1196607982403651
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4929829354639256}
+  m_Layer: 0
+  m_Name: farmeronstilts:stiltsfarmer_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4929829354639256
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196607982403651}
+  m_LocalRotation: {x: -0.7123786, y: 0.11540049, z: 0.47615278, w: 0.50247186}
+  m_LocalPosition: {x: 2.1326818, y: 0.95881575, z: -1.9729413}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.9271, y: -52.596085, z: -31.136486}
+  m_Children: []
+  m_Father: {fileID: 4150807447620922}
+--- !u!1 &1835019811348105
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4423477546505627}
+  m_Layer: 0
+  m_Name: farmeronstilts:weightSpine_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4423477546505627
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1835019811348105}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4048070453603934}

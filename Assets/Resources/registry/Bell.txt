@@ -1,0 +1,43 @@
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @bell_name
+desc = @ab_warding_bell
+waveToUnlock = 11
+attackFrequency = 10.0
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	icon = Sprites/Icons/upgrade_bell
+	cost = 5500,0
+	radius = 500
+	damage = 15
+ 
+[002]
+	icon = Sprites/Icons/upgrade_bell
+	cost = 10000,0
+	radius = 500
+	damage = 21
+
+[003]
+	icon = Sprites/Icons/upgrade_bell
+	cost = 0,20
+	radius = 500
+	damage = 30
+
+[004]
+	icon = Sprites/Icons/upgrade_bell
+	cost = 0,24
+	radius = 500
+	damage = 41
+
+[005]
+	icon = Sprites/Icons/upgrade_bell
+	cost = 0,30
+	radius = 500
+	damage = 58
+

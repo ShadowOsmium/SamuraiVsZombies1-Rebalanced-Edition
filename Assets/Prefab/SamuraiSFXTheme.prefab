@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1119259909570429}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1119259909570429
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4106386086503409}
+  - 114: {fileID: 114300406162043201}
+  - 114: {fileID: 114360542643476818}
+  - 114: {fileID: 114789844480284267}
+  m_Layer: 0
+  m_Name: SamuraiSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4106386086503409
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119259909570429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.22531, y: 125.35509, z: -10994.4375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114300406162043201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119259909570429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: AtkEmote
+    clips:
+    - {fileID: 8300000, guid: c45e705a2d47599488054ab29cf0b6e0, type: 3}
+    - {fileID: 8300000, guid: 431bb88afdd797042863764941cb9856, type: 3}
+    - {fileID: 8300000, guid: ab3c5fdb2ba08e44ca0ea99b9cbdafa4, type: 3}
+    - {fileID: 8300000, guid: 242f39ea737b2af4699a7a91ae9224f0, type: 3}
+    - {fileID: 8300000, guid: 37e9042538208ee41b2d572b9594cc82, type: 3}
+    percentChanceNone: 40
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Swoosh
+    clips:
+    - {fileID: 8300000, guid: 90f31bca7f8c4034fb2448b31b0fab40, type: 3}
+    - {fileID: 8300000, guid: bb59c6144477a3a488c9bf79d8d54b5f, type: 3}
+    - {fileID: 8300000, guid: ac05deab9c443174d84a535ca73bbac6, type: 3}
+    - {fileID: 8300000, guid: 32e2b2d43c76b6a4984be7204884f49e, type: 3}
+    - {fileID: 8300000, guid: 6735096f41eda1d4390f3d79fdc03a9e, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SwooshLrg
+    clips:
+    - {fileID: 8300000, guid: 0e5025373e5a0d14899d84dddbcb7a3c, type: 3}
+    - {fileID: 8300000, guid: 71141101269fce7408c01bcbe74d8bce, type: 3}
+    - {fileID: 8300000, guid: 0844b52881abd434d9241efec54c58ee, type: 3}
+    - {fileID: 8300000, guid: 918b53685b3444c459ea0615786369b9, type: 3}
+    - {fileID: 8300000, guid: 0336aa5f31225e7498ab6a5e7517f391, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: RangedAtk
+    clips:
+    - {fileID: 8300000, guid: 7c19da2f186d6cd4b9766de13f4d795e, type: 3}
+    - {fileID: 8300000, guid: ee6e3df212477db48af66e7baa96f98a, type: 3}
+    - {fileID: 8300000, guid: 94bd7144450bbc64d92ba87e8c9f929d, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: AtkEmoteBig
+    clips:
+    - {fileID: 8300000, guid: 07ed59846c58cc54987cf5f13b6338bb, type: 3}
+    - {fileID: 8300000, guid: 62a2c47ed18f5ba40a2e042bca55da99, type: 3}
+    - {fileID: 8300000, guid: 183475a0b5a264c4881ebb433e29baff, type: 3}
+    - {fileID: 8300000, guid: 5c04032cba5ed034684cc9fb74638206, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Footstep
+    clips:
+    - {fileID: 8300000, guid: d36548124681e6542994ff5859db5ed3, type: 3}
+    - {fileID: 8300000, guid: 0c82661999dd90345b426b0f39874918, type: 3}
+    - {fileID: 8300000, guid: 0f9d140381b2ce3488cf903072188ddd, type: 3}
+    - {fileID: 8300000, guid: cc252358086e4164e83ddaf3afa652d0, type: 3}
+    - {fileID: 8300000, guid: 494a94709674d5d4786b4aa75546b4a0, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: 27c80b3bd458fa248956d8f9e7e6f122, type: 3}
+    - {fileID: 8300000, guid: dd3e6a059a90f6b4cb73ae4547bbad61, type: 3}
+    - {fileID: 8300000, guid: 42d150bb2297f1f47862c4fa15bde6c8, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+--- !u!114 &114360542643476818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119259909570429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/SamuraiSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114789844480284267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119259909570429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

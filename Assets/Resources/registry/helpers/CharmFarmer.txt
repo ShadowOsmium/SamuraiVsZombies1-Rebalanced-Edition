@@ -1,0 +1,25 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_farmer_name
+desc = @helper_farmer_desc
+prefab = Characters/PFFarmerBig
+lane = back
+HUDIcon = Sprites/Icons/ally_farmer
+weaponMeleePrefab = Props/PFFarmerssword
+hideInStore = True
+waveToUnlock = 999
+resourcesCost = 0.0
+cooldownTimer = 1.0
+attackFrequency = 1.7
+health = 900
+speedMin = 140
+speedMax = 140
+meleeRange = 200
+meleeDamage = 240
+knockbackPower = 90
+knockbackResistance = 100
+
+

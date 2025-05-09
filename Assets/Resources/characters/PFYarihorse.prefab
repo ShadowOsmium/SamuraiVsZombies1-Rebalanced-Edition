@@ -1,0 +1,2384 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1798446821329783}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1798446821329783
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4976619507525223}
+  - 111: {fileID: 111831014988111436}
+  - 114: {fileID: 114601699743235112}
+  - 114: {fileID: 114935791221347089}
+  - 114: {fileID: 114497749105116285}
+  - 114: {fileID: 114371790167911905}
+  - 114: {fileID: 114975907658680458}
+  - 114: {fileID: 114955437142356493}
+  - 114: {fileID: 114031652407529126}
+  m_Layer: 0
+  m_Name: PFYarihorse
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4976619507525223
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 763.85236, y: 371.789, z: 715.7222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4573555443342616}
+  m_Father: {fileID: 0}
+--- !u!111 &111831014988111436
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 4444daa678a0c7043972ecf8d36f618e, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 62fe673b26fa24645b16416e6d0ff384, type: 2}
+  - {fileID: 7400000, guid: 76b84b0b0dcb0f84d947d6b9d7841276, type: 2}
+  - {fileID: 7400000, guid: 45711e1699fc507418276d5370c9f857, type: 2}
+  - {fileID: 7400000, guid: ce459db86c78911488513497e12bf8e0, type: 2}
+  - {fileID: 7400000, guid: d31530c1eee1ac848abc28a648ba6b28, type: 2}
+  - {fileID: 7400000, guid: 2001c235b23975a4dbf896e0700e14d3, type: 2}
+  - {fileID: 7400000, guid: c239c9c107e09014893d9230d0ca834a, type: 2}
+  - {fileID: 7400000, guid: 4e65ee972f494ad4cbe88be20d9cfc1e, type: 2}
+  - {fileID: 7400000, guid: 4444daa678a0c7043972ecf8d36f618e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114601699743235112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111399662162515014}
+  defaultBlendSpeed: 0.1
+  specificAnimSettings: []
+  alsoPlayOnAllChildren: 1
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114935791221347089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/PFYarihorse.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114497749105116285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: melee_weapon
+    joint: {fileID: 4387441284751506}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: impact_target
+    joint: {fileID: 4511261556448725}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: buff_icon
+    joint: {fileID: 4764353443948443}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 200, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!114 &114371790167911905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  m_Name:
+  attackActive: 0
+  animatedWalkSpeed: 100
+  randomAnimSets: []
+  arrowImpactEffect: {fileID: 0}
+  bladeImpactEffect: {fileID: 0}
+  bladeCriticalImpactEffect: {fileID: 0}
+  bluntImpactEffect: {fileID: 0}
+  bluntCriticalImpactEffect: {fileID: 0}
+  snapToGround: 1
+--- !u!114 &114975907658680458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dbae7d6e4503ccce4e243938d2e0ad, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114372843648799549, guid: 05786e42441c66c4fa543fd1f24e6487, type: 2}
+  defaultMinDistance: 1
+  defaultMaxDistance: 500
+  defaultCustomEffect: {fileID: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  autoPlayEvent: Spawn
+  events: []
+--- !u!114 &114955437142356493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9deb42e7ebc7d9000d6a75dff5974047, type: 3}
+  m_Name:
+  playRandomAnimAtStartup: 0
+  cameraShakeIntensityMult: 1
+--- !u!114 &114031652407529126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798446821329783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1051575275686891
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4573555443342616}
+  - 111: {fileID: 111399662162515014}
+  - 114: {fileID: 114068563341663435}
+  m_Layer: 0
+  m_Name: yarihorse
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4573555443342616
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051575275686891}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4764353443948443}
+  - {fileID: 4082277143271265}
+  m_Father: {fileID: 4976619507525223}
+--- !u!111 &111399662162515014
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051575275686891}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: bf13cbfab60626f45803dac617dd5b1b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 6ae6070011705174bbd2a25c7d0ff95a, type: 2}
+  - {fileID: 7400000, guid: 4435ecbbd8748fe4296d72ce8838ae38, type: 2}
+  - {fileID: 7400000, guid: bccb98513616ac948b2db7e52a7ea2f4, type: 2}
+  - {fileID: 7400000, guid: aaeb183da26e6e54b9fb03be9dbbc0af, type: 2}
+  - {fileID: 7400000, guid: 611c9b2c6270d9d44ad40bcd9d050313, type: 2}
+  - {fileID: 7400000, guid: d6ea1ae402242dc40b8bbd51a79638b0, type: 2}
+  - {fileID: 7400000, guid: 9f73ae5e80eaaba43acebb81a8d8b605, type: 2}
+  - {fileID: 7400000, guid: ad4e09dc1206f4b4495e0a6f171d8833, type: 2}
+  - {fileID: 7400000, guid: bf13cbfab60626f45803dac617dd5b1b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114068563341663435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051575275686891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/YariHorse/yarihorse.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114068563341663435}
+  - {fileID: 137982811499422609}
+  - {fileID: 1552082517577245}
+  - {fileID: 4593327790783073}
+--- !u!1 &1360623847732082
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4764353443948443}
+  m_Layer: 0
+  m_Name: yarihorse:horse_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4764353443948443
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1360623847732082}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4341705604570580}
+  m_Father: {fileID: 4573555443342616}
+--- !u!1 &1130035401062441
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4341705604570580}
+  - 137: {fileID: 137982811499422609}
+  m_Layer: 0
+  m_Name: yarihorse:horse_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4341705604570580
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1130035401062441}
+  m_LocalRotation: {x: 0.48424414, y: -0.51527435, z: -0.48424414, w: 0.51527435}
+  m_LocalPosition: {x: -9.8607613E-32, y: 41.210815, z: -12.395146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 3.5563707, z: 90.00001}
+  m_Children:
+  - {fileID: 4248958115740386}
+  - {fileID: 4062555652002317}
+  - {fileID: 4513410895899929}
+  m_Father: {fileID: 4764353443948443}
+--- !u!137 &137982811499422609
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1130035401062441}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: be51809fd25123449846138cfa3fc8d4, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 1d135438a833e594499feb2835e7984f, type: 2}
+  m_Bones:
+  - {fileID: 4341705604570580}
+  - {fileID: 4248958115740386}
+  - {fileID: 4505523864559824}
+  - {fileID: 4682005653867125}
+  - {fileID: 4412658066110131}
+  - {fileID: 4180706117834009}
+  - {fileID: 4861790001612203}
+  - {fileID: 4610509775509090}
+  - {fileID: 4310494896344351}
+  - {fileID: 4856244865711050}
+  - {fileID: 4062555652002317}
+  - {fileID: 4348483469020973}
+  - {fileID: 4511261556448725}
+  - {fileID: 4032935508176572}
+  - {fileID: 4452014856676232}
+  - {fileID: 4277325350771109}
+  - {fileID: 4901002034939589}
+  - {fileID: 4617828724275855}
+  - {fileID: 4543859017933848}
+  - {fileID: 4566446485710858}
+  - {fileID: 4002100476689861}
+  - {fileID: 4449042934028491}
+  - {fileID: 4148989865749554}
+  - {fileID: 4931928865342853}
+  - {fileID: 4022037187427632}
+  - {fileID: 4279148551272657}
+  - {fileID: 4513410895899929}
+  - {fileID: 4593327790783073}
+  - {fileID: 4645614033151156}
+  m_AABB:
+    m_Center: {x: -9.9559765, y: 19.626087, z: -3.5283642}
+    m_Extent: {x: 58.092003, y: 70.28917, z: 61.24877}
+  m_DirtyAABB: 0
+--- !u!1 &1133141510944715
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4248958115740386}
+  m_Layer: 0
+  m_Name: yarihorse:horse_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4248958115740386
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133141510944715}
+  m_LocalRotation: {x: 0.99516463, y: -0.09822134, z: -4.322423E-17, w: -6.579604E-17}
+  m_LocalPosition: {x: 2.7292492, y: -0.5440458, z: -6.040122E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: -5.6697374E-15, z: 11.273512}
+  m_Children:
+  - {fileID: 4505523864559824}
+  - {fileID: 4861790001612203}
+  m_Father: {fileID: 4341705604570580}
+--- !u!1 &1495554356786177
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4505523864559824}
+  m_Layer: 0
+  m_Name: yarihorse:horse_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4505523864559824
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1495554356786177}
+  m_LocalRotation: {x: 0.119298846, y: 0.9928584, z: 6.8099987E-17, w: -5.349006E-17}
+  m_LocalPosition: {x: 4.531995, y: -0.79735154, z: -9.296214}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 7.016705E-15, z: -166.29672}
+  m_Children:
+  - {fileID: 4682005653867125}
+  m_Father: {fileID: 4248958115740386}
+--- !u!1 &1120503403197020
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4682005653867125}
+  m_Layer: 0
+  m_Name: yarihorse:horse_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4682005653867125
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120503403197020}
+  m_LocalRotation: {x: -1.1231388E-23, y: -2.5969334E-16, z: -0.33351627, w: 0.9427444}
+  m_LocalPosition: {x: -10.564058, y: 2.8139567E-15, z: 4.5595207E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 9.924998E-15, y: 2.8054814E-14, z: 38.964676}
+  m_Children:
+  - {fileID: 4412658066110131}
+  m_Father: {fileID: 4505523864559824}
+--- !u!1 &1928154191254186
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4412658066110131}
+  m_Layer: 0
+  m_Name: yarihorse:horse_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4412658066110131
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928154191254186}
+  m_LocalRotation: {x: 0.9644638, y: 0.26421517, z: -1.6178513E-17, w: -5.9056375E-17}
+  m_LocalPosition: {x: -11.814634, y: 2.814551E-15, z: -4.401366E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: 6.2149756E-23, z: -30.640648}
+  m_Children:
+  - {fileID: 4180706117834009}
+  m_Father: {fileID: 4682005653867125}
+--- !u!1 &1021543593844155
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4180706117834009}
+  m_Layer: 0
+  m_Name: yarihorse:horse_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4180706117834009
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1021543593844155}
+  m_LocalRotation: {x: 0.8564527, y: -0.5162255, z: -2.7071623E-16, w: -9.16785E-17}
+  m_LocalPosition: {x: -9.720124, y: 2.8865799E-15, z: 1.9975265E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -3.199195E-14, z: 62.15881}
+  m_Children: []
+  m_Father: {fileID: 4412658066110131}
+--- !u!1 &1750520136848541
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4861790001612203}
+  m_Layer: 0
+  m_Name: yarihorse:horse_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4861790001612203
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750520136848541}
+  m_LocalRotation: {x: 0.9928584, y: -0.11929888, z: -3.2509442E-17, w: 5.776655E-17}
+  m_LocalPosition: {x: 4.531952, y: -0.79733133, z: 9.29621}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -2.9089968E-15, z: 13.70328}
+  m_Children:
+  - {fileID: 4610509775509090}
+  m_Father: {fileID: 4248958115740386}
+--- !u!1 &1574609940362283
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4610509775509090}
+  m_Layer: 0
+  m_Name: yarihorse:horse_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4610509775509090
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1574609940362283}
+  m_LocalRotation: {x: 9.9334265E-09, y: 1.4556154E-09, z: -0.33351633, w: 0.9427444}
+  m_LocalPosition: {x: 10.564104, y: -7.96303E-06, z: -1.1901591E-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.0174824E-06, y: -5.3688814E-07, z: 38.96468}
+  m_Children:
+  - {fileID: 4310494896344351}
+  m_Father: {fileID: 4861790001612203}
+--- !u!1 &1714141368982924
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4310494896344351}
+  m_Layer: 0
+  m_Name: yarihorse:horse_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4310494896344351
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1714141368982924}
+  m_LocalRotation: {x: 0.9644638, y: 0.26421517, z: -3.7496095E-09, w: 1.027207E-09}
+  m_LocalPosition: {x: 11.814638, y: 1.8405443E-06, z: -1.1070862E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -4.4550518E-07, z: -30.640648}
+  m_Children:
+  - {fileID: 4856244865711050}
+  m_Father: {fileID: 4610509775509090}
+--- !u!1 &1182889458330171
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4856244865711050}
+  m_Layer: 0
+  m_Name: yarihorse:horse_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4856244865711050
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1182889458330171}
+  m_LocalRotation: {x: 0.85645264, y: -0.5162256, z: -1.8748858E-08, w: -1.1300846E-08}
+  m_LocalPosition: {x: 9.72012, y: -8.902087E-06, z: 2.0968367E-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -2.5085576E-06, z: 62.158817}
+  m_Children: []
+  m_Father: {fileID: 4310494896344351}
+--- !u!1 &1098094772650415
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4062555652002317}
+  m_Layer: 0
+  m_Name: yarihorse:horse_midsection_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4062555652002317
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1098094772650415}
+  m_LocalRotation: {x: -0.48424417, y: 0.51527435, z: 0.48424417, w: 0.51527435}
+  m_LocalPosition: {x: 2.7766573, y: 16.572996, z: 1.8399722E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -86.443634, y: -90, z: 0}
+  m_Children:
+  - {fileID: 4348483469020973}
+  - {fileID: 4535339400446209}
+  m_Father: {fileID: 4341705604570580}
+--- !u!1 &1175360759087692
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4348483469020973}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4348483469020973
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1175360759087692}
+  m_LocalRotation: {x: 0.46142444, y: -0.53580546, z: -0.46142444, w: 0.53580546}
+  m_LocalPosition: {x: -1.3171795E-13, y: 1.7470918, z: 22.400341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 90, y: 8.531317, z: 90}
+  m_Children:
+  - {fileID: 4449042934028491}
+  - {fileID: 4901002034939589}
+  - {fileID: 4511261556448725}
+  m_Father: {fileID: 4062555652002317}
+--- !u!1 &1477191651860307
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4449042934028491}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_lf_shoulder_jnt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4449042934028491
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477191651860307}
+  m_LocalRotation: {x: 0.9710531, y: -0.23886363, z: 1.7999164E-15, w: 3.7969316E-16}
+  m_LocalPosition: {x: 8.080072, y: -4.2311583, z: -1.384046E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: 2.1067765E-13, z: 27.638962}
+  m_Children:
+  - {fileID: 4148989865749554}
+  m_Father: {fileID: 4348483469020973}
+--- !u!1 &1031495124785960
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4148989865749554}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4148989865749554
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031495124785960}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9999282, w: 0.011985935}
+  m_LocalPosition: {x: 5.109493, y: 0.4729281, z: -7.4523983}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -178.62648}
+  m_Children:
+  - {fileID: 4931928865342853}
+  m_Father: {fileID: 4449042934028491}
+--- !u!1 &1780347251473435
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4931928865342853}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4931928865342853
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780347251473435}
+  m_LocalRotation: {x: 0.99972916, y: -0.023274085, z: -1.9170979E-16, w: 5.6785856E-17}
+  m_LocalPosition: {x: -8.703398, y: 2.3483612E-14, z: -1.8407085E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -2.1810926E-14, z: 2.6672544}
+  m_Children:
+  - {fileID: 4022037187427632}
+  m_Father: {fileID: 4148989865749554}
+--- !u!1 &1066588639365591
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4022037187427632}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4022037187427632
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066588639365591}
+  m_LocalRotation: {x: 0, y: 0, z: 0.19010806, w: 0.9817632}
+  m_LocalPosition: {x: -9.50178, y: 1.1141735E-15, z: -3.4606209E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -21.91818}
+  m_Children:
+  - {fileID: 4279148551272657}
+  m_Father: {fileID: 4931928865342853}
+--- !u!1 &1338817413779385
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4279148551272657}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4279148551272657
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338817413779385}
+  m_LocalRotation: {x: 1.9931065E-25, y: -3.206702E-17, z: 0.5730837, w: 0.81949687}
+  m_LocalPosition: {x: -8.481211, y: 1.6427939E-15, z: -6.871494E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.105859E-15, y: 3.011331E-15, z: -69.93108}
+  m_Children: []
+  m_Father: {fileID: 4022037187427632}
+--- !u!1 &1082196923261642
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4901002034939589}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_rt_shoulder_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4901002034939589
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1082196923261642}
+  m_LocalRotation: {x: 0.9710531, y: -0.23886363, z: 2.0753468E-15, w: 5.7356E-16}
+  m_LocalPosition: {x: 8.080072, y: -4.2311583, z: -1.384046E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 2.466325E-13, z: 27.638962}
+  m_Children:
+  - {fileID: 4617828724275855}
+  m_Father: {fileID: 4348483469020973}
+--- !u!1 &1422925669212183
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4617828724275855}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4617828724275855
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422925669212183}
+  m_LocalRotation: {x: 0, y: 0, z: -0.011986434, w: 0.9999282}
+  m_LocalPosition: {x: 5.109493, y: 0.4729469, z: 7.4524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 1.3735771}
+  m_Children:
+  - {fileID: 4543859017933848}
+  m_Father: {fileID: 4901002034939589}
+--- !u!1 &1600689283448004
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4543859017933848}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4543859017933848
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1600689283448004}
+  m_LocalRotation: {x: 0.99972916, y: -0.023273103, z: -7.385076E-17, w: -6.296813E-17}
+  m_LocalPosition: {x: 8.703366, y: -5.075003E-05, z: -8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: -8.628311E-15, z: 2.667142}
+  m_Children:
+  - {fileID: 4566446485710858}
+  m_Father: {fileID: 4617828724275855}
+--- !u!1 &1211346619905283
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4566446485710858}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4566446485710858
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211346619905283}
+  m_LocalRotation: {x: 1.0344557E-08, y: 2.0031103E-09, z: 0.19010854, w: 0.9817631}
+  m_LocalPosition: {x: 9.501852, y: -2.8708602E-05, z: 8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.2074182E-06, y: 1.0054265E-12, z: -21.918236}
+  m_Children:
+  - {fileID: 4002100476689861}
+  m_Father: {fileID: 4543859017933848}
+--- !u!1 &1088863223219419
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4002100476689861}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4002100476689861
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088863223219419}
+  m_LocalRotation: {x: -1.1131789E-23, y: 1.8945987E-16, z: 0.5730837, w: 0.81949687}
+  m_LocalPosition: {x: 8.48118, y: 5.4311673E-05, z: -8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.2441934E-14, y: -1.7791688E-14, z: -69.93108}
+  m_Children: []
+  m_Father: {fileID: 4566446485710858}
+--- !u!1 &1953440133683912
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4511261556448725}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4511261556448725
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953440133683912}
+  m_LocalRotation: {x: 0.99585015, y: -0.09100837, z: 1.6338437E-15, w: 2.1080059E-16}
+  m_LocalPosition: {x: -6.966813, y: -7.1054274E-15, z: -3.3052399E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 1.8864614E-13, z: 10.443241}
+  m_Children:
+  - {fileID: 4032935508176572}
+  m_Father: {fileID: 4348483469020973}
+--- !u!1 &1380026056204644
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4032935508176572}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4032935508176572
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380026056204644}
+  m_LocalRotation: {x: 0.6063991, y: -0.3637033, z: 0.6063991, w: 0.3637033}
+  m_LocalPosition: {x: -13.375108, y: -2.8512564, z: -9.341772E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 118.09141, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4452014856676232}
+  m_Father: {fileID: 4511261556448725}
+--- !u!1 &1392063424386531
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4452014856676232}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4452014856676232
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392063424386531}
+  m_LocalRotation: {x: 0.07641442, y: -1.044098E-18, z: -1.3141279E-09, w: 0.99707615}
+  m_LocalPosition: {x: 1.4182428E-08, y: 2.0212529, z: -1.0689081E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 8.764992, y: -1.1507092E-08, z: 1.5014767E-07}
+  m_Children:
+  - {fileID: 4277325350771109}
+  m_Father: {fileID: 4032935508176572}
+--- !u!1 &1869545695188645
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4277325350771109}
+  m_Layer: 0
+  m_Name: yarihorse:horsefront_head_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4277325350771109
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869545695188645}
+  m_LocalRotation: {x: -0.3319004, y: 8.451426E-09, z: 1.5845679E-09, w: 0.9433145}
+  m_LocalPosition: {x: 8.170372E-08, y: 31.177828, z: 1.4073935E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -38.768322, y: -9.738301E-07, z: 1.5014767E-07}
+  m_Children: []
+  m_Father: {fileID: 4452014856676232}
+--- !u!1 &1552082517577245
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4535339400446209}
+  - 111: {fileID: 111532008021522483}
+  - 114: {fileID: 114682175689032513}
+  m_Layer: 0
+  m_Name: yarihorseman
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4535339400446209
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552082517577245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4770397237334510}
+  - {fileID: 4629324552090026}
+  m_Father: {fileID: 4062555652002317}
+--- !u!111 &111532008021522483
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552082517577245}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 9d945408444031147883bc1d19801738, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e7f8584aaa680414bbc83fbf8c44e6fa, type: 2}
+  - {fileID: 7400000, guid: c187cca71d9790646b9e72e69858a4cd, type: 2}
+  - {fileID: 7400000, guid: cacb5184751fc7b47acb91f856f27d01, type: 2}
+  - {fileID: 7400000, guid: 085f4142c8d0e91449acca40edf28657, type: 2}
+  - {fileID: 7400000, guid: c576acb1088541042b83ae9d3a4c5c0c, type: 2}
+  - {fileID: 7400000, guid: 9d945408444031147883bc1d19801738, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114682175689032513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552082517577245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/YariHorseman/yarihorseman.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114682175689032513}
+  - {fileID: 137188211342395281}
+--- !u!1 &1982668354251163
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4770397237334510}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4770397237334510
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1982668354251163}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4044540552845591}
+  - {fileID: 4822522410820778}
+  m_Father: {fileID: 4535339400446209}
+--- !u!1 &1024151752605607
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4044540552845591}
+  - 137: {fileID: 137188211342395281}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4044540552845591
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1024151752605607}
+  m_LocalRotation: {x: 0.48912638, y: -0.5106421, z: -0.48912638, w: 0.5106421}
+  m_LocalPosition: {x: -0, y: 39.283615, z: -0.048435047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 90, y: 2.465711, z: 90}
+  m_Children:
+  - {fileID: 4399512619480145}
+  - {fileID: 4764364354815130}
+  m_Father: {fileID: 4770397237334510}
+--- !u!137 &137188211342395281
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1024151752605607}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 04d48906de1066a42a80ade6689fb984, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 9d616b578ad13c94c8b1c25658eb8306, type: 2}
+  m_Bones:
+  - {fileID: 4044540552845591}
+  - {fileID: 4764364354815130}
+  - {fileID: 4373474167261637}
+  - {fileID: 4727096129657518}
+  - {fileID: 4433429077653934}
+  - {fileID: 4666227250975264}
+  - {fileID: 4629962849766127}
+  - {fileID: 4751478555693148}
+  - {fileID: 4093142151663271}
+  - {fileID: 4150581462282805}
+  - {fileID: 4999761603826128}
+  - {fileID: 4103534574400425}
+  - {fileID: 4846611882158264}
+  - {fileID: 4055051602494510}
+  - {fileID: 4450047456947375}
+  - {fileID: 4254285811662888}
+  - {fileID: 4093573544958241}
+  - {fileID: 4396922009443726}
+  - {fileID: 4687144502682307}
+  - {fileID: 4292888307997172}
+  - {fileID: 4653258293447946}
+  - {fileID: 4387441284751506}
+  - {fileID: 4399512619480145}
+  - {fileID: 4108029078234626}
+  - {fileID: 4370890023290308}
+  - {fileID: 4702561562496276}
+  - {fileID: 4124345725836330}
+  - {fileID: 4467193233364147}
+  - {fileID: 4289813829504310}
+  - {fileID: 4304557074401012}
+  - {fileID: 4881264265531187}
+  - {fileID: 4992490071930901}
+  - {fileID: 4525658880889108}
+  - {fileID: 4714070656442947}
+  - {fileID: 4997867729175870}
+  m_AABB:
+    m_Center: {x: -42.327496, y: 14.452057, z: 15.5502205}
+    m_Extent: {x: 81.43269, y: 64.52777, z: 84.15303}
+  m_DirtyAABB: 0
+--- !u!1 &1601094017847267
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4399512619480145}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4399512619480145
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1601094017847267}
+  m_LocalRotation: {x: -1.5958732E-16, y: -2.1103711E-16, z: -0.020873245, w: 0.99978215}
+  m_LocalPosition: {x: 8.159951, y: -0.34087217, z: 2.5285877E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -1.7778596E-14, y: 2.4559519E-14, z: 2.3920715}
+  m_Children:
+  - {fileID: 4714070656442947}
+  - {fileID: 4992490071930901}
+  - {fileID: 4108029078234626}
+  - {fileID: 4467193233364147}
+  m_Father: {fileID: 4044540552845591}
+--- !u!1 &1413194814620318
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4714070656442947}
+  m_Layer: 0
+  m_Name: yarihorseman:LeftSkirt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4714070656442947
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1413194814620318}
+  m_LocalRotation: {x: -0.10066464, y: 0.6590862, z: 0.7366109, w: 0.1134742}
+  m_LocalPosition: {x: -7.1974463, y: 0.111121185, z: 13.473885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 83.326004, y: -17.330309, z: -177.93008}
+  m_Children:
+  - {fileID: 4997867729175870}
+  m_Father: {fileID: 4399512619480145}
+--- !u!1 &1447682616242648
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4997867729175870}
+  m_Layer: 0
+  m_Name: yarihorseman:LeftSkirt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4997867729175870
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447682616242648}
+  m_LocalRotation: {x: 0.032874756, y: 0.04478746, z: -0.59080803, w: 0.804897}
+  m_LocalPosition: {x: -15.921364, y: 2.6645353E-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 2.1041309E-07, y: -6.3697314, z: 72.5586}
+  m_Children: []
+  m_Father: {fileID: 4714070656442947}
+--- !u!1 &1669030852680064
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4992490071930901}
+  m_Layer: 0
+  m_Name: yarihorseman:RightSkirt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4992490071930901
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1669030852680064}
+  m_LocalRotation: {x: -0.10066464, y: 0.6590862, z: 0.7366109, w: 0.1134742}
+  m_LocalPosition: {x: -7.19741, y: 0.1111211, z: -13.4739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 83.326004, y: -17.330309, z: -177.93008}
+  m_Children:
+  - {fileID: 4525658880889108}
+  m_Father: {fileID: 4399512619480145}
+--- !u!1 &1638516620909210
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4525658880889108}
+  m_Layer: 0
+  m_Name: yarihorseman:RightSkirt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4525658880889108
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1638516620909210}
+  m_LocalRotation: {x: 0.053087942, y: 0.01638097, z: 0.0051079122, w: 0.9984424}
+  m_LocalPosition: {x: -13.095837, y: -8.993278, z: -1.0523314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 6.0982, y: -1.8434415, z: -0.6844349}
+  m_Children: []
+  m_Father: {fileID: 4992490071930901}
+--- !u!1 &1875517871273642
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4108029078234626}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4108029078234626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1875517871273642}
+  m_LocalRotation: {x: 0.06093353, y: 0.8495969, z: -0.5226065, w: 0.036806602}
+  m_LocalPosition: {x: 7.867781, y: -0.045650456, z: 10.194258}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -117.04516, y: -7.251796, z: -176.23917}
+  m_Children:
+  - {fileID: 4370890023290308}
+  m_Father: {fileID: 4399512619480145}
+--- !u!1 &1114579474682362
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4370890023290308}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4370890023290308
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114579474682362}
+  m_LocalRotation: {x: 0.9803003, y: 0.025294444, z: -0.032698, w: 0.19313838}
+  m_LocalPosition: {x: -9.9729185, y: 3.4099374E-15, z: -7.2518785E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 157.7873, y: -4.2367787, z: -2.1240458}
+  m_Children:
+  - {fileID: 4702561562496276}
+  m_Father: {fileID: 4108029078234626}
+--- !u!1 &1765022608007168
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4702561562496276}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4702561562496276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1765022608007168}
+  m_LocalRotation: {x: -0.36616313, y: 0.13962445, z: 0.4869857, w: 0.7805604}
+  m_LocalPosition: {x: -10.411003, y: 2.4880263E-15, z: 1.9043679E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -32.159595, y: -35.07184, z: -53.51065}
+  m_Children:
+  - {fileID: 4124345725836330}
+  m_Father: {fileID: 4370890023290308}
+--- !u!1 &1841891618587628
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4124345725836330}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4124345725836330
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1841891618587628}
+  m_LocalRotation: {x: 0.01547578, y: -0.04283569, z: 0.29712725, w: 0.953751}
+  m_LocalPosition: {x: -4.771814, y: 2.185752E-15, z: -9.297118E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.23386373, y: 5.2157145, z: -34.596672}
+  m_Children: []
+  m_Father: {fileID: 4702561562496276}
+--- !u!1 &1702148477507546
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4467193233364147}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4467193233364147
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1702148477507546}
+  m_LocalRotation: {x: -0.8495969, y: 0.060933623, z: 0.036806546, w: 0.52260655}
+  m_LocalPosition: {x: 7.867801, y: -0.04565049, z: -10.1943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -117.04515, y: -7.251796, z: 3.7608457}
+  m_Children:
+  - {fileID: 4289813829504310}
+  m_Father: {fileID: 4399512619480145}
+--- !u!1 &1870102082030731
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4289813829504310}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4289813829504310
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870102082030731}
+  m_LocalRotation: {x: 0.9803003, y: 0.025294319, z: -0.032697845, w: 0.19313838}
+  m_LocalPosition: {x: 9.972842, y: -6.319629E-05, z: -3.6754085E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 157.7873, y: -4.2367587, z: -2.1240354}
+  m_Children:
+  - {fileID: 4304557074401012}
+  m_Father: {fileID: 4467193233364147}
+--- !u!1 &1613181140124234
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4304557074401012}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4304557074401012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1613181140124234}
+  m_LocalRotation: {x: -0.3661632, y: 0.13962443, z: 0.48698568, w: 0.78056043}
+  m_LocalPosition: {x: 10.411053, y: -2.0681748E-05, z: -4.056588E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -32.159607, y: -35.07184, z: -53.510647}
+  m_Children:
+  - {fileID: 4881264265531187}
+  m_Father: {fileID: 4289813829504310}
+--- !u!1 &1780046081642584
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4881264265531187}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4881264265531187
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780046081642584}
+  m_LocalRotation: {x: 0.015475774, y: -0.04283568, z: 0.29712725, w: 0.953751}
+  m_LocalPosition: {x: 4.7718096, y: -4.2286038E-06, z: 9.63416E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.23386349, y: 5.215713, z: -34.596672}
+  m_Children: []
+  m_Father: {fileID: 4304557074401012}
+--- !u!1 &1297094697611120
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4764364354815130}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4764364354815130
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297094697611120}
+  m_LocalRotation: {x: 0.9985531, y: 0.053775012, z: 4.7243125E-16, w: 3.5879257E-17}
+  m_LocalPosition: {x: -5.7468324, y: -1.7541524E-14, z: -1.9123075E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 5.383721E-14, z: -6.1651363}
+  m_Children:
+  - {fileID: 4373474167261637}
+  m_Father: {fileID: 4044540552845591}
+--- !u!1 &1011491194649566
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4373474167261637}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_spine_hi_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4373474167261637
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011491194649566}
+  m_LocalRotation: {x: -4.996004E-16, y: 1.7155052E-16, z: -0.040967345, w: 0.9991605}
+  m_LocalPosition: {x: -7.0330415, y: -6.217249E-15, z: 3.0879287E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -5.800727E-14, y: -1.7296357E-14, z: 4.6958256}
+  m_Children:
+  - {fileID: 4727096129657518}
+  m_Father: {fileID: 4764364354815130}
+--- !u!1 &1788376992685951
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4727096129657518}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_spine_end_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4727096129657518
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788376992685951}
+  m_LocalRotation: {x: -1.7953166E-27, y: -1.6957388E-17, z: 0.13846758, w: 0.990367}
+  m_LocalPosition: {x: -6.718205, y: -5.450476E-15, z: 1.7954216E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.690665E-16, y: 1.9244546E-15, z: -15.918362}
+  m_Children:
+  - {fileID: 4751478555693148}
+  - {fileID: 4433429077653934}
+  - {fileID: 4450047456947375}
+  m_Father: {fileID: 4373474167261637}
+--- !u!1 &1443895205575613
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4751478555693148}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4751478555693148
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443895205575613}
+  m_LocalRotation: {x: -0.49094096, y: 0.6270376, z: -0.4588682, w: -0.39400616}
+  m_LocalPosition: {x: -3.4294262, y: 0.15523098, z: -7.07406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -144.90654, y: 70.85082, z: 129.23346}
+  m_Children:
+  - {fileID: 4093142151663271}
+  m_Father: {fileID: 4727096129657518}
+--- !u!1 &1210340521713542
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4093142151663271}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4093142151663271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210340521713542}
+  m_LocalRotation: {x: 0.012774451, y: 0.12952325, z: -0.09773586, w: 0.98666525}
+  m_LocalPosition: {x: -9.633381, y: -3.887888E-15, z: -1.9531347E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0065187225, y: -14.956714, z: 11.315015}
+  m_Children:
+  - {fileID: 4150581462282805}
+  m_Father: {fileID: 4751478555693148}
+--- !u!1 &1039335927592065
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4150581462282805}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4150581462282805
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039335927592065}
+  m_LocalRotation: {x: -3.978546E-05, y: 0.09415808, z: 3.334309E-06, w: 0.99555725}
+  m_LocalPosition: {x: -17.922617, y: -7.760873E-15, z: 4.508157E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0045841304, y: -10.805729, z: 4.9770377E-05}
+  m_Children:
+  - {fileID: 4999761603826128}
+  m_Father: {fileID: 4093142151663271}
+--- !u!1 &1517570801988667
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4999761603826128}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4999761603826128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517570801988667}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.941963, y: -3.2090874E-15, z: 6.1596315E-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4103534574400425}
+  m_Father: {fileID: 4150581462282805}
+--- !u!1 &1092574790469932
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4103534574400425}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4103534574400425
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1092574790469932}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 7.1054274E-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4055051602494510}
+  - {fileID: 4846611882158264}
+  m_Father: {fileID: 4999761603826128}
+--- !u!1 &1907944733935438
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4055051602494510}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4055051602494510
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907944733935438}
+  m_LocalRotation: {x: -0.7180728, y: -0.12488512, z: 0.12503158, w: 0.6731586}
+  m_LocalPosition: {x: -5.11003, y: -0.2721733, z: -0.010710032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.58066, y: -0.6548224, z: -20.347193}
+  m_Children: []
+  m_Father: {fileID: 4103534574400425}
+--- !u!1 &1237465505871618
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4846611882158264}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4846611882158264
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237465505871618}
+  m_LocalRotation: {x: 0.7551604, y: 0.105086066, z: -0.55192137, w: -0.33774644}
+  m_LocalPosition: {x: -2.483104, y: -1.5476404, z: 2.4731827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -104.55994, y: -49.693356, z: -55.254204}
+  m_Children: []
+  m_Father: {fileID: 4103534574400425}
+--- !u!1 &1995958428002660
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4433429077653934}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4433429077653934
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995958428002660}
+  m_LocalRotation: {x: 0.5187279, y: -0.48054278, z: 0.5187279, w: 0.48054278}
+  m_LocalPosition: {x: -10.029245, y: 2.6645353E-15, z: 2.224662E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 94.376755, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4666227250975264}
+  m_Father: {fileID: 4727096129657518}
+--- !u!1 &1021030995748467
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4666227250975264}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4666227250975264
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1021030995748467}
+  m_LocalRotation: {x: 0.5054347, y: -0.4945056, z: 0.5054347, w: -0.4945056}
+  m_LocalPosition: {x: -1.6382635E-15, y: 4.185132, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90, y: 1.2524049, z: 90}
+  m_Children:
+  - {fileID: 4629962849766127}
+  m_Father: {fileID: 4433429077653934}
+--- !u!1 &1328988545761446
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4629962849766127}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_head_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4629962849766127
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328988545761446}
+  m_LocalRotation: {x: 0.4744475, y: -0.5243087, z: 0.4744475, w: 0.5243087}
+  m_LocalPosition: {x: -47.32424, y: 9.7890115E-15, z: -1.0560342E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 84.28396, y: 90, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4666227250975264}
+--- !u!1 &1998385184879699
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4450047456947375}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4450047456947375
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998385184879699}
+  m_LocalRotation: {x: 0.6270376, y: 0.490941, z: 0.3940062, w: -0.45886824}
+  m_LocalPosition: {x: -3.4294693, y: 0.15523413, z: 7.07406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -144.90654, y: 70.85082, z: -50.766544}
+  m_Children:
+  - {fileID: 4254285811662888}
+  m_Father: {fileID: 4727096129657518}
+--- !u!1 &1187146991812592
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4254285811662888}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4254285811662888
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187146991812592}
+  m_LocalRotation: {x: 0.012774451, y: 0.12952325, z: -0.09773586, w: 0.98666525}
+  m_LocalPosition: {x: 9.633389, y: 6.45044E-05, z: 8.862536E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0065187225, y: -14.956714, z: 11.315015}
+  m_Children:
+  - {fileID: 4093573544958241}
+  m_Father: {fileID: 4450047456947375}
+--- !u!1 &1082787490488638
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4093573544958241}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4093573544958241
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1082787490488638}
+  m_LocalRotation: {x: -3.978546E-05, y: 0.09415808, z: 3.334309E-06, w: 0.99555725}
+  m_LocalPosition: {x: 17.922625, y: -6.696746E-05, z: 3.5255205E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0045841304, y: -10.805729, z: 4.9770377E-05}
+  m_Children:
+  - {fileID: 4396922009443726}
+  m_Father: {fileID: 4254285811662888}
+--- !u!1 &1726223676153615
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4396922009443726}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4396922009443726
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726223676153615}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.941929, y: 6.755416E-05, z: -1.15380535E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4687144502682307}
+  m_Father: {fileID: 4093573544958241}
+--- !u!1 &1669798602677463
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4687144502682307}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4687144502682307
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1669798602677463}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.1054274E-15, y: 7.1054274E-15, z: -3.5527137E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4387441284751506}
+  - {fileID: 4653258293447946}
+  - {fileID: 4292888307997172}
+  m_Father: {fileID: 4396922009443726}
+--- !u!1 &1075768730310932
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4387441284751506}
+  m_Layer: 0
+  m_Name: yarihorseman:prop
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4387441284751506
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075768730310932}
+  m_LocalRotation: {x: 0.9960461, y: 0.00020876614, z: 0.08883754, w: -1.8619892E-05}
+  m_LocalPosition: {x: 4.433028, y: 8.533576, z: 0.016983323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: 10.193471, z: -0.024017802}
+  m_Children: []
+  m_Father: {fileID: 4687144502682307}
+--- !u!1 &1405297270921766
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4653258293447946}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4653258293447946
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405297270921766}
+  m_LocalRotation: {x: -0.7180728, y: -0.12488512, z: 0.12503158, w: 0.6731586}
+  m_LocalPosition: {x: 5.1100497, y: 0.2721421, z: 0.010717965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.58066, y: -0.6548224, z: -20.347193}
+  m_Children: []
+  m_Father: {fileID: 4687144502682307}
+--- !u!1 &1474797812510071
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4292888307997172}
+  m_Layer: 0
+  m_Name: yarihorseman:Sam_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4292888307997172
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474797812510071}
+  m_LocalRotation: {x: 0.7551604, y: 0.105086066, z: -0.55192137, w: -0.33774644}
+  m_LocalPosition: {x: 2.4831405, y: 1.547641, z: -2.4731755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -104.55994, y: -49.693356, z: -55.254204}
+  m_Children: []
+  m_Father: {fileID: 4687144502682307}
+--- !u!1 &1305679457104116
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4822522410820778}
+  m_Layer: 0
+  m_Name: yarihorseman:weightSpine_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4822522410820778
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305679457104116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4770397237334510}
+--- !u!1 &1896239995450157
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4629324552090026}
+  m_Layer: 0
+  m_Name: yarihorseman:samuraispear_new_samuraispear
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4629324552090026
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896239995450157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4535339400446209}
+--- !u!1 &1314699699691797
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4513410895899929}
+  m_Layer: 0
+  m_Name: yarihorse:horse_tail1_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4513410895899929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314699699691797}
+  m_LocalRotation: {x: -0.48424417, y: 0.51527435, z: 0.48424417, w: 0.51527435}
+  m_LocalPosition: {x: -11.523104, y: -18.51414, z: -2.0554824E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -86.443634, y: -90, z: 0}
+  m_Children:
+  - {fileID: 4593327790783073}
+  m_Father: {fileID: 4341705604570580}
+--- !u!1 &1459171453161921
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4593327790783073}
+  m_Layer: 0
+  m_Name: yarihorse:horse_tail2_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4593327790783073
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1459171453161921}
+  m_LocalRotation: {x: 2.1857516E-16, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.907828E-15, y: -10.886715, z: -3.7498684}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 2.5046868E-14, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4645614033151156}
+  m_Father: {fileID: 4513410895899929}
+--- !u!1 &1143560104340198
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4645614033151156}
+  m_Layer: 0
+  m_Name: yarihorse:horse_tail3_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4645614033151156
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1143560104340198}
+  m_LocalRotation: {x: 2.164935E-15, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9813295E-15, y: -8.830335, z: 0.36289048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 2.4808327E-13, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4593327790783073}
+--- !u!1 &1567870219837288
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4082277143271265}
+  m_Layer: 0
+  m_Name: yarihorse:TakedaHorse
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4082277143271265
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1567870219837288}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4573555443342616}

@@ -1,0 +1,13 @@
+[events]
+	dealpacks
+
+[dealpacks]
+	condition = 1
+	endCondition = touchScreen
+	blocking = yes
+	text = @tutorial_dealpacks
+	position = C+30, 500
+/	circle = 224, 210
+	circle = 443, 210
+/	circle = 662, 210
+	

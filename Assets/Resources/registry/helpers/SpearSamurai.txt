@@ -1,0 +1,121 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_samurai_spearman
+desc = @helper_samurai_spearman_desc
+prefab = Characters/PFSamuraiSpear
+HUDIcon = Sprites/Icons/ally_samurai_spearman
+weaponMeleePrefab = Props/PFSpear
+waveToUnlock = 5
+resourcesCost = 15.0
+cooldownTimer = 3.0
+attackFrequency = 2.0
+usesBladeWeapon = true
+
+achievementGC = SAMUZOMBIE_ACHIEVE_AT_THE_READY
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 300,0
+	health = 42
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 20
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[002]
+	cost = 750,0
+	health = 54
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 29
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[003]
+	cost = 1500,0
+	health = 80
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 41
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[004]
+	cost = 4500,0
+	health = 110
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 59
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[005]
+	cost = 9500,0
+	health = 150
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 84
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[006]
+	cost = 0,10
+	health = 215
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 122
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[007]
+	cost = 0,16
+	health = 303
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 170
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[008]
+	cost = 0,20
+	health = 417
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 233
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[009]
+	cost = 0,24
+	health = 627
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 330
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[010]
+	cost = 0,28
+	health = 942
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 460
+	knockbackPower = 20
+	knockbackResistance = 15

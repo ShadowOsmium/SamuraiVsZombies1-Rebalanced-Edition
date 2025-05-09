@@ -1,0 +1,18 @@
+
+{Layouts/DefaultDialog}
+
+
+[text]
+	type = label
+	font = default18
+	/shadowOffset = 2,2
+	/shadowColor = black
+	fontColor = black
+	position = C, C-10
+	maxWidth = 620
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	[transition]
+		[alpha]
+			alpha = 0

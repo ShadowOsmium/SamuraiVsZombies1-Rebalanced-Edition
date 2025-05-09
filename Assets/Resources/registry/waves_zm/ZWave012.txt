@@ -1,0 +1,87 @@
+/ Inspired by Wave 31
+
+scene = InGame_hell_brown
+villageArchers = 1
+
+[Commands]
+	FarmerAx
+	2,2
+	FarmerAx
+	1,1
+	Samurai
+	2,2
+	Samurai
+	1,1	
+	FarmerSword
+	2,2
+	Samurai
+	1,1
+	Samurai
+	Priest
+	Swordsmith
+	SamuraiShield_Green	
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	17,17
+	FarmerAx
+	1,1
+	Samurai
+	2,2
+	FarmerAx
+	1,1
+	Samurai
+	2,2
+	Samurai
+	1,1
+	FarmerAx
+	1,1
+	Samurai
+	Priest
+	Swordsmith
+	SamuraiShield_Green
+	1,1
+	Samurai
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	17,17
+	Samurai
+	2,2
+	FarmerAx
+	1,1
+	Samurai
+	2,2
+	FarmerAx
+	1,1
+	Samurai
+	Swordsmith
+	Priest
+	Samurai
+	2,2
+	FarmerAx
+	1,1
+	Samurai
+	2,2
+	FarmerAx
+	1,1
+	Samurai
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	

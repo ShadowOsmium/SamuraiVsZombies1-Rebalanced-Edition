@@ -1,0 +1,73 @@
+
+{Layouts/DefaultDialogTaller}
+
+
+[title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, 200
+	maxWidth = 600
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	visible = true
+	text = @revive_title
+	[transition]
+		[alpha]
+			alpha = 0
+
+[question]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, 470
+	maxWidth = 600
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	visible = true
+	[transition]
+		[alpha]
+			alpha = 0
+
+[yesBtn]
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	keepAspectRatio = true
+	font = default32
+	position = 670, 540
+	textOffset = 0, 5
+	offsetWhenPressed = 4, 4
+	priority = 1
+	text = @yes
+	[transition]
+		[alpha]
+			alpha = 0
+
+[yesBtn2]
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	keepAspectRatio = true
+	font = default32
+	position = 670, 640
+	textOffset = 0, 5
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[reviveExtraImage]
+	type = sprite
+	file = Sprites/Menus/pop_up_revive_zombie
+	keepAspectRatio = true
+	priority = 1
+	scale = 0.85, 0.85
+	position = 354, 590
+	[transition]
+		[alpha]
+			alpha = 0

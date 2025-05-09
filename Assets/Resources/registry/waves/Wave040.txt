@@ -1,0 +1,203 @@
+scene = InGame_springnight
+
+[rewards]
+	balls, 200
+	gems, 20
+	revivePotion, 1
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 2
+/	Bow = 2
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	H_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	H_Zombie_Warhammer
+	1,1
+	Wayundo_Metal
+	L_Zombie_Warhammer
+	Komusou
+	1,1
+	H_Zombie_Warhammer
+	1,1
+	H_Zombie_Warhammer
+	1,1
+	H_Zombie_Warhammer
+	1,1
+	H_Zombie_Warhammer	
+	1,1
+	H_Zombie_Warhammer
+	15,15
+	@bossalert
+	Jurogumo
+	15,15
+	Oni_small
+	H_Zombie_Bow_2
+	3,3
+	Oni_small
+	H_Zombie_Bow_2
+	3,3	
+	Wayundo_Metal
+	2,2
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	2,2
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	2,2
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	2,2
+	Jurogumo
+	Onibaba
+	Komusou
+	3,3
+	Wayundo_metal
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Jurogumo
+	Komusou
+	Onibaba
+	Onibaba
+	1,1
+	Horseman
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Horseman
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Horseman
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	3,3
+	Wayundo_metal
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Oni_small
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Oni_small
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Oni_small
+	1,1
+	Jurogumo
+	Komusou
+	Onibaba
+	Onibaba
+	Onibaba
+	1,1
+	Wayundo_metal
+	Horseman
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Oni_small
+	1,1
+	Horseman
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Oni_small
+	1,1
+	Horseman
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+	1,1
+	Wayundo_metal
+	Jurogumo
+	Komusou
+	Horseman
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Warhammer
+		
+	

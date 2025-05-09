@@ -1,0 +1,131 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_farmer_name
+desc = @helper_farmer_desc
+prefab = Characters/PFFarmer
+HUDIcon = Sprites/Icons/ally_farmer
+weaponMeleePrefab = Props/PFFarmerssword
+waveToUnlock = 2
+resourcesCost = 5.0
+cooldownTimer = 1.0
+attackFrequency = 1.0
+usesBladeWeapon = true
+
+achievementGC = SAMUZOMBIE_ACHIEVE_FROM_THE_FIELDS
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 50,0
+	health = 37
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 11
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[002]
+	cost = 275,0
+	health = 50
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 15
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[003]
+	cost = 850,0
+	health = 70
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 19
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[004]
+	cost = 1850,0
+	health = 100
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 30
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[005]
+	cost = 3700,0
+	health = 140
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 38
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[006]
+	cost = 5900,0
+	health = 188
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 55
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[007]
+	cost = 7850,0
+	health = 265
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 76
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[008]
+	cost = 10000,0
+	health = 370
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 107
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[009]
+	cost = 14000,0
+	health = 550
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 151
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[010]
+	cost = 20000,0
+	health = 845
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 220
+	knockbackPower = 5
+	knockbackResistance = 10
+
+
+
+
+
+
+
+
+

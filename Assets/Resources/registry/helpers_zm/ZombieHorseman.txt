@@ -1,0 +1,120 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_zombiehorseman_name
+desc = @helper_zombiehorseman_desc
+prefab = Characters/PFZombieHorseman
+HUDIcon = Sprites/Icons/enemy_zombie_horseman
+weaponMeleePrefab = Props/PFspear
+waveToUnlock = 11
+resourcesCost = 50.0
+cooldownTimer = 5.0
+attackFrequency = 2.5
+usesBladeWeapon = true
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 1000,0
+	health = 355
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 85
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[002]
+	cost = 3000,0
+	health = 425
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 110
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[003]
+	cost = 6500,0
+	health = 545
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 145
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[004]
+	cost = 11000,0
+	health = 660
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 185
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[005]
+	cost = 19500,0
+	health = 850
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 240
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[006]
+	cost = 0,16
+	health = 1025
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 315
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[007]
+	cost = 0,22
+	health = 1230
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 440
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[008]
+	cost = 0,28
+	health = 1475
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 615
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[009]
+	cost = 0,32
+	health = 1620
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 850
+	knockbackPower = 40
+	knockbackResistance = 45
+
+[010]
+	cost = 0,36
+	health = 1800
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 200
+	meleeDamage = 1285
+	knockbackPower = 40
+	knockbackResistance = 45

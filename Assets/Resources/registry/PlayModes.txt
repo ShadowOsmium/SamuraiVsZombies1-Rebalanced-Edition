@@ -1,0 +1,98 @@
+[classic]
+	/ Default Hero Setup
+	defaultHeroID = HeroSamurai
+	defaultMeleeWeaponID = Katana
+	defaultRangeWeaponID = Bow
+	
+	/ Gameplay Features available
+	useBell = yes
+	useVillageArchers = yes
+	allowBowOnFirstWave1 = no
+
+	/ Misc
+	maxBaseWave = 50
+	gameDirection = leftToRight
+	revivePotionID = revivePotion
+	wavesPath = Waves/Wave
+	giantWaveID = GiantWave
+	equipSlot = Sprites/Menus/slot
+
+	/ In-Game Banners
+	bannerfile_start = Sprites/Localized/wave_start
+	bannerfile_boss = Sprites/Localized/alert_boss
+	bannerfile_legion = Sprites/Localized/alert_legion
+
+	/ In-Game HUD
+	hudLayout = Layouts/HUDLayout
+	hudLeadershipBG = Sprites/HUD/leadership_bar_main_0
+
+	/ Store Icons
+	leadershipIcon = Sprites/Icons/upgrade_leadership
+	doubleCoins = Sprites/Icons/consume_2xcoin
+	pachinkoBalls = Sprites/Icons/consume_pachinko
+
+	/ Layouts
+	layout_VictoryMessage = Layouts/VictoryMessage
+	layout_LoseMessage = Layouts/LoseMessage
+	layout_ShopLayout = Layouts/ShopLayout
+	layout_ReviveDialogSmall = Layouts/ReviveDialogSmall
+	layout_ReviveDialog = Layouts/ReviveDialog
+	layout_DebriefingMenu = Layouts/DebriefingMenu
+	layout_MenuWith3D = Layouts/MenuWith3D
+	layout_SelectHelpersMenu = Layouts/SelectHelpersMenu
+	layout_AbilitiesEquip = Layouts/AbilitiesEquip
+	layout_CharmEquip = Layouts/CharmEquip
+
+[zombies]
+	/ Default Hero Setup
+	defaultHeroID = HeroZombie
+	defaultMeleeWeaponID = Katana_ZM
+	defaultRangeWeaponID = Bow_ZM
+
+	/ Gameplay Features available
+	useBell = no
+	useVillageArchers = no
+	allowBowOnFirstWave1 = yes
+
+	/ Misc
+	maxBaseWave = 30
+	gameDirection = rightToLeft
+	revivePotionID = revivePotionZ
+	wavesPath = Waves_ZM/ZWave
+	giantWaveID = DragonAttack
+	equipSlot = Sprites/Menus/slot_zombie
+
+	/ In-Game Banners
+	bannerfile_start = Sprites/Localized/wave_zombies_start
+	bannerfile_boss = Sprites/Localized/alert_boss
+	bannerfile_legion = Sprites/Localized/alert_allies
+
+	/ In-Game HUD
+	hudLayout = Layouts/HUDLayoutZM
+	hudLeadershipBG = Sprites/HUD/leadership_zombie_bar_main_0
+
+	/ Store Icons
+	leadershipIcon = Sprites/Icons/upgrade_zombie_leadership
+	doubleCoins = Sprites/Icons/consume_2xcoin
+	pachinkoBalls = Sprites/Icons/consume_pachinko
+
+	/ Layouts
+	layout_VictoryMessage = Layouts/VictoryMessage_ZM
+	layout_LoseMessage = Layouts/LoseMessage_ZM
+	layout_ShopLayout = Layouts/ShopLayout_ZM
+	layout_ReviveDialogSmall = Layouts/ReviveDialogSmall_ZM
+	layout_ReviveDialog = Layouts/ReviveDialog_ZM
+	layout_DebriefingMenu = Layouts/DebriefingMenu_ZM
+	layout_MenuWith3D = Layouts/MenuWith3D_ZM
+	layout_SelectHelpersMenu = Layouts/SelectHelpersMenu_ZM
+	layout_AbilitiesEquip = Layouts/AbilitiesEquip_ZM
+	layout_CharmEquip = Layouts/CharmEquip_ZM
+
+	/ Paths substitutions
+	[pathSubstitutions]
+		Registry/Enemies : Registry/Enemies_ZM
+		Registry/Helpers/ : Registry/Helpers_ZM/
+		Registry/Chapters : Registry/Chapters_ZM
+		Registry/DealPacks : Registry/DealPacks_ZM
+		Registry/Base : Registry/Base_ZM
+		

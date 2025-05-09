@@ -1,0 +1,426 @@
+
+/ Based on "L_Zombie_Melee"
+[Farmer]
+	displayName = Farmer
+	prefab = Characters/PFFarmer
+	weaponMeleePrefab = Props/PFFarmerssword
+	health = 65
+	speedMin = 140
+	speedMax = 140
+	meleeRange = 100
+	meleeDamage = 7
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 0
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 0
+	previewPriority = 0
+
+
+/ Based on "L_Zombie_Ax"
+[FarmerAx]
+	displayName = Farmer
+	prefab = Characters/PFFarmer
+	weaponMeleePrefab = Props/PFaxe
+	health = 105
+	speedMin = 140
+	speedMax = 140
+	meleeRange = 105
+	meleeDamage = 12
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 5
+	knockbackResistance = 10
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+/ Based on "L_Zombie_Sword"
+[FarmerSword]
+	displayName = Farmer
+	prefab = Characters/PFFarmer
+	weaponMeleePrefab = Props/samuraibasesword
+	health = 175
+	speedMin = 140
+	speedMax = 140
+	meleeRange = 100
+	meleeDamage = 17
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 10
+	knockbackResistance = 10
+	award = 30
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+/ Based on "H_Zombie_Bow_2"
+[SamuraiArcher]
+	displayName = @helper_samurai_archer
+	prefab = Characters/PFSamuraiarcher
+	weaponRangedPrefab = Props/PFsamuraibow
+	projectile = Arrow
+	health = 175
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 45
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 5
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+/ Based on "H_Zombie_Bow_3"
+[SamuraiRifleman]
+	displayName = @helper_samurai_archer
+	prefab = Characters/PFSamuraiRifleman
+	weaponRangedPrefab = Props/PFRifle
+	projectile = Bullet
+	health = 425
+	speedMin = 100
+	speedMax = 100
+	bowRange = 400
+	bowDamage = 75
+	attackFrequency = 2.0
+	knockbackPower = 0
+	knockbackResistance = 20
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+/ Based on "Frostie the Bowman"
+[Frostie]
+	displayName = @helper_ice_archer
+	prefab = Characters/PFSamuraiarcherice
+	weaponRangedPrefab = Props/PFsamuraibow
+	projectile = IceArrow
+	health = 550
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 65
+	attackFrequency = 4.0
+	knockbackPower = 0
+	knockbackResistance = 20
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+/ Based on average between "H_Zombie_Warhammer" and "H_Zombie_Sword"
+[Samurai]
+	displayName = @helper_samurai_name
+	prefab = Characters/PFSamuraiMelee
+	weaponMeleePrefab = Props/samuraibasesword
+	health = 500
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 105
+	meleeDamage = 60
+	usesBladeWeapon = true
+	attackFrequency = 2.0
+	knockbackPower = 35
+	knockbackResistance = 25
+	award = 70
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+
+/ Based on "H_Zombie_Spear"
+[SamuraiSpear]
+	displayName = @helper_samurai_spearman
+	prefab = Characters/PFSamuraiSpear
+	weaponMeleePrefab = Props/PFSpear
+	health = 250
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 200
+	meleeDamage = 30
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 10
+	knockbackResistance = 10
+	award = 50
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+/ Based on "Oni_Boss"
+[FarmerBig]
+	displayName = Farmer
+	prefab = Characters/PFFarmerBig
+	weaponMeleePrefab = Props/PFFarmerssword
+	lane = center
+	boss = true
+	health = 2500
+	speedMin = 125
+	speedMax = 125
+	meleeRange = 150
+	meleeDamage = 150
+	attackFrequency = 2
+	knockbackPower = 90
+	knockbackResistance = 100
+	award = 250
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 2
+
+/ Based on "Oni"
+[SamuraiHeavy]
+	displayName = @helper_heavy_samurai
+	prefab = Characters/PFHSamurai
+	weaponMeleePrefab = Props/PFHeavysamuraisword
+	health = 2500
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 100
+	meleeDamage = 125
+	attackFrequency = 3
+	knockbackPower = 30
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+/ Based on average between "Chochinobake" and "Chochinobake_alt"
+[NinjaGirl]
+	displayName = @helper_ninja_girl
+	prefab = Characters/PFFemalewarrior
+	weaponMeleePrefab = Props/PFFarmerssword
+	health = 450
+	speedMin = 225
+	speedMax = 225
+	meleeRange = 100
+	meleeDamage = 50
+	attackFrequency = 2
+	usesBladeWeapon = true
+	knockbackPower = 0
+	knockbackResistance = 18
+	gateRusher = true
+	award = 50
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+/ Based on "Nobusuma_alt"
+[FarmerStilts]
+	displayName = @enemy_FarmeronStilts
+	prefab = Characters/PFFarmerOnStilts
+	weaponMeleePrefab = Props/PFFarmerFork
+	health = 100
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 22
+	attackFrequency = 2.5
+	knockbackPower = 5
+	knockbackResistance = 100
+	flying = true
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Cart]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFCartofDoom
+	health = 1000
+	speedMin = 50
+	speedMax = 50
+	meleeRange = 100
+	meleeDamage = 2500
+	attackFrequency = 1
+	knockbackPower = 100
+	knockbackResistance = 100
+	award =110
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+	exploseOnMelee = True
+	lane = front
+
+
+/ Based on "Tengu"
+[Nobunaga]
+	displayName = @helper_Nobunaga
+	prefab = Characters/PFNobunaga
+	health = 1000
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 85
+	attackFrequency = 1
+	knockbackPower = 40
+	knockbackResistance = 60
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+/ Based on "Wheel Wood"
+
+[SamuraiShield]
+	displayName = @enemy_ShieldSamurai
+	prefab = Characters/PFSamuraiShield
+	weaponMeleePrefab = Props/PFSamuraiShield
+	health = 1500
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 100
+	meleeDamage = 150
+	attackFrequency = 5
+	knockbackPower = 30
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+/ Based on "Wheel Fire"
+
+[SamuraiShield_Green]
+	displayName = @enemy_ShieldSamurai_Green
+	prefab = Characters/PFSamuraiShieldGreen
+	weaponMeleePrefab = Props/PFSamuraiShieldGreen
+	health = 2000
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 100
+	meleeDamage = 200
+	attackFrequency = 5
+	knockbackPower = 40
+	knockbackResistance = 100
+	award = 150
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+
+/ Based on Wheel Metal
+
+[SamuraiShield_Ice]
+	displayName = @enemy_ShieldSamurai_Ice
+	prefab = Characters/PFSamuraiShieldIce
+	weaponMeleePrefab = Props/PFSamuraiShieldIce
+	health = 2750
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 100
+	meleeDamage = 250
+	attackFrequency = 5
+	knockbackPower = 50
+	knockbackResistance = 100
+	award = 200
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+
+/ Based on "Horseman"
+[SpearHorseman]
+	displayName = @helper_horseman
+	prefab = Characters/PFYarihorse
+	weaponMeleePrefab = Props/PFSpear
+	health = 450
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 190
+	meleeDamage = 70
+	attackFrequency = 2.5
+	knockbackPower = 45
+	knockbackResistance = 100
+	award = 90
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+/ Based on Komusou_2
+[Swordsmith]
+	displayName = @helper_swordsmith
+	prefab = Characters/PFSwordsmith
+	health = 250
+	speedMin = 75
+	speedMax = 75
+	bowRange = 500
+	meleeDamage = 0
+	attackFrequency = 0.25
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 130
+	resourceDropMin = 0
+	resourceDropMax = 3
+	damageBuffPercent = 1.50
+	previewPriority = 1
+
+
+/ Based on "Onibaba_2"
+[Priest]
+	displayName = @helper_priest
+	prefab = Characters/PFPriest
+	lane = front
+	health = 325
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 175
+	projectile = EvilHealBolt
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 200
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+/ Based on "Jurogumo"
+[Takeda]
+	displayName = @helper_takeda
+	prefab = Characters/PFTakeda
+	weaponMeleePrefab = Props/PFTakedasword
+	usesBladeWeapon = true
+	health = 4000
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 400
+	attackFrequency = 3
+	knockbackPower = 65
+	knockbackResistance = 100
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+/ Based on "Shogun"
+[Samurai_Hero]
+	displayName = @heroe_samurai_name
+	prefab = Characters/PFHSamuraiSilver
+	weaponMeleePrefab = Props/PFHeavysamuraisword
+	lane = center
+	boss = true
+	health = 65000
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 100
+	meleeDamage = 900
+	attackFrequency = 3
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 10
+	previewPriority = 1
+
+
+
+

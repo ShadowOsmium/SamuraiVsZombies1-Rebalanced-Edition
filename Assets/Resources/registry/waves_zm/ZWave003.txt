@@ -1,0 +1,40 @@
+/ Inspired by Wave 13
+
+scene = InGame_hell_purple
+
+[Commands]
+ 	FarmerAx
+	1,1
+	FarmerSword
+	8,8
+	SamuraiSpear
+	2,3
+ 	FarmerAx
+	1,1
+ 	FarmerAx
+	1,1
+	FarmerSword
+	8,8
+	SamuraiArcher
+	1,1
+	FarmerSword
+	.5,.5
+	FarmerSword
+	8,8
+	FarmerAx
+	8,8
+	FarmerAx
+	8,8
+	SamuraiSpear
+	1,1
+	FarmerSword
+	4,4
+	FarmerSword
+	8,8
+	FarmerSword
+	8,8
+	SamuraiArcher
+	.5,.5
+	FarmerSword
+	.5,.5
+	SamuraiSpear

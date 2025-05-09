@@ -1,0 +1,56 @@
+
+transitionSpeed = 0.25
+
+[bg]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_pop_up
+	position = C, C
+	priority = 200
+	keepAspectRatio = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[title]
+	type = label
+	font = default64
+	position = 320, 260
+	shadowOffset = 2, 2
+	shadowColor = black
+	priority = 201
+	anchor = MiddleLeft
+	alignment = left
+	maxWidth = 660
+	maxLines = 2
+	[transition]
+		[alpha]
+			alpha = 0
+
+[rarity]
+	type = label
+	font = default32
+	position = 320, 310
+	shadowOffset = 2, 2
+	shadowColor = black
+	priority = 201
+	anchor = MiddleLeft
+	alignment = left
+	maxLines = 1
+	[transition]
+		[alpha]
+			alpha = 0
+
+[desc]
+	type = label
+	font = default32
+	position = 320, 400
+	shadowOffset = 2, 2
+	shadowColor = black
+	priority = 201
+	anchor = MiddleLeft
+	alignment = left
+	maxWidth = 600
+	[transition]
+		[alpha]
+			alpha = 0
+

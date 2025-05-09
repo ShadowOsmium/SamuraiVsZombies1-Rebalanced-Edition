@@ -1,0 +1,28 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @enemy_l_zombie_u_name
+desc = @helper_zombie_desc
+prefab = Characters/PFNobosuma
+HUDIcon = Sprites/Icons/enemy_zombie_melee
+waveToUnlock = 4
+resourcesCost = 5.0
+cooldownTimer = 2.0
+attackFrequency = 2.0
+hideInStore = True
+
+/ Stats
+health = 25
+speedMin = 90
+speedMax = 90
+meleeRange = 175
+meleeDamage = 22
+health = 200
+attackFrequency = 2.5
+knockbackPower = 0
+knockbackResistance = 100
+flying = true
+autoHealthRecovery = -2.0
+

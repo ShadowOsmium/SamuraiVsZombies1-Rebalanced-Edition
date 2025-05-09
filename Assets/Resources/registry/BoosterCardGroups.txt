@@ -1,0 +1,74 @@
+[common]
+	baseBG = Sprites/BoosterPacks/card_common_base
+	[cards]
+		coins(2000) = 5
+		gems(5) = 75
+		
+		power(1) = 25
+		luck(1) = 10
+		wealth(1) = 10
+		haste(1) = 25
+		peace(1) = 25
+
+[uncommon]
+	baseBG = Sprites/BoosterPacks/card_uncommon_base
+	[cards]
+
+		power(2) = 25
+		luck(2) = 10
+		wealth(2) = 10
+		haste(2) = 25
+		peace(2) = 25
+
+[rare]
+	baseBG = Sprites/BoosterPacks/card_rare_base
+	[cards]
+		
+		power(4) = 25
+		luck(4) = 10
+		wealth(4) = 10
+		haste(4) = 25
+		peace(4) = 25
+		
+		friendship(1) = 25
+		friend_farmer(1) = 10
+	
+[super]
+	baseBG = Sprites/BoosterPacks/card_super_rare_base
+	[cards]
+		
+		power(6) = 25
+		luck(6) = 10
+		wealth(6) = 10
+		haste(6) = 25
+		peace(6) = 25
+		
+		friendship(3) = 10
+		friend_panzer(1) = 5
+		friend_assassin(1) = 5
+		friend_farmer(3) = 10
+		friend_takeda(1) = 5
+		friend_nobunaga(1) = 5
+		friend_spearman(1) = 5
+	
+[extreme]
+	baseBG = Sprites/BoosterPacks/card_extreme_rare_base
+	[cards]
+		
+		power(10) = 25
+		luck(10) = 10
+		wealth(10) = 10
+		haste(10) = 25
+		peace(10) = 25
+		
+		friendship(3) = 25
+		friend_panzer(3) = 10
+		friend_assassin(1) = 10
+		friend_farmer(3) = 10
+		friendship+power(1) = 25
+		friend_panzer+luck(1) = 10
+		friend_spearman+haste(1) = 10
+		friend_nobunaga+luck(1) = 10
+		friend_takeda+wealth(1) = 10
+		friend_assassin+peace(1) = 10
+		friend_farmer+wealth(1) = 10

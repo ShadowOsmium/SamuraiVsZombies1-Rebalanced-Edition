@@ -1,0 +1,97 @@
+
+transitionSpeed = 1.0
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_default
+	keepAspectRatio = no
+	priority = 0
+	hotspot = 0, 0
+	position = 0, 0
+
+[backBtn]
+	type = button
+	normalFrame = Sprites/Menus/continue_button
+	position = E-60, E-70
+	keepAspectRatio = true
+	offsetWhenPressed = 4, 4
+	priority = 51
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 120, 120
+		[alpha]
+			alpha = 0.0
+
+[title]
+	type = sprite
+	file = Sprites/Localized/title_options
+	position = C, 50
+	priority = 50
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -110
+		[alpha]
+			alpha = 0.0
+
+[about]
+	type = button
+	normalFrame = Sprites/Localized/legal_button
+	position = 512, 250
+	offsetWhenPressed = 4, 4
+	priority = 5
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -110, 0
+			animRange = 0.3, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.3, 1
+
+[credits]
+	type = button
+	normalFrame = Sprites/Localized/credits_button
+	position = 512, 400
+	offsetWhenPressed = 4, 4
+	priority = 5
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 110, 0
+			animRange = 0.3, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.3, 1
+
+[privacy]
+	type = button
+	normalFrame = Sprites/Localized/privacy_terms
+	position = 512, 550
+	offsetWhenPressed = 4, 4
+	priority = 5
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -110, 0
+			animRange = 0.3, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.3, 1
+			
+									
+[resetSave]
+	type = button
+	normalFrame = Sprites/Localized/save_data_button
+	position = 512, 550
+	offsetWhenPressed = 4, 4
+	priority = 5
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -110, 0
+			animRange = 0.3, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.3, 1

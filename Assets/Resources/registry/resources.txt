@@ -1,0 +1,261 @@
+[coin]
+	[prefab]
+		classic = FX/CoinPickup
+		zombies = FX/CoinPickup
+	amount = 6
+	weight = 500
+	lifetime = 10.0
+	
+[leadership]
+	[prefab]
+		classic = FX/LeadershipPickup
+		zombies = FX/BrainsPickup
+	amount = 3
+	weight = 200
+	lifetime = 10.0
+	
+[gem]
+	[prefab]
+		classic = FX/GemPickup
+		zombies = FX/GemPickup
+	amount = 2
+	weight = 100
+	lifetime = 10.0
+
+[pachinkoball]
+	[prefab]
+		classic = FX/PachinkoPickup
+		zombies = FX/PachinkoPickup
+	amount = 3
+	weight = 150
+	lifetime = 10.0
+	
+[presentA]
+	[prefab]
+		classic = FX/PresentRedPickup
+		zombies = FX/PresentRedPickup
+	amount = 1
+	weight = 8
+	lifetime = 15.0
+	[normal]
+		[classic]
+			healthSmall = 150
+			healthBig = 50
+			leadershipSmall = 150
+			leadershipBig = 50
+			power = 10
+			luck = 5
+			friendship = 5
+			friend_panzer = 5
+			friend_spearman = 5
+			wealth = 10
+			haste = 10
+			peace = 10
+			Swordsmith = 5
+			Rifleman = 5
+		[zombies]
+			healthSmallZ = 150
+			healthBigZ = 50
+			leadershipSmallZ = 150
+			leadershipBigZ = 50
+			z+power = 10
+			z+luck = 5
+			z+horde = 5
+			z+oni = 5
+			z+wealth = 10
+			z+haste = 10
+			z+peace = 10
+	[death]
+		[classic]
+			healthSmall = 150
+			healthBig = 50
+			leadershipSmall = 150
+			leadershipBig = 50
+			power = 10
+			luck = 5
+			friendship = 5
+			friend_panzer = 5
+			friend_spearman = 5
+			wealth = 10
+			haste = 10
+			peace = 10
+			Swordsmith = 50
+			Rifleman = 50
+		[zombies]
+			healthSmallZ = 150
+			healthBigZ = 50
+			leadershipSmallZ = 150
+			leadershipBigZ = 50
+			z+power = 10
+			z+luck = 5
+			z+oni = 5
+			z+horde = 5
+			z+wealth = 10
+			z+haste = 10
+			z+peace = 10
+			
+[presentB]
+	[prefab]
+		classic = FX/PresentBluePickup
+		zombies = FX/PresentBluePickup
+	amount = 1
+	weight = 5
+	lifetime = 15.0
+	[normal]
+		[classic]
+			healthSmall = 50
+			healthBig = 35
+			leadershipSmall = 50
+			leadershipBig = 35
+			power = 25
+			luck = 20
+			friendship = 10
+			friend_panzer = 10
+			friend_spearman = 10
+			wealth = 25
+			haste = 25
+			peace = 25
+			IceArcher = 10
+			Swordsmith = 10
+			Rifleman = 10
+			NinjaGirl = 10
+		[zombies]
+			healthSmallZ = 50
+			healthBigZ = 35
+			leadershipSmallZ = 50
+			leadershipBigZ = 35
+			z+power = 25
+			z+luck = 20
+			z+oni = 10
+			z+horde = 10
+			z+wealth = 25
+			z+haste = 25
+			z+peace = 25
+			Necromancer = 10
+	[death]
+		[classic]
+			healthSmall = 50
+			healthBig = 35
+			leadershipSmall = 50
+			leadershipBig = 35
+			power = 25
+			luck = 20
+			friendship = 10
+			friend_panzer = 10
+			friend_spearman = 10
+			wealth = 25
+			haste = 25
+			peace = 25
+			IceArcher = 150
+			Swordsmith = 150
+			Rifleman = 150
+			NinjaGirl = 150
+		[zombies]
+			healthSmallZ = 50
+			healthBigZ = 35
+			leadershipSmallZ = 50
+			leadershipBigZ = 35
+			z+power = 25
+			z+luck = 20
+			z+oni = 10
+			z+horde = 10
+			z+wealth = 25
+			z+haste = 25
+			z+peace = 25
+			Necromancer = 150
+
+[presentC]
+	[prefab]
+		classic = FX/PresentYellowPickup
+		zombies = FX/PresentYellowPickup
+	amount = 1
+	weight = 3
+	lifetime = 15.0
+	[normal]
+		[classic]
+			healthSmall = 30
+			healthBig = 25
+			leadershipSmall = 30
+			leadershipBig = 25
+			power = 25
+			luck = 15
+			friendship = 15
+			friend_panzer = 10
+			friend_spearman = 20
+			wealth = 25
+			haste = 25
+			peace = 25
+			IceArcher = 10
+			Swordsmith = 10
+			Rifleman = 10
+			Takeda = 5
+			NinjaGirl = 5
+		[zombies]
+			healthSmallZ = 30
+			healthBigZ = 25
+			leadershipSmallZ = 30
+			leadershipBigZ = 25
+			z+power = 25
+			z+luck = 15
+			z+oni = 10
+			z+horde = 20
+			z+wealth = 25
+			z+haste = 25
+			z+peace = 25
+			Necromancer = 10
+	[death]
+		[classic]
+			healthSmall = 30
+			healthBig = 25
+			leadershipSmall = 30
+			leadershipBig = 25
+			power = 25
+			luck = 15
+			friendship = 15
+			friend_panzer = 10
+			friend_spearman = 20
+			wealth = 25
+			haste = 25
+			peace = 25
+			IceArcher = 150
+			Swordsmith = 150
+			Rifleman = 150
+			Takeda = 150
+			NinjaGirl = 150
+		[zombies]
+			healthSmallZ = 30
+			healthBigZ = 25
+			leadershipSmallZ = 30
+			leadershipBigZ = 25
+			z+power = 25
+			z+luck = 15
+			z+oni = 15
+			z+horde = 10
+			z+wealth = 25
+			z+haste = 25
+			z+peace = 25
+			Necromancer = 150
+				
+[presentD]
+	[prefab]
+		classic = FX/PresentYellowPickup
+		zombies = FX/PresentYellowPickup
+	amount = 1
+	weight = 0
+	lifetime = 15.0
+	[normal]
+		[classic]
+			IceArcher = 5
+			Swordsmith = 5
+			Rifleman = 5
+			Takeda = 5
+		[zombies]
+			Necromancer = 5
+	[death]
+		[classic]
+			IceArcher = 150
+			Swordsmith = 150
+			Rifleman = 150
+			Takeda = 150
+		[zombies]
+			Necromancer = 150

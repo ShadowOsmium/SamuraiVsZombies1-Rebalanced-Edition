@@ -1,0 +1,1424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1220283620864669}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1220283620864669
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4774708969275529}
+  - 111: {fileID: 111665144210965684}
+  - 114: {fileID: 114686934258254149}
+  - 114: {fileID: 114577064405496832}
+  - 114: {fileID: 114269859801041159}
+  - 114: {fileID: 114788871656267160}
+  - 114: {fileID: 114039560162203723}
+  - 114: {fileID: 114122100205048461}
+  m_Layer: 0
+  m_Name: PFSamuraiarcher
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4774708969275529
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4037.8167, y: 1675.3359, z: 1757.7426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4291119904844812}
+  m_Father: {fileID: 0}
+--- !u!111 &111665144210965684
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 9d8654f0db8e85c46a5b9a1bfe528338, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: d729a5f1800cd9243aad5d7ee669f8b6, type: 2}
+  - {fileID: 7400000, guid: 9d8654f0db8e85c46a5b9a1bfe528338, type: 2}
+  - {fileID: 7400000, guid: 6b7012785f0901545b1bfb75e9cc4328, type: 2}
+  - {fileID: 7400000, guid: a7e6ee4b38ec5004aafe0dcd83cc61b4, type: 2}
+  - {fileID: 7400000, guid: 22a742ace36401347b4950b06fbc55a4, type: 2}
+  - {fileID: 7400000, guid: d7b719ab77b6af842ab2cd60884d05c8, type: 2}
+  - {fileID: 7400000, guid: ae96f926f44675746868d44a35d5ea24, type: 2}
+  - {fileID: 7400000, guid: 0c738e4a455fc784581266d7802b3ab9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114686934258254149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111422786483981883}
+  defaultBlendSpeed: 0.3
+  specificAnimSettings:
+  - clip: {fileID: 7400000, guid: a7e6ee4b38ec5004aafe0dcd83cc61b4, type: 2}
+    overrideBlendSpeed: 1
+    blendSpeed: 0
+    jointMaskRoot: {fileID: 0}
+    onlyUseSingleJoint: 0
+  alsoPlayOnAllChildren: 1
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114577064405496832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/PFSamuraiarcher.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114269859801041159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: ranged_weapon
+    joint: {fileID: 4402945704042584}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: impact_target
+    joint: {fileID: 4323266309406305}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: aim_angle
+    joint: {fileID: 4323266309406305}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: projectile_spawn
+    joint: {fileID: 4402945704042584}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: arrow
+    joint: {fileID: 4851356817120383}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: head_effect
+    joint: {fileID: 4144945355066944}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: body_effect
+    joint: {fileID: 4967853949524481}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: buff_icon
+    joint: {fileID: 4154712141060245}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 170, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: aim_angle_2
+    joint: {fileID: 4210679396407623}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!114 &114788871656267160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  m_Name:
+  attackActive: 0
+  animatedWalkSpeed: 100
+  randomAnimSets: []
+  arrowImpactEffect: {fileID: 0}
+  bladeImpactEffect: {fileID: 0}
+  bladeCriticalImpactEffect: {fileID: 0}
+  bluntImpactEffect: {fileID: 0}
+  bluntCriticalImpactEffect: {fileID: 0}
+  snapToGround: 1
+--- !u!114 &114039560162203723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dbae7d6e4503ccce4e243938d2e0ad, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114768066861669020, guid: a29b58ac85244374cadeddb0d5a8f989, type: 2}
+  defaultMinDistance: 1
+  defaultMaxDistance: 500
+  defaultCustomEffect: {fileID: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  autoPlayEvent: Spawn
+  events: []
+--- !u!114 &114122100205048461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220283620864669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1126621008489282
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4291119904844812}
+  - 111: {fileID: 111422786483981883}
+  - 114: {fileID: 114286735229750585}
+  m_Layer: 0
+  m_Name: samuraiarcher
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4291119904844812
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126621008489282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4154712141060245}
+  - {fileID: 4729875424342441}
+  m_Father: {fileID: 4774708969275529}
+--- !u!111 &111422786483981883
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126621008489282}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 7b3cd38045fa3934bb49881cc49d7ed4, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: be8e7d506c69b854fa15d99e608032b9, type: 2}
+  - {fileID: 7400000, guid: 7b3cd38045fa3934bb49881cc49d7ed4, type: 2}
+  - {fileID: 7400000, guid: fe63a2ba1a552174fb008a6bd7ef60d5, type: 2}
+  - {fileID: 7400000, guid: c7f12b8a92906b346aab218474498ee8, type: 2}
+  - {fileID: 7400000, guid: ed98bfb4e464c954d96577881826543c, type: 2}
+  - {fileID: 7400000, guid: af7abc42ac07dd04382833a1169353e9, type: 2}
+  - {fileID: 7400000, guid: 494983a41049c534baa1f711f2880053, type: 2}
+  - {fileID: 7400000, guid: a19ca09c24960c648be0ee15d7bd47a3, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114286735229750585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126621008489282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/SamuraiArcher/samuraiarcher.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114286735229750585}
+  - {fileID: 137064562424868652}
+  - {fileID: 1062279910768279}
+--- !u!1 &1649801356343638
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4154712141060245}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4154712141060245
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1649801356343638}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4967853949524481}
+  m_Father: {fileID: 4291119904844812}
+--- !u!1 &1241946939388437
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4967853949524481}
+  - 137: {fileID: 137064562424868652}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4967853949524481
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241946939388437}
+  m_LocalRotation: {x: 0.48912638, y: -0.5106421, z: -0.48912638, w: 0.5106421}
+  m_LocalPosition: {x: -0, y: 39.283615, z: -0.048435047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 90, y: 2.465711, z: 90}
+  m_Children:
+  - {fileID: 4373063723777983}
+  - {fileID: 4323266309406305}
+  m_Father: {fileID: 4154712141060245}
+--- !u!137 &137064562424868652
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241946939388437}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 231d523fc430b19488b4fbf3db434796, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: dd7628290e7cba143980d4ac9b363a7d, type: 2}
+  m_Bones:
+  - {fileID: 4967853949524481}
+  - {fileID: 4323266309406305}
+  - {fileID: 4288528862669875}
+  - {fileID: 4793430614091970}
+  - {fileID: 4210679396407623}
+  - {fileID: 4144945355066944}
+  - {fileID: 4610697085420727}
+  - {fileID: 4438125557915744}
+  - {fileID: 4314378890012911}
+  - {fileID: 4219489238688287}
+  - {fileID: 4660599562509905}
+  - {fileID: 4693792191766483}
+  - {fileID: 4912254419183045}
+  - {fileID: 4242622609080239}
+  - {fileID: 4402945704042584}
+  - {fileID: 4311045565070179}
+  - {fileID: 4175090921148379}
+  - {fileID: 4870564708350659}
+  - {fileID: 4971395653255066}
+  - {fileID: 4711955890058127}
+  - {fileID: 4862826678374513}
+  - {fileID: 4309766216075518}
+  - {fileID: 4373063723777983}
+  - {fileID: 4507289857929368}
+  - {fileID: 4462172110204289}
+  - {fileID: 4214912463182611}
+  - {fileID: 4464606491397903}
+  - {fileID: 4350210363096309}
+  - {fileID: 4978356908197270}
+  - {fileID: 4431254375462605}
+  - {fileID: 4325314510888079}
+  - {fileID: 4721184751164725}
+  - {fileID: 4342279025041411}
+  - {fileID: 4439611216832137}
+  - {fileID: 4452469194943606}
+  m_AABB:
+    m_Center: {x: -40.372807, y: 23.002918, z: 6.2145042}
+    m_Extent: {x: 83.19641, y: 73.410385, z: 80.02019}
+  m_DirtyAABB: 0
+--- !u!1 &1039499053178550
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4373063723777983}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4373063723777983
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039499053178550}
+  m_LocalRotation: {x: -2.4980018E-16, y: 5.551115E-17, z: -0.020873245, w: 0.99978215}
+  m_LocalPosition: {x: 8.159951, y: -0.34087217, z: -9.461103E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.8751534E-14, y: -5.762227E-15, z: 2.3920715}
+  m_Children:
+  - {fileID: 4439611216832137}
+  - {fileID: 4721184751164725}
+  - {fileID: 4507289857929368}
+  - {fileID: 4350210363096309}
+  m_Father: {fileID: 4967853949524481}
+--- !u!1 &1270645969296985
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4439611216832137}
+  m_Layer: 0
+  m_Name: samuraiarcher:LeftSkirt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4439611216832137
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270645969296985}
+  m_LocalRotation: {x: -0.10066464, y: 0.6590862, z: 0.7366109, w: 0.1134742}
+  m_LocalPosition: {x: -7.1974463, y: 0.111121185, z: 13.473885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 83.326004, y: -17.330309, z: -177.93008}
+  m_Children:
+  - {fileID: 4452469194943606}
+  m_Father: {fileID: 4373063723777983}
+--- !u!1 &1762530760849227
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4452469194943606}
+  m_Layer: 0
+  m_Name: samuraiarcher:LeftSkirt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4452469194943606
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762530760849227}
+  m_LocalRotation: {x: 0.032874756, y: 0.04478746, z: -0.59080803, w: 0.804897}
+  m_LocalPosition: {x: -15.921364, y: 2.6645353E-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 2.1041309E-07, y: -6.3697314, z: 72.5586}
+  m_Children: []
+  m_Father: {fileID: 4439611216832137}
+--- !u!1 &1090153833057046
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4721184751164725}
+  m_Layer: 0
+  m_Name: samuraiarcher:RightSkirt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4721184751164725
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1090153833057046}
+  m_LocalRotation: {x: -0.10066464, y: 0.6590862, z: 0.7366109, w: 0.1134742}
+  m_LocalPosition: {x: -7.19741, y: 0.1111211, z: -13.4739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 83.326004, y: -17.330309, z: -177.93008}
+  m_Children:
+  - {fileID: 4342279025041411}
+  m_Father: {fileID: 4373063723777983}
+--- !u!1 &1254448949147194
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4342279025041411}
+  m_Layer: 0
+  m_Name: samuraiarcher:RightSkirt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4342279025041411
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254448949147194}
+  m_LocalRotation: {x: 0.053087942, y: 0.01638097, z: 0.0051079122, w: 0.9984424}
+  m_LocalPosition: {x: -13.095837, y: -8.993278, z: -1.0523314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 6.0982, y: -1.8434415, z: -0.6844349}
+  m_Children: []
+  m_Father: {fileID: 4721184751164725}
+--- !u!1 &1508886694521538
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4507289857929368}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4507289857929368
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508886694521538}
+  m_LocalRotation: {x: 0.06093353, y: 0.8495969, z: -0.5226065, w: 0.036806602}
+  m_LocalPosition: {x: 7.867781, y: -0.045650456, z: 10.194258}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -117.04516, y: -7.251796, z: -176.23917}
+  m_Children:
+  - {fileID: 4462172110204289}
+  m_Father: {fileID: 4373063723777983}
+--- !u!1 &1670780088622239
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4462172110204289}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4462172110204289
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670780088622239}
+  m_LocalRotation: {x: 0.9803003, y: 0.025294444, z: -0.032698, w: 0.19313838}
+  m_LocalPosition: {x: -9.9729185, y: 3.4099374E-15, z: -7.2518785E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 157.7873, y: -4.2367787, z: -2.1240458}
+  m_Children:
+  - {fileID: 4214912463182611}
+  m_Father: {fileID: 4507289857929368}
+--- !u!1 &1361207234884155
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4214912463182611}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4214912463182611
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361207234884155}
+  m_LocalRotation: {x: -0.36616313, y: 0.13962445, z: 0.4869857, w: 0.7805604}
+  m_LocalPosition: {x: -10.411003, y: 2.4880263E-15, z: 1.9043679E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -32.159595, y: -35.07184, z: -53.51065}
+  m_Children:
+  - {fileID: 4464606491397903}
+  m_Father: {fileID: 4462172110204289}
+--- !u!1 &1177937191409620
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4464606491397903}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4464606491397903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1177937191409620}
+  m_LocalRotation: {x: 0.0154757695, y: -0.042835694, z: 0.29712725, w: 0.953751}
+  m_LocalPosition: {x: -4.771814, y: 2.185752E-15, z: -9.297118E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.23386247, y: 5.2157145, z: -34.596672}
+  m_Children: []
+  m_Father: {fileID: 4214912463182611}
+--- !u!1 &1668068424562661
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4350210363096309}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4350210363096309
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668068424562661}
+  m_LocalRotation: {x: -0.8495969, y: 0.060933623, z: 0.036806542, w: 0.52260655}
+  m_LocalPosition: {x: 7.867801, y: -0.04565049, z: -10.1943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -117.04515, y: -7.251796, z: 3.760846}
+  m_Children:
+  - {fileID: 4978356908197270}
+  m_Father: {fileID: 4373063723777983}
+--- !u!1 &1514802501945870
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4978356908197270}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4978356908197270
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1514802501945870}
+  m_LocalRotation: {x: 0.9803003, y: 0.025294319, z: -0.032697845, w: 0.19313838}
+  m_LocalPosition: {x: 9.972842, y: -6.319629E-05, z: -3.6754085E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 157.7873, y: -4.2367587, z: -2.1240354}
+  m_Children:
+  - {fileID: 4431254375462605}
+  m_Father: {fileID: 4350210363096309}
+--- !u!1 &1112998700697311
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4431254375462605}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4431254375462605
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112998700697311}
+  m_LocalRotation: {x: -0.3661632, y: 0.13962443, z: 0.48698568, w: 0.78056043}
+  m_LocalPosition: {x: 10.411053, y: -2.0681748E-05, z: -4.056588E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -32.159607, y: -35.07184, z: -53.510647}
+  m_Children:
+  - {fileID: 4325314510888079}
+  m_Father: {fileID: 4978356908197270}
+--- !u!1 &1473790954894949
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4325314510888079}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4325314510888079
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1473790954894949}
+  m_LocalRotation: {x: 0.015475774, y: -0.04283568, z: 0.29712725, w: 0.953751}
+  m_LocalPosition: {x: 4.7718096, y: -4.2286038E-06, z: 9.63416E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.23386349, y: 5.215713, z: -34.596672}
+  m_Children: []
+  m_Father: {fileID: 4431254375462605}
+--- !u!1 &1043558255695131
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4323266309406305}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4323266309406305
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043558255695131}
+  m_LocalRotation: {x: 0.9985531, y: 0.053775012, z: -2.8005563E-17, w: 6.282925E-17}
+  m_LocalPosition: {x: -5.7468324, y: -2.3536728E-14, z: 1.7721548E-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -3.5917217E-15, z: -6.1651363}
+  m_Children:
+  - {fileID: 4288528862669875}
+  m_Father: {fileID: 4967853949524481}
+--- !u!1 &1915471229605864
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4288528862669875}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_spine_hi_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4288528862669875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915471229605864}
+  m_LocalRotation: {x: -5.27356E-16, y: -5.551116E-17, z: -0.040967345, w: 0.9991605}
+  m_LocalPosition: {x: -7.0330415, y: 8.881784E-16, z: 5.4936265E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -6.011921E-14, y: 8.831448E-15, z: 4.6958256}
+  m_Children:
+  - {fileID: 4793430614091970}
+  m_Father: {fileID: 4323266309406305}
+--- !u!1 &1179392318915775
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4793430614091970}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_spine_end_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4793430614091970
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179392318915775}
+  m_LocalRotation: {x: 0, y: 0, z: 0.13846758, w: 0.990367}
+  m_LocalPosition: {x: -6.718205, y: -5.450476E-15, z: 1.7954216E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -15.918362}
+  m_Children:
+  - {fileID: 4438125557915744}
+  - {fileID: 4210679396407623}
+  - {fileID: 4311045565070179}
+  m_Father: {fileID: 4288528862669875}
+--- !u!1 &1016018610280488
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4438125557915744}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4438125557915744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1016018610280488}
+  m_LocalRotation: {x: -0.49094096, y: 0.6270376, z: -0.4588682, w: -0.39400616}
+  m_LocalPosition: {x: -3.4294262, y: 0.15523098, z: -7.07406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -144.90654, y: 70.85082, z: 129.23346}
+  m_Children:
+  - {fileID: 4314378890012911}
+  m_Father: {fileID: 4793430614091970}
+--- !u!1 &1811414086369608
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4314378890012911}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4314378890012911
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811414086369608}
+  m_LocalRotation: {x: 0.012774451, y: 0.12952325, z: -0.09773586, w: 0.98666525}
+  m_LocalPosition: {x: -9.633381, y: -3.887888E-15, z: -1.9531347E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0065187225, y: -14.956714, z: 11.315015}
+  m_Children:
+  - {fileID: 4219489238688287}
+  m_Father: {fileID: 4438125557915744}
+--- !u!1 &1103646802736473
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4219489238688287}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4219489238688287
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103646802736473}
+  m_LocalRotation: {x: -3.978546E-05, y: 0.09415808, z: 3.334309E-06, w: 0.99555725}
+  m_LocalPosition: {x: -17.922617, y: -7.760873E-15, z: 4.508157E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0045841304, y: -10.805729, z: 4.9770377E-05}
+  m_Children:
+  - {fileID: 4660599562509905}
+  m_Father: {fileID: 4314378890012911}
+--- !u!1 &1734367078995890
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4660599562509905}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4660599562509905
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734367078995890}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.941963, y: -3.2090874E-15, z: 6.1596315E-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4693792191766483}
+  m_Father: {fileID: 4219489238688287}
+--- !u!1 &1744330877480874
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4693792191766483}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4693792191766483
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744330877480874}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 7.1054274E-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4402945704042584}
+  - {fileID: 4242622609080239}
+  - {fileID: 4912254419183045}
+  m_Father: {fileID: 4660599562509905}
+--- !u!1 &1675016565020375
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4402945704042584}
+  m_Layer: 0
+  m_Name: samuraiarcher:prop
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4402945704042584
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1675016565020375}
+  m_LocalRotation: {x: 1.8619892E-05, y: -0.08883754, z: 0.00020876614, w: 0.9960461}
+  m_LocalPosition: {x: -4.7506995, y: -8.533731, z: -0.07410321}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 8.423792E-11, y: 10.193471, z: -0.024017802}
+  m_Children: []
+  m_Father: {fileID: 4693792191766483}
+--- !u!1 &1491834599489597
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4242622609080239}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4242622609080239
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491834599489597}
+  m_LocalRotation: {x: -0.7180728, y: -0.12488512, z: 0.12503158, w: 0.6731586}
+  m_LocalPosition: {x: -5.11003, y: -0.2721733, z: -0.010710032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.58066, y: -0.6548224, z: -20.347193}
+  m_Children: []
+  m_Father: {fileID: 4693792191766483}
+--- !u!1 &1448318561549256
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4912254419183045}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4912254419183045
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1448318561549256}
+  m_LocalRotation: {x: 0.7551604, y: 0.105086066, z: -0.55192137, w: -0.33774644}
+  m_LocalPosition: {x: -2.483104, y: -1.5476404, z: 2.4731827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -104.55994, y: -49.693356, z: -55.254204}
+  m_Children: []
+  m_Father: {fileID: 4693792191766483}
+--- !u!1 &1002169868954172
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4210679396407623}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4210679396407623
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1002169868954172}
+  m_LocalRotation: {x: 0.5187279, y: -0.48054278, z: 0.5187279, w: 0.48054278}
+  m_LocalPosition: {x: -10.029245, y: 3.5527137E-15, z: 2.224662E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 94.376755, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4144945355066944}
+  m_Father: {fileID: 4793430614091970}
+--- !u!1 &1333337562369422
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4144945355066944}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4144945355066944
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1333337562369422}
+  m_LocalRotation: {x: 0.5054347, y: -0.4945056, z: 0.5054347, w: -0.4945056}
+  m_LocalPosition: {x: -2.8229353E-15, y: 4.185132, z: -8.348877E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90, y: 1.2524049, z: 90}
+  m_Children:
+  - {fileID: 4610697085420727}
+  m_Father: {fileID: 4210679396407623}
+--- !u!1 &1769925374775221
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4610697085420727}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_head_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4610697085420727
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769925374775221}
+  m_LocalRotation: {x: 0.4744475, y: -0.5243087, z: 0.4744475, w: 0.5243087}
+  m_LocalPosition: {x: -47.32424, y: 9.7890115E-15, z: -1.0560342E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 84.28396, y: 90, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4144945355066944}
+--- !u!1 &1087157769181751
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4311045565070179}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4311045565070179
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087157769181751}
+  m_LocalRotation: {x: 0.6270376, y: 0.490941, z: 0.3940062, w: -0.45886824}
+  m_LocalPosition: {x: -3.4294693, y: 0.15523413, z: 7.07406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -144.90654, y: 70.85082, z: -50.766544}
+  m_Children:
+  - {fileID: 4175090921148379}
+  m_Father: {fileID: 4793430614091970}
+--- !u!1 &1624337158776131
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4175090921148379}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4175090921148379
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624337158776131}
+  m_LocalRotation: {x: 0.012774451, y: 0.12952325, z: -0.09773586, w: 0.98666525}
+  m_LocalPosition: {x: 9.633389, y: 6.45044E-05, z: 8.862536E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0065187225, y: -14.956714, z: 11.315015}
+  m_Children:
+  - {fileID: 4870564708350659}
+  m_Father: {fileID: 4311045565070179}
+--- !u!1 &1580872856180155
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4870564708350659}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4870564708350659
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1580872856180155}
+  m_LocalRotation: {x: -3.978546E-05, y: 0.09415808, z: 3.334309E-06, w: 0.99555725}
+  m_LocalPosition: {x: 17.922625, y: -6.696746E-05, z: 3.5255205E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.0045841304, y: -10.805729, z: 4.9770377E-05}
+  m_Children:
+  - {fileID: 4971395653255066}
+  m_Father: {fileID: 4175090921148379}
+--- !u!1 &1434553097971468
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4971395653255066}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4971395653255066
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434553097971468}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.941929, y: 6.755416E-05, z: -1.15380535E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4851356817120383}
+  - {fileID: 4711955890058127}
+  m_Father: {fileID: 4870564708350659}
+--- !u!1 &1062279910768279
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4851356817120383}
+  m_Layer: 0
+  m_Name: arrow_joint
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4851356817120383
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062279910768279}
+  m_LocalRotation: {x: 0.7050123, y: 0.122631416, z: 0.6985006, w: -0.004022065}
+  m_LocalPosition: {x: 32.145386, y: 12.844427, z: -2.8148115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 98.298836, y: 80.36344, z: -92.01398}
+  m_Children: []
+  m_Father: {fileID: 4971395653255066}
+--- !u!1 &1452269991675960
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4711955890058127}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4711955890058127
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452269991675960}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.1054274E-15, y: 7.1054274E-15, z: -3.5527137E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4309766216075518}
+  - {fileID: 4862826678374513}
+  m_Father: {fileID: 4971395653255066}
+--- !u!1 &1814798536705603
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4309766216075518}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4309766216075518
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1814798536705603}
+  m_LocalRotation: {x: -0.7180728, y: -0.12488512, z: 0.12503158, w: 0.6731586}
+  m_LocalPosition: {x: 5.1100497, y: 0.2721421, z: 0.010717965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.58066, y: -0.6548224, z: -20.347193}
+  m_Children: []
+  m_Father: {fileID: 4711955890058127}
+--- !u!1 &1897555832496191
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4862826678374513}
+  m_Layer: 0
+  m_Name: samuraiarcher:Sam_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4862826678374513
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897555832496191}
+  m_LocalRotation: {x: 0.7551604, y: 0.105086066, z: -0.55192137, w: -0.33774644}
+  m_LocalPosition: {x: 2.4831405, y: 1.547641, z: -2.4731755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -104.55994, y: -49.693356, z: -55.254204}
+  m_Children: []
+  m_Father: {fileID: 4711955890058127}
+--- !u!1 &1525042947736607
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4729875424342441}
+  m_Layer: 0
+  m_Name: samuraiarcher:samuraiArcher_new:samuraiArcher
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4729875424342441
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1525042947736607}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4291119904844812}

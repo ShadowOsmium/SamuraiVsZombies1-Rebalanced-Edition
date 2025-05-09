@@ -1,0 +1,26 @@
+
+/-----------------------------------------------------------------
+/	Welcome Back
+/	Stuff that are given away if the played comes back after
+/	a long time not playing the game.
+/-----------------------------------------------------------------
+
+[welcomeBack]
+	minDays = 7
+	[randomGift]
+		booster_free = 1
+
+
+/-----------------------------------------------------------------
+/	Give Once
+/	Stuff we give the player once, the next time they log in.
+/	To hook it up:
+/	[giveOnce]
+/		[uniqueID]
+/			itemID = number
+/	Once the item is given away, the "uniqueID" is flagged in the
+/	save data so that it's not given away again.  
+/-----------------------------------------------------------------
+
+[giveOnce]
+	

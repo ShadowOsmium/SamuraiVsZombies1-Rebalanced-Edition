@@ -1,0 +1,264 @@
+{Layouts/DefaultDialog}
+
+[title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, 200
+	maxWidth = 600
+	priority = 1
+	anchor = MiddleCenter
+	/text = Level Up Something
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[waitIcon]
+	type = sprite
+	file = Sprites/Localized/loading_timer
+	priority = 1
+	position = C, C
+	[transition]
+		[alpha]
+			alpha = 0
+	[effect]
+		[scalepingpong]
+			min = 0.9
+			max = 1.1
+			speed = 0.6
+
+[errorMessage]
+	type = label
+	font = default32
+	shadowColor = black
+	shadowOffset = 2, 2
+	position = C, C
+	maxWidth = 600
+	alignment = center
+	anchor = middlecenter
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+/******************** TABS *************************
+
+
+[tab0]
+	type = sprite
+	file = Sprites/Menus/pop_up_coin_tab
+	priority = 0.2
+	position = 260, 110
+	[transition]
+		[alpha]
+			alpha = 0
+
+[tabGlow0]
+	type = sprite
+	file = Sprites/Menus/pop_up_coin_tab_glow
+	priority = 0.1
+	position = 260, 110
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[tabTouch0]
+	type = touchArea
+	rect = 206, 40, 100, 112
+
+[tab1]
+	type = sprite
+	file = Sprites/Menus/pop_up_gem_tab
+	priority = 0.2
+	position = 380, 110
+	[transition]
+		[alpha]
+			alpha = 0
+
+[tabGlow1]
+	type = sprite
+	file = Sprites/Menus/pop_up_coin_tab_glow
+	priority = 0.1
+	position = 380, 110
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[tabTouch1]
+	type = touchArea
+	rect = 326, 40, 100, 112
+
+
+/******************** FREE *************************
+
+[free]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 512, 680
+	text = @store_tap_joy
+	textOffset = 0, 5
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+/******************** BUTTONS *************************
+
+[btn0]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 350, 300
+	textoffset = -30, 4
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[icon0]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1.2
+	scale = 0.7, 0.7
+	position = 280, 304
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[btn1]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 674, 300
+	textoffset = -30, 4
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[icon1]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1.2
+	scale = 0.7, 0.7
+	position = 604, 304
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[btn2]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 350, 420
+	textoffset = -30, 4
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[icon2]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1.2
+	scale = 0.7, 0.7
+	position = 280, 424
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[btn3]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 674, 420
+	textoffset = -30, 4
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[icon3]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1.2
+	scale = 0.7, 0.7
+	position = 604, 424
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[btn4]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 350, 540
+	textoffset = -30, 4
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[icon4]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1.2
+	scale = 0.7, 0.7
+	position = 280, 544
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[btn5]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 674, 540
+	textoffset = -30, 4
+	offsetWhenPressed = 4, 4
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[icon5]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1.2
+	scale = 0.7, 0.7
+	position = 604, 544
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0

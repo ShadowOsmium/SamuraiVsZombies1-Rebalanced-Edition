@@ -1,0 +1,117 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_jurogumo_name
+desc = @helper_jurogumo_desc
+prefab = Characters/PFJurogumoBaby
+HUDIcon = Sprites/Icons/enemy_jurogumo
+waveToUnlock = 999
+resourcesCost = 70.0
+cooldownTimer = 1.0
+attackFrequency = 1.0
+hideInStore = True
+
+levelMatchOtherHelper = Jurogumo
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+/ *** NOTE: they spawn using the same level as their "mother"
+
+[001]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+
+[002]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+
+[003]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+[004]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+[005]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+
+[006]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+[007]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+[008]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+
+[009]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+
+[010]
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 0
+	knockbackResistance = 25
+
+
+
+
+
+
+
+
+

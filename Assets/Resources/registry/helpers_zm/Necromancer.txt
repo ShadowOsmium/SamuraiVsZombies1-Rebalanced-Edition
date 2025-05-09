@@ -1,0 +1,121 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_necromancer_name
+desc = @helper_necromancer_desc
+prefab = Characters/PFNecromancer
+HUDIcon = Sprites/Icons/enemy_necromancer
+waveToUnlock = 999
+availableAtWave = 19
+resourcesCost = 40.0
+cooldownTimer = 1.0
+attackFrequency = 5.0
+unique = true
+weaponMeleePrefab = Props/PFNecromancerStaff
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	specialUnlockText = @store_find_necromancer
+	cost = 5000,0
+	health = 37
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[002]
+	cost = 10000,0
+	health = 50
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[003]
+	cost = 25000,0
+	health = 70
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[004]
+	cost = 50000,0
+	health = 100
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[005]
+	cost = 100000,0
+	health = 140
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[006]
+	cost = 0,20
+	health = 188
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[007]
+	cost = 0,25
+	health = 265
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[008]
+	cost = 0,40
+	health = 370
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[009]
+	cost = 0,50
+	health = 550
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon
+
+[010]
+	cost = 0,60
+	health = 845
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 0
+	projectile = SpawnFriend
+	spawnFriendID = ZombieMelee_Summon

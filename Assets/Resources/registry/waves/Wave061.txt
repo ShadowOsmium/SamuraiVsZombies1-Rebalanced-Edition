@@ -1,0 +1,58 @@
+scene = InGame_hell_green
+
+[rewards]
+
+[Commands]
+	Evil_Nobunaga
+	Evil_Onibaba
+	Evil_Ice
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Ice
+	Evil_Ice
+	Evil_Ninja
+	Evil_Ice
+	Evil_Ninja
+	Evil_Ninja
+	1,1
+	Evil_Wayundo_Metal
+	Evil_Wayundo_Fire
+	Chochinobake_alt
+	Chochinobake_alt
+	Chochinobake_alt
+	Evil_Ninja
+	Evil_Ice
+	Evil_Ninja
+	Evil_Ice
+	Evil_Ninja
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Zombie_Gun
+	Evil_Zombie_Gun
+	Evil_Ninja
+	Chochinobake_alt
+	2,3
+	Evil_Panzer
+	Evil_Panzer
+	Evil_Panzer
+	Evil_Komusou
+	1,1
+	Evil_Wayundo_Metal
+	Evil_Wayundo_Metal
+	Evil_Takeda
+	Evil_Taiko_Drummer
+	Evil_Onibaba
+	Evil_Onibaba
+	Jurogumo
+	Jurogumo
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Oni
+	Evil_Oni
+	Evil_Panzer
+	Evil_Horseman
+	Evil_horseman
+	Oni_small
+	Oni_small
+	Evil_Tengu

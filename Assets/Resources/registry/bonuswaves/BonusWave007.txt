@@ -1,0 +1,149 @@
+scene = InGame_hell
+
+selectedCharm = wealth
+initialleadershiplevel = 3
+baselevel = 2
+belllevel = 3
+archerlevel = 4
+[abilitylevels]
+	summonlightning = 10
+	summontornadoes = 10
+[selectedabilities]
+	000 = SummonLightning
+	001 = SummonTornadoes
+[helperlevels]
+	icearcher = 10
+	samuraiarcher = 10
+	rifleman = 1
+	nobunaga = 8
+	takeda = 8
+	
+[selectedhelpers]
+	000 = IceArcher
+	001 = SamuraiArcher
+	002 = Rifleman
+	003 = Nobunaga
+	004 = Takeda
+	
+[Commands]
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	1,1
+	Tengu
+	1,1
+	Tengu_air

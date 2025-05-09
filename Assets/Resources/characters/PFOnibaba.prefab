@@ -1,0 +1,1313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1452798612556355}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1452798612556355
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4243391073097192}
+  - 111: {fileID: 111506952639997466}
+  - 114: {fileID: 114336989899260864}
+  - 114: {fileID: 114829879088005234}
+  - 114: {fileID: 114934894135144445}
+  - 114: {fileID: 114860196964942842}
+  - 114: {fileID: 114467972933801048}
+  - 114: {fileID: 114379221521275384}
+  - 114: {fileID: 114487567702994779}
+  m_Layer: 0
+  m_Name: PFOnibaba
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4243391073097192
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2021.9769, y: 1309.8472, z: 2452.7373}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4945814821008219}
+  m_Father: {fileID: 0}
+--- !u!111 &111506952639997466
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 52d7fb12d833e704b9b1bea03a30ed78, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b3ef8953b8bddb54e855f8752a58d951, type: 2}
+  - {fileID: 7400000, guid: b7ed80b8518a86641a3f234cb21eb317, type: 2}
+  - {fileID: 7400000, guid: 394dcb301efeeb6418aadd9ad8792ac9, type: 2}
+  - {fileID: 7400000, guid: 14ce803e44f87f74a98ae1d7fe16849d, type: 2}
+  - {fileID: 7400000, guid: 6d031582f7830fe439884f6d14258402, type: 2}
+  - {fileID: 7400000, guid: db2ab0177c878e740a7f173365ee4141, type: 2}
+  - {fileID: 7400000, guid: 52d7fb12d833e704b9b1bea03a30ed78, type: 2}
+  - {fileID: 7400000, guid: 22fc554eba9612d4b9ea32a04f15b15b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114336989899260864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111677518495622756}
+  defaultBlendSpeed: 0.3
+  specificAnimSettings: []
+  alsoPlayOnAllChildren: 0
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114829879088005234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/PFOnibaba.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114934894135144445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: impact_target
+    joint: {fileID: 4542337850521033}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: buff_icon
+    joint: {fileID: 4861771920973477}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 170, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!114 &114860196964942842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  m_Name:
+  attackActive: 0
+  animatedWalkSpeed: 100
+  randomAnimSets: []
+  arrowImpactEffect: {fileID: 0}
+  bladeImpactEffect: {fileID: 0}
+  bladeCriticalImpactEffect: {fileID: 0}
+  bluntImpactEffect: {fileID: 0}
+  bluntCriticalImpactEffect: {fileID: 0}
+  snapToGround: 1
+--- !u!114 &114467972933801048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dbae7d6e4503ccce4e243938d2e0ad, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114773764251396447, guid: 8481e6e652e1b154ab9e0c59805efe7b, type: 2}
+  defaultMinDistance: 1
+  defaultMaxDistance: 500
+  defaultCustomEffect: {fileID: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  autoPlayEvent: Spawn
+  events:
+  - name: Spawn
+    clips:
+    - {fileID: 8300000, guid: 1923e337f16c57a4c9a30e00cd2eeb28, type: 3}
+    - {fileID: 8300000, guid: 1923e337f16c57a4c9a30e00cd2eeb28, type: 3}
+    - {fileID: 8300000, guid: 3455fc8529ba2e04d8ac6ed24b153335, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+--- !u!114 &114379221521275384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9deb42e7ebc7d9000d6a75dff5974047, type: 3}
+  m_Name:
+  playRandomAnimAtStartup: 0
+  cameraShakeIntensityMult: 1
+--- !u!114 &114487567702994779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452798612556355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1095251375276351
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4945814821008219}
+  - 111: {fileID: 111677518495622756}
+  - 114: {fileID: 114359831552879419}
+  m_Layer: 0
+  m_Name: onibaba
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4945814821008219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095251375276351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4522763784120662}
+  - {fileID: 4861771920973477}
+  m_Father: {fileID: 4243391073097192}
+--- !u!111 &111677518495622756
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095251375276351}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: dd0820277ffbeed44a6862d093d69cab, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: c7f1670ec59464c4b8f3cc4d3a17d80b, type: 2}
+  - {fileID: 7400000, guid: 260bd5fcfe6fbfa46a2397bb80b56129, type: 2}
+  - {fileID: 7400000, guid: b2bafd56c51e01a48ab30a337a578872, type: 2}
+  - {fileID: 7400000, guid: aa17b92c54a561b4d8c55b095236e5db, type: 2}
+  - {fileID: 7400000, guid: e7bc0d6f081d6a14f8799683d281abe1, type: 2}
+  - {fileID: 7400000, guid: 99c936399eba4f04c96f0042849adb53, type: 2}
+  - {fileID: 7400000, guid: dd0820277ffbeed44a6862d093d69cab, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114359831552879419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095251375276351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/Onibaba/onibaba.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114359831552879419}
+  - {fileID: 4821500185807017}
+  - {fileID: 137426336866275431}
+--- !u!1 &1880332359388093
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4522763784120662}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4522763784120662
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880332359388093}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4171990813506541}
+  m_Father: {fileID: 4945814821008219}
+--- !u!1 &1454166564726522
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4171990813506541}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba 1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4171990813506541
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454166564726522}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4522763784120662}
+--- !u!1 &1719769128016964
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4861771920973477}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4861771920973477
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719769128016964}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4821500185807017}
+  - {fileID: 4495520852560490}
+  m_Father: {fileID: 4945814821008219}
+--- !u!1 &1396574712177356
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4821500185807017}
+  - 137: {fileID: 137426336866275431}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4821500185807017
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396574712177356}
+  m_LocalRotation: {x: -0.4532646, y: 0.47416875, z: -0.52155805, w: 0.545612}
+  m_LocalPosition: {x: 0, y: 25.513525, z: -0.04843521}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_LocalEulerAnglesHint: {x: -81.97707, y: -2.5571976, z: 89.63969}
+  m_Children:
+  - {fileID: 4410700830762445}
+  - {fileID: 4542337850521033}
+  m_Father: {fileID: 4861771920973477}
+--- !u!137 &137426336866275431
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396574712177356}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e9fce7bd9443fb847bdc1370971c160c, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 11adf511e57b6cc47a2576dfb99b036f, type: 2}
+  m_Bones:
+  - {fileID: 4821500185807017}
+  - {fileID: 4542337850521033}
+  - {fileID: 4536638241006027}
+  - {fileID: 4200536971571032}
+  - {fileID: 4603186845365420}
+  - {fileID: 4156195696913905}
+  - {fileID: 4278362460728545}
+  - {fileID: 4566579879554476}
+  - {fileID: 4397682533883563}
+  - {fileID: 4562724124996161}
+  - {fileID: 4580162298563208}
+  - {fileID: 4018876860787653}
+  - {fileID: 4702495364295646}
+  - {fileID: 4809049598187867}
+  - {fileID: 4933582525339614}
+  - {fileID: 4832630172809312}
+  - {fileID: 4029457099327214}
+  - {fileID: 4539034832202886}
+  - {fileID: 4021544810418554}
+  - {fileID: 4449654490320665}
+  - {fileID: 4167537837619732}
+  - {fileID: 4410700830762445}
+  - {fileID: 4551118124553767}
+  - {fileID: 4254194293232293}
+  - {fileID: 4457265682503395}
+  - {fileID: 4042726671974706}
+  - {fileID: 4947376900695219}
+  - {fileID: 4268930513309546}
+  - {fileID: 4852435618834684}
+  - {fileID: 4289947598950998}
+  - {fileID: 4859288703034770}
+  m_AABB:
+    m_Center: {x: -42.238747, y: -5.3250656, z: -10.139229}
+    m_Extent: {x: 70.46871, y: 85.65786, z: 78.61754}
+  m_DirtyAABB: 0
+--- !u!1 &1536099482850810
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4410700830762445}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4410700830762445
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536099482850810}
+  m_LocalRotation: {x: -2.3467604E-18, y: -1.4167849E-16, z: -0.021082269, w: 0.99977773}
+  m_LocalPosition: {x: 3.611025, y: -0.15235879, z: 1.6915223E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 7.341483E-17, y: 1.623722E-14, z: 2.416029}
+  m_Children:
+  - {fileID: 4551118124553767}
+  - {fileID: 4947376900695219}
+  - {fileID: 4859288703034770}
+  m_Father: {fileID: 4821500185807017}
+--- !u!1 &1878410963863941
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4551118124553767}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4551118124553767
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878410963863941}
+  m_LocalRotation: {x: 5.447545E-10, y: -1.4673044E-08, z: 0.99931157, w: -0.03710064}
+  m_LocalPosition: {x: 6.1408944, y: 0.6494225, z: 6.2467904}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -1.6825652E-06, y: 2.0215197E-14, z: 175.7476}
+  m_Children:
+  - {fileID: 4254194293232293}
+  m_Father: {fileID: 4410700830762445}
+--- !u!1 &1235397969064645
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4254194293232293}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4254194293232293
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1235397969064645}
+  m_LocalRotation: {x: -1.9555447E-22, y: -2.4129368E-15, z: -0.17088006, w: 0.98529184}
+  m_LocalPosition: {x: -5.3254724, y: -3.6658342E-16, z: -2.1700982E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 4.724869E-14, y: 2.7243537E-13, z: 19.677984}
+  m_Children:
+  - {fileID: 4457265682503395}
+  m_Father: {fileID: 4551118124553767}
+--- !u!1 &1714301006630100
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4457265682503395}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4457265682503395
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1714301006630100}
+  m_LocalRotation: {x: 1.2852981E-08, y: -6.9015145E-09, z: 0.66143256, w: 0.75000465}
+  m_LocalPosition: {x: -8.696439, y: -1.815017E-15, z: -4.1191083E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 5.815417E-07, y: 1.5673315E-06, z: -82.81844}
+  m_Children:
+  - {fileID: 4042726671974706}
+  m_Father: {fileID: 4254194293232293}
+--- !u!1 &1927876523310896
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4042726671974706}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4042726671974706
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927876523310896}
+  m_LocalRotation: {x: -3.1241538E-24, y: -1.1391502E-15, z: 0.176714, w: 0.9842623}
+  m_LocalPosition: {x: -4.081967, y: 6.661338E-16, z: -2.927283E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.3067712E-14, y: 1.2848262E-13, z: -20.356834}
+  m_Children: []
+  m_Father: {fileID: 4457265682503395}
+--- !u!1 &1654781302454862
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4947376900695219}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4947376900695219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654781302454862}
+  m_LocalRotation: {x: 1.0782528E-08, y: 4.0031414E-10, z: 0.03710063, w: 0.99931157}
+  m_LocalPosition: {x: 6.1409154, y: 0.64942265, z: -6.24679}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.2364378E-06, y: 4.4063687E-15, z: -4.2523947}
+  m_Children:
+  - {fileID: 4268930513309546}
+  m_Father: {fileID: 4410700830762445}
+--- !u!1 &1245993916195839
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4268930513309546}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4268930513309546
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245993916195839}
+  m_LocalRotation: {x: 4.0850087E-25, y: -3.4523567E-17, z: -0.17088015, w: 0.98529184}
+  m_LocalPosition: {x: 5.32543, y: 4.6825193E-07, z: 8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 6.7602065E-16, y: 3.8979224E-15, z: 19.677994}
+  m_Children:
+  - {fileID: 4852435618834684}
+  m_Father: {fileID: 4947376900695219}
+--- !u!1 &1902751465910145
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4852435618834684}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4852435618834684
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902751465910145}
+  m_LocalRotation: {x: -9.445046E-09, y: 5.0715943E-09, z: 0.6614326, w: 0.7500046}
+  m_LocalPosition: {x: 8.696461, y: 8.083364E-06, z: -8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -4.273474E-07, y: -1.1517575E-06, z: -82.81845}
+  m_Children:
+  - {fileID: 4289947598950998}
+  m_Father: {fileID: 4268930513309546}
+--- !u!1 &1752968041596070
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4289947598950998}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4289947598950998
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1752968041596070}
+  m_LocalRotation: {x: -1.8944695E-09, y: 1.05518225E-08, z: 0.176714, w: 0.9842623}
+  m_LocalPosition: {x: 4.0819674, y: 1.5921238E-06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -6.414026E-15, y: -1.2284833E-06, z: -20.356834}
+  m_Children: []
+  m_Father: {fileID: 4852435618834684}
+--- !u!1 &1398931004903841
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4859288703034770}
+  m_Layer: 0
+  m_Name: onibaba:Skirt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4859288703034770
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1398931004903841}
+  m_LocalRotation: {x: -0.49927345, y: 0.50072557, z: 0.49927345, w: 0.50072557}
+  m_LocalPosition: {x: 9.022005, y: 0.9927613, z: -6.789621E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -89.8336, y: -90, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4410700830762445}
+--- !u!1 &1540942033350481
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4542337850521033}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4542337850521033
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540942033350481}
+  m_LocalRotation: {x: 0.99998087, y: 0.0061855116, z: 1.1121581E-16, w: 6.054557E-17}
+  m_LocalPosition: {x: -5.4872546, y: -1.1768364E-14, z: -5.5369125E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 1.2701234E-14, z: -0.70881194}
+  m_Children:
+  - {fileID: 4536638241006027}
+  m_Father: {fileID: 4821500185807017}
+--- !u!1 &1294248319173743
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4536638241006027}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_spine_hi_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4536638241006027
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1294248319173743}
+  m_LocalRotation: {x: -5.551115E-17, y: -5.902804E-17, z: 0.028717546, w: 0.9995876}
+  m_LocalPosition: {x: -4.297561, y: -3.1086245E-15, z: 9.526763E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -6.552734E-15, y: 6.578649E-15, z: -3.2912405}
+  m_Children:
+  - {fileID: 4200536971571032}
+  m_Father: {fileID: 4542337850521033}
+--- !u!1 &1541814366459395
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4200536971571032}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_spine_end_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4200536971571032
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541814366459395}
+  m_LocalRotation: {x: -2.3236912E-26, y: -6.238261E-18, z: 0.050939266, w: 0.99870175}
+  m_LocalPosition: {x: -4.8966804, y: 3.9413955E-15, z: 2.174563E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -3.6414042E-17, y: 7.13924E-16, z: -5.8397374}
+  m_Children:
+  - {fileID: 4566579879554476}
+  - {fileID: 4603186845365420}
+  - {fileID: 4933582525339614}
+  m_Father: {fileID: 4536638241006027}
+--- !u!1 &1454741858960087
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4566579879554476}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4566579879554476
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454741858960087}
+  m_LocalRotation: {x: -0.5019116, y: 0.6584649, z: -0.40910813, w: -0.38358748}
+  m_LocalPosition: {x: -0.7250025, y: 0.07415112, z: -6.0483737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -157.49384, y: 66.32387, z: 120.18266}
+  m_Children:
+  - {fileID: 4397682533883563}
+  m_Father: {fileID: 4200536971571032}
+--- !u!1 &1462898777851820
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4397682533883563}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4397682533883563
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462898777851820}
+  m_LocalRotation: {x: 0.039962724, y: 0.24334948, z: -0.0034143138, w: 0.96910906}
+  m_LocalPosition: {x: -6.694058, y: -9.485671E-15, z: 1.5859175E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 4.9318595, y: -28.160122, z: -0.8339679}
+  m_Children:
+  - {fileID: 4562724124996161}
+  m_Father: {fileID: 4566579879554476}
+--- !u!1 &1009236662423974
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4562724124996161}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4562724124996161
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009236662423974}
+  m_LocalRotation: {x: 0.006161835, y: 0.042948518, z: -0.00093795714, w: 0.9990579}
+  m_LocalPosition: {x: -5.801682, y: -3.7982486E-15, z: 2.9098127E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.70342606, y: -4.92362, z: 0.07734041}
+  m_Children:
+  - {fileID: 4580162298563208}
+  m_Father: {fileID: 4397682533883563}
+--- !u!1 &1074810173538755
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4580162298563208}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4580162298563208
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1074810173538755}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.035308, y: 8.990759E-15, z: 1.1671095E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4018876860787653}
+  m_Father: {fileID: 4562724124996161}
+--- !u!1 &1303460251655180
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4018876860787653}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4018876860787653
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303460251655180}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -7.1054274E-15, z: 8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4809049598187867}
+  - {fileID: 4702495364295646}
+  m_Father: {fileID: 4580162298563208}
+--- !u!1 &1272801331396659
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4809049598187867}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4809049598187867
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272801331396659}
+  m_LocalRotation: {x: -0.7123214, y: -0.25266573, z: 0.2000242, w: 0.62349707}
+  m_LocalPosition: {x: -5.5644207, y: -0.24500509, z: -0.79541653}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -98.19532, y: 1.7254162, z: -37.5652}
+  m_Children: []
+  m_Father: {fileID: 4018876860787653}
+--- !u!1 &1281393387570493
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4702495364295646}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4702495364295646
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1281393387570493}
+  m_LocalRotation: {x: 0.76545167, y: -0.025941946, z: -0.52668774, w: -0.3687964}
+  m_LocalPosition: {x: -1.6857245, y: -2.0230064, z: 1.4361422}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -107.86587, y: -55.633392, z: -38.15914}
+  m_Children: []
+  m_Father: {fileID: 4018876860787653}
+--- !u!1 &1892622357212374
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4603186845365420}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4603186845365420
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1892622357212374}
+  m_LocalRotation: {x: 0.5349912, y: -0.4623683, z: 0.5349912, w: 0.4623683}
+  m_LocalPosition: {x: -4.4572015, y: 5.3290705E-15, z: 1.9691227E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 98.3293, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4156195696913905}
+  m_Father: {fileID: 4200536971571032}
+--- !u!1 &1073906085336712
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4156195696913905}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4156195696913905
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1073906085336712}
+  m_LocalRotation: {x: -0.08618083, y: -8.241702E-16, z: 2.783651E-16, w: 0.99627954}
+  m_LocalPosition: {x: -1.2915814E-16, y: 2.0742884, z: 2.9525612E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -9.887861, y: 9.1342556E-14, z: -3.9918786E-14}
+  m_Children:
+  - {fileID: 4278362460728545}
+  m_Father: {fileID: 4603186845365420}
+--- !u!1 &1110894780592294
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4278362460728545}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_head_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4278362460728545
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1110894780592294}
+  m_LocalRotation: {x: -0.037351605, y: 0, z: -0, w: 0.9993022}
+  m_LocalPosition: {x: -1.3674409E-13, y: 41.76164, z: -19.084503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -4.2811747, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4156195696913905}
+--- !u!1 &1492868004734450
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4933582525339614}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4933582525339614
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492868004734450}
+  m_LocalRotation: {x: 0.6584649, y: 0.5019116, z: 0.38358748, w: -0.40910813}
+  m_LocalPosition: {x: -0.7249573, y: 0.07414623, z: 6.04837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -157.49384, y: 66.32386, z: -59.81733}
+  m_Children:
+  - {fileID: 4832630172809312}
+  m_Father: {fileID: 4200536971571032}
+--- !u!1 &1556634781116717
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4832630172809312}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4832630172809312
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1556634781116717}
+  m_LocalRotation: {x: 0.039962724, y: 0.24334948, z: -0.0034143138, w: 0.96910906}
+  m_LocalPosition: {x: 6.694062, y: -3.1786334E-05, z: -6.260807E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 4.9318595, y: -28.160122, z: -0.8339679}
+  m_Children:
+  - {fileID: 4029457099327214}
+  m_Father: {fileID: 4933582525339614}
+--- !u!1 &1788341852360517
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4029457099327214}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4029457099327214
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788341852360517}
+  m_LocalRotation: {x: 0.006157674, y: 0.038578775, z: -0.00096489675, w: 0.99923617}
+  m_LocalPosition: {x: 5.801641, y: 2.613731E-05, z: -2.2731244E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.7029233, y: -4.422496, z: 0.08351138}
+  m_Children:
+  - {fileID: 4539034832202886}
+  m_Father: {fileID: 4832630172809312}
+--- !u!1 &1614020827692667
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4539034832202886}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4539034832202886
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614020827692667}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.0353365, y: -7.947924E-05, z: 7.1321865E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4021544810418554}
+  m_Father: {fileID: 4029457099327214}
+--- !u!1 &1983302764182063
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4021544810418554}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4021544810418554
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983302764182063}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.1054274E-15, y: 0, z: 8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4167537837619732}
+  - {fileID: 4449654490320665}
+  m_Father: {fileID: 4539034832202886}
+--- !u!1 &1759740755757766
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4167537837619732}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4167537837619732
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1759740755757766}
+  m_LocalRotation: {x: -0.7123214, y: -0.25266573, z: 0.2000242, w: 0.62349707}
+  m_LocalPosition: {x: 5.564416, y: 0.24508117, z: 0.7954137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -98.19532, y: 1.7254162, z: -37.5652}
+  m_Children: []
+  m_Father: {fileID: 4021544810418554}
+--- !u!1 &1479190204188525
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4449654490320665}
+  m_Layer: 0
+  m_Name: onibaba:Onibaba_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4449654490320665
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479190204188525}
+  m_LocalRotation: {x: 0.76545167, y: -0.025941946, z: -0.52668774, w: -0.3687964}
+  m_LocalPosition: {x: 1.6857034, y: 2.0230918, z: -1.4361527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -107.86587, y: -55.633392, z: -38.15914}
+  m_Children: []
+  m_Father: {fileID: 4021544810418554}
+--- !u!1 &1329719590289040
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4495520852560490}
+  m_Layer: 0
+  m_Name: onibaba:weightSpine_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4495520852560490
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329719590289040}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4861771920973477}

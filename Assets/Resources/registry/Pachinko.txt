@@ -1,0 +1,109 @@
+
+/--------------------------------------------
+/	Global Infos
+/--------------------------------------------
+
+FlowerOpenReward = 10
+FlowerClosedReward = 5
+CoinCatchReward = 25
+gravity = -35
+
+[coin100]
+	weight = 200
+
+[coin1000]
+	weight = 5
+
+[coin500]
+	weight = 10
+
+[coin5000]
+	weight = 1
+
+[gem25]
+	weight = 0
+
+[gem10]
+	weight = 0
+
+[gem5]
+	weight = 1
+
+[luck]
+	weight = 10
+
+[z+luck]
+	weight = 10
+
+[power]
+	weight = 25
+
+[z+power]
+	weight = 25
+
+[haste]
+	weight = 15
+
+[z+haste]
+	weight = 15
+
+[friendship]
+	weight = 10
+
+[friend_panzer]
+	weight = 10
+
+[friend_spearman]
+	weight = 10
+
+[z+horde]
+	weight = 10
+
+[z+oni]
+	weight = 10
+
+[wealth] 
+	weight = 25
+
+[z+wealth] 
+	weight = 25
+
+[peace]
+	weight = 15
+
+[z+peace]
+	weight = 15
+
+[revivePotion]
+	weight = 2
+
+[revivePotionZ]
+	weight = 2
+
+[healthSmall]
+	weight = 25
+
+[healthSmallZ]
+	weight = 25
+
+[healthBig]
+	weight = 15
+
+[healthBigZ]
+	weight = 15
+
+[leadershipSmall]
+	weight = 25
+
+[leadershipSmallZ]
+	weight = 25
+
+[leadershipBig]
+	weight = 15
+
+[leadershipBigZ]
+	weight = 15
+
+[loss]
+	weight = 1500
+

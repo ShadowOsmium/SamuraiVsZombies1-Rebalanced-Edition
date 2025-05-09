@@ -1,0 +1,79 @@
+
+transitionSpeed = 1.0
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_zombie_classic_main
+	keepAspectRatio = no
+	priority = 0
+	hotspot = 0, 0
+	position = 0, 0
+
+[title_classic_svz]
+	type = sprite
+	file = Sprites/Localized/split_screen_logo
+	priority = 2
+	position = 236, 160
+
+[title_classic]
+	type = sprite
+	file = Sprites/Localized/classic_mode
+	priority = 2
+	position = 236, 340
+
+[title_classic_glow]
+	type = sprite
+	file = Sprites/Localized/classic_mode_glow
+	priority = 1
+	position = 236, 340
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 1.0
+
+[title_zombies_svz]
+	type = sprite
+	file = Sprites/Localized/split_screen_logo
+	priority = 2
+	position = 788, 160
+
+[title_zombies]
+	type = sprite
+	file = Sprites/Localized/zombie_mode
+	priority = 2
+	position = 788, 340
+
+[title_zombies_glow]
+	type = sprite
+	file = Sprites/Localized/zombie_mode_glow
+	priority = 1
+	position = 788, 340
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 1.0
+
+[backBtn]
+	type = button
+	normalFrame = Sprites/Menus/back_button
+	position = 60, E-60
+	offsetWhenPressed = 4, 4
+	priority = 51
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -120, 120
+		[alpha]
+			alpha = 0.0
+
+[mode_classic]
+	type = touchArea
+	rect = 0, 0, 512, 650
+
+
+[mode_zombies]
+	type = touchArea
+	rect = 512, 0, 512, 650
+

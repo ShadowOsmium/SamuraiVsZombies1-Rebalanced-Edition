@@ -1,0 +1,136 @@
+scene = InGame_hell
+
+selectedCharm = peace
+initialleadershiplevel = 2
+baselevel = 1
+belllevel = 1
+archerlevel = 1
+[abilitylevels]
+	divineintervention = 8
+	lethargy = 5
+[selectedabilities]
+	000 = DivineIntervention
+	001 = Lethargy
+[helperlevels]
+	samuraiarcher = 8
+	rifleman = 1
+	HeavySamurai = 8
+	spearhorseman = 5
+	Takeda = 8
+	
+[selectedhelpers]
+	000 = SamuraiArcher
+	001 = Rifleman
+	002 = HeavySamurai
+	003 = SpearHorseman
+	004 = Takeda
+	
+[Commands]
+	Oni_small
+	4,5
+	L_Zombie_Sword
+	1,3
+	Oni_small
+	1,2
+	L_Zombie_Bow
+	4,5
+	H_Zombie_Ax
+	1,1
+	Oni_small
+	1,1
+	L_Zombie_Bow	
+	1,1
+	Oni_small
+	1,1
+	L_Zombie_Sword
+	1,1
+	L_Zombie_Sword
+	1,2
+	H_Zombie_Ax
+	2,3
+	H_Zombie_Ax
+	1,1
+	Oni
+	1,1
+	Chochinobake
+	L_Zombie_Bow
+	1,1
+	Oni_small
+	1,1
+	H_Zombie_Ax
+	1,2
+	L_Zombie_Sword
+	1,2
+	L_Zombie_Sword
+	1,1
+	H_Zombie_Ax
+	1,2
+	Chochinobake
+	L_Zombie_Sword
+	1,2
+	L_Zombie_Sword
+	1,2
+	H_Zombie_Ax
+	3,4
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	1,1
+	H_Zombie_Ax
+	1,2
+	Oni
+	1,2
+	Oni_small
+	1,2
+	Chochinobake
+	H_Zombie_Ax
+	3,4
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Chochinobake
+	H_Zombie_Ax
+	1,1
+	H_Zombie_Ax
+	1,1
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Oni
+	1,2
+	Oni_small
+	1,2
+	Chochinobake
+	H_Zombie_Ax
+	3,4
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Chochinobake
+	H_Zombie_Ax
+	1,1
+	H_Zombie_Ax
+	1,1
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	

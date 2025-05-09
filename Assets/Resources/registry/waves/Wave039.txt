@@ -1,0 +1,163 @@
+scene = InGame_springday
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 2
+/	Bow = 2
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	Chochinobake_alt
+	Komusou
+	Onibaba
+	Onibaba
+	Onibaba
+	2,2
+	Horseman
+	H_Zombie_Bow_2
+	2,2
+	Horseman
+	H_Zombie_Bow_2
+	Chochinobake_alt
+	2,2
+	Horseman
+	H_Zombie_Bow_2
+	2,2
+	Horseman
+	Wayundo_Metal
+	Chochinobake_alt
+	Chochinobake_alt
+	2,2
+	Wayundo_Fire
+	Oni
+	Komusou
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	1,1
+	Onibaba
+	Onibaba
+	4,4
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	H_Zombie_Bow_2
+	Chochinobake_alt
+	1,1
+	Oni_small
+	H_Zombie_Bow_2
+	1,1
+	Oni_small
+	H_Zombie_Bow_2
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	Chochinobake_alt
+	Komusou
+	3,3
+	Wayundo_metal
+	Oni
+	1,1
+	Tengu
+	1,1
+	Tengu	
+	Onibaba
+	Onibaba
+	Onibaba
+	Chochinobake_alt
+	Chochinobake_alt
+	Chochinobake_alt
+	3,3
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	2,2
+	Horseman
+	2,2
+	Horseman
+	2,2
+	Horseman
+	2,2
+	Horseman
+	2,2
+	Horseman
+
+	
+	
+	

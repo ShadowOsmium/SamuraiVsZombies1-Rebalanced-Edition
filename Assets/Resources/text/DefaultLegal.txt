@@ -1,0 +1,11 @@
+Samurai vs. Zombies: Defense
+*version
+© 2012 Glu Mobile Inc. All Rights Reserved.
+Glu, the "Gman" Logo, and Samurai vs. Zombies are trademarks or registered trademarks of Glu Mobile Inc. in the U.S. and/or other countries.
+
+Use of this software is subject to Glu’s terms of use located at http://www.glu.com/terms and privacy policy located at 
+http://www.glu.com/privacy.
+Support located at http://www.glu.com/support.
+
+This program was created using Unity 3.4.2f3.  
+Portions of this program © 2005-2011 Unity Technologies.

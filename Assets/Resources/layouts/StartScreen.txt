@@ -1,0 +1,233 @@
+
+transitionSpeed = 1.0
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_start_screen_01
+	keepAspectRatio = false
+	priority = 0
+	hotspot = 0, 0
+	position = 0, 0
+
+[bloodTop]
+	type = sprite
+	file = Sprites/Menus/bg_start_screen_03
+	keepAspectRatio = false
+	priority = 0.1
+	hotspot = 0, 0
+	position = 0, 0
+
+[samurai]
+	type = sprite
+	file = Sprites/Menus/start_screen_hero_000
+	priority = 0.2
+	position = C-30, C+80
+	[transition]
+		[position]
+			anim = sineout
+			offset = -1024, 0
+
+[glowEyes]
+	type = sprite
+	file = Sprites/Menus/start_screen_eyes_glow
+	keepAspectRatio = false
+	priority = 0.15
+	position = 455, 496
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 1.0
+
+[bloodBottom]
+	type = sprite
+	file = Sprites/Menus/bg_start_screen_02
+	keepAspectRatio = false
+	priority = 0.3
+	hotspot = 0, 0
+	position = 0, 1
+
+[title]
+	type = sprite
+	file = Sprites/Localized/start_screen
+	keepAspectRatio = true
+	priority = 0.4
+	position = C, 180
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -50
+		[alpha]
+			alpha = 0
+
+[version]
+	type = label
+	font = default18
+	color = black
+	position = E-4, 4
+	priority = 5
+	anchor = UpperRight
+	[transition]
+		[alpha]
+			alpha = 0
+	
+
+/-------------------------------------------------------------------
+/	Start button
+/-------------------------------------------------------------------
+
+[startbutton]
+	type = button
+	normalframe = Sprites/Localized/start_game
+	keepAspectRatio = true
+	priority = 2.1
+	position = C, 570
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 300
+			animRange = 0, 0.6
+		[alpha]
+			alpha = 0
+			animRange = 0, 0.6
+
+[startbuttonglow]
+	type = sprite
+	file = Sprites/Localized/start_game_glow
+	keepAspectRatio = true
+	priority = 2
+	position = C, 570
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 300
+			animRange = 0, 0.6
+		[alpha]
+			alpha = 0
+			animRange = 0, 0.6
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 1.0
+
+
+/-------------------------------------------------------------------
+/	Options
+/-------------------------------------------------------------------
+
+[options]
+	type = button
+	normalframe = Sprites/Localized/options
+	keepAspectRatio = true
+	priority = 2.1
+	position = 180, 590
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 300
+			animRange = 0.4, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.4, 1
+
+[optionsGlow]
+	type = sprite
+	file = Sprites/Localized/options_glow
+	keepAspectRatio = true
+	priority = 2
+	position = 180, 590
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 300
+			animRange = 0.4, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.4, 1
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 1.0
+
+
+/-------------------------------------------------------------------
+/	Game Center, iCloud
+/-------------------------------------------------------------------
+
+[gameCenter]
+	type = button
+	normalframe = Sprites/Menus/icon_game_center
+	priority = 3
+	position = 50, 50
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = CircOut
+			offset = 0, -500
+			animRange = 0.4, 0.8
+			
+[iCloud]
+	type = button
+	normalframe = Sprites/Menus/icon_cloud
+	priority = 3
+	position = 50, 150
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = CircOut
+			offset = 0, -500
+			animRange = 0.4, 0.8
+
+[cheats]
+	type = button
+	normalframe = Sprites/Menus/coin
+	priority = 3
+	position = 50, 300
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = CircOut
+			offset = 0, -500
+			animRange = 0.4, 0.8
+
+
+/-------------------------------------------------------------------
+/	Other Games
+/-------------------------------------------------------------------
+
+[otherGames]
+	type = button
+	normalframe = Sprites/Localized/other_games
+	keepAspectRatio = true
+	priority = 2.1
+	position = 844, 590
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 300
+			animRange = 0.4, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.4, 1
+
+[otherGamesGlow]
+	type = sprite
+	file = Sprites/Localized/other_games_glow
+	keepAspectRatio = true
+	priority = 2
+	position = 844, 590
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 300
+			animRange = 0.4, 1
+		[alpha]
+			alpha = 0
+			animRange = 0.4, 1
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 1.0

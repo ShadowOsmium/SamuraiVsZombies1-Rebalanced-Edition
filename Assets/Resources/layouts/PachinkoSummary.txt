@@ -1,0 +1,33 @@
+
+{Layouts/DefaultDialogTaller}
+
+[title]
+	type = label
+	font = default64
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, 200
+	maxWidth = 600
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	text = @pachinkosum_title
+	[transition]
+		[alpha]
+			alpha = 0
+
+[desc]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, 244
+	maxWidth = 600
+	priority = 1
+	anchor = UpperCenter
+	alignment = center
+	text = @pachinkosum_desc
+	[transition]
+		[alpha]
+			alpha = 0
+

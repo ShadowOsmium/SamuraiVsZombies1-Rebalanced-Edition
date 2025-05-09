@@ -1,0 +1,41 @@
+
+/--------------------------------------------
+/	Global Infos
+/--------------------------------------------
+
+purchase_classic = @store_format_smithy_levelup
+purchase_zombies = @store_format_brains_levelup
+
+desc_classic = @ab_leadership
+desc_zombies = @ab_brains
+
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	storeCost = 0
+	resourcesPerSeconds = 1.0
+	maxResource = 50
+	levelUpThreshold = 30
+
+[002]
+	storeCost = 0,30
+	resourcesPerSeconds = 2.0
+	maxResource = 75
+	levelUpThreshold = 50
+
+[003]
+	storeCost = 0,50
+	resourcesPerSeconds = 2.5
+	maxResource = 100
+	levelUpThreshold = 75
+
+[004]
+	storeCost = 0,60
+	hideInStore = True
+	resourcesPerSeconds = 3
+	maxResource = 125
+	levelUpThreshold = 125
+

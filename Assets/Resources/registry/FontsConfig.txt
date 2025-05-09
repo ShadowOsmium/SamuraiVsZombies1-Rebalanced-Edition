@@ -1,0 +1,106 @@
+[AllResolutions]
+	320
+	480
+	640
+	768
+	1536
+
+/ These are resolution overrides for specific Device+Language
+iPad1Gen+Chinese = 640
+iPad1Gen+Japanese = 640
+iPad1Gen+Korean = 640
+
+
+[Chinese]
+	[320]
+		[default64]
+			prefab = Fonts/Chinese/320/default64p
+			scale = 0.5
+	[480]
+		[default64]
+			prefab = Fonts/Chinese/480/default64p
+			scale = 0.5
+	[640]
+		[default32]
+			prefab = Fonts/Chinese/640/default32p
+			scale = 0.5		
+		[default64]
+			prefab = Fonts/Chinese/640/default64p
+			scale = 0.5
+	[768]
+		[default64]
+			prefab = Fonts/Chinese/768/default64p
+			scale = 0.5
+	[1536]
+		[default18]
+			prefab = Fonts/Chinese/1536/default18p
+			scale = 0.25
+		[default32]
+			prefab = Fonts/Chinese/1536/default32p
+			scale = 0.25
+		[default64]
+			prefab = Fonts/Chinese/1536/default64p
+			scale = 0.5
+			
+[Japanese]
+	[320]
+		[default64]
+			prefab = Fonts/Japanese/320/default64p
+			scale = 0.5
+	[480]
+		[default64]
+			prefab = Fonts/Japanese/480/default64p
+			scale = 0.5
+	[640]
+		[default32]
+			prefab = Fonts/Japanese/640/default32p
+			scale = 0.5		
+		[default64]
+			prefab = Fonts/Japanese/640/default64p
+			scale = 0.5
+	[768]
+		[default64]
+			prefab = Fonts/Japanese/768/default64p
+			scale = 0.5
+	[1536]
+		[default18]
+			prefab = Fonts/Japanese/1536/default18p
+			scale = 0.25
+		[default32]
+			prefab = Fonts/Japanese/1536/default32p
+			scale = 0.25
+		[default64]
+			prefab = Fonts/Japanese/1536/default64p
+			scale = 0.5
+			
+[Korean]
+	[320]
+		[default64]
+			prefab = Fonts/Korean/320/default64p
+			scale = 0.5
+	[480]
+		[default64]
+			prefab = Fonts/Korean/480/default64p
+			scale = 0.5
+	[640]
+		[default32]
+			prefab = Fonts/Korean/640/default32p
+			scale = 0.5		
+		[default64]
+			prefab = Fonts/Korean/640/default64p
+			scale = 0.5
+	[768]
+		[default64]
+			prefab = Fonts/Korean/768/default64p
+			scale = 0.5
+	[1536]
+		[default18]
+			prefab = Fonts/Korean/1536/default18p
+			scale = 0.25
+		[default32]
+			prefab = Fonts/Korean/1536/default32p
+			scale = 0.25
+		[default64]
+			prefab = Fonts/Korean/1536/default64p
+			scale = 0.5
+

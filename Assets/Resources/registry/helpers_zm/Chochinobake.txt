@@ -1,0 +1,124 @@
+
+/ NOTE: Stats loosely based on "Ninja Girl".
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_chochinobake_name
+desc = @helper_chochinobake_desc
+prefab = Characters/PFChochinobakeAlt
+HUDIcon = Sprites/Icons/enemy_chochinobake
+waveToUnlock = 15
+resourcesCost = 5.0
+cooldownTimer = 7.5
+attackFrequency = 1.0
+exploseOnMelee = True
+lane = front
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 5000,0
+	health = 29
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 50
+	knockbackPower = 100
+	knockbackResistance = 5
+	
+[002]
+	cost = 7500,0
+	health = 40
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 100
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[003]
+	cost = 10000,0
+	health = 59
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 150
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[004]
+	cost = 50000,0
+	health = 75
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 200
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[005]
+	cost = 0,10
+	health = 85
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 250
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[006]
+	cost = 0,12
+	health = 95
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 300
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[007]
+	cost = 0,18
+	health = 105
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 400
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[008]
+	cost = 0,22
+	health = 110
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 500
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[009]
+	cost = 0,26
+	health = 150
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 550
+	knockbackPower = 100
+	knockbackResistance = 5
+
+[010]
+	cost = 0,30
+	health = 200
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 600
+	knockbackPower = 100
+	knockbackResistance = 5
+
+

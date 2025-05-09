@@ -1,0 +1,66 @@
+scene = InGame_hell
+
+selectedCharm = luck
+initialleadershiplevel = 4
+baselevel = 3
+belllevel = 3
+archerlevel = 4
+[abilitylevels]
+	summonlightning = 10
+	giantwave = 3
+[selectedabilities]
+	000 = SummonLightning
+	001 = GiantWave
+[helperlevels]
+	farmer = 10
+	swordsmith = 1
+	samurai = 10
+	nobunaga = 10
+	takeda = 10
+	
+[selectedhelpers]
+	000 = Farmer
+	001 = Swordsmith
+	002 = Samurai
+	003 = Nobunaga
+	004 = Takeda
+
+[Commands]
+	Jurogumo
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	1,1
+	Oni
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	

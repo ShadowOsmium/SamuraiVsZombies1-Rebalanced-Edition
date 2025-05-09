@@ -1,0 +1,67 @@
+scene = InGame_hell_purple
+
+[rewards]
+
+[Commands]
+	Evil_Nobunaga
+	Evil_Onibaba
+	Evil_Onibaba
+	Evil_Onibaba
+	1,1
+	(
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Zombie_Sword
+	Evil_Zombie_Sword
+	Evil_Zombie_Sword
+	Evil_Farmer
+	Evil_Farmer
+	)
+	Evil_Oni_boss
+	Evil_Taiko_Drummer
+	Evil_Komusou
+	Evil_Onibaba
+	Evil_Onibaba

@@ -1,0 +1,17 @@
+
+transitionSpeed = 0.3
+
+[image]
+	type = sprite
+	file = Sprites/Menus/coin
+	/keepAspectRatio = true
+	priority = 1
+	position = C, C
+	[transition]
+		[alpha]
+			alpha = 0
+
+[touchArea]
+	type = touchArea
+	rect = 0, 0, 1024, 768
+	

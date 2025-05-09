@@ -1,0 +1,94 @@
+/ Inspired by Wave 28
+
+scene = InGame_hell_green
+villageArchers = 1
+
+
+[Commands]
+	FarmerSword
+	2,2
+	FarmerSword
+	Samurai
+	2,2
+	FarmerSword
+	1,1
+	FarmerSword
+	Samurai
+	1,1
+	FarmerSword
+	2,2
+	FarmerSword
+	Swordsmith
+	2,2
+	FarmerSword
+	1,1
+	FarmerSword
+	1,1
+	SamuraiShield_Green
+	5,5
+	FarmerStilts
+	Nobunaga
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	Swordsmith
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	(
+	SamuraiShield_Green
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	Nobunaga
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	Nobunaga
+	1,1
+	FarmerStilts
+	Swordsmith
+	)
+	20,20
+	SamuraiShield
+	3,3
+	Nobunaga
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	Nobunaga
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	1,1
+	Swordsmith
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	

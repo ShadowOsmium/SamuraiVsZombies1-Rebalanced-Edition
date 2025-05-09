@@ -1,0 +1,677 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1820995421617338}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1820995421617338
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4748211798976672}
+  - 114: {fileID: 114181597494694121}
+  - 111: {fileID: 111804112950867673}
+  - 114: {fileID: 114015490026528527}
+  - 114: {fileID: 114541336687211712}
+  - 114: {fileID: 114846203311365336}
+  - 114: {fileID: 114721427016460330}
+  - 114: {fileID: 114410405874801390}
+  - 114: {fileID: 114080356295255218}
+  m_Layer: 0
+  m_Name: PFCartofDoom
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4748211798976672
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.76721, y: -0.77619934, z: 252.05884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4332486730997389}
+  m_Father: {fileID: 0}
+--- !u!114 &114181597494694121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: impact_target
+    joint: {fileID: 4098686543539028}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: -1.669693, y: -9.06731, z: 48.675785}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: fuse1
+    joint: {fileID: 4642100150056577}
+    autoAttachPrefab: {fileID: 1371283352555291, guid: 1c8f7588ddeab4e43a1edfb59af0360c, type: 2}
+    transformOffset:
+      position: {x: -20, y: 33, z: -42}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: fuse2
+    joint: {fileID: 4768176320911351}
+    autoAttachPrefab: {fileID: 1371283352555291, guid: 1c8f7588ddeab4e43a1edfb59af0360c, type: 2}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: fuse3
+    joint: {fileID: 4826369366802570}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: fuse4
+    joint: {fileID: 4124238555083083}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: fuse5
+    joint: {fileID: 4876464744986470}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: fuse6
+    joint: {fileID: 4551880594587215}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: fuse7
+    joint: {fileID: 4513926274972055}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: body_effect
+    joint: {fileID: 4332486730997389}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!111 &111804112950867673
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 368d877b8ac40f340aa8b9e3bfca4117, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 59e264e8e5c788442ac9d893ce61388e, type: 2}
+  - {fileID: 7400000, guid: e29aff6159e10a1438c9a4a690aadda8, type: 2}
+  - {fileID: 7400000, guid: d80a56f8b3f12d14eaecc3934beeefc5, type: 2}
+  - {fileID: 7400000, guid: 9531ee3d32c643940bd12fa4c2c566d6, type: 2}
+  - {fileID: 7400000, guid: 2fbbd36d9580bee42bd3c934cd73078a, type: 2}
+  - {fileID: 7400000, guid: 368d877b8ac40f340aa8b9e3bfca4117, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114015490026528527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111211115916933401}
+  defaultBlendSpeed: 0.3
+  specificAnimSettings: []
+  alsoPlayOnAllChildren: 0
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114541336687211712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  m_Name:
+  attackActive: 0
+  animatedWalkSpeed: 100
+  randomAnimSets: []
+  arrowImpactEffect: {fileID: 0}
+  bladeImpactEffect: {fileID: 0}
+  bladeCriticalImpactEffect: {fileID: 0}
+  bluntImpactEffect: {fileID: 0}
+  bluntCriticalImpactEffect: {fileID: 0}
+  snapToGround: 1
+--- !u!114 &114846203311365336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/PFCartofDoom.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114721427016460330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9deb42e7ebc7d9000d6a75dff5974047, type: 3}
+  m_Name:
+  playRandomAnimAtStartup: 0
+  cameraShakeIntensityMult: 1
+--- !u!114 &114410405874801390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dbae7d6e4503ccce4e243938d2e0ad, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114001092833139821, guid: 6b7a0014ac0643a40a6ef5ac5e1a5019, type: 2}
+  defaultMinDistance: 250
+  defaultMaxDistance: 5000
+  defaultCustomEffect: {fileID: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  autoPlayEvent: Spawn
+  events: []
+--- !u!114 &114080356295255218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820995421617338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1812993012599859
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4332486730997389}
+  - 111: {fileID: 111211115916933401}
+  - 114: {fileID: 114991296679590619}
+  m_Layer: 0
+  m_Name: cartofdoom
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4332486730997389
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812993012599859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4098686543539028}
+  - {fileID: 4074785680184777}
+  m_Father: {fileID: 4748211798976672}
+--- !u!111 &111211115916933401
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812993012599859}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: e7d940c28af3e434e92c255bed499556, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: d5a5287830fbf464e803107e87f2eb0a, type: 2}
+  - {fileID: 7400000, guid: fae4db9eb45717643b3f6d6bc8bc3008, type: 2}
+  - {fileID: 7400000, guid: b4fb5e735b0a7784ab38bcf151b0eff3, type: 2}
+  - {fileID: 7400000, guid: 4951b896b7295e849ab16bbe6b0eabef, type: 2}
+  - {fileID: 7400000, guid: 5469dbc783135a24ab13586f43774c2d, type: 2}
+  - {fileID: 7400000, guid: e7d940c28af3e434e92c255bed499556, type: 2}
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114991296679590619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812993012599859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/CartOfDoom/cartofdoom.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114991296679590619}
+  - {fileID: 137071990245554694}
+  - {fileID: 4070573899265362}
+--- !u!1 &1450750311161828
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4098686543539028}
+  - 137: {fileID: 137071990245554694}
+  m_Layer: 0
+  m_Name: cartofdoom:CartJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4098686543539028
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450750311161828}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 56.696045, z: 0}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+  m_Children:
+  - {fileID: 4642100150056577}
+  - {fileID: 4768176320911351}
+  - {fileID: 4826369366802570}
+  - {fileID: 4070573899265362}
+  - {fileID: 4124238555083083}
+  - {fileID: 4876464744986470}
+  - {fileID: 4479773547233860}
+  - {fileID: 4551880594587215}
+  - {fileID: 4513926274972055}
+  m_Father: {fileID: 4332486730997389}
+--- !u!137 &137071990245554694
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450750311161828}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 18cd3d72eeaf3ff40b50e92ee0c4b62c, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: d852fac0a8f51bc46a643f9b97350b7d, type: 2}
+  m_Bones:
+  - {fileID: 4098686543539028}
+  - {fileID: 4479773547233860}
+  - {fileID: 4124238555083083}
+  - {fileID: 4551880594587215}
+  - {fileID: 4513926274972055}
+  - {fileID: 4876464744986470}
+  - {fileID: 4768176320911351}
+  - {fileID: 4642100150056577}
+  - {fileID: 4826369366802570}
+  - {fileID: 4070573899265362}
+  - {fileID: 4420658537542555}
+  m_AABB:
+    m_Center: {x: -19170.184, y: 8.198738, z: -5553.095}
+    m_Extent: {x: 19585.324, y: 155.4114, z: 13972.176}
+  m_DirtyAABB: 0
+--- !u!1 &1003593027324546
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4642100150056577}
+  m_Layer: 0
+  m_Name: cartofdoom:blueJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4642100150056577
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1003593027324546}
+  m_LocalRotation: {x: 0.12945299, y: -0.13610245, z: -0.71168834, w: 0.67691785}
+  m_LocalPosition: {x: 15.07965, y: -6.9555144, z: 12.236205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 21.652918, y: -2.920258E-07, z: 92.86876}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1668034212496450
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4768176320911351}
+  m_Layer: 0
+  m_Name: cartofdoom:BundleJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4768176320911351
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668034212496450}
+  m_LocalRotation: {x: -1.387779E-17, y: -7.4159435E-17, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 33.640182, y: 6.913788, z: -52.751255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 4.884529E-15, y: 7.133521E-15, z: 90}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1935542652638508
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4826369366802570}
+  m_Layer: 0
+  m_Name: cartofdoom:dragonJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4826369366802570
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935542652638508}
+  m_LocalRotation: {x: 0.404706, y: -0.34063923, z: -0.61964905, w: 0.5798388}
+  m_LocalPosition: {x: 5.2907777, y: -19.292006, z: 10.108305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 63.712498, y: -6.114729, z: 90.00001}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1731906240204595
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4070573899265362}
+  m_Layer: 0
+  m_Name: cartofdoom:flag1jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4070573899265362
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731906240204595}
+  m_LocalRotation: {x: 6.1854653E-15, y: -6.1397615E-15, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 4.559893, y: 1.0124997E-15, z: -68.56667}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 9.986942E-13, y: -3.7033072E-15, z: 90}
+  m_Children:
+  - {fileID: 4420658537542555}
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1579933780915830
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4420658537542555}
+  m_Layer: 0
+  m_Name: cartofdoom:flag2jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4420658537542555
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579933780915830}
+  m_LocalRotation: {x: -1.831868E-15, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.7331654E-30, y: -8.374985, z: -6.0409727}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.0991661E-13, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4070573899265362}
+--- !u!1 &1386687620121085
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4124238555083083}
+  m_Layer: 0
+  m_Name: cartofdoom:orangecapJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4124238555083083
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386687620121085}
+  m_LocalRotation: {x: 2.9923983E-17, y: -2.9923983E-17, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 64.13585, y: 6.7518387, z: -22.04301}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 4.849389E-15, y: -3.531125E-31, z: 90}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1065513410086447
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4876464744986470}
+  m_Layer: 0
+  m_Name: cartofdoom:redJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4876464744986470
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1065513410086447}
+  m_LocalRotation: {x: 0, y: -5.551115E-17, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 31.327238, y: 13.884064, z: -42.45117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 4.4979834E-15, y: 4.4979834E-15, z: 90}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1706986933310342
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4479773547233860}
+  m_Layer: 0
+  m_Name: cartofdoom:wheelJnt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4479773547233860
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706986933310342}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -26.679007, y: 3.8459997E-15, z: 3.272006E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1512885858534184
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4551880594587215}
+  m_Layer: 0
+  m_Name: cartofdoom:yellowcapJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4551880594587215
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512885858534184}
+  m_LocalRotation: {x: -4.683754E-17, y: -4.857226E-17, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 42.211792, y: 31.940712, z: -31.555042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.4056172E-16, y: 7.7309095E-15, z: 90}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1476628272639109
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4513926274972055}
+  m_Layer: 0
+  m_Name: cartofdoom:yellowJnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4513926274972055
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1476628272639109}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 21.133879, y: 3.2967072, z: -43.66966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 90}
+  m_Children: []
+  m_Father: {fileID: 4098686543539028}
+--- !u!1 &1181310719273519
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4074785680184777}
+  m_Layer: 0
+  m_Name: cartofdoom:polySurface1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4074785680184777
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181310719273519}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4332486730997389}

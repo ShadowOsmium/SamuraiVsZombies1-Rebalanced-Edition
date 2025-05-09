@@ -1,0 +1,50 @@
+scene = InGame_hell_brown
+
+[rewards]
+
+[Commands]
+	Evil_Tengu
+	Evil_Tengu
+	Evil_Tengu
+	Evil_Tengu
+	Evil_Tengu
+	1,1
+	Evil_Tengu_air
+	Evil_Tengu_air
+	Evil_Tengu_air
+	Evil_Tengu_air
+	Evil_Tengu_air
+	1,1
+	Evil_Onibaba
+	Evil_Onibaba
+	Evil_Onibaba
+	1,1
+	(
+	Evil_Nobunaga
+	Evil_Zombie_Bow
+	Evil_Zombie_Bow
+	Evil_Oni
+	Evil_Onibaba
+	Jurogumo
+	Komusou_2
+	Komusou_2
+	Taiko_Drummer
+	Evil_Chochinobake
+	Evil_Chochinobake
+	Evil_Chochinobake
+	Evil_Chochinobake
+	)
+	Evil_Tengu	
+	Evil_Tengu
+	Evil_Tengu
+	Evil_Tengu
+	8,8
+	Evil_Chochinobake
+	Evil_Ninja
+	Evil_Chochinobake
+	Evil_Ninja
+	Evil_Chochinobake
+	Evil_Ninja
+	Evil_Chochinobake
+
+	

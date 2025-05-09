@@ -1,0 +1,200 @@
+
+transitionSpeed = 1.0
+
+{Layouts/BackContinueButtons}
+
+
+/-------------------------------------------------
+/	Basic Screen Elements
+/-------------------------------------------------
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_store_main
+	hotspot = 0, 0
+	position = 0, 0
+	keepAspectRatio = no
+
+[bg_overlay]
+	type = sprite
+	file = Sprites/Menus/bg_store_overlay
+	hotspot = 0, 0
+	position = 0, 0
+	priority = 49
+	keepAspectRatio = no
+
+[title]
+	type = sprite
+	file = Sprites/Localized/title_shop
+	position = C, 50
+	priority = 50
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -110
+		[alpha]
+			alpha = 0.0
+
+
+/-------------------------------------------------
+/	Coin & Gem counter
+/-------------------------------------------------
+
+[currencyCounter]
+	type = label
+	font = default32
+	position = E-62, 46
+	shadowOffset = 2, 2
+	shadowColor = 0,0,0
+	priority = 601
+	anchor = MiddleRight
+	alignment = right
+	text = 0\n0
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 110, -110
+		[alpha]
+			alpha = 0.0
+
+[currencyIcons]
+	type = sprite
+	file = Sprites/Menus/coin_gem
+	position = E-40, 50
+	priority = 600
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 110, -110
+		[alpha]
+			alpha = 0.0
+			
+			
+/-------------------------------------------------
+/	Revive counter
+/-------------------------------------------------
+
+[reviveIcon]
+	type = sprite
+	file = Sprites/Icons/potion_revive
+	position = 80, 48
+	scale = 0.8, 0.8
+	priority = 50
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -110, -110
+		[alpha]
+			alpha = 0.0
+
+[reviveCounter]
+	type = label
+	font = default32
+	position = 132, 46
+	shadowOffset = 2, 2
+	shadowColor = 0,0,0
+	priority = 50
+	anchor = MiddleLeft
+	alignment = left
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -110, -110
+		[alpha]
+			alpha = 0.0
+
+[reviveTouch]
+	type = touchArea
+	rect = 0, 0, 305, 90
+
+
+/-------------------------------------------------
+/	Bottom Buttons
+/-------------------------------------------------
+
+/[cardsButton]
+/	type = button
+/	normalFrame = Sprites/Menus/card_collection_button
+/	position = C-200, E-60
+/	offsetWhenPressed = 4, 4
+/	priority = 50
+/	[transition]
+/		[alpha]
+/			alpha = 0
+
+[pachinkoButton]
+	type = button
+	normalFrame = Sprites/Menus/pachinko_button
+	position = C+160, E-60
+	offsetWhenPressed = 4, 4
+	priority = 50
+	scale = 0.9, 0.9
+	[transition]
+		[alpha]
+			alpha = 0
+
+[pachinkoCounter]
+	type = label
+	font = default18
+	position = C+225, E-60
+	shadowOffset = 2, 2
+	shadowColor = 0,0,0
+	priority = 50
+	anchor = MiddleLeft
+	alignment = left
+	maxWidth = 180
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 110
+		[alpha]
+			alpha = 0.0
+
+/[dailyButton]
+/	type = button
+/	normalFrame = Sprites/Menus/daily_rewards_button
+/	position = C+200, E-60
+/	offsetWhenPressed = 4, 4
+/	priority = 50
+/	[transition]
+/		[alpha]
+/			alpha = 0
+
+
+/-------------------------------------------------
+/	Tabs
+/-------------------------------------------------
+
+[tab0]
+	type = sprite
+	file = Sprites/Menus/tab_hero
+	hotspot = 122, 2
+	position = 120, 125
+	priority = 50.2
+
+[tabTouch0]
+	type = touchArea
+	rect = 0, 120, 120, 178
+
+[tab1]
+	type = sprite
+	file = Sprites/Menus/tab_ally
+	hotspot = 122, 2
+	position = 120, 285
+	priority = 50.1
+
+[tabTouch1]
+	type = touchArea
+	rect = 0, 298, 120, 156
+
+[tab2]
+	type = sprite
+	file = Sprites/Menus/tab_items
+	hotspot = 122, 2
+	position = 120, 445
+	priority = 50.0
+
+[tabTouch2]
+	type = touchArea
+	rect = 0, 454, 120, 178
+

@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1170598522869816}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1170598522869816
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4613571553886354}
+  - 114: {fileID: 114191973220610677}
+  - 114: {fileID: 114472054357376273}
+  - 114: {fileID: 114696279989227095}
+  m_Layer: 0
+  m_Name: NobunagaSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4613571553886354
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170598522869816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -127.14101, y: 145.74728, z: 426.22778}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114191973220610677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170598522869816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: Spawn
+    clips:
+    - {fileID: 8300000, guid: 370129510ee4d2c4481dfb54bb911fc8, type: 3}
+    - {fileID: 8300000, guid: 709abf590aa66ea4ea62fd3db7d90882, type: 3}
+    - {fileID: 8300000, guid: d025c240bfd41a64daa7813bf2dcde37, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: AtkEmote
+    clips:
+    - {fileID: 8300000, guid: b92dac990f5ba3940aef6c4d82bde95c, type: 3}
+    - {fileID: 8300000, guid: 123a373e54e1e5b418cea9af48db4dfb, type: 3}
+    - {fileID: 8300000, guid: e4b3ea883ce205f4bb280d92b5b3348e, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: AtkEmoteBig
+    clips:
+    - {fileID: 8300000, guid: 5a0d7ec2348bc39469d180281b3415af, type: 3}
+    - {fileID: 8300000, guid: fc60437b402ccce4da3452873ddd160d, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: 7e6cf676cee0d8442b91c24670d86ffb, type: 3}
+    - {fileID: 8300000, guid: 434e11319302eea4bbbf4a12adbf55a8, type: 3}
+    - {fileID: 8300000, guid: 2693a5395fc3e1648973644c8b3e0caf, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SwooshBig
+    clips:
+    - {fileID: 8300000, guid: 918b53685b3444c459ea0615786369b9, type: 3}
+    - {fileID: 8300000, guid: 0e5025373e5a0d14899d84dddbcb7a3c, type: 3}
+    - {fileID: 8300000, guid: 71141101269fce7408c01bcbe74d8bce, type: 3}
+    - {fileID: 8300000, guid: 0844b52881abd434d9241efec54c58ee, type: 3}
+    - {fileID: 8300000, guid: 0336aa5f31225e7498ab6a5e7517f391, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SpinLow
+    clips:
+    - {fileID: 8300000, guid: 916ada908d9789e44a7c02d01d7e9ded, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SpinHigh
+    clips:
+    - {fileID: 8300000, guid: 485d002862d0f164ca14e023c39bb5d7, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+--- !u!114 &114472054357376273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170598522869816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/NobunagaSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114696279989227095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170598522869816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

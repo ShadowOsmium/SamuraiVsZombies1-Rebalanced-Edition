@@ -1,0 +1,60 @@
+scene = InGame_hell_green
+
+[rewards]
+
+[Commands]
+	Evil_Oni_boss
+	Evil_Wayundo_Metal
+	Evil_Wayundo_Metal
+	Evil_Wayundo_Metal	
+	Shogun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun
+	Evil_Ice
+	Evil_Zombie_Gun

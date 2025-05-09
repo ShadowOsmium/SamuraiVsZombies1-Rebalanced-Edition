@@ -1,0 +1,79 @@
+
+[available]
+	/ Normal packs
+	pack1
+	pack2
+	pack3
+	pack4
+
+		
+/--------------------------------------------------------------------
+/	Packs Descriptions
+/--------------------------------------------------------------------
+
+[pack1]
+	displayName = @dealpack1_name
+	description = @dealpack1_desc
+	icon = Sprites/Icons/consume_deal_pack_zombie
+	cost = 0,25
+	[content]
+		balls = 50
+		revivePotionZ = 2
+		healthSmallZ = 2
+		healthBigZ = 1
+		leadershipSmallZ = 2
+		leadershipBigZ = 1
+
+[pack2]
+	displayName = @dealpack2_name
+	description = @dealpack2_desc
+	icon = Sprites/Icons/consume_deal_pack_zombie
+	cost = 0,45
+	[content]
+		balls = 100
+		revivePotionZ = 2
+		healthSmallZ = 5
+		leadershipSmallZ = 5
+		z+power = 2
+		z+wealth = 2
+		z+luck = 2
+
+		
+
+[pack3]
+	displayName = @dealpack3_name
+	description = @dealpack3_desc
+	icon = Sprites/Icons/consume_deal_pack_zombie
+	cost = 0,65
+	[content]
+		balls = 100
+		revivePotionZ = 2
+		healthBigZ = 3
+		leadershipBigZ = 3
+		z+power = 3
+		z+luck = 3
+		z+wealth = 3
+		z+haste = 3
+		z+peace = 3
+
+
+[pack4]
+	displayName = @dealpack4_name
+	description = @dealpack4_desc
+	icon = Sprites/Icons/consume_deal_pack_zombie
+	cost = 0,100
+	[content]
+		balls = 200
+		revivePotionZ = 5
+		healthBigZ = 10
+		leadershipBigZ = 10
+		healthSmallZ = 10
+		leadershipSmallZ = 10
+		z+power = 5
+		z+luck = 5
+		z+wealth = 5
+		z+haste = 5
+		z+peace = 5
+		z+oni = 2
+		z+horde = 2
+		

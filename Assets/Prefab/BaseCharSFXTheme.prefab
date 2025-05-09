@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1455328957446052}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1455328957446052
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4188742491395703}
+  - 114: {fileID: 114249314497856133}
+  - 114: {fileID: 114943793809435972}
+  - 114: {fileID: 114630058137083000}
+  m_Layer: 0
+  m_Name: BaseCharSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4188742491395703
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455328957446052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8808746, y: 48.29167, z: 2596.1733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114249314497856133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455328957446052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 0}
+  events:
+  - name: SwordImpact
+    clips:
+    - {fileID: 8300000, guid: bcb6cce6cdce62b48adcf765a689d852, type: 3}
+    - {fileID: 8300000, guid: b2c9a7ad4ec73bc4dab6547a4fb0a28f, type: 3}
+    - {fileID: 8300000, guid: 9bf070e49063fb44aa3ffa970838c525, type: 3}
+    - {fileID: 8300000, guid: 06715f7c8eaf4f240bc2cbaa91bd4608, type: 3}
+    - {fileID: 8300000, guid: 026fe82954305024ba167f0a08099799, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.1
+    volume: 0.4
+    isVoice: 0
+    playLimit: -5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 250
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SwordImpactBig
+    clips:
+    - {fileID: 8300000, guid: 238b2fe67350baf4ba9020b24770c97d, type: 3}
+    - {fileID: 8300000, guid: 680cc58aef51e80409bed01def5a17d3, type: 3}
+    - {fileID: 8300000, guid: f95424cbe9117b844bd25df040467c8c, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: -5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 250
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: BluntWepImpact
+    clips:
+    - {fileID: 8300000, guid: 1fd1fa4766cb7fb4aa3e31908278759d, type: 3}
+    - {fileID: 8300000, guid: 4af55ad296f27434bafc28e5f403f375, type: 3}
+    - {fileID: 8300000, guid: 351a38904e1a9f94a986216e34131388, type: 3}
+    - {fileID: 8300000, guid: 28a64b46cb903a4438dc761b2ebe6aa1, type: 3}
+    - {fileID: 8300000, guid: 9db5329bdc362344193f6522f04e7ef7, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.1
+    volume: 0.4
+    isVoice: 0
+    playLimit: -5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 250
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: BluntWepImpactBig
+    clips:
+    - {fileID: 8300000, guid: 058d2e23aa32f02409c3dd5b3fc016ff, type: 3}
+    - {fileID: 8300000, guid: 7861afbe01a944b4389e134a5058394b, type: 3}
+    - {fileID: 8300000, guid: ac3d0ee97c17a5b4a9f1c9f419d1179c, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: -5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 250
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: BloodSplat
+    clips:
+    - {fileID: 8300000, guid: e90508201b4b27d4eb3ea8d75b882a51, type: 3}
+    - {fileID: 8300000, guid: 78c6cf36db3e54649b17d8d094f5d958, type: 3}
+    - {fileID: 8300000, guid: 737adbc679fe87844902cca328350daf, type: 3}
+    - {fileID: 8300000, guid: ef93027dd1fdfa648b27be9fdf8fe682, type: 3}
+    - {fileID: 8300000, guid: b4b6abbe81c67644eb4db04a7c807a75, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: -3
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 250
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: ArrowImpact
+    clips:
+    - {fileID: 8300000, guid: e3b2fe2167296e242acb185da86dd8e5, type: 3}
+    - {fileID: 8300000, guid: a29ea4b6a92799e44965433a31e90999, type: 3}
+    - {fileID: 8300000, guid: 3998116df1cd5834a891b9c20d8515ca, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.2
+    volume: 0.75
+    isVoice: 0
+    playLimit: -3
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 250
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SwooshSmall
+    clips:
+    - {fileID: 8300000, guid: d38f16b494fe396458ce341ca5bb9f16, type: 3}
+    - {fileID: 8300000, guid: ff5a940ef2865784c8209e5d4b0472d7, type: 3}
+    - {fileID: 8300000, guid: 10308cb003d41874ea835200cb3ff62b, type: 3}
+    - {fileID: 8300000, guid: 3be09998f633a0b449c2116c3570f002, type: 3}
+    - {fileID: 8300000, guid: 7cec67f9539aa584cadac4cb5670efd3, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.1
+    volume: 1
+    isVoice: 0
+    playLimit: 5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SwooshMed
+    clips:
+    - {fileID: 8300000, guid: bb59c6144477a3a488c9bf79d8d54b5f, type: 3}
+    - {fileID: 8300000, guid: ac05deab9c443174d84a535ca73bbac6, type: 3}
+    - {fileID: 8300000, guid: 6735096f41eda1d4390f3d79fdc03a9e, type: 3}
+    - {fileID: 8300000, guid: 90f31bca7f8c4034fb2448b31b0fab40, type: 3}
+    - {fileID: 8300000, guid: 32e2b2d43c76b6a4984be7204884f49e, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.1
+    volume: 0.75
+    isVoice: 0
+    playLimit: 5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SwooshBig
+    clips:
+    - {fileID: 8300000, guid: 0336aa5f31225e7498ab6a5e7517f391, type: 3}
+    - {fileID: 8300000, guid: 0844b52881abd434d9241efec54c58ee, type: 3}
+    - {fileID: 8300000, guid: 71141101269fce7408c01bcbe74d8bce, type: 3}
+    - {fileID: 8300000, guid: 918b53685b3444c459ea0615786369b9, type: 3}
+    - {fileID: 8300000, guid: 0e5025373e5a0d14899d84dddbcb7a3c, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.1
+    volume: 1
+    isVoice: 0
+    playLimit: 5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: RangedAtk
+    clips:
+    - {fileID: 8300000, guid: ee6e3df212477db48af66e7baa96f98a, type: 3}
+    - {fileID: 8300000, guid: 94bd7144450bbc64d92ba87e8c9f929d, type: 3}
+    - {fileID: 8300000, guid: 7c19da2f186d6cd4b9766de13f4d795e, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.1
+    volume: 1
+    isVoice: 0
+    playLimit: 5
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: HelmHeadFall
+    clips:
+    - {fileID: 8300000, guid: d90eb314dc823114ea005b8cbb8624f8, type: 3}
+    - {fileID: 8300000, guid: 7e7e52bcbbc651649919cfaabd11918f, type: 3}
+    - {fileID: 8300000, guid: 5134ce4c42ff30d4880002611fd14323, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.75
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Bodyfall
+    clips:
+    - {fileID: 8300000, guid: 2325e231ffe06b34286a854b21f0621e, type: 3}
+    - {fileID: 8300000, guid: 8fa9824086192ff40878eb8e45218af7, type: 3}
+    - {fileID: 8300000, guid: ad260a2138e5f00419e89208e1d702e0, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.75
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: HeadSpin
+    clips:
+    - {fileID: 8300000, guid: dfb86159d2f4c694cae38cedff9734b9, type: 3}
+    - {fileID: 8300000, guid: f9046299e0c0ef24cbee9255abe425d0, type: 3}
+    - {fileID: 8300000, guid: c25eecb12d16ba048858e5cbdf156715, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+--- !u!114 &114943793809435972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455328957446052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/BaseCharSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114249314497856133}
+--- !u!114 &114630058137083000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455328957446052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

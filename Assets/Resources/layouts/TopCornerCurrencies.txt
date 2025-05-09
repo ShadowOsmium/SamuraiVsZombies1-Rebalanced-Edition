@@ -1,0 +1,33 @@
+
+transitionSpeed = 1.0
+
+
+[currencyCounter]
+	type = label
+	font = default32
+	position = E-52, 46
+	shadowOffset = 2, 2
+	shadowColor = 0,0,0
+	priority = 601
+	anchor = MiddleRight
+	alignment = right
+	text = 0\n0
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 110, -110
+		[alpha]
+			alpha = 0.0
+
+[currencyIcons]
+	type = sprite
+	file = Sprites/Menus/coin_gem
+	position = E-30, 50
+	priority = 600
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 110, -110
+		[alpha]
+			alpha = 0.0
+

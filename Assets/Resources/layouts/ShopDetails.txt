@@ -1,0 +1,314 @@
+
+{Layouts/DefaultDialog}
+
+[icon]
+	type = sprite
+	file = Sprites/Icons/hero01
+	position = 250, 220
+	priority = 1
+	visible = false
+	[transition]
+		[alpha]
+			alpha = 0
+
+[title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 315, 200
+	maxWidth = 510
+	priority = 1
+	anchor = MiddleLeft
+	/text = Level Up Something
+	visible = false
+	[transition]
+		[alpha]
+			alpha = 0
+
+[purchaseBtn]
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	position = 512, 550
+	offsetWhenPressed = 4, 4
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	priority = 5
+	[transition]
+		[alpha]
+			alpha = 0
+
+[unlockCondition]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, 400
+	maxWidth = 510
+	priority = 1
+	anchor = MiddleCenter
+	visible = false
+	[transition]
+		[alpha]
+			alpha = 0
+			
+[findInPresent]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, 450
+	maxWidth = 600
+	priority = 1
+	anchor = MiddleCenter
+	visible = false
+	[transition]
+		[alpha]
+			alpha = 0	
+			
+[presentIcon0]
+	type = sprite
+	file = Sprites/Menus/health_stats
+	position = C, 525
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+/position for icon 1 and 2 are based on position from icon 0
+
+[presentIcon1]
+	type = sprite
+	file = Sprites/Menus/health_stats
+	position = 335, 370
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[presentIcon2]
+	type = sprite
+	file = Sprites/Menus/health_stats
+	position = 335, 370
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+			
+								
+
+//-------------------------------------------------------------
+//	Stats List Extras
+//-------------------------------------------------------------
+
+[levelLeft]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 435, 320
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[levelRight]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 635, 320
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[details]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 315, 300
+	maxWidth = 450
+	priority = 1
+	anchor = UpperLeft
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[detailsSmall]
+	type = label
+	font = default18
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 325, 242
+	maxWidth = 500
+	priority = 1
+	anchor = UpperLeft
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+
+//-------------------------------------------------------------
+//	Stats List
+//-------------------------------------------------------------
+
+[statIcon0]
+	type = sprite
+	file = Sprites/Menus/health_stats
+	position = 335, 370
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[statLeft0]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 435, 370
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+
+[statRight0]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 635, 370
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[statArrow0]
+	type = sprite
+	file = Sprites/Menus/level_up_arrow
+	position = 535, 370
+	priority = 1
+	scale = 0.5, 0.5
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+	
+
+//-------------------------------------
+
+[statIcon1]
+	type = sprite
+	file = Sprites/Menus/health_stats
+	position = 335, 430
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[statLeft1]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 435, 430
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+
+[statRight1]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 635, 430
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[statArrow1]
+	type = sprite
+	file = Sprites/Menus/level_up_arrow
+	position = 535, 430
+	priority = 1
+	scale = 0.5, 0.5
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+	
+
+//-------------------------------------
+
+[statIcon2]
+	type = sprite
+	file = Sprites/Menus/health_stats
+	position = 335, 490
+	priority = 1
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+			
+[statLeft2]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 435, 490
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[statRight2]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 635, 490
+	priority = 1
+	anchor = MiddleCenter
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[statArrow2]
+	type = sprite
+	file = Sprites/Menus/level_up_arrow
+	position = 535, 490
+	priority = 1
+	scale = 0.5, 0.5
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+	
+

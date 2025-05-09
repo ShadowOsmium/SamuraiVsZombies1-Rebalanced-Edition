@@ -1,0 +1,50 @@
+/ Inspired by Wave 11
+
+scene = InGame_hell_green
+
+[Commands]
+	Farmer
+	2,3
+	Farmer
+	1,1
+	Farmer
+	4,5
+	FarmerSword
+	1,1
+	Farmer
+	1,1
+	FarmerSword
+	3,4
+	FarmerStilts
+	1,1
+	(
+	Farmer
+	1,1
+	Farmer
+	1,1
+	FarmerSword
+	1,1
+	Farmer
+	1,1
+	Farmer
+	4,5
+	FarmerSword
+	1,1
+	Farmer
+	1,1
+	FarmerAx
+	1,1
+	FarmerAx
+	1,1
+	FarmerAx
+	4,5
+	FarmerSword
+	1,1
+	FarmerAx
+	1,1
+	Farmer
+	)
+	7,7
+	FarmerStilts
+	
+	

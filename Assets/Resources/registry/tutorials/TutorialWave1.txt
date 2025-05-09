@@ -1,0 +1,36 @@
+[events]
+	protectGate
+	showMovements
+	autoAttack
+	ability
+
+
+[protectGate]
+	condition = 0
+	endCondition = touchScreen
+	highPriority = yes
+	blocking = yes
+	text = @tutorial_ingame_gate
+	leftArrow = 300, 384
+
+
+[showMovements]
+	condition = 5
+	endCondition = pressBothDirections
+	text = @tutorial_ingame_movements
+	leftArrow = 124, 384
+	rightArrow = 900, 384
+	
+[autoAttack]
+	condition = enemyInRange
+	endCondition = 4
+	text = @tutorial_ingame_attack
+	
+[ability]
+	condition = 2
+	endCondition = useAbility
+	text = @tutorial_ingame_ability
+	rightArrow = 800, 700
+	circle = E-66, E-66
+	flag = showKatanaSlash
+	

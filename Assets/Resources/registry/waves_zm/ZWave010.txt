@@ -1,0 +1,70 @@
+/ Inspired by Wave 25
+
+scene = InGame_hell_purple
+
+[Commands]
+	Farmer
+	2,2
+	Farmer
+	2,2	
+	Farmer
+	2,2
+	FarmerSword
+	2,2
+	FarmerSword
+	Swordsmith
+	1,1
+	Farmer
+	1,1
+	Farmer
+	2,2
+	SamuraiArcher
+	SamuraiArcher
+	SamuraiArcher
+	8,8
+	SamuraiShield
+	8,8
+	Swordsmith
+	FarmerStilts
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	SpearHorseman
+	1,1
+	SpearHorseman
+	Nobunaga
+	12,12
+	NinjaGirl
+	1,1
+	NinjaGirl
+	1,1
+	NinjaGirl
+	(
+	SpearHorseman
+	1,1
+	SpearHorseman
+	SamuraiShield
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts
+	1,1
+	Nobunaga
+	Swordsmith
+	1,1
+	Nobunaga
+	)
+	15,15
+	NinjaGirl
+	1,1
+	NinjaGirl
+	3,3
+	NinjaGirl
+	1,1
+	NinjaGirl
+	
+
+	

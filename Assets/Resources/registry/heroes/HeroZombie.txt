@@ -1,0 +1,92 @@
+
+/--------------------------------------------
+/	General
+/--------------------------------------------
+
+displayName = @heroe_samurai_name
+desc = @zombiehero_desc
+store_levelup = @store_format_level_hero
+icon = Sprites/Icons/hero_zombie01
+prefab = Characters/PFZombieHero
+ghostPrefab = Characters/PFHeroGhost
+rangedWeaponPrefab = Props/PFZombieHeroBow
+meleeSlashFXPrefab = FX/LifeSteal
+
+infiniteUpgradeCost = 0,5
+/infiniteUpgradeExtraPulse = Sprites/Localized/on_sale
+infiniteUpgradeHealth = 0.05
+infiniteUpgradeHealthRecovery = 0.05
+
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	cost = 0,0
+	health = 150
+	healthRecovery = 5
+	speed = 300
+
+
+[002]
+	cost = 250,0
+	health = 200
+	healthRecovery = 6
+	speed = 300
+	
+		
+[003]
+	cost = 850,0
+	health = 300
+	healthRecovery = 8
+	speed = 300
+
+
+[004]
+	cost = 2700,0
+	health = 400
+	healthRecovery = 10
+	speed = 300
+
+
+[005]
+	cost = 5500,0
+	health = 500
+	healthRecovery = 12
+	speed = 300
+
+
+[006]
+	cost = 11000,0
+	health = 750
+	healthRecovery = 17
+	speed = 300
+
+
+[007]
+	cost = 16000,0
+	health = 1000
+	healthRecovery = 25
+	speed = 300
+
+
+[008]
+	cost = 22000,0
+	health = 1500
+	healthRecovery = 40
+	speed = 300
+
+
+[009]
+	cost = 35000,0
+	health = 2000
+	healthRecovery = 60
+	speed = 300
+
+
+[010]
+	cost = 50000,0
+	health = 2500
+	healthRecovery = 80
+	speed = 300

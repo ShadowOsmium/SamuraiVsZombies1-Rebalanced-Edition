@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1944157506179468}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1944157506179468
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4865567706707928}
+  - 33: {fileID: 33675447025005308}
+  - 23: {fileID: 23950792410746132}
+  - 111: {fileID: 111729231740000284}
+  - 114: {fileID: 114867450138437258}
+  - 114: {fileID: 114293688415771033}
+  m_Layer: 0
+  m_Name: Prefab_building1_snow
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4865567706707928
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944157506179468}
+  m_LocalRotation: {x: 0.04252569, y: -0.5325493, z: -0.0030345947, w: 0.8453246}
+  m_LocalPosition: {x: -1240.4192, y: 20.236145, z: -1035.5624}
+  m_LocalScale: {x: 0.60981625, y: 0.78795373, z: 0.6098163}
+  m_LocalEulerAnglesHint: {x: 9.9293785, y: 64.17068, z: 6.645981}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!33 &33675447025005308
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944157506179468}
+  m_Mesh: {fileID: 4300000, guid: 637273364f12d4848ab839489b8486fe, type: 2}
+--- !u!23 &23950792410746132
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944157506179468}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 9
+  m_LightmapTilingOffset: {x: 0.373047, y: 0.373047, z: 0.613289, w: 0.626961}
+  m_Materials:
+  - {fileID: 2100000, guid: 63b0a1c605bf57a4d8c414573c79895d, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!111 &111729231740000284
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944157506179468}
+  m_Enabled: 1
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114867450138437258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944157506179468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Levels/Level_Prefab/Prefab_building1_snow.prefab
+  basePrefabPath: Assets/Resources/Levels/Level_Prefab/Prefab_building1.prefab
+  exemptObjects:
+  - {fileID: 23950792410746132}
+--- !u!114 &114293688415771033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944157506179468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

@@ -1,0 +1,15 @@
+/ Here's the list of supported events.
+/ Just comment them out to activate them.
+
+julyforth
+olympics
+halloween
+
+
+/ List of Rewards to give players the next time they succeed at a wave
+/[rewards]
+/	[julyforth2012]
+/		charm_julyforth+berserk
+/	[olympics2012]
+/		charm_olympics+berserk
+

@@ -1,0 +1,67 @@
+scene = InGame_hell_brown
+
+[rewards]
+
+[Commands]
+	Evil_Farmer	
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Horseman
+	Evil_Horseman
+	Evil_Horseman
+	Evil_Onibaba
+	Evil_Onibaba
+	1,1
+	(
+	Evil_Takeda
+	Evil_Ice
+	Evil_Ice
+	Evil_Ice
+	Evil_Ice
+	Evil_Ice
+	Evil_Onibaba
+	Jurogumo
+	Komusou_2
+	Komusou_2
+	Taiko_Drummer
+	)
+	1,1
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Oni
+	Evil_Oni
+	2,2
+	Evil_Panzer
+	Evil_Zombie_Warhammer
+	Evil_Zombie_Sword
+	Evil_Horseman
+	Evil_Horseman
+	Evil_Ice
+	Evil_Ice
+	Evil_Panzer
+	Evil_Zombie_Warhammer
+	Evil_Zombie_Sword
+	Evil_Horseman
+	Evil_Horseman
+	Evil_Ice
+	Evil_Ice
+	Evil_Panzer
+	Evil_Zombie_Warhammer
+	Evil_Zombie_Sword
+	Evil_Panzer
+	Evil_Ice
+	Evil_Ice
+	Evil_Ice
+	Evil_Ice
+	Evil_Zombie_Warhammer
+	Evil_Zombie_Sword
+	Evil_Horseman
+	Evil_Horseman
+	
+

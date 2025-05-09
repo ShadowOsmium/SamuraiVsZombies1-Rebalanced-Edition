@@ -1,0 +1,81 @@
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @village_archers_name
+desc = @ab_village_archers_desc
+waveToUnlock = 7
+
+icon = Sprites/Icons/upgrade_bow
+archerPrefab = Characters/PFVillageArcher
+weaponRangedPrefab = Props/PFsamuraibow
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	numberOfArchers = 1
+	cost = 250,0
+	bowRange = 1000
+	bowDamage = 3
+	attackFrequency = 2.0
+	projectile = Arrow
+ 
+[002]
+	numberOfArchers = 1
+	cost = 850,0
+	bowRange = 1000
+	bowDamage = 5
+	attackFrequency = 2.0
+	projectile = Arrow
+
+[003]
+	numberOfArchers = 1
+	cost = 2000,0
+	bowRange = 1000
+	bowDamage = 8
+	attackFrequency = 2.0
+	projectile = Arrow
+	
+[004]
+	numberOfArchers = 2
+	cost = 3500,0
+	bowRange = 1000
+	bowDamage = 13
+	attackFrequency = 2.0
+	projectile = Arrow
+ 
+[005]
+	numberOfArchers = 2
+	cost = 5500,0
+	bowRange = 1000
+	bowDamage = 17
+	attackFrequency = 2.0
+	projectile = Arrow
+
+[006]
+	numberOfArchers = 2
+	cost = 8500,0
+	bowRange = 1000
+	bowDamage = 21
+	attackFrequency = 2.0
+	projectile = Arrow
+
+[007]
+	numberOfArchers = 2
+	cost = 12000,0
+	bowRange = 1000
+	bowDamage = 25
+	attackFrequency = 2.0
+	projectile = Arrow
+
+[008]
+	numberOfArchers = 2
+	riflemen = true
+	cost = 20000,0
+	bowRange = 1000
+	bowDamage = 35
+	attackFrequency = 2.0
+	projectile = Arrow

@@ -1,0 +1,38 @@
+
+displayName = @legion_name
+desc = @legion_desc
+icon = Sprites/Icons/upgrade_legion_on_the_loose
+waveToUnlock = 5
+maxHelpers = 8
+inBetweenDelay = 1.0
+
+
+[001]
+	cost = 5500,0
+	delay = 25.0
+	helperID = CrawlingTorso
+	num = 3
+
+[002]
+	cost = 10000,0
+	delay = 25.0
+	helperID = ZombieMelee
+	num = 3
+
+[003]
+	cost = 0,20
+	delay = 25.0
+	helperID = ZombieSpearman
+	num = 3
+
+[004]
+	cost = 0,40
+	delay = 25.0
+	helperID = ZombieHorseman
+	num = 3
+
+[005]
+	cost = 0,60
+	delay = 25.0
+	helperID = Chochinobake
+	num = 3

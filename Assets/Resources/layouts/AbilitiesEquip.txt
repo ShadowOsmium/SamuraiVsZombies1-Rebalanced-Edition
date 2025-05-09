@@ -1,0 +1,67 @@
+
+transitionSpeed = 0.5
+
+{Layouts/BackContinueButtons}
+
+
+/--------------------------------------------------------
+/	Titles
+/--------------------------------------------------------
+
+[title]
+	type = sprite
+	file = Sprites/Localized/title_abilities
+	position = 276, 40
+	priority = 101
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -250
+		[alpha]
+			alpha = 0
+
+
+/-------------------------------------------------
+/	Slots 0
+/-------------------------------------------------
+
+[slot0]
+	type = sprite
+	file = Sprites/Menus/slot
+	position = 345, 580
+	priority = 101
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0.2, 0.8
+			offset = 0, -80
+		[alpha]
+			animRange = 0.2, 0.8
+			alpha = 0.0
+
+[slot0Touch]
+	type = touchArea
+	rect = 300, 535, 90, 90
+
+
+/-------------------------------------------------
+/	Slots 1
+/-------------------------------------------------
+
+[slot1]
+	type = sprite
+	file = Sprites/Menus/slot
+	position = 205, 580
+	priority = 101
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = 0, -80
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+[slot1Touch]
+	type = touchArea
+	rect = 160, 535, 90, 90

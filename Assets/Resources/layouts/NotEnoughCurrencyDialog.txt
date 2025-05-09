@@ -1,0 +1,53 @@
+transitionSpeed = 0.3
+
+[panel]
+	type = sprite
+	file = Sprites/Menus/pop_up_screen
+	priority = 0.5
+	position = C, C
+	keepAspectRatio = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[back]
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	position = 512, 550
+	offsetWhenPressed = 4, 4
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	priority = 5
+	[transition]
+		[alpha]
+			alpha = 0
+
+[title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, C-10
+	maxWidth = 510
+	priority = 1
+	text = Not enough currency.
+	anchor = MiddleCenter
+	alignment = center
+	visible = true
+	[transition]
+		[alpha]
+			alpha = 0
+
+[title2]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 492, 550
+	maxWidth = 510
+	priority = 6
+	text = OK.
+	anchor = MiddleLeft
+	visible = true
+	[transition]
+		[alpha]
+			alpha = 0

@@ -1,0 +1,23 @@
+transitionSpeed = 0.3
+
+[panel]
+	type = sprite
+	file = Sprites/Menus/pop_up_screen
+	priority = 0.5
+	position = C, C+50
+	keepAspectRatio = no
+	scale = 1, 1.16
+	[transition]
+		[alpha]
+			alpha = 0
+
+[back]
+	type = button
+	normalFrame = Sprites/Menus/close_button
+	keepAspectRatio = true	
+	position = 120, 190
+	priority = 1
+	offsetWhenPressed = 4, 4
+	[transition]
+		[alpha]
+			alpha = 0.0

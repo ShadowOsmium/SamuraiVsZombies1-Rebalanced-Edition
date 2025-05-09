@@ -1,0 +1,155 @@
+scene = InGame_winternight
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 2
+/	Bow = 2
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	L_Zombie_Warhammer
+	2,2
+	L_Zombie_Warhammer
+	H_Zombie_Sword
+	2,2
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	H_Zombie_Sword
+	1,1
+	L_Zombie_Warhammer
+	2,2
+	L_Zombie_Warhammer
+	Taiko_Drummer
+	2,2
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	Wayundo_Fire
+	5,5
+	Nobusuma_alt
+	Tengu_air
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	Taiko_Drummer
+	1,1
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	(
+	Wayundo_Fire
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	Tengu_Air
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	Tengu_Air
+	1,1
+	Nobusuma_alt
+	Taiko_Drummer
+	)
+	20,20
+	Wayundo_wood
+	3,3
+	Tengu_air
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	Tengu_air
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Taiko_drummer
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	
+	
+
+	
+	
+	
+	

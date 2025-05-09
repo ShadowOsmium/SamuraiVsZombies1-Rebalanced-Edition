@@ -1,0 +1,831 @@
+
+/------------------------------------------------------------------
+/ Play Modes
+/------------------------------------------------------------------
+
+playmode_classic = Classic\nMode
+playmode_zombie = Zombie\nMode
+
+unlocked_zombies = You unlocked Zombies Rising!
+
+/------------------------------------------------------------------
+/ Freebies
+/------------------------------------------------------------------
+
+welcomeBack_title = Welcome back!
+welcomeBack_subtitle = Glu Mobile is happy to see you back.
+welcomeBack_body = As a token of our appreciation, please accept this gift.
+
+giveonce_title = A Gift For You!
+giveonce_subtitle = Glu Mobile is happy to have you as a player.
+giveonce_body = As a token of our appreciation, please accept this gift.
+
+
+/------------------------------------------------------------------
+/ Special Events Stuff
+/------------------------------------------------------------------
+
+charm_olympics_name = Olympics Strength Charm
+charm_olympics_desc = Use the power of the Olympics to deal extra damage to those Zombies.
+dealpackolympics_name = Olympics Special Pack
+dealpackolympics_desc = All the gear you need to have an Olympic Party! Olympic Charms and much more!
+
+charm_julyforth_name = Uncle Samurai Charm
+charm_julyforth_desc = Use the power of the 4th of July to deal extra damage to those Zombies.
+dealpackjulyforth_name = Star Spangled Pack
+dealpackjulyforth_desc = All the gear you need to have an 4th of July Party! Uncle Samurai Charms and much more!
+
+
+/------------------------------------------------------------------
+/ Abilities
+/------------------------------------------------------------------
+
+ab_divine_name = Divine Intervention
+ab_trample_name = Troop Trample
+ab_groundshock_name = Burst Slam
+ab_slash_name = Katana Slash
+ab_lethargy_name = Lethargy
+ab_self_revive_name = Self Revive
+ab_lightning_name = Summon Lightning
+ab_tornadoes_name = Summon Tornado
+
+ab_lifesteal_name = Life Steal
+ab_gravehands_name = Grave Hands
+ab_raisedead_name = Raise Dead
+ab_dragonattack_name = Zombie Dragon
+ab_nightofthedead_name = Night of the Dead
+
+/------------------------------------------------------------------
+/ Ability Descriptions
+/------------------------------------------------------------------
+
+ab_slash_desc = Powerful strike that hits multiple enemies.
+ab_lightning_desc = Summon the power of lightning to strike enemies in front of you.
+ab_divine_desc = Call upon the divine to summon allies you have equipped, maybe...
+ab_lethargy_desc = Casts a spell that slows all enemies temporarily.
+ab_village_archers_desc = Hire Bowmen to permanently guard the Village Towers.
+ab_warding_bell = An Ancient Bell said to cause pain to demons from other realms.
+ab_gate = Increase the amount of Damage the Sacred Gate can take.
+ab_gate_zombies = Increase the amount of Damage the Hell Gate can take.
+ab_leadership = Upgrade to increase the Hero's starting Leadership Level. Use Leadership to summon Troops in battle!
+ab_brains = Upgrade to increase the Hero's starting Brains Level. Use Brains to summon Troops in battle!
+ab_trample_desc = Summon a large group of troops for an all out melee!
+ab_tornadoes_desc = Summon the power of a tornado! Flying Enemies think this blows.
+
+ab_lifesteal_desc = A deadly strike that steals life from your enemies.
+ab_gravehands_desc = Drag your foes down to their graves.
+ab_raisedead_desc = Call upon the power of the dead to join your ranks!
+ab_dragonattack_desc = Summon a Dragon for an all out melee!
+ab_nightofthedead_desc = All zombies become unstoppable for a few seconds.
+
+
+/------------------------------------------------------------------
+/ Weapon Descriptions
+/------------------------------------------------------------------
+
+katana_desc = Your hero's main weapon. Get up close to use.
+katanafire_desc = Your hero's main weapon. Added Fire Damage!
+katanablue_desc = Your hero's main weapon. Added Blue Fire Damage!
+crossbow_desc = Your hero's range weapon. Step back in battle to use.
+crossbowfire_desc = Your hero's range weapon. Step back in battle to use. Fire Arrows!
+crossbowblue_desc = Your hero's range weapon. Step back in battle to use. Blue Fire Arrows!
+crossbowexpl_desc = Your hero's range weapon. Step back in battle to use. Explosive Arrows!
+crossbowexpl2_desc = Your hero's range weapon. Step back in battle to use. Bigger Explosion!
+
+/------------------------------------------------------------------
+/ Helpers
+/------------------------------------------------------------------
+
+helper_farmer_name = Farmer
+helper_samurai_name = Sword Warrior
+helper_samurai_archer = Bowman
+helper_samurai_spearman = Spear Warrior
+helper_heavy_samurai = Panzer Samurai
+helper_Nobunaga = Nobunaga
+helper_swordsmith = Swordsmith
+helper_priest = Priest
+helper_ice_archer = Frostie the Bowman
+helper_rifleman = Rifleman
+helper_takeda = Takeda Shingen
+helper_horseman = Spear Horseman
+helper_ninja_girl = Assassin
+
+helper_crawler_name = Hopping Torso
+helper_chochinobake_name = Possessed Lantern
+helper_ghostronin_name = Ghost Ronin
+helper_jurogumo_name = Spider Lady
+helper_komusou_name = Undead Minstrel
+helper_necromancer_name = Necromancer
+helper_oni_name = Oni
+helper_onibaba_name = Demonic Healer
+helper_shogun_name = Zombie Shogun
+helper_zombiearcher_name = Zombie Archer
+helper_zombiehorseman_name = Zombie Horseman
+helper_zombie_name = Zombie
+helper_zombiespear_name = Zombie Spearman
+
+/------------------------------------------------------------------
+/ Helper Descriptions
+/------------------------------------------------------------------
+
+hero_desc = The Village's bravest warrior. Use his strength to guide his people to victory! 
+helper_farmer_desc = Not very strong, but oh so loyal.
+helper_samurai_desc = Sworn protectors of the Village. Medium Health and Damage.
+helper_samurai_archer_desc = Long Range but can't take a punch.
+helper_samurai_spearman_desc = Fights from behind the line but not a coward.
+helper_heavy_samurai_desc = Extremely tough but his heavy armor slows his attack speed.
+helper_Nobunaga_desc = Legendary Warrior. Some would say he's unstoppable.
+helper_priest_desc = Heals allies with the power of the divine.
+helper_ice_archer_desc = Ice to see you! Arrows temporarily freeze foes.
+helper_swordsmith_desc = Master Swordsmith upgrades all Farmers on the field of battle!
+helper_rifleman_desc = The Rifleman upgrades all Archers on the field of battle!
+helper_takeda_desc = Hero of Legend! This mighty warrior has a long range attack from horseback.
+helper_horseman_desc = Medium range attack from horseback! 
+helper_ninja_girl_desc = Speedy Assasin! She strikes fast and can use both melee and ranged attacks!
+
+helper_crawler_desc = Legs are a crutch…
+helper_chochinobake_desc = RUN FAST…go BOOOM!
+helper_ghostronin_desc = The ghost with the most.  Slows enemies with every attack.
+helper_jurogumo_desc = Part Lady, part spider, all undead.
+helper_komusou_desc = Sings songs so loud he will wake the dead.
+helper_necromancer_desc = Periodically raises more zombies from the grave.
+helper_oni_desc = Extremely tough, but his heavy weapon slows his attack speed.
+helper_onibaba_desc = Does a zombie healer make them more dead? Or less alive?
+helper_shogun_desc = Hell’s own Shogun. What more could you ask for?
+helper_zombiearcher_desc = Long range, but can’t take a hit.
+helper_zombiehorseman_desc = How do you stop a zombie horse? Pull on the brains.
+helper_zombie_desc = Average fighter…for a dead guy.
+helper_zombiespear_desc = Lots of damage…not a lot of brains.
+
+/------------------------------------------------------------------
+/ Enemies
+/------------------------------------------------------------------
+
+enemy_dummy_name = Dummy!
+enemy_l_zombie_u_name = Light Zombie Unarmed
+enemy_l_zombie_a_name = Light Zombie with Ax
+enemy_l_zombie_s_name = Light Zombie with Sword
+enemy_l_zombie_sp_name = Light Zombie with Spear
+enemy_l_zombie_b_name = Light Zombie Archer
+enemy_h_zombie_u_name = Heavy Zombie Unarmed
+enemy_oni_name = Oni
+
+
+/------------------------------------------------------------------
+/ Heroes
+/------------------------------------------------------------------
+
+heroe_samurai_name = Samurai
+
+zombiehero_desc = The undead’s greatest champion.  Tear down the living for daring to venture into the lands of the dead.
+
+/------------------------------------------------------------------
+/ Charms
+/------------------------------------------------------------------
+
+charm_holy_name = Holy Charm
+charm_holy_desc = Revives the hero after death and kills all enemies on screen.
+
+charm_happiness_name = Happiness Charm
+charm_happiness_desc = Pulls coins, tokens and drops toward the hero.
+
+charm_power_name = Power Charm
+charm_power_desc = Increase the chance of critical hits!
+
+charm_luck_name = Lucky Charm
+charm_luck_desc = Double the amount of drops from enemies!
+
+charm_wealth_name = Wealth Charm
+charm_wealth_desc = Money seems to be attracted to you...
+
+charm_peace_name = Peace Charm
+charm_peace_desc = Enemies suffer 50% reduction in damage, and chickens!
+
+charm_haste_name = Haste Charm
+charm_haste_desc = Summoned Allies have a spring in their step.
+
+charm_friendship_name = Friendship Warrior Charm
+charm_friendship_desc = Summon your big, silver, super strong Warrior best friend! 
+
+charm_friendship_power_name = Power Warrior Charm
+charm_friendship_power_desc = Summon your big, silver, super strong warrior best friend equipped with a Power Charm!
+
+charm_friendpanzer_name = Friendship Panzer Charm
+charm_friendpanzer_desc = Summon your big, gold, super strong Panzer best friend! 
+
+charm_friendpanzer_luck_name = Luck Panzer Charm
+charm_friendpanzer_luck_desc = Summon your big, gold, super strong Panzer best friend equipped with a Luck Charm!
+
+charm_friendspearman_name = Friendship Spearman Charm
+charm_friendspearman_desc = Summon your big, purple, super strong Spearman best friend! 
+
+charm_friendspearman_haste_name = Haste Spearman Charm
+charm_friendspearman_haste_desc = Summon your big, purple, super strong Spearman best friend equipped with a Haste Charm!
+
+charm_friendnobunaga_name = Friendship Nobunaga Charm
+charm_friendnobunaga_desc = Summon your new big best friend, Nobunaga!
+
+charm_friendnobunaga_luck_name = Lucky Nobunaga Charm
+charm_friendnobunaga_luck_desc = Summon big Nobunaga equipped with a Luck Charm!
+
+charm_friendtakeda_name = Friendship Takeda Charm
+charm_friendtakeda_desc = Summon your new big best friend, Takeda Shingen!
+
+charm_friendtakeda_wealth_name = Wealthy Takeda Charm
+charm_friendtakeda_wealth_desc = Summon big Takeda equipped with a Wealth Charm!
+
+charm_friendassassin_name = Friendship Assassin Charm
+charm_friendassassin_desc = Summon your friendly Assassin!
+
+charm_friendassassin_peace_name = Peaceful Assassin Charm
+charm_friendassassin_peace_desc = Summon your friendly Assassin, equipped with a Peace Charm!
+
+charm_friendfarmer_name = Friendship Farmer Charm
+charm_friendfarmer_desc = Summon your big, faithful friend, the Farmer!
+
+charm_friendfarmer_wealth_name = Wealthy Farmer Charm
+charm_friendfarmer_wealth_desc = Summon your big, faithful Farmer, equipped with a Wealth Charm!
+
+charm_z_holy_name = Raise Dead Charm
+charm_z_holy_desc = Revives the hero after death and kills all enemies on screen.
+
+charm_z_happiness_name = Happiness Charm
+charm_z_happiness_desc = Pulls coins, brains and drops toward the hero.
+
+charm_z_power_name = Power Charm
+charm_z_power_desc = Increase the chance of critical hits!
+
+charm_z_luck_name = Lucky Charm
+charm_z_luck_desc = Double the amount of drops from enemies!
+
+charm_z_wealth_name = Wealth Charm
+charm_z_wealth_desc = Money seems to be attracted to you...
+
+charm_z_peace_name = Peace Charm
+charm_z_peace_desc = Enemies suffer 50% reduction in damage, and chickens!
+
+charm_z_haste_name = Haste Charm
+charm_z_haste_desc = Summoned Allies have a spring in their step.
+
+charm_friendoni_name = Oni Charm
+charm_friendoni_desc = Call an Oni to your side!
+
+charm_friendhorde_name = Horde Charm
+charm_friendhorde_desc = Call a horde to your side!
+
+/------------------------------------------------------------------
+/ Potions
+/------------------------------------------------------------------
+
+potion_healsmall_name = Sushi
+potion_healsmall_desc = Replenishes health to full!
+
+potion_healbig_name = Sushi Plate
+potion_healbig_desc = Replenishes Hero and Allies' health to full!
+
+potion_leadersmall_name = Cup of Tea 
+potion_leadersmall_desc = +25 Leadership! Use Leadership to summon Troops in battle!
+
+potion_leaderbig_name = Pot of Tea
+potion_leaderbig_desc = +50 Leadership! Use Leadership to summon Troops in battle!
+
+potion_revive_name = Revive
+potion_revive_desc = Revives the Hero after death!
+
+potion_z_healsmall_name = Rotten Sushi
+potion_z_healsmall_desc = Replenishes health to full!
+
+potion_z_healbig_name = Rotten Sushi Plate
+potion_z_healbig_desc = Replenishes Hero and Allies' health to full!
+
+potion_z_leadersmall_name = Grave 
+potion_z_leadersmall_desc = +25 Brains! Use Brains to summon Zombies in battle!
+
+potion_z_leaderbig_name = Graveyard
+potion_z_leaderbig_desc = +50 Brains! Use Brains to summon Zombies in battle!
+
+potion_z_revive_name = Revive
+potion_z_revive_desc = Revives the Hero after death!
+
+
+/------------------------------------------------------------------
+/ Deal Packs
+/------------------------------------------------------------------
+
+dealpack1_name = Special Welcome Pack!
+dealpack1_desc = Two valuable Revives, potions and charms to get you started!
+
+dealpack2_name = Great Deal Pack!
+dealpack2_desc = This pack can really help you out when things get tough!
+
+dealpack3_name = Super Deal Pack!
+dealpack3_desc = The items in this pack will really boost your spirits!
+
+dealpack4_name = Domination Deal Pack!
+dealpack4_desc = Completely dominate Zombie foes with this mix of rare and powerful items!
+
+dealpack5_name = Friendship Charm Deal Pack!
+dealpack5_desc = Stomp the Zombie Horde with this exclusive limited time deal pack!
+
+/------------------------------------------------------------------
+/ Store Menu
+/------------------------------------------------------------------
+
+store_title = The Samurai Store
+store_meditate_btn = GO MEDITATE
+
+store_tap_joy = FREE\nGlu Credits!
+
+store_unlockatwave = Unlock at Wave {0}
+store_findInPresent = Hint: Look for these presents!
+store_find_frostie = Find Frostie the Bowman!
+store_find_swordsmith = Find the Swordsmith!
+store_find_rifleman = Find the Rifleman!
+store_find_takeda = Find Takeda Shingen!
+store_find_ninja_girl = Find the Assassin!
+store_find_necromancer = Find the Necromancer!
+
+store_leadership_desc = Makes your leadership bar starts at level {0}.
+
+store_format_level_hero = Level up Hero to Level {0}
+store_format_recruit = Recruit {0}
+store_format_levelup = Level up {0} to level {1}
+store_format_smithy_levelup = Level up Leadership to Level {0}
+store_format_sword_levelup = Level up Sword to Level {0}
+store_format_bow_levelup = Level up Bow to Level {0}
+store_format_gate_levelup = Level up Sacred Gate to Level {0}
+store_format_purchase_atlevel = Purchase {0}
+store_format_upgrade_tolevel = Level up {0} to Level {1}
+store_format_purchase_x_items = Purchase {0} {1}
+store_format_purchase = Purchase {0}
+
+store_format_zombiegate_levelup = Level up the Hell Gate to Level {0}
+store_format_brains_levelup = Level up Brains to Level {0}
+
+undeath_levelup_name = Undeath
+undeath_levelup_desc = Increases the rate at which zombies regenerate health.
+
+store_currencytab0 = Purchase Coins.
+store_currencytab1 = Purchase Glu Credits.
+
+store_percent_off = (-{0}%)
+store_free = FREE!
+
+earnsdoublecoins_title = Earn double coins forever
+earnsdoublecoins_desc = This one time purchase will double the value of coins you pick up in Waves in both modes.
+pachinkopack_title = {0} Pachinko Balls
+pachinkopack_desc = A pack of {0} Pachinko Balls for use in the Pachinko machine.
+
+pachinkocounter_sing = {0} Ball
+pachinkocounter_plurial = {0} Balls
+
+revive_plural = {0} revives\nleft
+revive_singular = 1 revive\nleft
+revive_none = No revive\nleft
+
+legion_name = Legion on the Loose
+legion_desc = Periodically summon up legions of undead troops.
+
+deathfromabove_name = Death from Above
+deathfromabove_desc = Periodically summon up a horde of flying troops.
+
+bitten_name = Bitten
+bitten_desc = Turn the village archers into zombies that fight for you!
+
+/------------------------------------------------------------------
+/ IAP Store Menu
+/------------------------------------------------------------------
+
+iap_error_syncfailed = We were unable to sync your previous purchase. Please try again later.
+iap_error_syncunknown = We encountred an unknown issue trying to sync your previous purchase. Please try again later.
+iap_error_requesttimedout = The connection have timed out. Please verify your internet connection and try again later.
+iap_error_requestfailed = We were unable to connect. Please verify your internet connection and try again later.
+iap_error_requestunknown = An unknown problem occured. Please verify your internet connection and try again later.
+iap_error_buycancelled = Your purchase has been cancelled. Please try again later.
+iap_error_buyfailed = Your purchase order failed. Please try again later.
+iap_error_buyunknown = An unknown problem occured while processing your order, and has been cancelled. Please try again later.
+iap_error_novalidproducts = We could not find any valid products.  Please try again later.
+
+iap_error_parentalrestrictions = Your system settings does not allow payments for in-app purchases.
+iap_error_unavailable = Purchases are not available at the moment.  Please try again later.
+
+/------------------------------------------------------------------
+/ TapJoy
+/------------------------------------------------------------------
+TapJoy_Awarded_Gems_Message_Pre_Text = TapJoy has awarded you 
+TapJoy_Awarded_Gems_Message_Post_Text = Thank you for participating.
+
+/------------------------------------------------------------------
+/ iCloud
+/------------------------------------------------------------------
+iCloud_Message_Text = Would you like to save or load your game to/from your iCloud account?
+iCloud_Load_Button_Text = Load
+iCloud_Save_Button_Text = Save
+No_iCloud_Notification_Message_Text = The iCloud Service could not be reached. 
+iCloud_Save_Started_Notification_Message_Text = Your save file has been queued to be uploaded to the iCloud Service.
+iCloud_File_Not_Found_Notification_Message_Text = Unable to find save file on the iCloud Service.	
+iCloud_Data_Loaded_Message_Text = Your save data has been sucessfully loaded from the iCloud Service.
+iCloud_Timed_Out_Message_Text = Connection to the iCloud Service was lost before your data could be loaded. Please try again.
+
+
+/------------------------------------------------------------------
+/ Debriefing Menu
+/------------------------------------------------------------------
+
+debrief_title = Wave {0}:
+debrief_title_bonus = Bonus Wave: 
+
+debrief_you_unlocked = You Unlocked:
+debrief_awarded = Victory Award:
+debrief_collected = Collected:
+debrief_total = Total:
+debrief_victory = Victory!
+debrief_lost = Battle Lost!
+
+
+/------------------------------------------------------------------
+/ Chapters
+/------------------------------------------------------------------
+
+chapter_title_summer = Summer
+chapter_title_fall = Fall
+chapter_title_winter = Winter
+chapter_title_spring = Spring
+chapter_title_hell = Chaos
+chapter_title_new1 = Otherside Summer
+chapter_title_new2 = Otherside Fall
+
+chapter_title_zombiehell1 = Underworld
+chapter_title_zombiehell2 = Limbo
+chapter_title_zombiehell3 = Chaos
+
+chapter_wave_num = Wave\n{0}
+
+chapter_screen_locked = After you beat Wave {0}, you will be able to select the waves you want to replay again!
+
+waveselect_inst = Tap to select wave
+waveselect_inst_pc = Click to select wave
+
+/------------------------------------------------------------------
+/ Push Notifications
+/------------------------------------------------------------------
+
+Push_Notification_Message_Text = Come back to Samurai Vs Zombies Defense and claim your daily reward now!
+Push_Notification_Button_Text = SvZ
+
+No_Internet_Notification_Message_Text = This feature requires an internet connection.
+
+/------------------------------------------------------------------
+/ Tutorial
+/------------------------------------------------------------------
+
+tutorial_store_intro = Welcome to the Samurai Store! Here you can upgrade your hero, recruit villagers, and improve village defenses.
+tutorial_dealpacks = Your Samurai thirsts for power. Feed him with these valuable items from the Welcome Pack today!
+
+tutorial_ingame_gate = Protect the Sacred Gate!
+tutorial_ingame_movements = Press on the left or right side of the screen to move.
+tutorial_ingame_attack = Hero will attack automatically when enemies are in range.
+tutorial_ingame_ability = Tap the Katana Slash icon to perform a special attack!
+
+tutorial_ingame_leadership = Leadership accumlates over time. Use leadership to summon allies.
+tutorial_ingame_allies = You have enough leadership. Press the ally icon to summon him!
+tutorial_ingame_flying = Flying enemies can only be defeated by using your bow. Step back to use your bow.
+
+tutorial_bonus_1 = You have unlocked a Bonus Wave! Your hero cannot attack during this wave.
+tutorial_bonus_2 = Special allies have been provided for you. Summon them to defeat the zombies!
+tutorial_bonus_3 = Bonus Waves will have a charm equipped by default. You have the Luck Charm active for increased loot drops!
+tutorial_bonus_4 = After every five waves, a Bonus Wave will be unlocked!
+
+tutorial_pachinko_lever = Pull the lever to launch a Pachinko Ball! Multiple balls can be in play at once! Try launching balls as fast as you can!
+tutorial_pachinko_spin = Aim for the center to spin and win prizes! Prizes include Coins, Glu Credits, Sushi, Tea, and Charms!
+tutorial_pachinko_multiplier = The more balls you have in play the higher the multiplier. Increase the multiplier to win more coins from the flowers!
+
+tutorial_boosterpacks_free = You received a Free booster pack, press here to unwrap it!
+
+/------------------------------------------------------------------
+/ Tutorial PC
+/------------------------------------------------------------------
+
+tutorial_ingame_gate_pc = Protect the Sacred Gate!
+tutorial_ingame_movements_pc = Press A/D to move.
+tutorial_ingame_attack_pc = Hero will attack automatically when enemies are in range.
+tutorial_ingame_ability_pc = Press E/R to perform a special attack!
+
+tutorial_ingame_leadership_pc = Leadership accumlates over time. Use leadership to summon allies.
+tutorial_ingame_allies_pc = You have enough leadership. Press 1 to summon him!
+tutorial_ingame_flying_pc = Flying enemies can only be defeated by using your bow. Step back to use your bow.
+
+/------------------------------------------------------------------
+/ Daily Reward Popup
+/------------------------------------------------------------------
+Daily_Rewards = Daily Rewards
+Daily_Reward_Unlock_Subtitle = Congratulations!
+Daily_Reward_Unlock_Body = You've unlocked a Daily Reward for playing multiple days in a row!
+
+/------------------------------------------------------------------
+/ Options menu
+/------------------------------------------------------------------
+
+options_confirmreset = You are about to erase all of your data, including purchases you made. Do you want to continue?
+
+
+/------------------------------------------------------------------
+/ Revive
+/------------------------------------------------------------------
+
+revive_title = You died.  If you don't use a Revive, you will lose:
+revive_title_nospoil = You died.
+revive_use1 = Use your Revive?
+revive_useX = Use one of your {0} Revives?
+revive_purchase = Revive?
+
+/------------------------------------------------------------------
+/ Pachinko
+/------------------------------------------------------------------
+
+coin100 = 100 Coins
+coin1000 = 1000 Coins
+coin500 = 500 Coins
+coin5000 = 5000 Coins
+gem25 = 25 Glu Credits
+gem10 = 10 Glu Credits
+gem5 = 5 Glu Credits
+lucky = Lucky Charm
+power = Power Charm
+haste = Haste Charm
+friendship = Friendship
+wealth = Wealth
+peace = Peace Charm
+revive = Revive
+sushi = Sushi
+sushiplater = Sushi Plate
+teacup = Cup of Tea
+teapot = Pot of Tea
+
+pachinkohelp_title = Pachinko Rules
+pachinkohelp_desc = Launch balls and get them in the center to spin slot machine. Match 3 of the following icons to win:
+pachinkohelp_food = Sushi and Tea
+pachinkohelp_revive = Revive
+pachinkohelp_charms = Charms
+pachinkohelp_coins = Coins
+pachinkohelp_gems = Glu Credits
+
+pachinkosum_title = Congratulations!
+pachinkosum_desc = By playing Pachinko you won these prizes:
+	
+
+/------------------------------------------------------------------
+/ Rate My Game dialog
+/------------------------------------------------------------------
+rate_me_title = Rate our Game!
+like_our_game = Are you enjoying Samurai Vs Zombies Defense? Please rate our game to ensure future updates!
+cancel_rating = No thank you
+rate_it = Rate our game!
+rate_me_url = http://gcs.glu.com/gcs/iphone/iphone.jsp?t=samuzombie&src=samuzombie&p=iphone&page=review
+never_rate = Never
+
+/------------------------------------------------------------------
+/ Version check
+/------------------------------------------------------------------
+New_Version_Notification_Message_Text = A new version of Samurai Vs Zombies: Defense is located on the app store. Please download the update before proceeding.
+New_Version_Notification_Message_Text_Google = A new version of Samurai Vs Zombies Defense is available on Google Play. Please download the update before proceeding.
+New_Version_Notification_Message_Text_Amazon = A new version of Samurai Vs Zombies Defense is available on Amazon Store. Please download the update before proceeding.
+version_file_location = https://s3.amazonaws.com/griptonite/svz/android/force_upgrade/version.txt
+version_file_location_live = https://d2lk18ssnvgdhj.cloudfront.net/svz/android/force_upgrade/live/version.txt
+version_file_location_stage = https://s3.amazonaws.com/griptonite/svz/android/force_upgrade/stage/version.txt
+amazon_version_file_location_live = https://d2lk18ssnvgdhj.cloudfront.net/svz/android/force_upgrade/live/amazon_version.txt
+amazon_version_file_location_stage = https://s3.amazonaws.com/griptonite/svz/android/force_upgrade/stage/amazon_version.txt
+
+/------------------------------------------------------------------
+/ Hints (Recommandations dialog)
+/------------------------------------------------------------------
+hints_title = Hint!
+
+
+/------------------------------------------------------------------
+/ Booster Pack Store
+/------------------------------------------------------------------
+
+boosterstore_warning_helper = WARNING!  You already maxed out the level for {0}.  Do you still want to purchase this Pack?
+
+normal_store_link_title = \nBooster\nPacks
+
+boosterpack_title_free = Reward Pack
+boosterpack_title_1 = Starter Pack
+boosterpack_title_2 = Standard Pack
+boosterpack_title_3 = Premium Pack
+boosterpack_title_4 = Jumbo Pack
+boosterpack_title_nobunaga = Nobunaga Pack
+boosterpack_title_priest = Priest Pack
+boosterpack_title_swordsmith = Swordsmith Pack
+boosterpack_title_rifleman = Rifleman Pack
+boosterpack_title_takeda = Takeda Pack
+boosterpack_title_frostee = Frostee Pack
+boosterpack_title_assassin = Assassin Pack
+
+boosterpack_desc_free = 1 Common Item.
+boosterpack_desc_1 = 1 Item. Guarantees 1 Common or Uncommon Item.
+boosterpack_desc_2 = 6 Items Total. Guarantees at least 1 Uncommon Item.
+boosterpack_desc_3 = 11 Items Total. Guarantees at least 1 Rare Item.
+boosterpack_desc_4 = 21 Items Total. Guarantees at least 1 Super-Rare Item.
+boosterpack_desc_nobunaga = 31 Items Total. Guarantees at least 1 Extreme-Rare Item, and Nobunaga upgrade.
+boosterpack_desc_priest = 31 Items Total. Guarantees at least 1 Extreme-Rare Item, and Priest upgrade.
+boosterpack_desc_swordsmith = 31 Items Total. Guarantees at least 1 Extreme-Rare Item, and Swordsmith unlock.
+boosterpack_desc_rifleman = 31 Items Total. Guarantees at least 1 Extreme-Rare Item, and Rifleman unlock.
+boosterpack_desc_takeda = 31 Items Total. Guarantees at least 1 Extreme-Rare Item, and Takeda upgrade.
+boosterpack_desc_frostee = 31 Items Total. Guarantees at least 1 Extreme-Rare Item, and Frostee upgrade.
+boosterpack_desc_assassin = 31 Items Total. Guarantees at least 1 Extreme-Rare Item, and Assassin upgrade.
+
+boosterpack_rarity_common = Common
+boosterpack_rarity_uncommon = Uncommon
+boosterpack_rarity_rare = Rare
+boosterpack_rarity_super = Super Rare
+boosterpack_rarity_extreme = Extreme Rare
+
+boosterpack_card_coins_title = {0} Coins
+boosterpack_card_coins_desc = This card awards {0} Coins!
+boosterpack_card_gems_title = {0} Glu Credits
+boosterpack_card_gems_desc = This card awards {0} Glu Credits!
+boosterpack_card_balls_title = {0} Pachinko Balls
+boosterpack_card_balls_desc = This card awards {0} Pachinko Balls!
+
+boosterpack_card_revive_title = Revive x{0}
+boosterpack_card_revive_desc = This card awards {0} Revive(s)!
+boosterpack_card_healthSmall_title = Sushi x{0}
+boosterpack_card_healthSmall_desc = This card awards {0} Sushi!
+boosterpack_card_healthBig_title = Sushi Plate x{0}
+boosterpack_card_healthBig_desc = This card awards {0} Sushi Plate(s)!
+boosterpack_card_leadershipSmall_title = Tea Cup x{0}
+boosterpack_card_leadershipSmall_desc = This card awards {0} Tea Cup(s)!
+boosterpack_card_leadershipBig_title = Tea Pot x{0}
+boosterpack_card_leadershipBig_desc = This card awards {0} Tea Pot(s)!
+
+boosterpack_card_power_title = Power Charm x{0}
+boosterpack_card_power_desc = This card awards {0} Power Charm(s)!
+boosterpack_card_luck_title = Lucky Charm x{0}
+boosterpack_card_luck_desc = This card awards {0} Lucky Charm(s)!
+boosterpack_card_wealth_title = Wealth Charm x{0}
+boosterpack_card_wealth_desc = This card awards {0} Wealth Charm(s)!
+boosterpack_card_haste_title = Haste Charm x{0}
+boosterpack_card_haste_desc = This card awards {0} Haste Charm(s)!
+boosterpack_card_peace_title = Peace Charm x{0}
+boosterpack_card_peace_desc = This card awards {0} Peace Charm(s)!
+
+boosterpack_card_friendship_title = Warrior Charm x{0}
+boosterpack_card_friendship_desc = This card awards {0} Warrior Charm(s)!
+boosterpack_card_friendship+power_title = Power Friendship Charm x{0}
+boosterpack_card_friendship+power_desc = This card awards {0} Power Warrior Charm(s)!
+boosterpack_card_panzer_title = Panzer Charm x{0}
+boosterpack_card_panzer_desc = This card awards {0} Panzer Charm(s)!
+boosterpack_card_panzer+luck_title = Lucky Panzer Charm x{0}
+boosterpack_card_panzer+luck_desc = This card awards {0} Lucky Panzer Charm(s)!
+boosterpack_card_spear_title = Spearman Charm x{0}
+boosterpack_card_spear_desc = This card awards {0} Spearman Charm(s)!
+boosterpack_card_spear+haste_title = Hasty Spearman Charm x{0}
+boosterpack_card_spear+haste_desc = This card awards {0} Hasty Spearman Charm(s)!
+boosterpack_card_nobu_title = Nobunaga Charm x{0}
+boosterpack_card_nobu_desc = This card awards {0} Nobunaga Charm(s)!
+boosterpack_card_nobu+luck_title = Lucky Nobunaga Charm x{0}
+boosterpack_card_nobu+luck_desc = This card awards {0} Lucky Nobunaga Charm(s)!
+boosterpack_card_takedacharm_title = Takeda Charm x{0}
+boosterpack_card_takedacharm_desc = This card awards {0} Takeda Charm(s)!
+boosterpack_card_takedacharm+wealth_title = Wealthy Takeda Charm x{0}
+boosterpack_card_takedacharm+wealth_desc = This card awards {0} Wealthy Takeda Charm(s)!
+boosterpack_card_assassincharm_title = Assassin Charm x{0}
+boosterpack_card_assassincharm_desc = This card awards {0} Assassin Charm(s)!
+boosterpack_card_assassincharm+peace_title = Peaceful Assassin Charm x{0}
+boosterpack_card_assassincharm+peace_desc = This card awards {0} Peaceful Assassin Charm(s)!
+boosterpack_card_farmer_title = Farmer Charm x{0}
+boosterpack_card_farmer_desc = This card awards {0} Farmer Charm(s)!
+boosterpack_card_farmer+wealth_title = Wealthy Farmer Charm x{0}
+boosterpack_card_farmer+wealth_desc = This card awards {0} Wealthy Farmer Charm(s)!
+
+boosterpack_card_swordsmith_title = Swordsmith Unlock
+boosterpack_card_swordsmith_desc = Unlock Swordsmith!
+boosterpack_card_rifleman_title = Rifleman Unlock
+boosterpack_card_rifleman_desc =  Unlock the Rifleman!
+boosterpack_card_nobunaga_title = Nobunaga Upgrade x{0}
+boosterpack_card_nobunaga_desc = Upgrade your Nobunaga by {0} level(s)!
+boosterpack_card_priest_title = Priest Upgrade x{0}
+boosterpack_card_priest_desc = Upgrade your Priest by {0} level(s)!
+boosterpack_card_takeda_title = Takeda Upgrade x{0}
+boosterpack_card_takeda_desc = Upgrade your Takeda by {0} level(s)!
+boosterpack_card_frosty_title = Frosty Upgrade x{0}
+boosterpack_card_frosty_desc = Upgrade your Frosty by {0} level(s)!
+boosterpack_card_assassin_title = Assassin Upgrade x{0}
+boosterpack_card_assassin_desc = Upgrade your Assassin by {0} level(s)!
+
+
+/------------------------------------------------------------------
+/ Achievements
+/------------------------------------------------------------------
+
+achievement_notext = Achievement Unlocked!
+
+SAMUZOMBIE_ACHIEVE_TAKE_AIM = Take Aim
+SAMUZOMBIE_ACHIEVE_NEVER_GIVE_UP = Never Give Up
+SAMUZOMBIE_ACHIEVE_RIDE_LIKE_THE_WIND = Ride like the Wind
+SAMUZOMBIE_ACHIEVE_HIS_AMBITION = His Ambition
+SAMUZOMBIE_ACHIEVE_PANZER_BLITZ = Panzer blitz
+SAMUZOMBIE_ACHIEVE_THE_HORSE_LORD = The Horse Lord
+SAMUZOMBIE_ACHIEVE_HOLY_MOLEY = Holy Moley
+SAMUZOMBIE_ACHIEVE_AT_THE_READY = At the Ready
+SAMUZOMBIE_ACHIEVE_MUST_HAVE_MAGIC = The must have been some magic….
+SAMUZOMBIE_ACHIEVE_FROM_THE_FIELDS = From the Fields
+SAMUZOMBIE_ACHIEVE_NEVER_SAW_IT_COMING = Never saw it coming
+SAMUZOMBIE_ACHIEVE_SOMEONE_UP_THERE = Someone up there…..
+SAMUZOMBIE_ACHIEVE_LAST_STAND = Last Stand
+SAMUZOMBIE_ACHIEVE_FOLLOW_ANYWHERE = Will follow you anywhere…
+SAMUZOMBIE_ACHIEVE_DING_DONG = Ding Dong
+SAMUZOMBIE_ACHIEVE_FROM_THE_HEAVENS = From the Heavens
+SAMUZOMBIE_ACHIEVE_GIVE_THEM_A_VOLLEY = Give them a Volley
+SAMUZOMBIE_ACHIEVE_MUSHASHI = Mushashi
+SAMUZOMBIE_ACHIEVE_SLOTH = Sloth
+SAMUZOMBIE_ACHIEVE_CATEGORY_5 = Category 5
+SAMUZOMBIE_ACHIEVE_ALL_OUT_MELEE = All out Melee
+SAMUZOMBIE_ACHIEVE_FIGHT_WITH_HONOR = Fight with Honor
+SAMUZOMBIE_ACHIEVE_WITHOUT_A_TRACE = Without a trace
+SAMUZOMBIE_ACHIEVE_THIS_LAND_IS_SAFE = This land is Safe
+SAMUZOMBIE_ACHIEVE_MONEY_BAGS = Money Bags
+SAMUZOMBIE_ACHIEVE_SPIDER_DEMON = Spider Demon
+SAMUZOMBIE_ACHIEVE_NO_WAY = No Way…
+SAMUZOMBIE_ACHIEVE_HALFWAY_THERE = Halfway There
+SAMUZOMBIE_ACHIEVE_GET_BACK_HERE = Get back here!
+SAMUZOMBIE_ACHIEVE_DONT_SPEND_ONE_PLACE = Don't spend it all in one place
+SAMUZOMBIE_ACHIEVE_SEND_THEM_BACK = Send them back
+SAMUZOMBIE_ACHIEVE_ALL_WE_NEED = All we need
+SAMUZOMBIE_ACHIEVE_CLEAR_THE_ROOM = Clear the Room
+SAMUZOMBIE_ACHIEVE_EVERY_ABLE_BODY = Every able body
+SAMUZOMBIE_ACHIEVE_WE_NEED_SHOTGUNS = We need shotguns
+SAMUZOMBIE_ACHIEVE_MUST_PROTECT_HOUSE = We must protect this house
+SAMUZOMBIE_ACHIEVE_SO_LONG = So Long
+SAMUZOMBIE_ACHIEVE_COMPLETIONIST = Completionist
+SAMUZOMBIE_ACHIEVE_COWARD = Coward
+SAMUZOMBIE_ACHIEVE_THEY_GOT_THIS = They got this
+SAMUZOMBIE_ACHIEVE_RAZOR_SHARP = Razor Sharp
+SAMUZOMBIE_ACHIEVE_WHOS_ALL_HERE = Who's all here?
+SAMUZOMBIE_ACHIEVE_FINALLY = Finally...
+SAMUZOMBIE_ACHIEVE_THAT_TOOK_FOREVER = That took forever
+SAMUZOMBIE_ACHIEVE_YOU_ARE_WINNER = You are winner hahaha
+SAMUZOMBIE_ACHIEVE_SO_SHARP = So Sharp
+SAMUZOMBIE_ACHIEVE_TAKE_THE_SHOT = Take the Shot
+SAMUZOMBIE_ACHIEVE_TEA_EARL_GREY_HOT = Tea, earl grey, hot
+SAMUZOMBIE_ACHIEVE_WHERES_THE_WASABI = Where's the wasabi?
+
+
+/------------------------------------------------------------------
+/ Narratives
+/------------------------------------------------------------------
+
+narrative_01 = Zombies have found a portal to our village.  Protect the sacred gate!  If they destroy the gate our village will not survive!
+narrative_04 = Fall approaches!  The Zombie Lord Oni arrives!  Upgrade your troops to survive!  The legendary Takeda Shingen can help you.  Look for this rare, powerful warrior in special Golden Presents on the battlefield.  You must find him!  Six waves to go!
+narrative_07 = Excellent work Samurai, but the dreaded Lord Oni looms ahead.  You must become stronger to battle the darkness!  Only three waves left!
+narrative_10 = The time is now, Samurai!  Defeat Oni, the Zombie Lord and you will gain 5 Glu Credits, 1 Revive, and a Lucky Charm!
+narrative_11 = Victory is yours, but the job is not done. It is autumn now, more Zombies pour through the portal.  I fear a new Zombie Lord may be behind this…
+narrative_12 = Frostie the Bowman can help you!  His deadly arrows slow your enemies.  Look for this rare, powerful archer in special Golden Presents on the battlefield.
+narrative_15 = Tengu, the devastating Zombie Lord will arrive soon.  You must be ready!  Five waves to go!
+narrative_18 = Tengu is near, and he brings harsh Winter with him. Prepare your troops!  Only two waves to go!
+narrative_20 = The great battle is upon us!  Defeat Tengu and you will gain 5 Glu Credits, 1 Revive, and a Friendship Charm!
+
+/------------------------------------------------------------------
+/ Misc
+/------------------------------------------------------------------
+
+bell_name = Warding Bell
+village_archers_name = Village Bowmen
+yes = YES
+no = NO
+ok = OK
+exit = EXIT
+leadership_level = lvl {0}
+stat_level = Level {0}
+
+coins = Coins
+gems = Glu Credits
+coinsNum = {0} Coins
+gemsNum = {0} Glu Credits
+ballsNum = {0} Pachinko Balls
+
+add_wave = Wave {0}
+add_bonus_wave = Bonus Wave
+
+
+/------------------------------------------------------------------
+/ Sub Files
+/------------------------------------------------------------------
+
+credits_file = DefaultCredits
+legal_file = DefaultLegal
+
+/------------------------------------------------------------------
+/ Android
+/------------------------------------------------------------------
+
+quit_confirm = Are you sure you want to exit?
+like_our_game_android = Are you enjoying Samurai Vs Zombies Defense?\n\nPlease Rate us and earn 5 FREE Glu Credits!
+like_our_game_android_amazon = Are you enjoying Samurai Vs Zombies Defense?\n\nPlease Rate us!
+rating_award = Congratulations!\nYou've been awarded 5 Glu Credits!
+cancel_rating_android = Not now
+rate_it_android = Rate\nthe game
+vip_btn_title = GET FREE GLU CREDITS
+vip_btn_title_with_plan = view benefits

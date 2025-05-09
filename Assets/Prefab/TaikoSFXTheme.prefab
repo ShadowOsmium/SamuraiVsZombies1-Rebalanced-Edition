@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1645423035753802}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1645423035753802
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4802996852637073}
+  - 114: {fileID: 114604917193403869}
+  - 114: {fileID: 114112382385278932}
+  - 114: {fileID: 114697571554454976}
+  m_Layer: 0
+  m_Name: TaikoSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4802996852637073
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645423035753802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3622532, y: 1.8259695, z: -11.012518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114604917193403869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645423035753802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: 0872f0ab33f3b7c4da224919930737ee, type: 3}
+    - {fileID: 8300000, guid: 9090e095cfc609f4f9dc3752705774c4, type: 3}
+    - {fileID: 8300000, guid: 51f6bd7bc6ff4184f93339bf0b927eb0, type: 3}
+    - {fileID: 8300000, guid: f05da117f891f394aac9d6dfa4c8010e, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: BigDrum
+    clips:
+    - {fileID: 8300000, guid: d948317c0d218724cb870ec31d94623e, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.5
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 50
+    maxDistanceOverride: 2500
+    useLogarithmicRolloff: 0
+  - name: Drum
+    clips:
+    - {fileID: 8300000, guid: 7ff9ae353dec8b54aa8c758ba4c761b8, type: 3}
+    - {fileID: 8300000, guid: de71df6a54d7c2c43a1845c1e255e522, type: 3}
+    - {fileID: 8300000, guid: ea598f86cfde445428f33fe9b507172a, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.5
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 50
+    maxDistanceOverride: 2500
+    useLogarithmicRolloff: 1
+  - name: Sing
+    clips:
+    - {fileID: 8300000, guid: 8df87a1339d465b46bcc0e979c3cd528, type: 3}
+    - {fileID: 8300000, guid: f582b0c260658fc4c8ac2e9e49a55371, type: 3}
+    - {fileID: 8300000, guid: de3bbadef9a12f04ba9798cab8495caf, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 50
+    maxDistanceOverride: 2500
+    useLogarithmicRolloff: 0
+  - name: Amb
+    clips:
+    - {fileID: 8300000, guid: 057a5bc06ed0c2842869e67f3691f72a, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.3
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 50
+    maxDistanceOverride: 2500
+    useLogarithmicRolloff: 0
+--- !u!114 &114112382385278932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645423035753802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/TaikoSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114697571554454976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645423035753802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

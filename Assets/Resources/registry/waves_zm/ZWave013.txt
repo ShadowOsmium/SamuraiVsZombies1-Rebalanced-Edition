@@ -1,0 +1,82 @@
+/ Inspired by Wave 33
+
+scene = InGame_hell_purple
+villageArchers = 2
+
+[Commands]
+	NinjaGirl
+	1,1
+	NinjaGirl
+	1,1
+	NinjaGirl
+	1,1
+	NinjaGirl
+	1,1
+	SpearHorseman
+	1,1
+	SpearHorseman
+	1,1
+	SpearHorseman
+	1,1
+	NinjaGirl
+	1,1
+	NinjaGirl
+	1,1
+	NinjaGirl
+	1,1
+	SpearHorseman
+	1,1
+	NinjaGirl
+	1,1
+	SpearHorseman
+	1,1
+	NinjaGirl
+	5,5
+	SamuraiShield_Ice
+	Priest
+	Swordsmith	
+	3,3
+	Nobunaga
+	1,1
+	Nobunaga
+	1,1
+	Nobunaga
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts	
+	1,1
+	FarmerStilts	
+	1,1
+	FarmerStilts
+	1,1
+	SamuraiShield_Ice	
+	1,1
+	SamuraiHeavy
+	Swordsmith
+	1,1
+	Nobunaga
+	1,1
+	Nobunaga
+	1,1
+	FarmerStilts
+	1,1
+	FarmerStilts	
+	1,1
+	FarmerStilts	
+	1,1
+	Priest
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+

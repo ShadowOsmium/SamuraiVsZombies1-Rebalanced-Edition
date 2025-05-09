@@ -1,0 +1,17 @@
+[events]
+	intro
+	/villager
+
+[intro]
+	condition = 1
+	endCondition = touchScreen
+	blocking = yes
+	text = @tutorial_store_intro
+	position = C+40, 360
+	
+/[villager]
+/	condition = 0.5
+/	endCondition = touchVillagerTab
+/	text = Tap on the villager tab to bring up the list of recruits!
+/	leftArrow = 180, C
+

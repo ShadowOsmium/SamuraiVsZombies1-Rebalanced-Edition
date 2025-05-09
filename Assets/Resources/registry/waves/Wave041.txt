@@ -1,0 +1,142 @@
+scene = InGame_evil
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 2
+/	Bow = 2
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	Wayundo_Metal
+	2,2
+	Jurogumo
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	1,1
+	Tengu
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	3,3
+	Jurogumo
+	Komusou_2
+	Onibaba_2
+	Oni
+	Wayundo_Metal
+	1,1
+	H_Zombie_Warhammer
+	H_Zombie_Bow_2
+	Oni_Small
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	H_Zombie_Bow_2
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	H_Zombie_Bow_2
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	Nobusuma_alt
+	H_Zombie_Bow_2
+	1,1
+	H_Zombie_Warhammer
+	H_Zombie_Bow_2
+	Oni
+	1,1
+	Tengu
+	1,1
+	Tengu_air
+	H_Zombie_Bow_2
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	H_Zombie_Bow_2
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	Nobusuma_alt
+	H_Zombie_Bow_2
+	1,1
+	Oni_small
+	Jurogumo
+	Onibaba_2
+	Komusou_2
+	Oni_Small
+	6,6
+	Wayundo_metal
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	3,3
+	Oni
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	1,1
+	Jurogumo
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	1,1
+	Jurogumo
+	H_Zombie_Bow_2
+	H_Zombie_Bow_2
+	
+	
+	

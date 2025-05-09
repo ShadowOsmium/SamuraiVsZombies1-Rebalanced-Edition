@@ -1,0 +1,147 @@
+scene = InGame_hell
+
+selectedCharm = wealth
+initialleadershiplevel = 2
+baselevel = 1
+belllevel = 2
+archerlevel = 4
+[abilitylevels]
+	summontornadoes = 8
+	lethargy = 5
+[selectedabilities]
+	000 = SummonTornadoes
+	001 = Lethargy
+[helperlevels]
+	samuraiarcher = 8
+	rifleman = 1
+	icearcher = 8
+	heavysamurai = 5
+	Takeda = 8
+	
+[selectedhelpers]
+	000 = SamuraiArcher
+	001 = Rifleman
+	002 = IceArcher
+	003 = HeavySamurai
+	004 = Takeda
+	
+[Commands]
+	Nobusuma
+	1,1
+	Nobusuma
+	1,1
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	1,1
+	Tengu
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	1,1
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	1,1
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	2,2
+	Nobusuma
+	1,1
+	Nobusuma_alt
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	

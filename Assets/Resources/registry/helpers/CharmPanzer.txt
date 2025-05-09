@@ -1,0 +1,25 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_swordsmith
+desc = 
+prefab = Characters/PFHSamuraiBig
+lane = back
+HUDIcon = Sprites/Icons/ally_swordsman
+weaponMeleePrefab = Props/PFHeavysamuraisword
+hideInStore = True
+waveToUnlock = 999
+resourcesCost = 0.0
+cooldownTimer = 1.0
+attackFrequency = 1.7
+health = 20800
+speedMin = 120
+speedMax = 120
+meleeRange = 200
+meleeDamage = 300
+knockbackPower = 90
+knockbackResistance = 100
+
+

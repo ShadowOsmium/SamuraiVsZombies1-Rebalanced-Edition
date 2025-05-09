@@ -1,0 +1,138 @@
+scene = InGame_hell
+
+selectedCharm = haste
+initialleadershiplevel = 3
+baselevel = 1
+belllevel = 2
+archerlevel = 4
+[abilitylevels]
+	divineintervention = 8
+	lethargy = 5
+[selectedabilities]
+	000 = DivineIntervention
+	001 = Lethargy
+[helperlevels]
+	heavysamurai = 8
+	priest = 8
+	spearhorseman = 8
+	nobunaga = 8
+	Takeda = 8
+	
+[selectedhelpers]
+	000 = HeavySamurai
+	001 = Priest
+	002 = SpearHorseman
+	003 = Nobunaga
+	004 = Takeda
+	
+[Commands]
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	2,2
+	Oni_Small
+	1,1
+	Oni_small
+	1,1
+	Oni_Small	
+	1,1
+	Oni
+	3,3
+	Tengu
+	3,3
+	Tengu
+	1,1
+	Oni_Small
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	2,2
+	Oni_Small
+	1,1
+	Oni_small
+	1,1
+	Oni_Small
+	Oni_Small
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	2,2
+	Oni_Small
+	1,1
+	Oni_small
+	1,1
+	Oni_Small
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	2,2
+	Oni_Small
+	1,1
+	Oni_small
+	1,1
+	Oni_Small
+	Oni_Small
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	2,2
+	Oni_Small
+	1,1
+	Oni_small
+	1,1
+	Oni_Small
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni_small
+	2,2
+	Oni_Small
+	1,1
+	Oni_small
+	1,1
+	Oni_Small
+	Oni_Small
+	1,1
+	Tengu
+	1,1
+	Oni_small
+	2,2
+	Oni_Small
+	1,1
+	Oni_small
+	1,1
+	Oni_Small
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni
+	1,1
+	Oni

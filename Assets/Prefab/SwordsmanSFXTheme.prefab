@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1732982299343301}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1732982299343301
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4545537171930401}
+  - 114: {fileID: 114591881139291293}
+  - 114: {fileID: 114556771347078677}
+  - 114: {fileID: 114217068590930095}
+  m_Layer: 0
+  m_Name: SwordsmanSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4545537171930401
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732982299343301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.839172, y: 133.52786, z: -1.3863373}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114591881139291293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732982299343301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: Spawn
+    clips:
+    - {fileID: 8300000, guid: 4c70ba5502ff70f49a6592baa30b56fe, type: 3}
+    - {fileID: 8300000, guid: d69de70da082ae44b9ba6bcea7a82433, type: 3}
+    - {fileID: 8300000, guid: aaacc63797cf99c44b7128f5d55fe25c, type: 3}
+    - {fileID: 8300000, guid: ebf62442c78c1bc47afe59aece742e1d, type: 3}
+    - {fileID: 8300000, guid: 34c6e973ac80de745975174063841f7d, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: 88e66dfd54aa298429aa7a52b0c2116e, type: 3}
+    - {fileID: 8300000, guid: ca8828be8da84354aa0e08a65f17d85a, type: 3}
+    - {fileID: 8300000, guid: 7ac81e3229b6dde4b8b2e1b0214df9ba, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: AtkEmote
+    clips:
+    - {fileID: 8300000, guid: 415cb9d38b7d2db4d94646ee03d03175, type: 3}
+    - {fileID: 8300000, guid: e12fb885171dac74c9f84f7335e188f5, type: 3}
+    - {fileID: 8300000, guid: 8e20f718ef61a964a8c0bf9d45de67fd, type: 3}
+    percentChanceNone: 75
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: RangedAtk
+    clips:
+    - {fileID: 8300000, guid: 7c19da2f186d6cd4b9766de13f4d795e, type: 3}
+    - {fileID: 8300000, guid: 94bd7144450bbc64d92ba87e8c9f929d, type: 3}
+    - {fileID: 8300000, guid: ee6e3df212477db48af66e7baa96f98a, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+--- !u!114 &114556771347078677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732982299343301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/SwordsmanSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114217068590930095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732982299343301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

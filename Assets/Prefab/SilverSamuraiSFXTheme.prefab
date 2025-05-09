@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1841065840076848}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1841065840076848
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4120813251022013}
+  - 114: {fileID: 114462035518633611}
+  - 114: {fileID: 114754142193665135}
+  - 114: {fileID: 114102700667386194}
+  m_Layer: 0
+  m_Name: SilverSamuraiSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4120813251022013
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1841065840076848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.845306, y: 149.30783, z: 257.1562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114462035518633611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1841065840076848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: AtkEmote
+    clips:
+    - {fileID: 8300000, guid: b0342e62974ec6c45a5eaed77120fa78, type: 3}
+    - {fileID: 8300000, guid: a2109f64fffffa54da5a00b1f58a0ffd, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 150
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: e9469caa7084c6f48a1fbed3491ed517, type: 3}
+    - {fileID: 8300000, guid: 30bd60bee138d5f41b03e9d47a63228e, type: 3}
+    - {fileID: 8300000, guid: e3a576893a41430429aaa9b3b295d105, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 150
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Footstep
+    clips:
+    - {fileID: 8300000, guid: c3a9f7466bfeeb74885a065928e08e1c, type: 3}
+    - {fileID: 8300000, guid: 5bdd92fd6d08e1f4eb5d0bd216fd3397, type: 3}
+    - {fileID: 8300000, guid: a9c9d02078b418342b72a123f168a15a, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.4
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 50
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SwooshMed
+    clips:
+    - {fileID: 8300000, guid: 0336aa5f31225e7498ab6a5e7517f391, type: 3}
+    - {fileID: 8300000, guid: 0e5025373e5a0d14899d84dddbcb7a3c, type: 3}
+    - {fileID: 8300000, guid: 0844b52881abd434d9241efec54c58ee, type: 3}
+    - {fileID: 8300000, guid: 71141101269fce7408c01bcbe74d8bce, type: 3}
+    - {fileID: 8300000, guid: 918b53685b3444c459ea0615786369b9, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 150
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Spawn
+    clips:
+    - {fileID: 8300000, guid: 22b4580b0ad696d43a973ee46eeea699, type: 3}
+    - {fileID: 8300000, guid: 6d4a3f5c110b7cc4f93dc96fab046fbc, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+--- !u!114 &114754142193665135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1841065840076848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/SilverSamuraiSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114102700667386194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1841065840076848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

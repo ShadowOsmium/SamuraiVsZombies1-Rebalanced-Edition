@@ -1,0 +1,122 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_heavy_samurai
+desc = @helper_heavy_samurai_desc
+prefab = Characters/PFHSamurai
+HUDIcon = Sprites/Icons/ally_heavy_samurai
+weaponMeleePrefab = Props/PFHeavysamuraisword
+waveToUnlock = 14
+resourcesCost = 30.0
+cooldownTimer = 5.0
+attackFrequency = 2.5
+usesBladeWeapon = true
+
+achievementGC = SAMUZOMBIE_ACHIEVE_PANZER_BLITZ
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 750,0
+	health = 802
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 15
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[002]
+	cost = 1500,0
+	health = 1037
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 21
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[003]
+	cost = 3000,0
+	health = 1350
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 25
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[004]
+	cost = 5800,0
+	health = 1760
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 34
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[005]
+	cost = 14500,0
+	health = 2280
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 40
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[006]
+	cost = 0,14
+	health = 2973
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 51
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[007]
+	cost = 0,20
+	health = 3860
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 61
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[008]
+	cost = 0,26
+	health = 4635
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 73
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[009]
+	cost = 0,30
+	health = 5560
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 88
+	knockbackPower = 30
+	knockbackResistance = 50
+
+[010]
+	cost = 0,34
+	health = 6675
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 105
+	knockbackPower = 30
+	knockbackResistance = 50

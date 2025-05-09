@@ -1,0 +1,66 @@
+scene = InGame_hell_brown
+
+[rewards]
+
+[Commands]
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Horseman
+	Evil_Zombie_Warhammer
+	Evil_Zombie_Sword
+	Evil_Tengu
+	Evil_Oni
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Panzer
+	Evil_Panzer
+	Evil_Nobusuma
+	Evil_Panzer
+	Evil_Nobusuma
+	Evil_Panzer
+	Evil_Panzer
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Ninja
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Farmer
+	Evil_Nobusuma
+	Evil_Nobusuma
+	Evil_Nobusuma
+	Evil_Panzer
+	Evil_Panzer
+	2,2
+	H_Zombie_Spear
+	H_Zombie_Ax
+	H_Zombie_Spear
+	H_Zombie_Ax
+	H_Zombie_Spear
+	H_Zombie_Ax
+	Oni_small
+	Oni_small
+	Oni_small
+	Evil_Tengu
+	Evil_Tengu
+	Evil_Nobusuma
+	Evil_Nobusuma
+	Evil_Nobusuma
+	1,1
+	Evil_Wayundo_Metal
+	Evil_Wayundo_Fire
+	Evil_Wayundo_wood
+	Evil_Panzer
+	Evil_Farmer
+	Evil_Ninja
+	Evil_Panzer
+	Evil_Farmer
+	Evil_Ninja
+	Evil_Panzer
+	Evil_Farmer
+	Evil_Ninja
+	Evil_Zombie_Bow
+	Evil_Zombie_Bow
+	Evil_Zombie_Bow
+	

@@ -1,0 +1,115 @@
+
+/--------------------------------------------
+/	General
+/--------------------------------------------
+
+type = range
+
+infiniteUpgradeCost = 0,25
+/infiniteUpgradeExtraPulse = Sprites/Localized/on_sale
+infiniteUpgradeDamage = 0.05
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	cost = 0,0
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 6
+	projectile = BoneArrow
+	icon = 
+	desc = 
+	title = 
+	
+[002]
+	cost = 250,0
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 12
+	projectile = BoneArrow
+	icon = Sprites/Icons/upgrade_zombie_hero_bow
+	desc = @crossbow_desc
+	title = @store_format_bow_levelup
+	
+[003]
+	cost = 350,0
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 20
+	projectile = BoneArrow
+	icon = Sprites/Icons/upgrade_zombie_hero_bow
+	desc = @crossbowfire_desc
+	title = @store_format_bow_levelup
+
+[004]
+	cost = 750,0
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 25
+	projectile = BoneArrow
+	icon = Sprites/Icons/upgrade_zombie_hero_bow
+	desc = @crossbowblue_desc
+	title = @store_format_bow_levelup
+	title = @store_format_bow_levelup
+
+[005]
+	cost = 2500,0
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 35
+	projectile = BoneArrow
+	icon = Sprites/Icons/upgrade_zombie_hero_bow
+	desc = @crossbowexpl_desc
+	title = @store_format_bow_levelup
+
+[006]
+	cost = 0,10
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 45
+	projectile = BoneArrowUpgraded
+	icon = Sprites/Icons/upgrade_zombie_hero_bow_01
+	desc = @crossbowexpl2_desc
+	title = @store_format_bow_levelup
+
+[007]
+	cost = 0,14
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 55
+	projectile = BoneArrowUpgraded
+	icon = Sprites/Icons/upgrade_zombie_hero_bow_01
+	desc = @crossbow_desc
+	title = @store_format_bow_levelup
+
+[008]
+	cost = 0,18
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 75
+	projectile = BoneArrowUpgraded
+	icon = Sprites/Icons/upgrade_zombie_hero_bow_01
+	desc = @crossbow_desc
+	title = @store_format_bow_levelup
+
+[009]
+	cost = 0,22
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 90
+	projectile = BoneArrowUpgraded
+	icon = Sprites/Icons/upgrade_zombie_hero_bow_01
+	desc = @crossbow_desc
+	title = @store_format_bow_levelup
+
+[010]
+	cost = 0,26
+	attackRange = 400
+	attackFrequency = 1.5
+	damage = 110
+	projectile = BoneArrowUpgraded
+	icon = Sprites/Icons/upgrade_zombie_hero_bow_01
+	desc = @crossbow_desc
+	title = @store_format_bow_levelup

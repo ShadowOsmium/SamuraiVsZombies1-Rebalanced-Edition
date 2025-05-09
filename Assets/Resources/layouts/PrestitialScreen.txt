@@ -1,0 +1,70 @@
+
+transitionSpeed = 1.0
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_prestitial_1024x768
+	keepAspectRatio = false
+	priority = 0
+	hotspot = 0, 0
+	position = 0, 0
+	
+
+/-------------------------------------------------------------------
+/	Gold Button
+/-------------------------------------------------------------------
+
+[goldbutton]
+	type = button
+	normalframe = Sprites/Localized/button_gold
+	keepAspectRatio = true
+	priority = 2.1
+	position = C+300, C-200
+	[transition]
+		[position]
+			anim = sineout
+			offset = C+200, C-600
+			animRange = 0, 0.6
+		[alpha]
+			alpha = 0
+			animRange = 0, 0.6
+
+
+/-------------------------------------------------------------------
+/	Silver Button
+/-------------------------------------------------------------------
+
+[silverbutton]
+	type = button
+	normalframe = Sprites/Localized/button_silver
+	keepAspectRatio = true
+	priority = 2.1
+	position = C+300, C+200
+	[transition]
+		[position]
+			anim = sineout
+			offset = C+200, C+600
+			animRange = 0, 0.6
+		[alpha]
+			alpha = 0
+			animRange = 0, 0.6
+
+/-------------------------------------------------------------------
+/	Benefits Button
+/-------------------------------------------------------------------
+
+[benefitsbutton]
+	type = button
+	normalframe = Sprites/Localized/button_benefits
+	keepAspectRatio = true
+	priority = 2.1
+	position = C-300, C+100
+	[transition]
+		[position]
+			anim = sineout
+			offset = -1024, 0
+			animRange = 0, 0.6
+		[alpha]
+			alpha = 0
+			animRange = 0, 0.6
+

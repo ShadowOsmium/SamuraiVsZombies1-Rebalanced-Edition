@@ -1,0 +1,36 @@
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+icon = Sprites/Icons/upgrade_undeath
+
+displayName = @undeath_levelup_name
+desc = @undeath_levelup_desc
+
+waveToUnlock = 20
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 5500,0
+	regenerateHealth = 2.0
+ 
+[002]
+	cost = 10000,0
+	regenerateHealth = 4.0
+
+[003]
+	cost = 0,20
+	regenerateHealth = 8.0
+
+[004]
+	cost = 0,24
+	regenerateHealth = 13.0
+
+[005]
+	cost = 0,30
+	regenerateHealth = 18.0
+

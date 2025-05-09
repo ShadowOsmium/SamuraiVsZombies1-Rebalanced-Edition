@@ -1,0 +1,18 @@
+
+[day1]
+	coins = 500
+	
+[day2]
+	balls = 25
+	
+[day3]
+	healthSmall = 1
+	
+[day4]
+	wealth = 1
+	
+[day5]
+	gems = 3
+
+
+/ You can add/subtract Days of rewards by simply adding another day#, however 5 seems to be the max limit to what looks good in the dialog

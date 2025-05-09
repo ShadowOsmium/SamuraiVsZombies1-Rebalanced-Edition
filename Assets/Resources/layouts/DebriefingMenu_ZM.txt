@@ -1,0 +1,228 @@
+
+transitionSpeed = 2.0
+
+/-------------------------------------------------
+/	Basic Screen Elements
+/-------------------------------------------------
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_default_zombie
+	keepAspectRatio = no
+	hotspot = 0, 0
+	position = 0, 0
+	
+[title]
+	type = label
+	font = default64
+	shadowOffset = 3,3
+	shadowColor = black
+	position = 100, 70
+	priority = 1
+	anchor = MiddleLeft
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = -100, 0
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+[unlockedTitle]
+	type = label
+	font = default64
+	shadowOffset = 3,3
+	shadowColor = black
+	text = @debrief_you_unlocked
+	position = 100, 530
+	priority = 1
+	anchor = MiddleLeft
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = -100, 0
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+[continueBtn]
+	type = button
+	normalFrame = Sprites/Menus/continue_button
+	position = E-60, E-70
+	keepAspectRatio = true
+	offsetWhenPressed = 4, 4
+	priority = 1
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = 120, 120
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+
+/-------------------------------------------------
+/	Gold Collected : Awarded
+/-------------------------------------------------
+
+[awardedTitle]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	text = @debrief_awarded
+	position = C-30, 160
+	priority = 1
+	anchor = MiddleRight
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = -200, 0
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+[awardedCoinIcon]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1
+	position = C+30, 156
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = 200, 0
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+[awardedValue]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C+55, 160
+	priority = 1
+	anchor = MiddleLeft
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = 200, 0
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+
+/-------------------------------------------------
+/	Gold Collected : Collected
+/-------------------------------------------------
+
+[collectedTitle]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	text = @debrief_collected
+	position = C-30, 210
+	priority = 1
+	anchor = MiddleRight
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0.2, 0.8
+			offset = -200, 0
+		[alpha]
+			animRange = 0.2, 0.8
+			alpha = 0.0
+
+[collectedCoinIcon]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1
+	position = C+30, 206
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0.2, 0.8
+			offset = 200, 0
+		[alpha]
+			animRange = 0.2, 0.8
+			alpha = 0.0
+
+[collectedValue]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C+55, 210
+	priority = 1
+	anchor = MiddleLeft
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0.2, 0.8
+			offset = 200, 0
+		[alpha]
+			animRange = 0.2, 0.8
+			alpha = 0.0
+
+
+/-------------------------------------------------
+/	Gold Collected : Total
+/-------------------------------------------------
+
+[totalTitle]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	text = @debrief_total
+	position = C-30, 260
+	priority = 1
+	anchor = MiddleRight
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0.4, 1.0
+			offset = -200, 0
+		[alpha]
+			animRange = 0.4, 1.0
+			alpha = 0.0
+
+[totalCoinIcon]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 1
+	position = C+30, 256
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0.4, 1.0
+			offset = 200, 0
+		[alpha]
+			animRange = 0.4, 1.0
+			alpha = 0.0
+
+[totalValue]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C+55, 260
+	priority = 1
+	anchor = MiddleLeft
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0.4, 1.0
+			offset = 200, 0
+		[alpha]
+			animRange = 0.4, 1.0
+			alpha = 0.0
+
+

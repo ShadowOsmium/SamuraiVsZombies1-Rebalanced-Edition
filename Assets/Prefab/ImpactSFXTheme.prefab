@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1686840521952329}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1686840521952329
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4641640005681790}
+  - 114: {fileID: 114176493053401705}
+  - 114: {fileID: 114358625019347922}
+  - 114: {fileID: 114747613523151648}
+  m_Layer: 0
+  m_Name: ImpactSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4641640005681790
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686840521952329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8808746, y: 48.29167, z: 2596.1733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114176493053401705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686840521952329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 0}
+  events:
+  - name: SwordImpact
+    clips:
+    - {fileID: 8300000, guid: bcb6cce6cdce62b48adcf765a689d852, type: 3}
+    - {fileID: 8300000, guid: b2c9a7ad4ec73bc4dab6547a4fb0a28f, type: 3}
+    - {fileID: 8300000, guid: 9bf070e49063fb44aa3ffa970838c525, type: 3}
+    - {fileID: 8300000, guid: 06715f7c8eaf4f240bc2cbaa91bd4608, type: 3}
+    - {fileID: 8300000, guid: 026fe82954305024ba167f0a08099799, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+  - name: SwordImpactBig
+    clips:
+    - {fileID: 8300000, guid: 238b2fe67350baf4ba9020b24770c97d, type: 3}
+    - {fileID: 8300000, guid: 680cc58aef51e80409bed01def5a17d3, type: 3}
+    - {fileID: 8300000, guid: f95424cbe9117b844bd25df040467c8c, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+  - name: BluntWepImpact
+    clips:
+    - {fileID: 8300000, guid: 1fd1fa4766cb7fb4aa3e31908278759d, type: 3}
+    - {fileID: 8300000, guid: 4af55ad296f27434bafc28e5f403f375, type: 3}
+    - {fileID: 8300000, guid: 351a38904e1a9f94a986216e34131388, type: 3}
+    - {fileID: 8300000, guid: 28a64b46cb903a4438dc761b2ebe6aa1, type: 3}
+    - {fileID: 8300000, guid: 9db5329bdc362344193f6522f04e7ef7, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+  - name: BluntWepImpactBig
+    clips:
+    - {fileID: 8300000, guid: 058d2e23aa32f02409c3dd5b3fc016ff, type: 3}
+    - {fileID: 8300000, guid: 7861afbe01a944b4389e134a5058394b, type: 3}
+    - {fileID: 8300000, guid: ac3d0ee97c17a5b4a9f1c9f419d1179c, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+  - name: BloodSplat
+    clips:
+    - {fileID: 8300000, guid: e90508201b4b27d4eb3ea8d75b882a51, type: 3}
+    - {fileID: 8300000, guid: 78c6cf36db3e54649b17d8d094f5d958, type: 3}
+    - {fileID: 8300000, guid: 737adbc679fe87844902cca328350daf, type: 3}
+    - {fileID: 8300000, guid: ef93027dd1fdfa648b27be9fdf8fe682, type: 3}
+    - {fileID: 8300000, guid: b4b6abbe81c67644eb4db04a7c807a75, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+--- !u!114 &114358625019347922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686840521952329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/ImpactSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114747613523151648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686840521952329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

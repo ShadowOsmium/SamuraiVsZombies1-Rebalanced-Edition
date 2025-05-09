@@ -1,0 +1,49 @@
+/ Inspired by Wave 14
+
+scene = InGame_hell_green
+
+[Commands]
+	Farmer
+	2,3
+	FarmerSword
+	2,3
+	FarmerSword
+	2,3
+	FarmerAx
+	2,3
+	FarmerSword
+	2,3
+	SamuraiArcher
+	1,1
+	Farmer
+	1,1
+	SamuraiArcher
+	7,7
+	NinjaGirl
+	.5,.5
+	FarmerSword
+	1,1
+	FarmerAx
+	1,1
+	FarmerAx
+	2,3
+	FarmerSword
+	2,3
+	SamuraiArcher
+	4,5
+	NinjaGirl
+	1,1
+	SamuraiSpear
+	2,3
+	SamuraiSpear
+	2,3
+	FarmerSword
+	1,1
+	FarmerSword
+	1,1
+	SamuraiArcher
+	1,1
+	Farmer
+	5,5
+	NinjaGirl
+

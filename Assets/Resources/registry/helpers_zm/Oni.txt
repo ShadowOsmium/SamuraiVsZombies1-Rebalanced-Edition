@@ -1,0 +1,121 @@
+
+/ NOTE: stats based on the "Heavy Samurai" helper
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_oni_name
+desc = @helper_oni_desc
+prefab = Characters/PFOni
+HUDIcon = Sprites/Icons/enemy_oni
+weaponMeleePrefab = Props/PFClub
+waveToUnlock = 14
+resourcesCost = 35.0
+cooldownTimer = 5.0
+attackFrequency = 2.5
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 3000,0
+	health = 1052
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 30
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[002]
+	cost = 6000,0
+	health = 1537
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 41
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[003]
+	cost = 12000,0
+	health = 2150
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 50
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[004]
+	cost = 24000,0
+	health = 2760
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 70
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[005]
+	cost = 54500,0
+	health = 3280
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 80
+	knockbackPower = 30
+	knockbackResistance = 100
+
+[006]
+	cost = 0,14
+	health = 3973
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 102
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[007]
+	cost = 0,20
+	health = 4260
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 120
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[008]
+	cost = 0,26
+	health = 5635
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 140
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[009]
+	cost = 0,30
+	health = 6560
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 160
+	knockbackPower = 75
+	knockbackResistance = 100
+
+[010]
+	cost = 0,34
+	health = 7675
+	speedMin = 65
+	speedMax = 65
+	meleeRange = 90
+	meleeDamage = 250
+	knockbackPower = 75
+	knockbackResistance = 100

@@ -1,0 +1,99 @@
+scene = InGame_hell
+
+selectedCharm = friendship
+initialleadershiplevel = 2
+baselevel = 1
+belllevel = 1
+archerlevel = 1
+[abilitylevels]
+	divineintervention = 5
+	summontornadoes = 3
+[selectedabilities]
+	000 = DivineIntervention
+	001 = SummonTornadoes
+[helperlevels]
+	farmer = 8
+	swordsmith = 1
+	Priest = 4
+	spearhorseman = 5
+	nobunaga = 2
+	
+[selectedhelpers]
+	000 = Farmer
+	001 = Swordsmith
+	002 = Priest
+	003 = SpearHorseman
+	004 = Nobunaga
+	
+[Commands]
+	Oni_small
+	4,5
+	L_Zombie_Sword
+	1,3
+	Oni_small
+	1,2
+	L_Zombie_Bow
+	4,5
+	H_Zombie_Ax
+	1,1
+	Oni_small
+	1,1
+	L_Zombie_Bow	
+	1,1
+	Oni_small
+	1,1
+	L_Zombie_Sword
+	1,1
+	L_Zombie_Sword
+	1,2
+	H_Zombie_Ax
+	2,3
+	H_Zombie_Ax
+	1,1
+	Oni_small
+	1,1
+	L_Zombie_Bow
+	1,1
+	Oni_small
+	1,1
+	H_Zombie_Ax
+	1,2
+	L_Zombie_Sword
+	1,2
+	L_Zombie_Sword
+	1,2
+	H_Zombie_Ax
+	3,4
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	1,1
+	H_Zombie_Ax
+	1,2
+	Oni_small
+	1,2
+	Oni_small
+	1,2
+	H_Zombie_Ax
+	3,4
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	H_Zombie_Ax
+	1,1
+	H_Zombie_Ax
+	1,1
+	Oni_small
+	2,2
+	Oni_small
+	2,2
+	Oni_small
+	
+

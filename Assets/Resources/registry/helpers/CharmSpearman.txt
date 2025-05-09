@@ -1,0 +1,25 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_swordsmith
+desc = 
+prefab = Characters/PFSamuraiSpearBig
+lane = back
+HUDIcon = Sprites/Icons/ally_swordsman
+weaponMeleePrefab = Props/PFSpear
+hideInStore = True
+waveToUnlock = 999
+resourcesCost = 0.0
+cooldownTimer = 1.0
+attackFrequency = 2.5
+health = 15000
+speedMin = 100
+speedMax = 100
+meleeRange = 275
+meleeDamage = 350
+knockbackPower = 90
+knockbackResistance = 100
+
+

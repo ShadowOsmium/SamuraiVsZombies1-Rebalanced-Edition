@@ -1,0 +1,185 @@
+scene = InGame_fallday
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 9
+/	Priest = 2
+/	Nobunaga = 9
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 9
+/	Katana = 2
+/	Bow = 9
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 9
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+	HeavySamurai
+/	Priest
+	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	H_Zombie_Sword
+	1,1
+	H_Zombie_Sword
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	15,15
+	Wayundo_wood
+	2,2
+	oni_small
+	3,3
+	oni_small
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	.25,.25
+	Chochinobake
+	.25,.25
+	Chochinobake
+	(
+	Oni_Small	
+	1,1
+	Oni_Small
+	1,1
+	Wayundo_wood
+	1,1
+	Oni_Small
+	1,1
+	Nobusuma_alt
+ 	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	)
+	Wayundo_wood
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Bow
+	1,1
+	Oni_small
+	1,1
+	H_Zombie_Bow
+	1,1
+	Chochinobake
+	.25,.25
+	Chochinobake
+	.25,.25
+	Chochinobake
+	15,15
+	(
+	Nobusuma_alt
+ 	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	Wayundo_wood
+	Chochinobake
+	.25,.25
+	Chochinobake
+	.25,.25
+	Chochinobake
+	.25,.25
+	Chochinobake
+	.25,.25
+	Chochinobake
+	)
+	Wayundo_wood
+	1,1
+	Oni_small
+	1,1
+	Oni_small
+	1,1
+	Oni_small
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+

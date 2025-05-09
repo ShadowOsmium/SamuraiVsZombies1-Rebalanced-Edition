@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1554819615835980}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1554819615835980
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4726248888110724}
+  - 33: {fileID: 33466968371028638}
+  - 23: {fileID: 23659063122974666}
+  - 111: {fileID: 111989010974722894}
+  - 114: {fileID: 114290709104780186}
+  - 114: {fileID: 114549728687329819}
+  m_Layer: 0
+  m_Name: Prefab_building3
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4726248888110724
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554819615835980}
+  m_LocalRotation: {x: 0, y: -0.042821538, z: 0, w: 0.9990828}
+  m_LocalPosition: {x: -664.44196, y: 0, z: -991.038}
+  m_LocalScale: {x: 0.38145328, y: 0.38145328, z: 0.38145328}
+  m_LocalEulerAnglesHint: {x: 0, y: 4.9084873, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!33 &33466968371028638
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554819615835980}
+  m_Mesh: {fileID: 4300000, guid: 35ebd5c2ca05ec846ae8721a2098be4c, type: 2}
+--- !u!23 &23659063122974666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554819615835980}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 8
+  m_LightmapTilingOffset: {x: 0.333008, y: 0.333008, z: 0.532391, w: 0.365398}
+  m_Materials:
+  - {fileID: 2100000, guid: bf4f1896f71d5f84fbbf94ac88e75e16, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!111 &111989010974722894
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554819615835980}
+  m_Enabled: 1
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114290709104780186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554819615835980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Levels/Level_Prefab/Prefab_building3.prefab
+  basePrefabPath: Assets/Resources/Props/building03.fbx
+  exemptObjects:
+  - {fileID: 23659063122974666}
+  - {fileID: 114290709104780186}
+--- !u!114 &114549728687329819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554819615835980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

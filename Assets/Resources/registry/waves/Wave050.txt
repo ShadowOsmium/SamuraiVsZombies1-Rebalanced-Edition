@@ -1,0 +1,188 @@
+scene = InGame_evilnight
+
+[rewards]
+	balls, 500
+	gems, 100
+	power, 10
+	luck, 10
+	friendship, 10
+	wealth, 10
+	haste, 10
+	peace, 10
+
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 2
+/	Bow = 2
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	5,5
+	@bossalert
+	Shogun
+	4,4
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	4,4
+	H_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	H_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	H_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	4,4
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	4,4
+	Wayundo_Metal
+	1,1
+	Tengu_air
+	1,1
+	Tengu_air
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	4,4
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	4,4
+	Wayundo_Metal
+	Oni
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	4,4
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	4,4
+	Wayundo_Metal
+	Oni
+	1,1
+	Jurogumo
+	1,1
+	Jurogumo
+	1,1
+	Tengu
+	1,1
+	Tengu
+	4,4
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	1,1
+	H_Zombie_Bow_3
+	
+	
+
+	

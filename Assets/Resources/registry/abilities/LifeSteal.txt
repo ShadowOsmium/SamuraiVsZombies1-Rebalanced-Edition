@@ -1,0 +1,90 @@
+
+/--------------------------------------------
+/	General
+/--------------------------------------------
+
+displayName = @ab_lifesteal_name
+desc = @ab_lifesteal_desc
+icon = Sprites/Icons/ab_enemy_lifesteal
+waveToUnlock = 0
+coolDown = 2.5
+
+infiniteUpgradeCost = 0,25
+/infiniteUpgradeExtraPulse = Sprites/Localized/on_sale
+infiniteUpgradeDamage = 0.05
+
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	cost = 0
+	attackRange = 300
+	damage = 18
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[002]
+	cost = 350,0
+	attackRange = 300
+	damage = 25
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[003]
+	cost = 1000,0
+	attackRange = 300
+	damage = 40
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[004]
+	cost = 2500,0
+	attackRange = 300
+	damage = 60
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[005]
+	cost = 4000,0
+	attackRange = 300
+	damage = 80
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[006]
+	cost = 0,10
+	attackRange = 300
+	damage = 100
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+	
+[007]
+	cost = 0,14
+	attackRange = 300
+	damage = 140
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[008]
+	cost = 0,14
+	attackRange = 300
+	damage = 180
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[009]
+	cost = 0,16
+	attackRange = 300
+	damage = 220
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+
+[010]
+	cost = 0,20
+	attackRange = 300
+	damage = 260
+	damageMultEachTarget = 0.8
+	lifeSteal = 1
+

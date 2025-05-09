@@ -1,0 +1,30 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_swordsmith
+desc = @helper_swordsmith_desc
+prefab = Characters/PFSwordsmith
+lane = front
+HUDIcon = Sprites/Icons/ally_swordsman
+waveToUnlock = 999
+resourcesCost = 10.0
+cooldownTimer = 1.0
+attackFrequency = 2.0
+unique = true
+availableAtWave = 21
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	specialUnlockText = @store_find_swordsmith
+	cost = 1500,0
+	health = 50
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	upgradeAlliesFrom = Farmer
+	upgradeAlliesTo = SuperFarmer

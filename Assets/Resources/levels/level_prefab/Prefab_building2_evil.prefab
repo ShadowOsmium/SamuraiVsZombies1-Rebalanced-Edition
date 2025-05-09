@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1848711510319351}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1848711510319351
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4792020740665184}
+  - 33: {fileID: 33696880809717408}
+  - 23: {fileID: 23225862347938700}
+  - 111: {fileID: 111686287925776420}
+  - 114: {fileID: 114382537612152976}
+  - 114: {fileID: 114135445414091393}
+  m_Layer: 0
+  m_Name: Prefab_building2_evil
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4792020740665184
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848711510319351}
+  m_LocalRotation: {x: 0, y: -0.63014907, z: 0, w: 0.77647424}
+  m_LocalPosition: {x: -982.4585, y: -4.82312, z: -1079.336}
+  m_LocalScale: {x: 0.5564387, y: 0.5968333, z: 0.5564387}
+  m_LocalEulerAnglesHint: {x: 0, y: 78.12224, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!33 &33696880809717408
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848711510319351}
+  m_Mesh: {fileID: 4300000, guid: 4d161278e66f62d46acc2403f23d4215, type: 2}
+--- !u!23 &23225862347938700
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848711510319351}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 8
+  m_LightmapTilingOffset: {x: 0.492188, y: 0.492188, z: -0.00143433, w: -0.00143433}
+  m_Materials:
+  - {fileID: 2100000, guid: a6797f8b1b2c51241ae50984f3ca3d3f, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!111 &111686287925776420
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848711510319351}
+  m_Enabled: 1
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114382537612152976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848711510319351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Levels/Level_Prefab/Prefab_building2_evil.prefab
+  basePrefabPath: Assets/Resources/Levels/Level_Prefab/Prefab_building2.prefab
+  exemptObjects:
+  - {fileID: 23225862347938700}
+--- !u!114 &114135445414091393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848711510319351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

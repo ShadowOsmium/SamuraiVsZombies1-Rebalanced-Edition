@@ -1,0 +1,1076 @@
+
+[L_Zombie_Melee_Tutorial]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFLzombie
+	health = 40
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 100
+	meleeDamage = 7
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 0
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 0
+	previewPriority = 0
+
+
+[L_Zombie_Melee]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFLzombie
+	health = 40
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 100
+	meleeDamage = 7
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 0
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+	
+[L_Zombie_Ax]
+	displayName = @enemy_l_zombie_a_name
+	prefab = Characters/PFLzombieAxe
+	weaponMeleePrefab = Props/PFaxe
+	health = 60
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 105
+	meleeDamage = 12
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 5
+	knockbackResistance = 10
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[L_Zombie_Sword]
+	displayName = @enemy_l_zombie_s_name
+	prefab = Characters/PFLZombieSword
+	weaponMeleePrefab = Props/PFKatana
+	health = 105
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 110
+	meleeDamage = 17
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 10
+	knockbackResistance = 10
+	award = 15
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[L_Zombie_Warhammer]
+	displayName = @enemy_l_zombie_s_name
+	prefab = Characters/PFLzombieWarH
+	weaponMeleePrefab = Props/PFWarhammer
+	health = 210
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 110
+	meleeDamage = 35
+	attackFrequency = 2.5
+	knockbackPower = 20
+	knockbackResistance = 10
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[L_Zombie_Spear]
+	displayName = @enemy_l_zombie_sp_name
+	prefab = Characters/PFLzombiespear
+	weaponMeleePrefab = Props/PFspear
+	health = 45
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 175
+	meleeDamage = 20
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 10
+	knockbackResistance = 10
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[L_Zombie_Bow]
+	displayName = @enemy_l_zombie_b_name
+	prefab = Characters/PFLzombieArcher
+	weaponRangedPrefab = Props/PFlzombiebow
+	projectile = Arrow
+	health = 40
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 10
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 5
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[H_Zombie_Bow]
+	displayName = @enemy_l_zombie_b_name
+	prefab = Characters/PFHzombieArcher
+	weaponRangedPrefab = Props/PFhzombiebow
+	projectile = Arrow
+	health = 125
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 20
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 20
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[H_Zombie_Bow_2]
+	displayName = @enemy_l_zombie_b_name
+	prefab = Characters/PFHzombieArcher
+	weaponRangedPrefab = Props/PFhzombiebow
+	projectile = Arrow
+	health = 175
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 45
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 20
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[H_Zombie_Bow_3]
+	displayName = @enemy_l_zombie_b_name
+	prefab = Characters/PFHzombieArcher
+	weaponRangedPrefab = Props/PFhzombiebow
+	projectile = Arrow
+	health = 425
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 75
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 20
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[H_Zombie_Ax]
+	displayName = @enemy_h_zombie_u_name
+	prefab = Characters/PFHzombieAxe
+	weaponMeleePrefab = Props/PFaxe
+	health = 350
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 30
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 20
+	knockbackResistance = 25
+	award = 25
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[H_Zombie_Sword]
+	displayName = @enemy_h_zombie_u_name
+	prefab = Characters/PFHzombie
+	weaponMeleePrefab = Props/PFkatana
+	health = 450
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 40
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 30
+	knockbackResistance = 25
+	award = 25
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[H_Zombie_Warhammer]
+	displayName = @enemy_h_zombie_u_name
+	prefab = Characters/PFHzombieWarH
+	weaponMeleePrefab = Props/PFWarhammer
+	health = 550
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 65
+	attackFrequency = 2.5
+	knockbackPower = 35
+	knockbackResistance = 25
+	award = 35
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[H_Zombie_Spear]
+	displayName = @enemy_h_zombie_u_name
+	prefab = Characters/PFHzombiespear
+	weaponMeleePrefab = Props/PFspear
+	health = 250
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 30
+	usesBladeWeapon = true
+	attackFrequency = 2.5
+	knockbackPower = 20
+	knockbackResistance = 25
+	award = 25
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+[Oni_boss]
+	displayName = @enemy_oni_name
+	prefab = Characters/PFOni
+	weaponMeleePrefab = Props/PFClub
+	lane = center
+	boss = true
+	health = 2500
+	speedMin = 60
+	speedMax = 60
+	meleeRange = 150
+	meleeDamage = 150
+	attackFrequency = 3
+	knockbackPower = 75
+	knockbackResistance = 100
+	award = 250
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 2
+
+[Oni]
+	displayName = @enemy_oni_name
+	prefab = Characters/PFOni
+	weaponMeleePrefab = Props/PFClub
+	lane = back
+	boss = true
+	health = 2500
+	speedMin = 60
+	speedMax = 60
+	meleeRange = 150
+	meleeDamage = 225
+	attackFrequency = 3
+	knockbackPower = 75
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+[Oni_small]
+	displayName = @enemy_oni_name
+	prefab = Characters/PFOniSmall
+	weaponMeleePrefab = Props/PFClub
+	health = 850
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 90
+	meleeDamage = 100
+	attackFrequency = 3
+	knockbackPower = 50
+	knockbackResistance = 75
+	award = 45
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+[Nobusuma]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFNobosuma
+	health = 25
+	speedMin = 90
+	speedMax = 90
+	meleeRange = 175
+	meleeDamage = 12
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 100
+	flying = true
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 2
+	previewPriority = 1
+
+[Chochinobake]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFChochinobake
+	health = 100
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 25
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 10
+	gateRusher = true
+	award = 15
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+[Chochinobake_alt]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFChochinobakeAlt
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 25
+	gateRusher = true
+	award = 25
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+[Nobusuma_alt]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFNobosumaAlt
+	health = 100
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 22
+	attackFrequency = 2.5
+	knockbackPower = 5
+	knockbackResistance = 100
+	flying = true
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+[Tengu]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFTengushingen
+	health = 1000
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 85
+	attackFrequency = 1
+	knockbackPower = 40
+	knockbackResistance = 40
+	award =50
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+[Tengu_air]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFTengushingenair
+	health = 1000
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 85
+	attackFrequency = 1
+	flying = true
+	knockbackPower = 40
+	knockbackResistance = 100
+	award = 55
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+[Wayundo_wood]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFWayundo
+	health = 1000
+	speedMin = 75
+	speedMax = 75
+	meleeRange = 100
+	meleeDamage = 150
+	attackFrequency = 5
+	knockbackPower = 30
+	knockbackResistance = 100
+	award = 50
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+[Wayundo_Fire]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFWayundoFire
+	health = 1500
+	speedMin = 75
+	speedMax = 75
+	meleeRange = 100
+	meleeDamage = 200
+	attackFrequency = 5
+	knockbackPower = 40
+	knockbackResistance = 100
+	award = 75
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+[Wayundo_Metal]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFWayundoMetal
+	health = 2050
+	speedMin = 75
+	speedMax = 75
+	meleeRange = 100
+	meleeDamage = 250
+	attackFrequency = 5
+	knockbackPower = 50
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+[Horseman]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFZombieHorseman
+	weaponMeleePrefab = Props/PFspear
+	health = 450
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 190
+	meleeDamage = 70
+	attackFrequency = 2.5
+	knockbackPower = 45
+	knockbackResistance = 100
+	award = 45
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+[Taiko_Drummer]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFLzombietaiko
+	health = 85
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	attackFrequency = 0.25
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 35
+	resourceDropMin = 0
+	resourceDropMax = 3
+	damageBuffPercent = .5
+	previewPriority = 1
+
+[Komusou]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFUndeadKomusou
+	health = 170
+	speedMin = 75
+	speedMax = 75
+	bowRange = 500
+	meleeDamage = 0
+	attackFrequency = 0.25
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 65
+	resourceDropMin = 0
+	resourceDropMax = 3
+	damageBuffPercent = 1.00
+	previewPriority = 1
+
+[Komusou_2]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFUndeadKomusou
+	health = 250
+	speedMin = 75
+	speedMax = 75
+	bowRange = 500
+	meleeDamage = 0
+	attackFrequency = 0.25
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 65
+	resourceDropMin = 0
+	resourceDropMax = 3
+	damageBuffPercent = 1.50
+	previewPriority = 1
+
+
+[Onibaba]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFOnibaba
+	projectile = EvilHealBolt
+	health = 280
+	speedMin = 85
+	speedMax = 85
+	bowRange = 275
+	bowDamage = 100
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+
+
+[Onibaba_2]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFOnibaba
+	projectile = EvilHealBolt
+	health = 325
+	speedMin = 85
+	speedMax = 85
+	bowRange = 275
+	bowDamage = 175
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+[Jurogumo]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFJurogumo
+	spawnOnDeath = Jurogumo_baby
+	spawnOnDeathCount = 3
+	boss = true
+	health = 4000
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 150
+	meleeDamage = 75
+	attackFrequency = 2
+	knockbackPower = 65
+	knockbackResistance = 100
+	award = 250
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+[Jurogumo_baby]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFJurogumoBaby
+	health = 350
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 65
+	attackFrequency = 2
+	knockbackPower = 0
+	knockbackResistance = 25
+	gateRusher = true
+	award = 25
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Shogun]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFUndeadshogun
+	weaponMeleePrefab = Props/PFUndeadShogunSword
+	lane = center
+	boss = true
+	health = 65000
+	speedMin = 60
+	speedMax = 60
+	meleeRange = 300
+	meleeDamage = 900
+	attackFrequency = 3
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 10
+	previewPriority = 1
+
+
+
+[Evil_Ninja]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFFemalewarriorZombie
+	weaponMeleePrefab = Props/PFUndeadShogunSword
+	health = 650
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 100
+	meleeDamage = 225
+	bowRange = 350
+	bowDamage = 100
+	projectile = Shuriken
+	attackFrequency = 1
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 10
+	previewPriority = 2
+
+
+[Evil_Nobunaga]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFNobunagaZombie
+	health = 3200
+	speedMin = 125
+	speedMax = 125
+	meleeRange = 155
+	meleeDamage = 450
+	attackFrequency = 2.1
+	knockbackPower = 40
+	knockbackResistance = 100
+	award =500
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 2
+
+
+[Evil_Ice]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFSamuraiarchericeZombie
+	weaponRangedPrefab = Props/PFhzombiebow
+	health = 500
+	speedMin = 125
+	speedMax = 125
+	bowRange = 350
+	bowDamage = 275
+	projectile = IceArrow
+	attackFrequency = 3
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 10
+	previewPriority = 2
+
+
+[Evil_Oni]
+	displayName = @enemy_oni_name
+	prefab = Characters/PFOni
+	weaponMeleePrefab = Props/PFClub
+	lane = back
+	boss = true
+	health = 5000
+	speedMin = 60
+	speedMax = 60
+	meleeRange = 200
+	meleeDamage = 375
+	attackFrequency = 2
+	knockbackPower = 75
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+
+[Evil_Zombie_Bow]
+	displayName = @enemy_l_zombie_b_name
+	prefab = Characters/PFHzombieArcher
+	weaponRangedPrefab = Props/PFhzombiebow
+	projectile = Arrow
+	health = 1025
+	speedMin = 110
+	speedMax = 110
+	bowRange = 325
+	bowDamage = 250
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 20
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 0
+
+
+[Evil_Onibaba]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFOnibaba
+	projectile = EvilHealBolt
+	health = 1325
+	speedMin = 150
+	speedMax = 150
+	bowRange = 275
+	bowDamage = 350
+	attackFrequency = 1.5
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+
+[Evil_Tengu]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFTengushingen
+	health = 1700
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 235
+	attackFrequency = 1
+	knockbackPower = 40
+	knockbackResistance = 40
+	award =50
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+
+[Evil_Tengu_air]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFTengushingenair
+	health = 1500
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 125
+	attackFrequency = 1
+	flying = true
+	knockbackPower = 40
+	knockbackResistance = 100
+	award = 55
+	resourceDropMin = 0
+	resourceDropMax = 4
+	previewPriority = 1
+
+
+[Evil_Nobusuma]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFNobosumaAlt
+	health = 100
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 175
+	meleeDamage = 22
+	attackFrequency = 2.5
+	knockbackPower = 5
+	knockbackResistance = 100
+	flying = true
+	award = 10
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Evil_Chochinobake]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFChochinobakeAlt
+	health = 350
+	speedMin = 50
+	speedMax = 300
+	meleeRange = 100
+	meleeDamage = 100
+	attackFrequency = 1.5
+	knockbackPower = 0
+	knockbackResistance = 100
+	gateRusher = true
+	award = 25
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Evil_Komusou]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFUndeadKomusou
+	health = 1250
+	speedMin = 125
+	speedMax = 200
+	bowRange = 500
+	meleeDamage = 0
+	attackFrequency = 0.25
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 65
+	resourceDropMin = 0
+	resourceDropMax = 3
+	damageBuffPercent = 3.50
+	previewPriority = 1
+
+
+[Evil_Taiko_Drummer]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFLzombietaiko
+	health = 1185
+	speedMin = 150
+	speedMax = 250
+	bowRange = 500
+	attackFrequency = 0.25
+	knockbackPower = 0
+	knockbackResistance = 100
+	award = 35
+	resourceDropMin = 0
+	resourceDropMax = 3
+	damageBuffPercent = 1
+	previewPriority = 1
+
+
+[Evil_Wayundo_wood]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFWayundo
+	health = 2000
+	speedMin = 95
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 250
+	attackFrequency = 5
+	knockbackPower = 30
+	knockbackResistance = 100
+	award = 50
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+
+[Evil_Wayundo_Fire]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFWayundoFire
+	health = 2500
+	speedMin = 95
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 350
+	attackFrequency = 5
+	knockbackPower = 40
+	knockbackResistance = 100
+	award = 75
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+
+[Evil_Wayundo_Metal]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFWayundoMetal
+	health = 3000	
+	speedMin = 95
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 450
+	attackFrequency = 5
+	knockbackPower = 50
+	knockbackResistance = 100
+	award = 100
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 1
+
+
+[Evil_Zombie_Sword]
+	displayName = @enemy_l_zombie_s_name
+	prefab = Characters/PFLZombieSword
+	weaponMeleePrefab = Props/PFKatana
+	health = 1050
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 110
+	meleeDamage = 317
+	usesBladeWeapon = true
+	attackFrequency = 2
+	knockbackPower = 10
+	knockbackResistance = 40
+	award = 15
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Evil_Zombie_Warhammer]
+	displayName = @enemy_l_zombie_s_name
+	prefab = Characters/PFLzombieWarH
+	weaponMeleePrefab = Props/PFWarhammer
+	health = 2100
+	speedMin = 115
+	speedMax = 115
+	meleeRange = 110
+	meleeDamage = 235
+	attackFrequency = 1.5
+	knockbackPower = 20
+	knockbackResistance = 40
+	award = 20
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Evil_Horseman]
+	displayName = @enemy_l_zombie_u_name
+	prefab = Characters/PFZombieHorseman
+	weaponMeleePrefab = Props/PFspear
+	health = 1450
+	speedMin = 190
+	speedMax = 190
+	meleeRange = 190
+	meleeDamage = 199
+	attackFrequency = 2.5
+	knockbackPower = 45
+	knockbackResistance = 100
+	award = 45
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Evil_Oni_boss]
+	displayName = @enemy_oni_name
+	prefab = Characters/PFOni
+	weaponMeleePrefab = Props/PFClub
+	lane = center
+	boss = true
+	health = 7500
+	speedMin = 60
+	speedMax = 60
+	meleeRange = 175
+	meleeDamage = 575
+	attackFrequency = 1.5
+	knockbackPower = 95
+	knockbackResistance = 100
+	award = 250
+	resourceDropMin = 0
+	resourceDropMax = 5
+	previewPriority = 2
+
+
+
+[Evil_Farmer]
+	displayName = @enemy_l_zombie_s_name
+	prefab = Characters/PFFarmerZombie
+	weaponMeleePrefab = Props/samuraibasesword
+	health = 1620
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 110
+	meleeDamage = 235
+	attackFrequency = 0.5
+	knockbackPower = 20
+	knockbackResistance = 10
+	award = 250
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 2
+
+
+[Evil_Panzer_Charm]
+	displayName = @enemy_oni_name
+	prefab = Characters/PFHSamuraiBigZombie
+	weaponMeleePrefab = Props/PFHeavysamuraisword
+	lane = center
+	boss = true
+	health = 30800
+	speedMin = 120
+	speedMax = 120
+	meleeRange = 200
+	meleeDamage = 750
+	attackFrequency = 1.5
+	knockbackPower = 95
+	knockbackResistance = 100
+	award = 750
+	resourceDropMin = 8
+	resourceDropMax = 10
+	previewPriority = 2
+
+
+[Evil_Zombie_Gun]
+	displayName = @enemy_l_zombie_b_name
+	prefab = Characters/PFSamuraiRiflemanZombie
+	weaponRangedPrefab = Props/PFRifle
+	projectile = Bullet
+	health = 1025
+	speedMin = 110
+	speedMax = 110
+	bowRange = 325
+	bowDamage = 275
+	attackFrequency = 2.5
+	knockbackPower = 0
+	knockbackResistance = 20
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Evil_Takeda]
+	displayName = @enemy_l_zombie_s_name
+	prefab = Characters/PFTakedaZombie
+	weaponMeleePrefab = Props/PFTakedasword
+	health = 5000
+	speedMin = 250
+	speedMax = 250
+	meleeRange = 150
+	meleeDamage = 600
+	attackFrequency = 2.2
+	knockbackPower = 20
+	knockbackResistance = 100
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 2
+
+
+
+[Evil_Panzer]
+	displayName = @enemy_l_zombie_s_name
+	prefab = Characters/PFHSamuraiZombie
+	weaponMeleePrefab = Props/PFHeavysamuraisword
+	health = 7500
+	speedMin = 110
+	speedMax = 110
+	meleeRange = 100
+	meleeDamage = 270
+	attackFrequency = 2
+	knockbackPower = 20
+	knockbackResistance = 100
+	award = 500
+	resourceDropMin = 0
+	resourceDropMax = 3
+	previewPriority = 1
+
+
+[Evil_Farmer_Charm]
+	displayName = @enemy_oni_name
+	prefab = Characters/PFFarmerBigZombie
+	weaponMeleePrefab = Props/PFFarmerssword
+	lane = center
+	boss = true
+	health = 31800
+	speedMin = 175
+	speedMax = 175
+	meleeRange = 220
+	meleeDamage = 650
+	attackFrequency = 1.0
+	knockbackPower = 95
+	knockbackResistance = 100
+	award = 750
+	resourceDropMin = 10
+	resourceDropMax = 15
+	previewPriority = 2
+
+
+

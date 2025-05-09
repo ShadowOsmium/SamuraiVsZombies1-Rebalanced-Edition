@@ -1,0 +1,19 @@
+
+transitionSpeed = 1.0
+onTransitionInPlaySound = 0.3,	Sounds/Sting_Game_Win_01
+
+[title]
+	type = sprite
+	file = Sprites/Localized/victory
+	priority = 1001
+	position = 512, 200
+	[transition]
+		[position]
+			anim = BackOut
+			position = 512, 50
+		[alpha]
+			alpha = 0.0
+
+[trigger]
+	type = touchArea
+	rect = 0,0,1024,768

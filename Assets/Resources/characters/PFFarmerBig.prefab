@@ -1,0 +1,1601 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1283849426833614}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1283849426833614
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4390085877009542}
+  - 111: {fileID: 111875401719077132}
+  - 114: {fileID: 114132408059697715}
+  - 114: {fileID: 114088086776761097}
+  - 114: {fileID: 114711545402794263}
+  - 114: {fileID: 114808865430469930}
+  - 114: {fileID: 114188154226103450}
+  - 114: {fileID: 114802527280012128}
+  m_Layer: 0
+  m_Name: PFFarmerBig
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4390085877009542
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70.500885, y: -0.77619934, z: 414.69434}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4955865957896912}
+  m_Father: {fileID: 0}
+--- !u!111 &111875401719077132
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: df3bfb00166817246b68a97c816e2f89, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: df3bfb00166817246b68a97c816e2f89, type: 2}
+  - {fileID: 7400000, guid: d1788510cb96aad479946535bc10d7f4, type: 2}
+  - {fileID: 7400000, guid: b34303c8081d3754a9a2e5c9175fd77f, type: 2}
+  - {fileID: 7400000, guid: 019a34ad50d92764eb822785fb0aa847, type: 2}
+  - {fileID: 7400000, guid: 1efc51e66c531a249994f2b92c1ba668, type: 2}
+  - {fileID: 7400000, guid: aef37928003026f49a8bbcac971e0b69, type: 2}
+  - {fileID: 7400000, guid: 9b7140d3243796f449b499901d2cc1c9, type: 2}
+  - {fileID: 7400000, guid: ea0617f27a434b445aa36f861e64394b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114132408059697715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111408012789098761}
+  defaultBlendSpeed: 0.05
+  specificAnimSettings:
+  - clip: {fileID: 7400000, guid: aef37928003026f49a8bbcac971e0b69, type: 2}
+    overrideBlendSpeed: 1
+    blendSpeed: 0
+    jointMaskRoot: {fileID: 0}
+    onlyUseSingleJoint: 0
+  alsoPlayOnAllChildren: 0
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114088086776761097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/PFFarmerBig.prefab
+  basePrefabPath: Assets/Resources/Characters/PFFarmer.prefab
+  exemptObjects:
+  - {fileID: 114808865430469930}
+  - {fileID: 137671677185110593}
+--- !u!114 &114711545402794263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dbae7d6e4503ccce4e243938d2e0ad, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114516242085937728, guid: db8bc1e1bd656904894de36427f820b4, type: 2}
+  defaultMinDistance: 1
+  defaultMaxDistance: 500
+  defaultCustomEffect: {fileID: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  autoPlayEvent: Spawn
+  events: []
+--- !u!114 &114808865430469930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: melee_weapon
+    joint: {fileID: 4071313139001603}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: impact_target
+    joint: {fileID: 4998186988649766}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: head_effect
+    joint: {fileID: 4700605106750705}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: body_effect
+    joint: {fileID: 4955865957896912}
+    autoAttachPrefab: {fileID: 1244853702584651, guid: 2c9af1201b6effc4d8db6b6c8082b0f9, type: 2}
+    transformOffset:
+      position: {x: 0, y: 50, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: buff_icon
+    joint: {fileID: 4903910141410316}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 170, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!114 &114188154226103450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  m_Name:
+  attackActive: 0
+  animatedWalkSpeed: 122
+  randomAnimSets: []
+  arrowImpactEffect: {fileID: 0}
+  bladeImpactEffect: {fileID: 0}
+  bladeCriticalImpactEffect: {fileID: 0}
+  bluntImpactEffect: {fileID: 0}
+  bluntCriticalImpactEffect: {fileID: 0}
+  snapToGround: 1
+--- !u!114 &114802527280012128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283849426833614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1693117855684003
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4955865957896912}
+  - 111: {fileID: 111408012789098761}
+  - 114: {fileID: 114656283881488062}
+  m_Layer: 0
+  m_Name: farmer
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4955865957896912
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693117855684003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4389151076396936}
+  - {fileID: 4903910141410316}
+  m_Father: {fileID: 4390085877009542}
+--- !u!111 &111408012789098761
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693117855684003}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 079c62ec2a8c7544ba278116994b8b3c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 079c62ec2a8c7544ba278116994b8b3c, type: 2}
+  - {fileID: 7400000, guid: bcdae1375c6225c4d810bfb73b859cc8, type: 2}
+  - {fileID: 7400000, guid: b438bd3c3ed0deb49aa84e70dc05770b, type: 2}
+  - {fileID: 7400000, guid: 757a62503cf272f48b8e5ff68bd96ab5, type: 2}
+  - {fileID: 7400000, guid: 3babd7c73e96e5249a8cb61cd37289f6, type: 2}
+  - {fileID: 7400000, guid: 29885a1e915f29a4b855feb580d20196, type: 2}
+  - {fileID: 7400000, guid: 5016b7cc3cf7ae94dae62e50ccff8084, type: 2}
+  - {fileID: 7400000, guid: 8fa90f4bac03db54d99602107980cd98, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 1.1906433, y: 55.313972, z: -57.246986}
+    m_Extent: {x: 52.311897, y: 61.032463, z: 144.7562}
+--- !u!114 &114656283881488062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693117855684003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/Farmer/farmer.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114656283881488062}
+  - {fileID: 137671677185110593}
+--- !u!1 &1584602013110023
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4389151076396936}
+  m_Layer: 0
+  m_Name: farmer:farmer
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4389151076396936
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584602013110023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4955865957896912}
+--- !u!1 &1367892498155711
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4903910141410316}
+  m_Layer: 0
+  m_Name: farmer:farmer_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4903910141410316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367892498155711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4652194189957881}
+  m_Father: {fileID: 4955865957896912}
+--- !u!1 &1167701800522960
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4652194189957881}
+  - 137: {fileID: 137671677185110593}
+  m_Layer: 0
+  m_Name: farmer:farmer_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4652194189957881
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167701800522960}
+  m_LocalRotation: {x: -0.39507225, y: 0.58644515, z: -0.39507225, w: 0.58644515}
+  m_LocalPosition: {x: -0, y: 27.111963, z: -0.048435047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90, y: -22.065832, z: 90}
+  m_Children:
+  - {fileID: 4875103519140423}
+  - {fileID: 4998186988649766}
+  m_Father: {fileID: 4903910141410316}
+--- !u!137 &137671677185110593
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167701800522960}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 2d145f7946ec3944ea55ab10beec0172, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 827fa8c3322e6034198f7719a0b7aa92, type: 2}
+  m_Bones:
+  - {fileID: 4652194189957881}
+  - {fileID: 4998186988649766}
+  - {fileID: 4120613787128571}
+  - {fileID: 4282922183664981}
+  - {fileID: 4158228050997123}
+  - {fileID: 4700605106750705}
+  - {fileID: 4848918654517459}
+  - {fileID: 4422173489046015}
+  - {fileID: 4251930832727344}
+  - {fileID: 4350801561427324}
+  - {fileID: 4575850715238107}
+  - {fileID: 4249326730470284}
+  - {fileID: 4979714091838049}
+  - {fileID: 4583510778937311}
+  - {fileID: 4743916130112801}
+  - {fileID: 4290022098349156}
+  - {fileID: 4871362814362552}
+  - {fileID: 4521831551666253}
+  - {fileID: 4906984497175042}
+  - {fileID: 4603926771101064}
+  - {fileID: 4476466468308591}
+  - {fileID: 4162987183103079}
+  - {fileID: 4482496590958909}
+  - {fileID: 4340900570685369}
+  - {fileID: 4934573163084063}
+  - {fileID: 4211029273491102}
+  - {fileID: 4237810676768190}
+  - {fileID: 4682974437639191}
+  - {fileID: 4695791738047019}
+  - {fileID: 4071313139001603}
+  - {fileID: 4875103519140423}
+  - {fileID: 4628472036453170}
+  - {fileID: 4732804842152398}
+  - {fileID: 4122085442962367}
+  - {fileID: 4916299313255754}
+  - {fileID: 4954428971623357}
+  - {fileID: 4531833382587389}
+  - {fileID: 4962121006947044}
+  - {fileID: 4011454667446671}
+  - {fileID: 4624199228563506}
+  - {fileID: 4737086956671066}
+  - {fileID: 4484582582216087}
+  - {fileID: 4931110529766499}
+  m_AABB:
+    m_Center: {x: -19.52921, y: 6.3038597, z: -0.67490196}
+    m_Extent: {x: 53.270725, y: 52.874336, z: 48.92637}
+  m_DirtyAABB: 0
+--- !u!1 &1094671016883299
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4875103519140423}
+  m_Layer: 0
+  m_Name: farmer:farmer_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4875103519140423
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094671016883299}
+  m_LocalRotation: {x: 0.9807346, y: -0.19534509, z: -2.281462E-17, w: 5.789091E-17}
+  m_LocalPosition: {x: 1.197401, y: -0.4967087, z: 5.5145743E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -1.268114E-15, z: 22.529768}
+  m_Children:
+  - {fileID: 4628472036453170}
+  - {fileID: 4954428971623357}
+  - {fileID: 4624199228563506}
+  - {fileID: 4484582582216087}
+  m_Father: {fileID: 4652194189957881}
+--- !u!1 &1957917673952961
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4628472036453170}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4628472036453170
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1957917673952961}
+  m_LocalRotation: {x: -0.002758054, y: -0.11398136, z: 0.9933504, w: -0.015989963}
+  m_LocalPosition: {x: 3.1321535, y: -0.060901854, z: 7.521346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -13.083339, y: -0.52280504, z: 178.21553}
+  m_Children:
+  - {fileID: 4732804842152398}
+  m_Father: {fileID: 4875103519140423}
+--- !u!1 &1372561473209620
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4732804842152398}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4732804842152398
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1372561473209620}
+  m_LocalRotation: {x: 0, y: 0, z: -0.04122908, w: 0.99914974}
+  m_LocalPosition: {x: -10.186646, y: 2.3028907E-15, z: 7.426379E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 4.7258444}
+  m_Children:
+  - {fileID: 4122085442962367}
+  m_Father: {fileID: 4628472036453170}
+--- !u!1 &1973532366801823
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4122085442962367}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4122085442962367
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973532366801823}
+  m_LocalRotation: {x: 0, y: 0, z: 0.51206946, w: 0.85894406}
+  m_LocalPosition: {x: -10.251771, y: 1.5166635E-15, z: -1.6032226E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -61.60355}
+  m_Children:
+  - {fileID: 4916299313255754}
+  m_Father: {fileID: 4732804842152398}
+--- !u!1 &1777547385852190
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4916299313255754}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4916299313255754
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1777547385852190}
+  m_LocalRotation: {x: 0, y: 0, z: 0.24976292, w: 0.968307}
+  m_LocalPosition: {x: -3.0418627, y: -1.0041073E-15, z: 3.1015848E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -28.926968}
+  m_Children: []
+  m_Father: {fileID: 4122085442962367}
+--- !u!1 &1361747192693611
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4954428971623357}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4954428971623357
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361747192693611}
+  m_LocalRotation: {x: -0.11398134, y: 0.002758147, z: 0.015990667, w: 0.9933504}
+  m_LocalPosition: {x: 3.1321783, y: -0.060902063, z: -7.52135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -13.083336, y: -0.5228248, z: -1.7845485}
+  m_Children:
+  - {fileID: 4531833382587389}
+  m_Father: {fileID: 4875103519140423}
+--- !u!1 &1889344979384844
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4531833382587389}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4531833382587389
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889344979384844}
+  m_LocalRotation: {x: 0, y: 0, z: -0.041230593, w: 0.9991497}
+  m_LocalPosition: {x: 10.1866665, y: -1.602614E-06, z: 1.789033E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 4.7260175}
+  m_Children:
+  - {fileID: 4962121006947044}
+  m_Father: {fileID: 4954428971623357}
+--- !u!1 &1602376978115623
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4962121006947044}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4962121006947044
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602376978115623}
+  m_LocalRotation: {x: -1.2157404E-08, y: 7.096023E-09, z: 0.51207006, w: 0.8589437}
+  m_LocalPosition: {x: 10.251725, y: -2.3245393E-06, z: 3.4869486E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -7.802384E-07, y: -1.4118283E-06, z: -61.60363}
+  m_Children:
+  - {fileID: 4011454667446671}
+  m_Father: {fileID: 4531833382587389}
+--- !u!1 &1515109254897288
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4011454667446671}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4011454667446671
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515109254897288}
+  m_LocalRotation: {x: 0, y: 0, z: 0.24976292, w: 0.968307}
+  m_LocalPosition: {x: 3.0418618, y: -2.5902302E-06, z: 2.4858555E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -28.926968}
+  m_Children: []
+  m_Father: {fileID: 4962121006947044}
+--- !u!1 &1047170003854769
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4624199228563506}
+  m_Layer: 0
+  m_Name: farmer:skirt_left
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4624199228563506
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047170003854769}
+  m_LocalRotation: {x: -0.70653725, y: -0.028375505, z: -0.034095477, w: 0.70628434}
+  m_LocalPosition: {x: 3.9190476, y: 0.006205782, z: 9.88199}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90, y: 5.0636168, z: 0.4639348}
+  m_Children:
+  - {fileID: 4737086956671066}
+  m_Father: {fileID: 4875103519140423}
+--- !u!1 &1248216002997551
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4737086956671066}
+  m_Layer: 0
+  m_Name: farmer:joint3
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4737086956671066
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248216002997551}
+  m_LocalRotation: {x: 0.67518085, y: 0.7376523, z: 4.5168177E-17, w: 4.1342904E-17}
+  m_LocalPosition: {x: 8.125406, y: 5.308316E-05, z: 1.0546823E-20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 3.995692E-23, z: -95.063614}
+  m_Children: []
+  m_Father: {fileID: 4624199228563506}
+--- !u!1 &1069429235430654
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4484582582216087}
+  m_Layer: 0
+  m_Name: farmer:skirt_right
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4484582582216087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069429235430654}
+  m_LocalRotation: {x: -0.028375544, y: 0.70653725, z: -0.70628434, w: -0.034095436}
+  m_LocalPosition: {x: 3.9190686, y: 0.0062056123, z: -9.881989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90, y: 5.0636168, z: -179.53607}
+  m_Children:
+  - {fileID: 4931110529766499}
+  m_Father: {fileID: 4875103519140423}
+--- !u!1 &1946977015401537
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4931110529766499}
+  m_Layer: 0
+  m_Name: farmer:joint2
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4931110529766499
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946977015401537}
+  m_LocalRotation: {x: 0.67518085, y: 0.7376523, z: 8.651108E-17, w: -3.8252728E-18}
+  m_LocalPosition: {x: -8.125363, y: 2.6645353E-15, z: -9.950701E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 7.0167096E-15, z: -95.063614}
+  m_Children: []
+  m_Father: {fileID: 4484582582216087}
+--- !u!1 &1189177518029915
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4998186988649766}
+  m_Layer: 0
+  m_Name: farmer:farmer_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4998186988649766
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189177518029915}
+  m_LocalRotation: {x: -1.3877789E-16, y: 5.551115E-17, z: -0.21867627, w: 0.9757975}
+  m_LocalPosition: {x: -5.106209, y: 7.1054274E-15, z: 7.8806855E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -1.690891E-14, y: -2.729595E-15, z: 25.262592}
+  m_Children:
+  - {fileID: 4120613787128571}
+  m_Father: {fileID: 4652194189957881}
+--- !u!1 &1320252464132207
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4120613787128571}
+  m_Layer: 0
+  m_Name: farmer:farmer_spine_hi_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4120613787128571
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1320252464132207}
+  m_LocalRotation: {x: -2.697495E-16, y: 5.551115E-17, z: -0.6720168, w: 0.7405359}
+  m_LocalPosition: {x: -4.4244385, y: 0, z: 1.768551E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.716549E-14, y: 1.6062091E-14, z: 84.44583}
+  m_Children:
+  - {fileID: 4282922183664981}
+  m_Father: {fileID: 4998186988649766}
+--- !u!1 &1736536672829699
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4282922183664981}
+  m_Layer: 0
+  m_Name: farmer:farmer_spine_end_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4282922183664981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736536672829699}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7205622, w: 0.6933903}
+  m_LocalPosition: {x: -2.1673295, y: 2.584807E-15, z: 2.4743814E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -92.201836}
+  m_Children:
+  - {fileID: 4422173489046015}
+  - {fileID: 4158228050997123}
+  - {fileID: 4906984497175042}
+  m_Father: {fileID: 4120613787128571}
+--- !u!1 &1265909077488510
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4422173489046015}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4422173489046015
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1265909077488510}
+  m_LocalRotation: {x: 0.6634464, y: -0.59117997, z: 0.27693337, w: 0.3655858}
+  m_LocalPosition: {x: -0.91231483, y: -4.5318775, z: -2.5762544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 164.77576, y: 53.10289, z: 75.76547}
+  m_Children:
+  - {fileID: 4251930832727344}
+  m_Father: {fileID: 4282922183664981}
+--- !u!1 &1148795885472717
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4251930832727344}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4251930832727344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1148795885472717}
+  m_LocalRotation: {x: 0.0006619428, y: 0.29310757, z: 0.1870429, w: 0.93760467}
+  m_LocalPosition: {x: -10.787322, y: 6.58179E-16, z: 6.3584725E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 7.6262703, y: -33.3252, z: -24.84932}
+  m_Children:
+  - {fileID: 4350801561427324}
+  m_Father: {fileID: 4422173489046015}
+--- !u!1 &1449052766854821
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4350801561427324}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4350801561427324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1449052766854821}
+  m_LocalRotation: {x: -0.0012539915, y: -0.0062139696, z: -3.598725E-05, w: 0.9999799}
+  m_LocalPosition: {x: -8.521754, y: 2.7647086E-15, z: -1.3958766E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.14367957, y: 0.7120777, z: 0.003231074}
+  m_Children:
+  - {fileID: 4575850715238107}
+  m_Father: {fileID: 4251930832727344}
+--- !u!1 &1658360686068946
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4575850715238107}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4575850715238107
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1658360686068946}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.830963, y: 1.1152476E-14, z: -4.2258592E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4249326730470284}
+  m_Father: {fileID: 4350801561427324}
+--- !u!1 &1996790633000004
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4249326730470284}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4249326730470284
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996790633000004}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -7.1054274E-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4290022098349156}
+  - {fileID: 4979714091838049}
+  m_Father: {fileID: 4575850715238107}
+--- !u!1 &1204649823675183
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4290022098349156}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4290022098349156
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204649823675183}
+  m_LocalRotation: {x: -0.70371884, y: -0.010985281, z: 0.035488002, w: 0.70950675}
+  m_LocalPosition: {x: -4.798577, y: 0.2835649, z: 0.5155666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -89.465775, y: -1.9690067, z: -3.7761145}
+  m_Children:
+  - {fileID: 4871362814362552}
+  m_Father: {fileID: 4249326730470284}
+--- !u!1 &1422818204479835
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4871362814362552}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_index_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4871362814362552
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422818204479835}
+  m_LocalRotation: {x: 0, y: -0.16077085, z: -0, w: 0.98699176}
+  m_LocalPosition: {x: -3.0191555, y: -3.0642155E-14, z: 7.1420156E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 18.503284, z: 0}
+  m_Children:
+  - {fileID: 4521831551666253}
+  m_Father: {fileID: 4290022098349156}
+--- !u!1 &1620352422055043
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4521831551666253}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_index_c_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4521831551666253
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1620352422055043}
+  m_LocalRotation: {x: 0, y: -0.24889295, z: -0, w: 0.968531}
+  m_LocalPosition: {x: -2.7012997, y: -5.995204E-14, z: -1.0695632E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 28.824024, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4871362814362552}
+--- !u!1 &1506556008594031
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4979714091838049}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4979714091838049
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1506556008594031}
+  m_LocalRotation: {x: 0.69509095, y: 0.03402693, z: -0.5302908, w: -0.48423398}
+  m_LocalPosition: {x: -1.4739841, y: -1.9162769, z: 3.8577375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -87.466576, y: -44.768707, z: -52.18661}
+  m_Children:
+  - {fileID: 4583510778937311}
+  m_Father: {fileID: 4249326730470284}
+--- !u!1 &1287493991810264
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4583510778937311}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_thumb_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4583510778937311
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287493991810264}
+  m_LocalRotation: {x: 0.08567761, y: 0.12199146, z: -0.15045373, w: 0.9773132}
+  m_LocalPosition: {x: -2.0870051, y: -8.702585E-16, z: 5.7394307E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 7.792045, y: -15.321132, z: 16.453878}
+  m_Children:
+  - {fileID: 4743916130112801}
+  m_Father: {fileID: 4979714091838049}
+--- !u!1 &1410303628685512
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4743916130112801}
+  m_Layer: 0
+  m_Name: farmer:farmer_lf_thumb_c_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4743916130112801
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410303628685512}
+  m_LocalRotation: {x: -0.06334503, y: -0.09890009, z: 0.10914395, w: 0.9870632}
+  m_LocalPosition: {x: -2.2929912, y: -1.5080171E-15, z: -6.075103E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -8.575589, y: 10.452122, z: -13.405458}
+  m_Children: []
+  m_Father: {fileID: 4583510778937311}
+--- !u!1 &1856958700897064
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4158228050997123}
+  m_Layer: 0
+  m_Name: farmer:farmer_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4158228050997123
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1856958700897064}
+  m_LocalRotation: {x: 0.50909317, y: -0.4907384, z: 0.50909317, w: 0.4907384}
+  m_LocalPosition: {x: -5.705159, y: -2.220446E-15, z: -9.1853715E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 92.103424, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4700605106750705}
+  m_Father: {fileID: 4282922183664981}
+--- !u!1 &1390486789483429
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4700605106750705}
+  m_Layer: 0
+  m_Name: farmer:farmer_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4700605106750705
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390486789483429}
+  m_LocalRotation: {x: -0.09127456, y: 0, z: 0, w: 0.99582577}
+  m_LocalPosition: {x: 3.2852075E-16, y: 4.3762717, z: -3.907985E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -10.473871, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4848918654517459}
+  m_Father: {fileID: 4158228050997123}
+--- !u!1 &1689146328310398
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4848918654517459}
+  m_Layer: 0
+  m_Name: farmer:farmer_head_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4848918654517459
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689146328310398}
+  m_LocalRotation: {x: 0.033252824, y: 0, z: 0, w: 0.999447}
+  m_LocalPosition: {x: -8.288537E-15, y: 37.16387, z: 1.0828577E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 3.8111956, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4700605106750705}
+--- !u!1 &1086334060779503
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4906984497175042}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4906984497175042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086334060779503}
+  m_LocalRotation: {x: 0.59117997, y: 0.6634464, z: 0.3655858, w: -0.27693337}
+  m_LocalPosition: {x: -0.9122673, y: -4.5318856, z: 2.57625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 164.77576, y: 53.10289, z: -104.23452}
+  m_Children:
+  - {fileID: 4603926771101064}
+  m_Father: {fileID: 4282922183664981}
+--- !u!1 &1262878690766778
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4603926771101064}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4603926771101064
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1262878690766778}
+  m_LocalRotation: {x: 0.0006619428, y: 0.29310757, z: 0.1870429, w: 0.93760467}
+  m_LocalPosition: {x: 10.787303, y: -1.8674746E-05, z: 2.5459614E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 7.6262703, y: -33.3252, z: -24.84932}
+  m_Children:
+  - {fileID: 4476466468308591}
+  m_Father: {fileID: 4906984497175042}
+--- !u!1 &1535316404261186
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4476466468308591}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4476466468308591
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535316404261186}
+  m_LocalRotation: {x: -0.0012539915, y: -0.0062139696, z: -3.598725E-05, w: 0.9999799}
+  m_LocalPosition: {x: 8.521746, y: -2.4187317E-05, z: -6.293134E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0.14367957, y: 0.7120777, z: 0.003231074}
+  m_Children:
+  - {fileID: 4162987183103079}
+  m_Father: {fileID: 4603926771101064}
+--- !u!1 &1637980092334330
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4162987183103079}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4162987183103079
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1637980092334330}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.831032, y: 7.353962E-06, z: 4.8336774E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4482496590958909}
+  - {fileID: 4071313139001603}
+  m_Father: {fileID: 4476466468308591}
+--- !u!1 &1679437820300807
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4482496590958909}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4482496590958909
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1679437820300807}
+  m_LocalRotation: {x: 6.4807186E-17, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.1054274E-15, y: 7.1054274E-15, z: 2.220446E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 7.426356E-15, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4237810676768190}
+  - {fileID: 4340900570685369}
+  m_Father: {fileID: 4162987183103079}
+--- !u!1 &1538600837792634
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4237810676768190}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4237810676768190
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538600837792634}
+  m_LocalRotation: {x: -0.70371884, y: -0.0109852785, z: 0.035488002, w: 0.70950675}
+  m_LocalPosition: {x: 4.798569, y: -0.28355756, z: -0.51556826}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -89.465775, y: -1.9690069, z: -3.7761142}
+  m_Children:
+  - {fileID: 4682974437639191}
+  m_Father: {fileID: 4482496590958909}
+--- !u!1 &1778758108606769
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4682974437639191}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_index_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4682974437639191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778758108606769}
+  m_LocalRotation: {x: 0, y: -0.16077085, z: -0, w: 0.98699176}
+  m_LocalPosition: {x: 3.0191438, y: 2.7533531E-14, z: -6.940552E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 18.503284, z: 0}
+  m_Children:
+  - {fileID: 4695791738047019}
+  m_Father: {fileID: 4237810676768190}
+--- !u!1 &1180937184999991
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4695791738047019}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_index_c_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4695791738047019
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1180937184999991}
+  m_LocalRotation: {x: 0, y: -0.24889295, z: -0, w: 0.968531}
+  m_LocalPosition: {x: 2.7012513, y: 3.1086245E-15, z: 1.8014181E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 28.824024, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4682974437639191}
+--- !u!1 &1778487509994963
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4340900570685369}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4340900570685369
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778487509994963}
+  m_LocalRotation: {x: 0.695091, y: 0.034026917, z: -0.5302908, w: -0.48423395}
+  m_LocalPosition: {x: 1.4739466, y: 1.9162362, z: -3.8577394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -87.46659, y: -44.76871, z: -52.18661}
+  m_Children:
+  - {fileID: 4934573163084063}
+  m_Father: {fileID: 4482496590958909}
+--- !u!1 &1475719808762054
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4934573163084063}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_thumb_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4934573163084063
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475719808762054}
+  m_LocalRotation: {x: 0.08567761, y: 0.12199146, z: -0.15045373, w: 0.9773132}
+  m_LocalPosition: {x: 2.0870306, y: -1.8579918E-05, z: -2.9989993E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 7.792045, y: -15.321132, z: 16.453878}
+  m_Children:
+  - {fileID: 4211029273491102}
+  m_Father: {fileID: 4340900570685369}
+--- !u!1 &1012327066182309
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4211029273491102}
+  m_Layer: 0
+  m_Name: farmer:farmer_rt_thumb_c_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4211029273491102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1012327066182309}
+  m_LocalRotation: {x: -0.06334503, y: -0.09890009, z: 0.10914395, w: 0.9870632}
+  m_LocalPosition: {x: 2.292979, y: 7.955882E-06, z: 3.212102E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -8.575589, y: 10.452122, z: -13.405458}
+  m_Children: []
+  m_Father: {fileID: 4934573163084063}
+--- !u!1 &1127367006994819
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4071313139001603}
+  m_Layer: 0
+  m_Name: farmer:weapon
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4071313139001603
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1127367006994819}
+  m_LocalRotation: {x: 0.9948917, y: -0.099365756, z: -0.017714722, w: -0.0017692748}
+  m_LocalPosition: {x: 5.963134, y: 2.5070143, z: -0.17931308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -180, y: -2.040165, z: 11.407112}
+  m_Children: []
+  m_Father: {fileID: 4162987183103079}

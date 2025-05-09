@@ -1,0 +1,78 @@
+*Samurai vs Zombies Defense
+-
+*A GLU Mobile Game
+-
+-
+*SVZ TEAM
+Nathan Bachelder
+Irin Berry
+Scott Brothers
+Evan Buehler
+Jay Buss
+Michael Byron
+Naresh Ch Das
+Ramesh Chokkalingam
+John-Paul Clifton
+Tyler Finney
+Bill Gross
+Todd Harry
+Alan Heller
+Russell Hochenedel
+Marcus Howell
+Navdeep Hukmani
+Ryan Johnson
+Lisa Liao
+Evan McConnaughey
+Taron Millet
+Rakesh Nancharla
+Richard Nichols
+Joseph Pallaria
+Alex Pantelias
+Satheesh Kanna Paramasivam
+Madhukar Peddinti
+Chris Petherick
+David Peixoto
+Jason Southwick
+Aaron Sutherland
+Kelly Toyama
+Steve Vallee
+Thomas Wagner
+-
+*Android
+Sourabh Ahuja
+Srikanth Basappa
+Skyler Bauermeister
+Jimmy Chiu
+Lori Cox
+Max Schlienger
+Tao Tao
+-
+*SPECIAL THANKS
+Jason Bay
+Bradley Bifulco
+Stephanie Blue
+Randy Briley
+Leah Brushett
+Daren Chencinski
+Don Choi
+Bryce Clark
+Patrick Connole
+J.C. Connors
+Mike DeLaet
+Niccolo De Masi
+Martin Edelman
+Jarrod Faehnrich
+Nathan Hamar
+Trevoli Handyside
+Gohar Kanungo
+Imran Khan
+Christian Kimball
+Tamara Knoss
+Dan McAuliffe
+Steve Mortara
+Kassi O'Connor
+Ken Quigley
+Bill Schneider
+Ryan Silva
+Joe Stankowicz
+Kelly Toyama

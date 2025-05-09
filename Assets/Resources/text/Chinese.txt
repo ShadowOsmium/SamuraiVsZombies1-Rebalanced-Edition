@@ -1,0 +1,775 @@
+
+/------------------------------------------------------------------
+/ Play Modes
+/------------------------------------------------------------------
+
+playmode_classic = 经典\n模式
+playmode_zombie = 僵尸\n模式
+
+unlocked_zombies = 你解锁了僵尸围城！
+
+/------------------------------------------------------------------
+/ Freebies
+/------------------------------------------------------------------
+
+welcomeBack_title = 欢迎回来！
+welcomeBack_subtitle = Glu Mobile 很高兴看到你回来。
+welcomeBack_body = 为表谢意，请接受这份礼物。
+
+giveonce_title = 送你一份礼物！
+giveonce_subtitle = Glu Mobile 很高兴看到你成为本游戏的玩家。
+giveonce_body = 为表示谢意，请接受这份礼物。
+
+
+/------------------------------------------------------------------
+/ Special Events Stuff
+/------------------------------------------------------------------
+
+charm_olympics_name = 奥林匹克力量护符
+charm_olympics_desc = 使用奥林匹克的力量对僵尸们造成巨大的额外伤害。
+dealpackolympics_name = 奥林匹克特殊礼包
+dealpackolympics_desc = 这些道具足够你举办一次盛大的奥林匹克狂欢！更多的奥林匹克护符在向你招手！
+
+charm_julyforth_name = 閃光護符
+charm_julyforth_desc = 使用7月4日獨立日的力量重創那些殭屍。
+dealpackjulyforth_name = 煙火特殊包
+dealpackjulyforth_desc = 7月4日獨立日聚會你所需要的一切都在裏面！更多的閃光護符在向你招手！
+
+/------------------------------------------------------------------
+/ Abilities
+/------------------------------------------------------------------
+
+ab_divine_name = 神圣干涉
+ab_trample_name = 兵之践踏
+ab_groundshock_name = 爆裂重击
+ab_slash_name = 武士刀斩
+ab_lethargy_name = 困倦昏睡
+ab_self_revive_name = 自我复活
+ab_lightning_name = 召唤闪电
+ab_tornadoes_name = 召唤飓风
+
+ab_lifesteal_name = 生命偷取
+ab_gravehands_name = 坟墓之手
+ab_raisedead_name = 起死回生
+ab_dragonattack_name = 僵尸之龙
+ab_nightofthedead_name = 亡者之夜
+
+/------------------------------------------------------------------
+/ Ability Descriptions
+/------------------------------------------------------------------
+
+ab_slash_desc = 针对多个敌人的强力一击。
+ab_lightning_desc = 召唤闪电之力打击面前的敌人。
+ab_divine_desc = 呼唤神力，召唤出您所配置的 友军，也许…
+ab_lethargy_desc = 释放可以暂时使所有敌人减速的法术。
+ab_village_archers_desc = 雇用弓箭手坚守村庄瞭望塔。
+ab_warding_bell = 传说中的古老洪钟，震耳欲聋的钟声能令异域恶魔们惊恐痛苦。
+ab_gate = 提升圣门耐久上限。
+ab_gate_zombies = 增加地狱之门的抗破坏程度。
+ab_leadership = 升级可提升初始时英雄的统率力，统率力越高召唤盟军的速度越快！
+ab_brains = 升级以提高英雄的起始大脑等级。使用大脑召唤部队参战！
+ab_trample_desc = 召唤无坚不摧之混战云团！
+ab_tornadoes_desc = 召唤飓风，对全部敌人实施立体打击！
+
+ab_lifesteal_desc = 一次致命的进攻，从你的敌人处偷取生命。
+ab_gravehands_desc = 将你的敌人拖进坟墓。
+ab_raisedead_desc = 呼唤亡者的力量加入你的队伍！
+ab_dragonattack_desc = 召唤一条龙，展开全面混战！
+ab_nightofthedead_desc = 所有僵尸势不可挡，持续几秒钟的时间。
+
+/------------------------------------------------------------------
+/ Weapon Descriptions
+/------------------------------------------------------------------
+
+katana_desc = 英雄的主要武器。发动近身攻击。
+katanafire_desc = 英雄的主要武器。附加赤焰伤害！
+katanablue_desc = 英雄的主要武器。附加青焰伤害！
+crossbow_desc = 英雄的远程武器。发动远程攻击。
+crossbowfire_desc = 英雄的远程武器。发动远程攻击。赤焰箭！
+crossbowblue_desc = 英雄的远程武器。发动远程攻击。青焰箭！
+crossbowexpl_desc = 英雄的远程武器。发动远程攻击。爆炸箭！
+crossbowexpl2_desc = 英雄的远程武器。发动远程攻击。爆裂箭！
+
+/------------------------------------------------------------------
+/ Helpers
+/------------------------------------------------------------------
+
+helper_farmer_name = 农夫
+helper_samurai_name = 持剑武士
+helper_samurai_archer = 弓箭手
+helper_samurai_spearman = 长矛战士
+helper_heavy_samurai = 装甲武士
+helper_Nobunaga = 织田信长
+helper_swordsmith = 铸剑师
+helper_priest = 僧侣
+helper_ice_archer = 冰箭手
+helper_rifleman = 步枪兵
+helper_takeda = 武田信玄
+helper_horseman = 长矛骑兵
+helper_ninja_girl = 刺客
+
+helper_crawler_name = 跳跃躯干
+helper_chochinobake_name = 鬼灯
+helper_ghostronin_name = 鬼浪人
+helper_jurogumo_name = 洛新妇
+helper_komusou_name = 不死吟游诗人
+helper_necromancer_name = 死灵法师
+helper_oni_name = 鬼
+helper_onibaba_name = 恶魔治疗师
+helper_shogun_name = 幕府将军僵尸
+helper_zombiearcher_name = 弓箭手僵尸
+helper_zombiehorseman_name = 骑手僵尸
+helper_zombie_name = 僵尸
+helper_zombiespear_name = 矛兵僵尸
+
+/------------------------------------------------------------------
+/ Helper Descriptions 
+/------------------------------------------------------------------
+
+hero_desc = 村庄中最勇猛的武士。让他的力量引导人们迈向胜利吧！
+helper_farmer_desc = 并不十分强壮，但相当忠诚。
+helper_samurai_desc = 誓死保卫村庄的武士。中等生命值和攻击力。
+helper_samurai_archer_desc = 远程攻击兵种，近战不堪一击。
+helper_samurai_spearman_desc = 站位于持剑武士后面发动攻击的战士，勇武异常。
+helper_heavy_samurai_desc = 厚重的盔甲让他们十分坚韧，但也降低了攻击速度。
+helper_Nobunaga_desc = 传说中神一样的武士。人们认为他勇不可挡。
+helper_priest_desc = 用神圣之力治愈盟友单位。
+helper_ice_archer_desc = 见到您就冰冻您！冰箭可冻伤敌人并使其行动一时缓慢。
+helper_swordsmith_desc = 铸剑大师可以让战场上的所有农夫能力提升！
+helper_rifleman_desc = 步枪兵可以让战场上的所有弓箭手能力提升！
+helper_takeda_desc = 传说中的英雄！这位强大的武士可以从马背上发动长距离攻击。
+helper_horseman_desc = 可以从马背上发动中距离攻击！
+helper_ninja_girl_desc = 迅捷的刺客！她身法奇快，无论是肉搏混战还是远程奇袭都得心应手！
+
+helper_crawler_desc = 双腿是拐杖......
+helper_chochinobake_desc = 快跑......轰的一声！
+helper_ghostronin_desc = 最强悍的鬼。每次进攻能够减慢敌人的速度。
+helper_jurogumo_desc = 一半是女人，一半是蜘蛛，全是不死之身。
+helper_komusou_desc = 响亮地歌唱，他会唤醒亡者。 = 
+helper_necromancer_desc = 定期从坟墓中唤醒更多僵尸。
+helper_oni_desc = 极其强悍，但是他的重型武器会放慢他的攻击速度。
+helper_onibaba_desc = 僵尸治疗师会让僵尸增加死气，还是增加生气？
+helper_shogun_desc = 地狱的幕府将军，你还想要什么？
+helper_zombiearcher_desc = 距离远，无法击中目标。
+helper_zombiehorseman_desc = 你如何阻止一匹僵尸马？挠挠脑袋吧。
+helper_zombie_desc = 普通战士，对付一个死人。
+helper_zombiespear_desc = 大肆破坏，但打碎脑浆的不多。
+
+/------------------------------------------------------------------
+/ Enemies
+/------------------------------------------------------------------
+
+enemy_dummy_name = 傀儡！
+enemy_l_zombie_u_name = 徒手足轻鬼
+enemy_l_zombie_a_name = 持斧足轻鬼
+enemy_l_zombie_s_name = 持剑足轻鬼
+enemy_l_zombie_sp_name = 长矛足轻鬼
+enemy_l_zombie_b_name = 弓箭足轻鬼
+enemy_h_zombie_u_name = 巨型足轻鬼
+enemy_oni_name = 豪鬼
+
+
+/------------------------------------------------------------------
+/ Heroes
+/------------------------------------------------------------------
+
+heroe_samurai_name = 武士
+
+zombiehero_desc = 不死之身的最伟大勇士。将胆敢闯入亡者之地的活人撕碎。
+
+/------------------------------------------------------------------
+/ Charms
+/------------------------------------------------------------------
+
+charm_holy_name = 神圣护符
+charm_holy_desc = 令英雄起死回生，并全灭屏幕中敌人。
+
+charm_happiness_name = 幸福护符
+charm_happiness_desc = 让金币、护符和掉落品自动流向英雄。
+
+charm_power_name = 力量护符
+charm_power_desc = 提升暴击率！
+
+charm_luck_name = 鸿运护符
+charm_luck_desc = 消灭敌人后掉落品数量增倍！
+charm_wealth_name = 财宝护符
+charm_wealth_desc = 您似乎拥有了招财进宝的能力…
+charm_peace_name = 和平护符
+charm_peace_desc = 敌人攻击伤害缩减50%，并把敌人的兵刃变成白翎鸡！
+charm_haste_name = 急速护符
+charm_haste_desc = 提升召唤出的友军的速度。
+
+charm_friendship_name = 狂暴战士友情护符
+charm_friendship_desc = 召唤出您的好友，巨型、超强、暗银的狂暴战士一同作战！
+
+charm_friendship_power_name = 高级武士友情护符
+charm_friendship_power_desc =召唤出您的好友，巨型、超强、暗银的狂暴战士一同作战！他将装备一枚力量护符登场！
+
+charm_friendpanzer_name = 装甲元帅友情护符
+charm_friendpanzer_desc = 召唤出您的好友，巨型、超强、亮金的装甲元帅一同作战！
+
+charm_friendpanzer_luck_name =高级装甲元帅友情护符
+charm_friendpanzer_luck_desc =召唤出您的好友，巨型、超强、亮金的装甲元帅一同作战！他将装备一枚幸运护符登场！
+
+charm_friendspearman_name = 长矛大将友情护符
+charm_friendspearman_desc = 召唤出您的好友，巨型、超强、紫色的长枪将军一同作战！
+
+charm_friendspearman_haste_name =高级长矛大将友情护符
+charm_friendspearman_haste_desc =召唤出您的好友，巨型、超强、紫色的长枪将军一同作战！他将装备一枚急速护符登场！
+
+charm_friendnobunaga_name =织田信长友情护符
+charm_friendnobunaga_desc = 召唤出您的新好友织田信长一同作战！
+
+charm_friendnobunaga_luck_name =织田信长鸿运护符
+charm_friendnobunaga_luck_desc = 召唤出您的新好友织田信长一同作战！他将装备一枚鸿运护符登场！
+
+charm_friendtakeda_name =武田信玄友情护符
+charm_friendtakeda_desc = 召唤出您的新好友武田信玄一同作战！
+
+charm_friendtakeda_wealth_name =武田信玄财宝护符
+charm_friendtakeda_wealth_desc = 召唤出您的新好友武田信玄一同作战！他将装备一枚财宝护符登场！
+
+charm_friendassassin_name =刺客友情护符
+charm_friendassassin_desc = 召唤出您的好友刺客一同作战！
+
+charm_friendassassin_peace_name =刺客和平护符
+charm_friendassassin_peace_desc = 召唤出您的好友刺客一同作战！他将装备一枚和平护符登场！
+
+charm_friendfarmer_name =农夫友情护符
+charm_friendfarmer_desc = 召唤出您的忠实好友农夫一同作战！
+
+charm_friendfarmer_wealth_name =农夫财宝护符
+charm_friendfarmer_wealth_desc = 召唤出您的忠实好友农夫一同作战！他将装备一枚财宝护符登场！
+
+charm_z_holy_name = 起死回生符
+charm_z_holy_desc = 复活死亡的英雄并杀死屏幕上所有的敌人。
+
+charm_z_happiness_name = 幸福符
+charm_z_happiness_desc = 将钱币、脑浆和掉落的宝物拉向英雄。
+
+charm_z_power_name = 力量符
+charm_z_power_desc = 增加致命一击的机率！
+
+charm_z_luck_name = 幸运符
+charm_z_luck_desc = 成倍增加从敌人获得掉落物品的数量！
+
+charm_z_wealth_name = 财富符
+charm_z_wealth_desc = 把金钱都吸引到自己身边......
+
+charm_z_peace_name = 和平符
+charm_z_peace_desc = 敌人破坏力减少 50%，并且会害怕！
+
+charm_z_haste_name = 仓促符
+charm_z_haste_desc = 召集脚上有弹簧的盟友。
+
+charm_friendoni_name = 鬼符
+charm_friendoni_desc = 呼唤一个鬼来到你的身边！
+
+charm_friendhorde_name = 成群符
+charm_friendhorde_desc = 呼唤一群部队来到你的身边！
+
+
+/------------------------------------------------------------------
+/ Potions
+/------------------------------------------------------------------
+
+potion_healsmall_name = 寿司
+potion_healsmall_desc = 回复全部生命值！
+
+potion_healbig_name = 寿司拼盘
+potion_healbig_desc = 回复英雄和战友的全部生命值！
+
+potion_leadersmall_name = 一杯茶
+potion_leadersmall_desc = 增加统率力25！统率力越高召唤盟军的速度越快！
+
+potion_leaderbig_name = 一壶茶
+potion_leaderbig_desc = 增加统率力50！统率力越高召唤盟军的速度越快！
+
+potion_revive_name = 复活
+potion_revive_desc = 让英雄起死回生！
+
+potion_z_healsmall_name = 腐烂的寿司
+potion_z_healsmall_desc = 补充健康值到全满！
+
+potion_z_healbig_name = 腐烂的寿司盘
+potion_z_healbig_desc = 将英雄和盟友的健康值补充到全满！
+
+potion_z_leadersmall_name = 坟墓
+potion_z_leadersmall_desc = +25 脑浆！使用脑浆召唤僵尸战斗！
+
+potion_z_leaderbig_name = 墓地
+potion_z_leaderbig_desc = +50 脑浆！使用脑浆召唤僵尸战斗！
+
+potion_z_revive_name = 复活
+potion_z_revive_desc = 复活死去的英雄!
+
+
+/------------------------------------------------------------------
+/ Deal Packs
+/------------------------------------------------------------------
+
+dealpack1_name = 新手上路包!
+dealpack1_desc = 两个实用的复活品，以及药剂和护符供您上手游戏。
+
+dealpack2_name = 特惠包!
+dealpack2_desc = 当游戏难度提升时，该礼品包绝对会帮您不少忙！
+
+dealpack3_name = 超值包!
+dealpack3_desc = 该礼品包里的道具绝对会让您干劲十足！
+
+dealpack4_name = 无敌通吃包
+dealpack4_desc = 该礼品包里的稀有强力道具让您彻底搞定猛鬼军团！
+
+
+/------------------------------------------------------------------
+/ Store Menu
+/------------------------------------------------------------------
+
+store_title = 武士商店
+store_meditate_btn = 沉思冥想
+
+store_tap_joy = 免费钻石！
+
+store_unlockatwave = 在第{0}波解锁
+store_findInPresent = 提示：搜寻这些礼品！
+store_find_frostie = 寻找冰箭手！
+store_find_swordsmith = 寻找铸剑师！
+store_find_rifleman = 寻找步枪兵！
+store_find_takeda = 寻找武田信玄！
+store_find_ninja_girl = 寻找刺客！
+store_find_necromancer = 寻找亡灵巫师！
+
+store_leadership_desc = 将统率力初始级别提升为 {0} 级。
+
+store_format_level_hero = 升级英雄至第 {0} 级
+store_format_recruit = 招募 {0}
+store_format_levelup = 升级 {0} 至第 {1} 级
+store_format_smithy_levelup = 升级统率力至第 {0} 级
+store_format_sword_levelup = 升级剑至第 {0} 级
+store_format_bow_levelup = 升级弓至第 {0} 级
+store_format_gate_levelup = 升级圣门至第 {0} 级
+store_format_purchase_atlevel = 购买 {0}
+store_format_upgrade_tolevel = 升级 {0} 至第 {1} 级
+store_format_purchase_x_items = 购买 {0} {1}
+store_format_purchase = 购买 {0}
+
+store_format_zombiegate_levelup = 地狱之门升级到{0}
+store_format_brains_levelup = 脑浆升级到{0}
+
+undeath_levelup_name = 亡灵
+undeath_levelup_desc = 增加僵尸恢复健康的速度。
+
+store_currencytab0 = 购买金币。
+store_currencytab1 = 购买钻石。
+
+store_percent_off = (-{0}%)
+store_free = 免费!
+
+earnsdoublecoins_title =永久双倍金币
+earnsdoublecoins_desc = 本次购买将成倍增加两种模式下您在各关卡中拾取的硬币价值。
+pachinkopack_title = {0} 柏青哥弹珠
+pachinkopack_desc =一袋用于迷你游戏柏青哥的弹珠。
+
+pachinkocounter_sing = {0} 弹珠
+pachinkocounter_plurial =  {0} 弹珠
+
+revive_plural = {0} 复活\n剩余
+revive_singular = 1 复活\n剩余
+revive_none = 无复活\n剩余
+
+legion_name = 军团
+legion_desc = 定期召唤不死部队军团。
+
+deathfromabove_name = 飞天死士
+deathfromabove_desc = 定期召唤一批飞天部队。
+
+bitten_name = 咬死
+bitten_desc = 将村民弓箭手变成为你而战的僵尸！
+
+/------------------------------------------------------------------
+/ IAP Store Menu
+/------------------------------------------------------------------
+
+iap_error_syncfailed =无法与苹果商店同步您之前的购买。请稍后再试。
+iap_error_syncunknown =在试图与苹果商店同步您之前的购买时，发生错误。请稍后再试。
+iap_error_requesttimedout =连接苹果商店请求超时。请检查您的网络连接并稍后再试。
+iap_error_requestfailed =无法连接到苹果商店。请检查您的网络连接并稍后再试。
+iap_error_requestunknown =在试图连接至苹果商店时出现了一个未知错误。请检查您的网络连接并稍后再试。
+iap_error_buycancelled =您的购买请求已取消。请稍后再试。
+iap_error_buyfailed =您的购买失败。请稍后再试。
+iap_error_buyunknown =在处理您的购买请求时出现了一个未知错误，您的购买请求已取消。请检查您的网络连接并稍后再试。
+iap_error_novalidproducts =无法在苹果商店中找到任何有效产品。请稍后再试。
+
+iap_error_parentalrestrictions = 您的系统设置中已关闭了程序内购买功能。
+iap_error_unavailable = 目前暂时无法在苹果商店中购买。请稍后再试。
+
+/------------------------------------------------------------------
+/ TapJoy
+/------------------------------------------------------------------
+TapJoy_Awarded_Gems_Message_Pre_Text = TapJoy奖励您
+TapJoy_Awarded_Gems_Message_Post_Text =多谢参与。
+
+/------------------------------------------------------------------
+/ iCloud
+/------------------------------------------------------------------
+iCloud_Message_Text =是否使用iCloud存取游戏进度？
+iCloud_Load_Button_Text = 读取
+iCloud_Save_Button_Text = 保存
+No_iCloud_Notification_Message_Text = iCloud服务不可用。
+iCloud_Save_Started_Notification_Message_Text = 您的存档文件已经位于iCould服务的上传队列中。
+iCloud_File_Not_Found_Notification_Message_Text = 无法在iCould服务中找到存档文件。
+iCloud_Data_Loaded_Message_Text = 已经成功从iCould服务中读取了您的存档文件。
+iCloud_Timed_Out_Message_Text =在读取存档文件之前与iCloud服务失去连接。请重试。
+
+
+/------------------------------------------------------------------
+/ Debriefing Menu
+/------------------------------------------------------------------
+
+debrief_title = 第{0}波:
+debrief_title_bonus =奖励波：
+
+debrief_you_unlocked = 您解锁了：
+debrief_awarded = 获胜奖励：
+debrief_collected = 已收集：
+debrief_total = 全部：
+debrief_victory = 获胜！
+debrief_lost = 战斗失败！
+
+
+/------------------------------------------------------------------
+/ Chapters
+/------------------------------------------------------------------
+
+chapter_title_summer = 夏
+chapter_title_fall = 秋
+chapter_title_winter = 冬
+chapter_title_spring = 春
+chapter_title_hell = 混沌
+
+chapter_title_zombiehell1 = 地下世界
+chapter_title_zombiehell2 = 地狱边境
+chapter_title_zombiehell3 = 一片混乱
+
+chapter_wave_num = 第{0}波
+
+chapter_screen_locked = 你打过第{0}波之后，你将能够再次选择自己想要重玩的关卡！
+
+waveselect_inst = 点击以选择关卡
+
+/------------------------------------------------------------------
+/ Push Notifications
+/------------------------------------------------------------------
+
+Push_Notification_Message_Text =现在就回到《武士大战僵尸》中领取您的每日奖励吧！
+Push_Notification_Button_Text = 《武士大战僵尸》
+
+No_Internet_Notification_Message_Text =该功能需要网络支持。
+
+/------------------------------------------------------------------
+/ Tutorial
+/------------------------------------------------------------------
+
+tutorial_store_intro =欢迎来到武士商店！在这里您可以升级您的英雄，招募村民并增强村镇防御。
+tutorial_dealpacks =您的武士充满了对力量的渴求。即刻为他装备新手上路包中的强力道具吧！
+
+tutorial_ingame_gate =保卫圣门！
+tutorial_ingame_movements =点击屏幕左右两侧来移动。
+tutorial_ingame_attack =您的英雄在靠近敌人后会自动攻击。
+tutorial_ingame_ability =点击武士刀斩图标发动一次特殊攻击！
+
+tutorial_ingame_leadership =你有了足够的统帅力。点击“友军”按钮召唤他！
+tutorial_ingame_allies =您已经有了足够的统率力。点击农夫召唤吧！
+tutorial_ingame_flying =只有发射弓箭才能伤害到空中的敌人。请退后使用您的弓箭。
+
+tutorial_bonus_1 =您已解锁了奖励关卡！在这波战斗中您的英雄无法发动攻击。
+tutorial_bonus_2 =我们为您提供了特殊的盟友。召唤他们来打败猛鬼军团吧！
+tutorial_bonus_3 =在奖励关卡中，您将获得一件默认装备的护符。当前激活的是可以增加掉落物的鸿运护符！
+tutorial_bonus_4 =每5波后会解锁一个奖励关卡！
+
+tutorial_pachinko_lever =拽动手杆发射出一个柏青哥弹珠！可以连续发射多个弹珠，柏青哥弹珠越多中奖的机率也越大！试试看到底您的手有多快！
+tutorial_pachinko_spin =瞄准弹珠盘中心以激活老虎机赢取奖品！奖品包括金币、钻石、寿司、茶和护符！
+tutorial_pachinko_multiplier =游戏中同时出现的弹珠数越多，分数加成也 就越高。增加分数加成来赢取更多金币吧！
+
+tutorial_boosterpacks_free = 你获得了一个免费的增强包，点击此处打开它吧！
+/------------------------------------------------------------------
+/ Daily Reward Popup
+/------------------------------------------------------------------
+Daily_Rewards =每日奖励
+Daily_Reward_Unlock_Subtitle =恭喜！
+Daily_Reward_Unlock_Body =您因为连续多日进行游戏而解锁了一项每日奖励！
+
+/------------------------------------------------------------------
+/ Options menu
+/------------------------------------------------------------------
+
+options_confirmreset =您即将删除所有游戏数据，包括您已购买的物品。是否继续？
+
+
+/------------------------------------------------------------------
+/ Revive
+/------------------------------------------------------------------
+
+revive_title =您已阵亡。若不使用复活，您将损失：
+revive_title_nospoil =您已阵亡。
+revive_use1 =要使用复活吗？
+revive_useX =您现有 {0} 个复活，是否使用？
+revive_purchase =是否复活？
+
+/------------------------------------------------------------------
+/ Pachinko
+/------------------------------------------------------------------
+
+pachinkohelp_title =柏青哥游戏规则
+pachinkohelp_desc =发射弹珠，击中弹珠盘中心后可激活老虎机，出现3个同样的图标您即可获得奖品：
+pachinkohelp_food =寿司和茶
+pachinkohelp_revive =复活
+pachinkohelp_charms =护符
+pachinkohelp_coins =金币
+pachinkohelp_gems =钻石
+
+pachinkosum_title =恭喜！
+pachinkosum_desc =你在柏青哥弹珠游戏中获得了这些奖品：
+	
+
+/------------------------------------------------------------------
+/ Rate My Game dialog
+/------------------------------------------------------------------
+rate_me_title =请给我们的游戏5星评价！
+like_our_game =您喜欢《武士大战僵尸》吗？请给游戏5星评价，以便我们为您送上更多惊喜！
+cancel_rating =不了，谢谢！
+rate_it =请为游戏评分！
+rate_me_url = http://gcs.glu.com/gcs/iphone/iphone.jsp?t=samuzombie&src=samuzombie&p=iphone&page=review
+never_rate =从不
+
+/------------------------------------------------------------------
+/ Version check
+/------------------------------------------------------------------
+New_Version_Notification_Message_Text =App Store中有《武士大战僵尸》的更新版本可用。请下载最新版本进行游戏。
+version_file_location = https://s3.amazonaws.com/griptonite/svz/version.txt
+
+/------------------------------------------------------------------
+/ Hints (Recommandations dialog)
+/------------------------------------------------------------------
+hints_title =提示！
+
+/------------------------------------------------------------------
+/ Booster Pack Store
+/------------------------------------------------------------------
+boosterstore_warning_helper = 警告！你的{0}已经达到最高等级。你仍然要购买该物品吗？
+
+normal_store_link_title = \n增强包
+
+boosterpack_title_free = 奖励包
+boosterpack_title_1 =新手包
+boosterpack_title_2 = 标准包
+boosterpack_title_3 =高级包
+boosterpack_title_4 =特大包
+
+boosterpack_title_nobunaga = 织田信长包
+boosterpack_title_priest =僧侣包
+boosterpack_title_swordsmith =铸剑师包
+boosterpack_title_rifleman =步枪兵包
+boosterpack_title_takeda =武田信玄包
+boosterpack_title_frostee =冰箭手包
+boosterpack_title_assassin =刺客包
+boosterpack_desc_free = 一件普通商品
+
+boosterpack_desc_free =1件道具。至少包含1件普通道具。
+boosterpack_desc_1 = 1件道具。至少包含1件普通道具。
+boosterpack_desc_2 =6件道具。至少包含1件特殊道具。
+boosterpack_desc_3 =11件道具。至少包含1件稀有道具。
+boosterpack_desc_4 =21件道具。至少包含1件超稀有道具。
+
+boosterpack_desc_nobunaga =31件道具。至少包含1件极稀有道具和织田信长升级。
+boosterpack_desc_priest =31件道具。至少包含1件极稀有道具和僧侣升级。
+boosterpack_desc_swordsmith =31件道具。至少包含1件极稀有道具和铸剑师升级。
+boosterpack_desc_rifleman =31件道具。至少包含1件极稀有道具和步枪兵升级。
+boosterpack_desc_takeda =31件道具。至少包含1件极稀有道具和武田信玄升级。
+boosterpack_desc_frostee =31件道具。至少包含1件极稀有道具和冰箭手升级。
+boosterpack_desc_assassin =31件道具。至少包含1件极稀有道具和刺客升级。
+
+boosterpack_rarity_common =普通
+boosterpack_rarity_uncommon =特殊
+boosterpack_rarity_rare =稀有
+boosterpack_rarity_super =超稀有
+boosterpack_rarity_extreme =极稀有
+
+boosterpack_card_coins_title = {0} 金币
+boosterpack_card_coins_desc =该卡片使您获得 {0} 金币!
+boosterpack_card_gems_title = {0} 钻石
+boosterpack_card_gems_desc = 该卡片使您获得 {0} 钻石!
+boosterpack_card_balls_title = {0} 弹珠
+boosterpack_card_balls_desc =该卡片使您获得 {0} 弹珠!
+boosterpack_card_revive_title = 复活 x{0} 
+boosterpack_card_revive_desc =该卡片使您获得 {0} 复活!
+boosterpack_card_healthSmall_title =寿司 x{0}
+boosterpack_card_healthSmall_desc =该卡片使您获得 {0} 寿司!
+boosterpack_card_healthBig_title =寿司拼盘 x{0}
+boosterpack_card_healthBig_desc =该卡片使您获得 {0} 寿司拼盘!
+boosterpack_card_leadershipSmall_title =茶杯x{0} 
+boosterpack_card_leadershipSmall_desc =该卡片使您获得 {0} 茶杯!
+boosterpack_card_leadershipBig_title =茶壶x{0} 
+boosterpack_card_leadershipBig_desc =该卡片使您获得 {0} 茶壶!
+boosterpack_card_power_title =力量护符x{0} 
+boosterpack_card_power_desc =该卡片使您获得 {0} 力量护符!
+boosterpack_card_luck_title =幸运护符 x{0}
+boosterpack_card_luck_desc =该卡片使您获得 {0} 幸运护符!
+boosterpack_card_wealth_title =财宝护符x{0}
+boosterpack_card_wealth_desc =该卡片使您获得 {0} 财宝护符!
+boosterpack_card_haste_title =急速护符x{0}
+boosterpack_card_haste_desc =该卡片使您获得 {0} 急速护符!
+boosterpack_card_peace_title =和平护符 x{0} 
+boosterpack_card_peace_desc =该卡片使您获得 {0} 和平护符!
+boosterpack_card_friendship_title =武士护符x{0} 
+boosterpack_card_friendship_desc =该卡片使您获得 {0} 武士护符!
+boosterpack_card_friendship+power_title = 强力狂暴战士护符x{0} 
+boosterpack_card_friendship+power_desc =该卡片使您获得 {0} 强力狂暴战士护符!       
+boosterpack_card_panzer_title =装甲元帅护符 x{0} 
+boosterpack_card_panzer_desc =该卡片使您获得 {0} 装甲元帅护符!
+boosterpack_card_panzer+luck_title =幸运装甲元帅护符x{0} 
+boosterpack_card_panzer+luck_desc =该卡片使您获得 {0} 幸运装甲元帅护符!
+boosterpack_card_spear_title =长矛大将护符 x{0} 
+boosterpack_card_spear_desc =该卡片使您获得 {0} 长矛大将护符!
+boosterpack_card_spear+haste_title = 疾速长矛大将护符 x{0} 
+boosterpack_card_spear+haste_desc = 该卡片使您获得 {0} 疾速长矛大将护符!
+boosterpack_card_nobu_title =织田信长护符x{0}
+boosterpack_card_nobu_desc =使用该卡片你将得到 {0} 织田信长护符！
+boosterpack_card_nobu+luck_title =织田信长鸿运护符 x{0}
+boosterpack_card_nobu+luck_desc =使用该卡片你将得到 {0} 织田信长鸿运护符！
+boosterpack_card_takedacharm_title =武田信玄护符 x{0}
+boosterpack_card_takedacharm_desc =使用该卡片你将得到 {0}武田信玄护符！
+boosterpack_card_takedacharm+wealth_title =武田信玄财宝护符x{0}
+boosterpack_card_takedacharm+wealth_desc =使用该卡片你将得到 {0}武田信玄财宝护符！
+boosterpack_card_assassincharm_title =刺客护符 x{0}
+boosterpack_card_assassincharm_desc =使用该卡片你将得到 {0}刺客护符！
+boosterpack_card_assassincharm+peace_title =刺客和平护符 x{0}
+boosterpack_card_assassincharm+peace_desc =使用该卡片你将得到 {0}刺客和平护符！
+boosterpack_card_farmer_title =农夫护符 x{0}
+boosterpack_card_farmer_desc =使用该卡片你将得到 {0}农夫护符！
+boosterpack_card_farmer+wealth_title =农夫财宝护符 x{0}
+boosterpack_card_farmer+wealth_desc =使用该卡片你将得到 {0}农夫财宝护符！
+
+boosterpack_card_swordsmith_title =铸剑师升级 x{0}
+boosterpack_card_swordsmith_desc =让您的铸剑师升 {0} 级!
+boosterpack_card_rifleman_title =步枪兵升级 x{0} 
+boosterpack_card_rifleman_desc = 让您的步枪兵升 {0} 级!
+boosterpack_card_nobunaga_title = 织田信长升级 x{0} 
+boosterpack_card_nobunaga_desc =让您的织田信长升 {0} 级!
+boosterpack_card_priest_title =僧侣升级 x{0} 
+boosterpack_card_priest_desc =让您的僧侣升 {0} 级!
+boosterpack_card_takeda_title =武田信玄升级 x{0} 
+boosterpack_card_takeda_desc =让您的武田信玄升 {0} 级!
+boosterpack_card_frosty_title =冰箭手升级 x{0} 
+boosterpack_card_frosty_desc =让您的冰箭手升 {0} 级!
+boosterpack_card_assassin_title =刺客升级 x{0} 
+boosterpack_card_assassin_desc =让您的刺客升 {0} 级!
+
+
+/------------------------------------------------------------------
+/ Achievements
+/------------------------------------------------------------------
+
+achievement_notext =您解锁了成就！
+
+SAMUZOMBIE_ACHIEVE_TAKE_AIM =百步穿杨
+SAMUZOMBIE_ACHIEVE_NEVER_GIVE_UP =永不放弃
+SAMUZOMBIE_ACHIEVE_RIDE_LIKE_THE_WIND =风驰电掣
+SAMUZOMBIE_ACHIEVE_HIS_AMBITION =信长野望
+SAMUZOMBIE_ACHIEVE_PANZER_BLITZ =装甲闪击
+SAMUZOMBIE_ACHIEVE_THE_HORSE_LORD =铁骑君主
+SAMUZOMBIE_ACHIEVE_HOLY_MOLEY =神圣僧侣
+SAMUZOMBIE_ACHIEVE_AT_THE_READY =枕戈待命
+SAMUZOMBIE_ACHIEVE_MUST_HAVE_MAGIC =神箭无匹
+SAMUZOMBIE_ACHIEVE_FROM_THE_FIELDS =无敌农夫
+SAMUZOMBIE_ACHIEVE_NEVER_SAW_IT_COMING =神行刺客
+SAMUZOMBIE_ACHIEVE_SOMEONE_UP_THERE =神明在天...
+SAMUZOMBIE_ACHIEVE_LAST_STAND =坚固防线
+SAMUZOMBIE_ACHIEVE_FOLLOW_ANYWHERE =马首是瞻
+SAMUZOMBIE_ACHIEVE_DING_DONG =警钟洪鸣
+SAMUZOMBIE_ACHIEVE_FROM_THE_HEAVENS =电闪雷击
+SAMUZOMBIE_ACHIEVE_GIVE_THEM_A_VOLLEY =箭弩齐发
+SAMUZOMBIE_ACHIEVE_MUSHASHI =武藏刀魂
+SAMUZOMBIE_ACHIEVE_SLOTH =困意难消
+SAMUZOMBIE_ACHIEVE_CATEGORY_5 =疾风龙卷
+SAMUZOMBIE_ACHIEVE_ALL_OUT_MELEE =混战云层
+SAMUZOMBIE_ACHIEVE_FIGHT_WITH_HONOR =战之荣耀
+SAMUZOMBIE_ACHIEVE_WITHOUT_A_TRACE =杳无踪迹
+SAMUZOMBIE_ACHIEVE_THIS_LAND_IS_SAFE =和平再临
+SAMUZOMBIE_ACHIEVE_MONEY_BAGS =不拨一毛
+SAMUZOMBIE_ACHIEVE_SPIDER_DEMON =斩灭蜘蛛
+SAMUZOMBIE_ACHIEVE_NO_WAY =命不该绝...
+SAMUZOMBIE_ACHIEVE_HALFWAY_THERE =马到功成
+SAMUZOMBIE_ACHIEVE_GET_BACK_HERE =给我回来！
+SAMUZOMBIE_ACHIEVE_DONT_SPEND_ONE_PLACE =金柜钱箱
+SAMUZOMBIE_ACHIEVE_SEND_THEM_BACK =打回地狱
+SAMUZOMBIE_ACHIEVE_ALL_WE_NEED =一将当关
+SAMUZOMBIE_ACHIEVE_CLEAR_THE_ROOM =清宫除道
+SAMUZOMBIE_ACHIEVE_EVERY_ABLE_BODY =拔刀相助
+SAMUZOMBIE_ACHIEVE_WE_NEED_SHOTGUNS =守望相帮
+SAMUZOMBIE_ACHIEVE_MUST_PROTECT_HOUSE =守卫圣门
+SAMUZOMBIE_ACHIEVE_SO_LONG =后会无期
+SAMUZOMBIE_ACHIEVE_COMPLETIONIST =功成名就
+SAMUZOMBIE_ACHIEVE_COWARD = 兵不接刃
+
+SAMUZOMBIE_ACHIEVE_THEY_GOT_THIS =人海战术
+SAMUZOMBIE_ACHIEVE_RAZOR_SHARP = 快刀斩麻
+SAMUZOMBIE_ACHIEVE_WHOS_ALL_HERE =全盘出击
+SAMUZOMBIE_ACHIEVE_FINALLY =一气通贯
+SAMUZOMBIE_ACHIEVE_THAT_TOOK_FOREVER =全始全终
+SAMUZOMBIE_ACHIEVE_YOU_ARE_WINNER =弹珠之王
+SAMUZOMBIE_ACHIEVE_SO_SHARP =锐利无比
+SAMUZOMBIE_ACHIEVE_TAKE_THE_SHOT =箭无虚发
+SAMUZOMBIE_ACHIEVE_TEA_EARL_GREY_HOT =伯爵茶歇
+SAMUZOMBIE_ACHIEVE_WHERES_THE_WASABI =提神辣芥
+
+
+/------------------------------------------------------------------
+/ Narratives
+/------------------------------------------------------------------
+
+narrative_01 =鬼兵军团发现了一个侵入村镇的大门。保卫好我们的圣门！如果圣门被毁，我们的村子就全完了！
+narrative_04 =秋天快到了！鬼兵之王“豪鬼”即将现身！必须升级您的部队才有机会生存！传奇武士武田信玄会助您一臂之力。不要错过战场中的金色礼盒，这位稀有而强悍的武士将会随时现身。您必须要找到他！还有6波敌人！
+narrative_07 =干得好，武士！不过鬼兵之王的阴影仍在步步逼近。您必须变得更强才有可能击溃黑暗力量！只剩3波了！
+narrative_10 =是时候了，武士！击败鬼兵之王“豪鬼”，您将获得5枚钻石，复活道具和鸿运护符各1件！
+narrative_11 =胜利是属于您的，但战斗还没有全部结束。正值秋天，更多鬼兵正源源不断地从传送门出来。恐怕新的鬼兵之王就要出现了…
+narrative_12 =冰箭手才是致胜法宝！他可射出冰属性魔法箭，在打击敌人的同时更能令敌人动作迟缓。不要错过战场中的金色礼盒，这位稀有强悍的射手将会随时出现。
+narrative_15 =强大的鬼兵之王“天狗”就要来了。您必须做好万全准备！还有5波！
+narrative_18 =“天狗”正在逼近，随之而来的是严酷寒冬。让您的部队做好万全准备！还有2波！
+narrative_20 =决战时刻终于来到了！击败鬼兵之王“天狗”，您将获得5枚钻石，复活道具和友谊护符各1件！
+
+/------------------------------------------------------------------
+/ Misc
+/------------------------------------------------------------------
+
+bell_name =警钟
+village_archers_name =村庄弓箭手
+yes = 是
+no = 否
+ok = 确定
+exit = 退出
+leadership_level =lvl {0}
+stat_level = 等级{0}
+
+coins =金币
+gems = 钻石
+coinsNum = {0} 金币
+gemsNum = {0} 钻石
+ballsNum = {0} 弹珠
+
+
+/------------------------------------------------------------------
+/ Sub Files
+/------------------------------------------------------------------
+
+credits_file = DefaultCredits
+legal_file = DefaultLegal
+
+/------------------------------------------------------------------
+/ add by xu.liu  
+/------------------------------------------------------------------
+
+add_wave = 第{0}波
+add_bonus_wave = 奖励波
+
+

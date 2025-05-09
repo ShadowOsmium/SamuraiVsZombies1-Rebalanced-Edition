@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1561354729802732}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1561354729802732
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4979971375361123}
+  - 114: {fileID: 114121450429672281}
+  - 114: {fileID: 114254718510887785}
+  - 114: {fileID: 114627159184640739}
+  m_Layer: 0
+  m_Name: OniSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4979971375361123
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561354729802732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.979336, y: 1.2465758, z: 14.049888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114121450429672281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561354729802732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: Footstep
+    clips:
+    - {fileID: 8300000, guid: c3a9f7466bfeeb74885a065928e08e1c, type: 3}
+    - {fileID: 8300000, guid: 5bdd92fd6d08e1f4eb5d0bd216fd3397, type: 3}
+    - {fileID: 8300000, guid: a9c9d02078b418342b72a123f168a15a, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 200
+    maxDistanceOverride: 2500
+    useLogarithmicRolloff: 0
+  - name: Spawn
+    clips:
+    - {fileID: 8300000, guid: fc0ae7b07dbecfa4faf963ea0c85bcab, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 1000
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: AtkEmote
+    clips:
+    - {fileID: 8300000, guid: f6b5ca9854fa53c4f9e93c16c1c62e37, type: 3}
+    - {fileID: 8300000, guid: d3653ff03c8a0874b9bad25288039ac7, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 1000
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Swoosh
+    clips:
+    - {fileID: 8300000, guid: ea2d0cee1bed11744a1566d02fe5748d, type: 3}
+    - {fileID: 8300000, guid: 7839990e60a61ce4fbba388d2639e100, type: 3}
+    - {fileID: 8300000, guid: fdf59d346ab295a4991c98189b0152af, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 1000
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SlamAtk
+    clips:
+    - {fileID: 8300000, guid: 4703adbb28996da47be22112e68aed3e, type: 3}
+    - {fileID: 8300000, guid: 8fa75debdedc1fc468dab6f490db54f6, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 2000
+    maxDistanceOverride: 7000
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: 2d4109783ca8ef84dbe19793de088827, type: 3}
+    - {fileID: 8300000, guid: 91afe5de54e5cc94e86a4c63bd21d5f6, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 2000
+    maxDistanceOverride: 7000
+    useLogarithmicRolloff: 0
+--- !u!114 &114254718510887785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561354729802732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/OniSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114627159184640739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561354729802732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

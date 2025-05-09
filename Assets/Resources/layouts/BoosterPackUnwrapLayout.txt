@@ -1,0 +1,48 @@
+
+transitionSpeed = 0.2
+
+[bg]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_pop_up
+	position = C, C
+	priority = 100
+	keepAspectRatio = no
+
+[title]
+	type = label
+	font = default64
+	position = 320, 260
+	shadowOffset = 2, 2
+	shadowColor = black
+	priority = 101
+	anchor = MiddleLeft
+	alignment = left
+	maxWidth = 660
+	maxLines = 2
+	/text = 5000 Coins
+	
+[rarity]
+	type = label
+	font = default32
+	position = 320, 310
+	shadowOffset = 2, 2
+	shadowColor = black
+	priority = 101
+	anchor = MiddleLeft
+	alignment = left
+	/maxWidth = 700
+	maxLines = 1
+	/text = (Super Rare)
+
+[desc]
+	type = label
+	font = default32
+	position = 320, 400
+	shadowOffset = 2, 2
+	shadowColor = black
+	priority = 101
+	anchor = MiddleLeft
+	alignment = left
+	maxWidth = 600
+	/text = Receive 5000 Coins!
+	

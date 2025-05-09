@@ -1,0 +1,241 @@
+
+transitionSpeed = 1.0
+
+{Layouts/TopCornerCurrencies}
+
+
+/----------------------------------------------------------
+/ Pause button
+/----------------------------------------------------------
+
+[pauseBtn]
+	type = button
+	priority = 0.1
+	position = 50, 50
+	normalFrame = Sprites/HUD/pause_button
+	keepAspectRatio = true
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -100, -100
+		[alpha]
+			alpha = 0.0
+
+/----------------------------------------------------------
+/ Consumables
+/----------------------------------------------------------
+
+[consumArrowLeft]
+	type = sprite
+	file = Sprites/Icons/potion_arrow_zombie
+	keepAspectRatio = true	
+	position = E-140, 130
+	priority = 5.2
+	scale = -0.5, 0.5
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+[consumArrowRight]
+	type = sprite
+	file = Sprites/Icons/potion_arrow_zombie
+	keepAspectRatio = true	
+	position = E-24, 130
+	priority = 5.2
+	scale = 0.5, 0.5
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+
+/----------------------------------------------------------
+/ Health Bar
+/----------------------------------------------------------
+
+[lifebarBg]
+	type = sprite
+	file = Sprites/HUD/life_bar_back
+	keepAspectRatio = true	
+	position = C+130, 66
+	priority = 0.1
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -120
+		[alpha]
+			alpha = 0.0
+
+[lifebar]
+	type = sprite
+	file = Sprites/HUD/life_bar_green
+	keepAspectRatio = true	
+	hotspot = 0, 0
+	position = C+43, 44
+	priority = 0.3
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -120
+		[alpha]
+			alpha = 0.0
+
+[lifebarFrame]
+	type = sprite
+	file = Sprites/HUD/life_bar_zombie_main
+	keepAspectRatio = true	
+	priority = 0.6
+	position = C+66, 64
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -120
+		[alpha]
+			alpha = 0.0
+
+
+/----------------------------------------------------------
+/ Legion Bar
+/----------------------------------------------------------
+
+[legionBg]
+	type = sprite
+	file = Sprites/HUD/legion_bar_zombie_main
+	keepAspectRatio = true	
+	position = 250, 54
+	priority = 600
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -120
+		[alpha]
+			alpha = 0.0
+
+[legionPercent]
+	type = label
+	font = default32
+	position = 270, 54
+	priority = 600.1
+	anchor = MiddleCenter
+	text = 50%
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -120
+		[alpha]
+			alpha = 0.0
+
+
+/----------------------------------------------------------
+/ Charm
+/----------------------------------------------------------
+
+[charm]
+	type = sprite
+	file = Sprites/Icons/charm_blue
+	keepAspectRatio = true	
+	priority = 2
+	position = C-108, 112
+	visible = no
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -120
+		[alpha]
+			alpha = 0.0
+
+
+/----------------------------------------------------------
+/ Leadership progress bar
+/----------------------------------------------------------
+
+[leadershipMain]
+	type = sprite
+	file = Sprites/HUD/leadership_zombie_bar_main_01
+	hotspot = 98, 52
+	priority = 1
+	position = 85, 545
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+[leadershipGlow]
+	type = sprite
+	file = Sprites/HUD/leadership_zombie_bar_glow
+	hotspot = 134, 89
+	priority = 0.9
+	position = 90, 545
+	visible = no
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 0.75
+
+[leadershipUpgrade]
+	type = sprite
+	file = Sprites/Localized/upgrade_zombie
+	priority = 0.9
+	position = 100, 544
+	visible = no
+
+[leadershipLvl]
+	type = label
+	font = default18
+	fontColor = 1, 1, 1
+	position = 58, 536
+	priority = 2
+	anchor = MiddleLeft
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+[leadershipRez]
+	type = label
+	font = default32
+	fontColor = 1, 1, 1
+	position = 86, 572
+	priority = 2
+	anchor = MiddleLeft
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+[leadershipBar]
+	type = sprite
+	file = Sprites/HUD/leadership_bar_green
+	hotspot = 0, 0
+	priority = 2
+	position = 142, 591
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+[leadershipNotches]
+	type = sprite
+	file = Sprites/HUD/leadership_zombie_notches
+	keepAspectRatio = true	
+	priority = 2.1
+	position = 142, 599
+	[transition]
+		[alpha]
+			animRange = 0.8, 1.0
+			alpha = 0.0
+
+[leadershipTouch]
+	type = touchArea
+	rect = 0, 512, 300, 110
+
+/----------------------------------------------------------
+/ cheats
+/----------------------------------------------------------
+
+[cheats]
+	type = button
+	normalframe = Sprites/Menus/coin
+	priority = 0.1
+	position = C+320, 50
+	offsetWhenPressed = 4, 4
+	[transition]
+		[alpha]
+			alpha = 0.0

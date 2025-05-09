@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1969015270488706}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1969015270488706
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4718864202906029}
+  - 114: {fileID: 114490863560303271}
+  - 111: {fileID: 111604345527823445}
+  - 114: {fileID: 114698526543827947}
+  - 114: {fileID: 114930418200948776}
+  m_Layer: 0
+  m_Name: PFTumblers
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4718864202906029
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969015270488706}
+  m_LocalRotation: {x: 0, y: 0.70710665, z: 0, w: -0.707107}
+  m_LocalPosition: {x: 4.8762155, y: -1.187655, z: 3.6002564}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -0, y: 89.99997, z: 0}
+  m_Children:
+  - {fileID: 4486415689971407}
+  m_Father: {fileID: 0}
+--- !u!114 &114490863560303271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969015270488706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Levels/Pachinko/Props/Tumblers/PFTumblers.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!111 &111604345527823445
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969015270488706}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 00373c2c572bb064982fbe539d730e15, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 00373c2c572bb064982fbe539d730e15, type: 2}
+  - {fileID: 7400000, guid: 6f2962f09f941114d90b8f943b6d4c0f, type: 2}
+  - {fileID: 7400000, guid: e84ec265994b9564d861bfcfef5dc40e, type: 2}
+  - {fileID: 7400000, guid: 84f8347e8adf8a7489c8b1535a1575be, type: 2}
+  - {fileID: 7400000, guid: dcc58a65a590551429705ffbf7984922, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114698526543827947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969015270488706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111027106978603157}
+  defaultBlendSpeed: 0.3
+  specificAnimSettings: []
+  alsoPlayOnAllChildren: 0
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114930418200948776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969015270488706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1923979141744785
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4486415689971407}
+  - 33: {fileID: 33316704044752231}
+  - 23: {fileID: 23465868598222984}
+  - 111: {fileID: 111027106978603157}
+  - 114: {fileID: 114298600031664477}
+  m_Layer: 0
+  m_Name: tumblers
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4486415689971407
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1923979141744785}
+  m_LocalRotation: {x: 0, y: -0, z: -1.2246469E-16, w: 1}
+  m_LocalPosition: {x: 0.88471925, y: -0.6536521, z: 0.44321173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 1.4033419E-14}
+  m_Children: []
+  m_Father: {fileID: 4718864202906029}
+--- !u!33 &33316704044752231
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1923979141744785}
+  m_Mesh: {fileID: 4300000, guid: 166680dc1e4dc004493422e9f3fb4271, type: 2}
+--- !u!23 &23465868598222984
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1923979141744785}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 7179a5e0bbdf8ec42b6468a1b3ff3ba9, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!111 &111027106978603157
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1923979141744785}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: b3085060e6b8e054bb611ffbd7f9cb33, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b3085060e6b8e054bb611ffbd7f9cb33, type: 2}
+  - {fileID: 7400000, guid: 676d90007b8aeb1459c31d4cbb5c7147, type: 2}
+  - {fileID: 7400000, guid: 6b3ccc77cfca92f459d9c5b56c2d0635, type: 2}
+  - {fileID: 7400000, guid: 3b6aebd7168a4354b99540b9e264610e, type: 2}
+  - {fileID: 7400000, guid: b58559990606cc841acaea5fc2d67be1, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 4.7683716E-07, y: 4.7683716E-07, z: 0}
+    m_Extent: {x: 4.349844, y: 4.3498387, z: 0.7364629}
+--- !u!114 &114298600031664477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1923979141744785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Levels/Pachinko/Props/Tumblers/tumblers.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114298600031664477}

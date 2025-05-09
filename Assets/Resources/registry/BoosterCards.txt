@@ -1,0 +1,326 @@
+
+/-------------------------------------- CURRENCY CARDS -------------
+
+[coins]
+	title = @boosterpack_card_coins_title
+	desc = @boosterpack_card_coins_desc
+	[payload]
+		coins = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_coins
+/		[layer1]
+/			common = Sprites/BoosterPacks/card_coins
+/			uncommon = Sprites/BoosterPacks/card_coins
+/			rare = Sprites/BoosterPacks/card_coins
+/			super = Sprites/BoosterPacks/card_coins
+/			extreme = Sprites/BoosterPacks/card_coins
+
+[gems]
+	title = @boosterpack_card_gems_title
+	desc = @boosterpack_card_gems_desc
+	[payload]
+		gems = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_gems
+
+[balls]
+	title = @boosterpack_card_balls_title
+	desc = @boosterpack_card_balls_desc
+	[payload]
+		balls = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_pachinko
+
+
+/-------------------------------------- CONSUMABLE CARDS -----------
+
+[revivePotion]
+	title = @boosterpack_card_revive_title
+	desc = @boosterpack_card_revive_desc
+	[payload]
+		revivePotion = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_revive
+
+[healthSmall]
+	title = @boosterpack_card_healthSmall_title
+	desc = @boosterpack_card_healthSmall_desc
+	[payload]
+		healthSmall = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_health
+
+[healthBig]
+	title = @boosterpack_card_healthBig_title
+	desc = @boosterpack_card_healthBig_desc
+	[payload]
+		healthBig = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_large_health
+
+[leadershipSmall]
+	title = @boosterpack_card_leadershipSmall_title
+	desc = @boosterpack_card_leadershipSmall_desc
+	[payload]
+		leadershipSmall = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_leadership
+
+[leadershipBig]
+	title = @boosterpack_card_leadershipBig_title
+	desc = @boosterpack_card_leadershipBig_desc
+	[payload]
+		leadershipBig = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_super_leadership
+
+
+/-------------------------------------- CHARM CARDS ----------------
+
+[power]
+	title = @boosterpack_card_power_title
+	desc = @boosterpack_card_power_desc
+	[payload]
+		power = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_power_charm
+	
+[luck]
+	title = @boosterpack_card_luck_title
+	desc = @boosterpack_card_luck_desc
+	[payload]
+		luck = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_lucky_charm
+
+[wealth]
+	title = @boosterpack_card_wealth_title
+	desc = @boosterpack_card_wealth_desc
+	[payload]
+		wealth = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_wealth_charm
+
+[haste]
+	title = @boosterpack_card_haste_title
+	desc = @boosterpack_card_haste_desc
+	[payload]
+		haste = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_haste_charm
+
+[peace]
+	title = @boosterpack_card_peace_title
+	desc = @boosterpack_card_peace_desc
+	[payload]
+		peace = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_peace_charm
+
+
+/-------------------------------------- FRIENDSHIP CHARM CARDS -----
+
+[friendship]
+	title = @boosterpack_card_friendship_title
+	desc = @boosterpack_card_friendship_desc
+	[payload]
+		friendship = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_warrior
+
+[friendship+power]
+	title = @boosterpack_card_friendship+power_title
+	desc = @boosterpack_card_friendship+power_desc
+	[payload]
+		friendship+power = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_warrior_attached
+
+[friend_panzer]
+	title = @boosterpack_card_panzer_title
+	desc = @boosterpack_card_panzer_desc
+	[payload]
+		friend_panzer = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_panzer
+
+[friend_panzer+luck]
+	title = @boosterpack_card_panzer+luck_title
+	desc = @boosterpack_card_panzer+luck_desc
+	[payload]
+		friend_panzer+luck = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_panzer_attached
+
+[friend_spearman]
+	title = @boosterpack_card_spear_title
+	desc = @boosterpack_card_spear_desc
+	[payload]
+		friend_spearman = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_spear
+
+[friend_spearman+haste]
+	title = @boosterpack_card_spear+haste_title
+	desc = @boosterpack_card_spear+haste_desc
+	[payload]
+		friend_spearman+haste = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_spear_attached
+
+[friend_nobunaga]
+	title = @boosterpack_card_nobu_title
+	desc = @boosterpack_card_nobu_desc
+	[payload]
+		friend_nobunaga = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_nobunaga
+
+[friend_nobunaga+luck]
+	title = @boosterpack_card_nobu+luck_title
+	desc = @boosterpack_card_nobu+luck_desc
+	[payload]
+		friend_nobunaga+luck = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_nobunaga_attached
+
+[friend_takeda]
+	title = @boosterpack_card_takedacharm_title
+	desc = @boosterpack_card_takedacharm_desc
+	[payload]
+		friend_takeda = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_takeda
+
+[friend_takeda+wealth]
+	title = @boosterpack_card_takedacharm+wealth_title
+	desc = @boosterpack_card_takedacharm+wealth_desc
+	[payload]
+		friend_takeda+wealth = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_takeda_attached
+
+[friend_assassin]
+	title = @boosterpack_card_assassincharm_title
+	desc = @boosterpack_card_assassincharm_desc
+	[payload]
+		friend_assassin = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_assassin
+
+[friend_assassin+peace]
+	title = @boosterpack_card_assassincharm+peace_title
+	desc = @boosterpack_card_assassincharm+peace_desc
+	[payload]
+		friend_assassin+peace = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_assassin_attached
+
+[friend_farmer]
+	title = @boosterpack_card_farmer_title
+	desc = @boosterpack_card_farmer_desc
+	[payload]
+		friend_farmer = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_farmer
+
+[friend_farmer+wealth]
+	title = @boosterpack_card_farmer+wealth_title
+	desc = @boosterpack_card_farmer+wealth_desc
+	[payload]
+		friend_farmer+wealth = {0}
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_farmer_attached
+
+
+/-------------------------------------- TROOP CARDS ----------------
+
+[Swordsmith]
+	title = @boosterpack_card_swordsmith_title
+	desc = @boosterpack_card_swordsmith_desc
+	[payload]
+		Swordsmith = 1
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_swordsmith_troop
+
+[Rifleman]
+	title = @boosterpack_card_rifleman_title
+	desc = @boosterpack_card_rifleman_desc
+	[payload]
+		Rifleman = 1
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_rifleman_troop
+
+[Nobunaga]
+	title = @boosterpack_card_nobunaga_title
+	desc = @boosterpack_card_nobunaga_desc
+	[payload]
+		Nobunaga = 1
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_nobunaga_upgrade
+
+[Priest]
+	title = @boosterpack_card_priest_title
+	desc = @boosterpack_card_priest_desc
+	[payload]
+		Priest = 1
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_priest_upgrade
+
+[Takeda]
+	title = @boosterpack_card_takeda_title
+	desc = @boosterpack_card_takeda_desc
+	[payload]
+		Takeda = 1
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_takeda_upgrade
+
+[IceArcher]
+	title = @boosterpack_card_frosty_title
+	desc = @boosterpack_card_frosty_desc
+	[payload]
+		IceArcher = 1
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_frostee_upgrade
+
+[NinjaGirl]
+	title = @boosterpack_card_assassin_title
+	desc = @boosterpack_card_assassin_desc
+	[payload]
+		NinjaGirl = 1
+	[render]
+		label = {0}
+		layer1 = Sprites/BoosterPacks/card_assassin_upgrade

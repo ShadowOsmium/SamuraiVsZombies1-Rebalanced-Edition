@@ -1,0 +1,127 @@
+
+/ This is a list of all potions, in order they should show in the interface
+
+[All]
+	revivePotion
+	revivePotionZ
+	healthSmall
+	healthSmallZ
+	healthBig
+	healthBigZ
+	leadershipSmall
+	leadershipSmallZ
+	leadershipBig
+	leadershipBigZ
+
+
+/ Data for each potions
+
+[healthSmall]
+	pressedSound = Sounds/UI_Sushi_Eat_ST_OS_01
+	playmode = classic
+	gameHud = True
+	cost = 1000,0
+	storePack = 3
+	storeDesc = @potion_healsmall_desc
+	displayName = @potion_healsmall_name
+	icon = Sprites/Icons/potion_health
+	heal = hero
+
+[healthSmallZ]
+	pressedSound = Sounds/UI_Sushi_Eat_ST_OS_01
+	playmode = zombies
+	gameHud = True
+	cost = 1000,0
+	storePack = 3
+	storeDesc = @potion_z_healsmall_desc
+	displayName = @potion_z_healsmall_name
+	icon = Sprites/Icons/potion_enemy_health
+	heal = hero
+		
+[healthBig]
+	pressedSound = Sounds/UI_BigSushi_Eat_ST_OS_01
+	playmode = classic
+	gameHud = True
+	cost = 0,15
+	storePack = 3
+	storeDesc = @potion_healbig_desc
+	displayName = @potion_healbig_name
+	icon = Sprites/Icons/potion_super_healing
+	heal = all
+
+[healthBigZ]
+	pressedSound = Sounds/UI_BigSushi_Eat_ST_OS_01
+	playmode = zombies
+	gameHud = True
+	cost = 0,15
+	storePack = 3
+	storeDesc = @potion_z_healbig_desc
+	displayName = @potion_z_healbig_name
+	icon = Sprites/Icons/potion_enemy_super_healing
+	heal = all
+
+[leadershipSmall]
+	pressedSound = Sounds/UI_Heroism_Drink_ST_01
+	playmode = classic
+	gameHud = True
+	cost = 2000,0
+	storePack = 3
+	storeDesc = @potion_leadersmall_desc
+	displayName = @potion_leadersmall_name
+	icon = Sprites/Icons/potion_leadership
+	leadership = 25
+
+[leadershipSmallZ]
+	pressedSound = Sounds/UI_Heroism_Drink_ST_01
+	playmode = zombies
+	gameHud = True
+	cost = 2000,0
+	storePack = 3
+	storeDesc = @potion_z_leadersmall_desc
+	displayName = @potion_z_leadersmall_name
+	icon = Sprites/Icons/potion_enemy_leadership
+	leadership = 25
+
+[leadershipBig]
+	pressedSound = Sounds/UI_HeroismBig_Drink_ST_01
+	playmode = classic
+	gameHud = True
+	cost = 0,15
+	storePack = 3
+	storeDesc = @potion_leaderbig_desc
+	displayName = @potion_leaderbig_name
+	icon = Sprites/Icons/potion_super_leadership
+	leadership = 50
+
+[leadershipBigZ]
+	pressedSound = Sounds/UI_HeroismBig_Drink_ST_01
+	playmode = zombies
+	gameHud = True
+	cost = 0,15
+	storePack = 3
+	storeDesc = @potion_z_leaderbig_desc
+	displayName = @potion_z_leaderbig_name
+	icon = Sprites/Icons/potion_enemy_super_leadership
+	leadership = 50
+	
+[revivePotion]
+	pressedSound = Sounds/UI_Revive_Drink_ST_OS_01
+	playmode = classic
+	gameHud = False
+	cost = 0,10
+	storePack = 3
+	storeDesc = @potion_revive_desc
+	displayName = @potion_revive_name
+	icon = Sprites/Icons/potion_revive
+	
+[revivePotionZ]
+	pressedSound = Sounds/UI_Revive_Drink_ST_OS_01
+	playmode = zombies
+	gameHud = False
+	cost = 0,10
+	storePack = 3
+	storeDesc = @potion_z_revive_desc
+	displayName = @potion_z_revive_name
+	icon = Sprites/Icons/potion_zombie_revive
+	
+	

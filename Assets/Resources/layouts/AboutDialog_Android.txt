@@ -1,0 +1,41 @@
+
+//{Layouts/DefaultDialog}
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_default
+	keepAspectRatio = no
+	priority = 0
+	hotspot = 0, 0
+	position = 0, 0
+
+[text]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	fontColor = 0.75, 0, 0
+	position = C, C-10
+	maxWidth = 900
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	[transition]
+		[alpha]
+			alpha = 0
+
+[continue]
+	type = button
+	normalFrame = Sprites/Menus/continue_button
+	position = E-60, E-70
+	keepAspectRatio = no
+	offsetWhenPressed = 4, 4
+	priority = 1
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = 120, 120
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0

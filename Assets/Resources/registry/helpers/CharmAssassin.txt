@@ -1,0 +1,26 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_ninja_girl
+desc = @ helper_ninja_girl_desc
+prefab = Characters/PFFemaleWarriorBig
+lane = back
+HUDIcon = Sprites/Icons/ally_assassin
+weaponMeleePrefab = Props/PFFarmerssword
+hideInStore = True
+waveToUnlock = 999
+resourcesCost = 0.0
+cooldownTimer = 1.0
+attackFrequency = 1.5
+usesBladeWeapon = true
+health = 10000
+speedMin = 200
+speedMax = 200
+meleeRange = 200
+meleeDamage = 200
+knockbackPower = 90
+knockbackResistance = 100
+
+

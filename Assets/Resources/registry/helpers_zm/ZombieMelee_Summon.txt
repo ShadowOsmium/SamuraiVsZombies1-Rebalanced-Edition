@@ -1,0 +1,124 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_zombie_name
+desc = @helper_zombie_desc
+prefab = Characters/PFHSamuraiZombie
+HUDIcon = Sprites/Icons/enemy_zombie_melee
+weaponMeleePrefab = Props/PFHeavysamuraisword
+waveToUnlock = 4
+resourcesCost = 5.0
+cooldownTimer = 2.0
+attackFrequency = 2.0
+usesBladeWeapon = true
+hideInStore = True
+waveToUnlock = 999
+autoHealthRecovery = -10.0
+levelMatchOtherHelper = Necromancer
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 200,0
+	health = 217
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 9
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[002]
+	cost = 700,0
+	health = 310
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 12
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[003]
+	cost = 2100,0
+	health = 429
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 17
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[004]
+	cost = 6300,0
+	health = 563
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 22
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[005]
+	cost = 18900,0
+	health = 732
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 29
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[006]
+	cost = 0,10
+	health = 952
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 36
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[007]
+	cost = 0,14
+	health = 1231
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 43
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[008]
+	cost = 0,20
+	health = 1597
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 60
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[009]
+	cost = 0,26
+	health = 1915
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 73
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[010]
+	cost = 0,32
+	health = 2310
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 83
+	knockbackPower = 15
+	knockbackResistance = 10

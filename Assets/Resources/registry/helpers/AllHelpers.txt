@@ -1,0 +1,24 @@
+/ List all helpers in the folder
+
+Farmer
+Samurai
+SpearSamurai
+SamuraiArcher
+HeavySamurai
+Priest
+Nobunaga
+IceArcher
+Swordsmith
+Rifleman
+SpearHorseman
+Takeda
+CharmSamurai
+CharmPanzer
+CharmSpearman
+CharmNobunaga
+CharmTakeda
+CharmAssassin
+CharmFarmer
+SuperFarmer
+SamuraiRifleman
+NinjaGirl

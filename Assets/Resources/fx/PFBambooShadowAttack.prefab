@@ -1,0 +1,1236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1072479317622467}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1072479317622467
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4568151851084065}
+  - 114: {fileID: 114869244709876845}
+  - 114: {fileID: 114741719862888819}
+  - 111: {fileID: 111813091014492384}
+  - 114: {fileID: 114047947070077562}
+  - 114: {fileID: 114294874654058818}
+  - 114: {fileID: 114088974041443603}
+  - 114: {fileID: 114515106307319111}
+  m_Layer: 0
+  m_Name: PFBambooShadowAttack
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4568151851084065
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 265.70193, y: 235.41815, z: 3377.4448}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4135148776680505}
+  m_Father: {fileID: 0}
+--- !u!114 &114869244709876845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/FX/PFBambooShadowAttack.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114741719862888819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e4cc57f75c48e279c4cab10565f7e7, type: 3}
+  m_Name:
+--- !u!111 &111813091014492384
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 4f476eb201b2eb6458ed0a9787fbd142, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 4f476eb201b2eb6458ed0a9787fbd142, type: 2}
+  - {fileID: 7400000, guid: 690dcbda02b32914498f48fe134ca822, type: 2}
+  - {fileID: 7400000, guid: 129c97c61200ef943aaaee1c75c324c7, type: 2}
+  - {fileID: 7400000, guid: 351313e344bb39d4f879bbd807ce953e, type: 2}
+  - {fileID: 7400000, guid: 84fdddd2a86b6494b90bdc7cbe4214d8, type: 2}
+  - {fileID: 7400000, guid: 2050a0153349b714a8f09b17b52830e8, type: 2}
+  - {fileID: 7400000, guid: 96dd9168c12830048a56b3a4dc38b34c, type: 2}
+  - {fileID: 7400000, guid: 96828443fbc64aa429026ea2d694b1a8, type: 2}
+  - {fileID: 7400000, guid: b390fe3086ca61442a8d48ec6f1cf7d6, type: 2}
+  - {fileID: 7400000, guid: 736c9975f7b214e4981a5dfba65654cf, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114047947070077562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111631644508443724}
+  defaultBlendSpeed: 0.3
+  specificAnimSettings: []
+  alsoPlayOnAllChildren: 0
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114294874654058818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: body_effect
+    joint: {fileID: 0}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 40, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!114 &114088974041443603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9deb42e7ebc7d9000d6a75dff5974047, type: 3}
+  m_Name:
+  playRandomAnimAtStartup: 1
+  cameraShakeIntensityMult: 1
+--- !u!114 &114515106307319111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072479317622467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1287600705245400
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4135148776680505}
+  - 111: {fileID: 111631644508443724}
+  - 114: {fileID: 114923919554961240}
+  m_Layer: 0
+  m_Name: femalewarrior
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4135148776680505
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287600705245400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4543011245168735}
+  - {fileID: 4825033967205918}
+  m_Father: {fileID: 4568151851084065}
+--- !u!111 &111631644508443724
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287600705245400}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: eeefd01e167e1ac4a834f47f7421afea, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: eeefd01e167e1ac4a834f47f7421afea, type: 2}
+  - {fileID: 7400000, guid: e33c20c65870bc744b438c79dc599da6, type: 2}
+  - {fileID: 7400000, guid: b734d276313c8404d96a1fb3cefdb8fb, type: 2}
+  - {fileID: 7400000, guid: 364dc3ed6ea899f43b9a3a9b43e2635b, type: 2}
+  - {fileID: 7400000, guid: b50ccefcbbe0f8149993b3a73ee9c1c9, type: 2}
+  - {fileID: 7400000, guid: e0c9babdf4658284bb193032c4dd6e2f, type: 2}
+  - {fileID: 7400000, guid: 3488ef50a4cef604cab0560f3218e1c1, type: 2}
+  - {fileID: 7400000, guid: 744824b1262f97a41b3843db0a26f5de, type: 2}
+  - {fileID: 7400000, guid: d11d776955323e64380d2e45d6ba3416, type: 2}
+  - {fileID: 7400000, guid: a53cfc420817ae2429a542b80814a50c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114923919554961240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287600705245400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/FemaleWarrior/femalewarrior.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114923919554961240}
+  - {fileID: 137620769972508130}
+--- !u!1 &1749250285037485
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4543011245168735}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4543011245168735
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1749250285037485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4819846544097897}
+  - {fileID: 4705338298467107}
+  m_Father: {fileID: 4135148776680505}
+--- !u!1 &1961328506727344
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4819846544097897}
+  - 137: {fileID: 137620769972508130}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4819846544097897
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961328506727344}
+  m_LocalRotation: {x: -0.48810354, y: 0.5116199, z: -0.48810354, w: 0.5116199}
+  m_LocalPosition: {x: -0, y: 27.10183, z: -0.048435047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -90, y: -2.6950278, z: 90}
+  m_Children:
+  - {fileID: 4593515714559337}
+  - {fileID: 4026079548845467}
+  m_Father: {fileID: 4543011245168735}
+--- !u!137 &137620769972508130
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961328506727344}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 216ec8e23e24ce04190dd853aaa6a87c, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 52c996e3cf16b7d40bfaf9466b13f440, type: 2}
+  m_Bones:
+  - {fileID: 4819846544097897}
+  - {fileID: 4026079548845467}
+  - {fileID: 4460899341119188}
+  - {fileID: 4727704772840426}
+  - {fileID: 4545965252667102}
+  - {fileID: 4564659501816169}
+  - {fileID: 4757123189954586}
+  - {fileID: 4619393197198923}
+  - {fileID: 4758296661534634}
+  - {fileID: 4218718985663665}
+  - {fileID: 4578975216262345}
+  - {fileID: 4821510522584410}
+  - {fileID: 4164059635800458}
+  - {fileID: 4245893307936883}
+  - {fileID: 4602071691707916}
+  - {fileID: 4801232403350903}
+  - {fileID: 4790910686514523}
+  - {fileID: 4788539236126825}
+  - {fileID: 4972563718990871}
+  - {fileID: 4749546203384097}
+  - {fileID: 4610192841893711}
+  - {fileID: 4278932797877516}
+  - {fileID: 4593515714559337}
+  - {fileID: 4020766528697668}
+  - {fileID: 4124878248657109}
+  - {fileID: 4569378729427976}
+  - {fileID: 4899425907149132}
+  - {fileID: 4211115255329810}
+  - {fileID: 4845878218415601}
+  - {fileID: 4582337249372476}
+  - {fileID: 4243131358351410}
+  m_AABB:
+    m_Center: {x: -35.560017, y: 11.507805, z: 0.93878174}
+    m_Extent: {x: 62.800472, y: 41.491302, z: 36.144314}
+  m_DirtyAABB: 0
+--- !u!1 &1013378393055786
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4593515714559337}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4593515714559337
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013378393055786}
+  m_LocalRotation: {x: 0.9996736, y: -0.025549343, z: -2.732678E-16, w: 5.4268246E-17}
+  m_LocalPosition: {x: 2.5774736, y: -0.13183463, z: -1.2983123E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -3.1145076E-14, z: 2.9280574}
+  m_Children:
+  - {fileID: 4020766528697668}
+  - {fileID: 4211115255329810}
+  m_Father: {fileID: 4819846544097897}
+--- !u!1 &1127876863601915
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4020766528697668}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4020766528697668
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1127876863601915}
+  m_LocalRotation: {x: -0, y: 0, z: 0.9999993, w: -0.0012298475}
+  m_LocalPosition: {x: 4.552411, y: -0.6870871, z: 5.69525}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 179.85907}
+  m_Children:
+  - {fileID: 4124878248657109}
+  m_Father: {fileID: 4593515714559337}
+--- !u!1 &1817705782081308
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4124878248657109}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4124878248657109
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817705782081308}
+  m_LocalRotation: {x: 0, y: 0, z: -0.08293494, w: 0.996555}
+  m_LocalPosition: {x: -7.2263565, y: -1.6776312E-13, z: 2.3209001E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 9.514572}
+  m_Children:
+  - {fileID: 4569378729427976}
+  m_Father: {fileID: 4020766528697668}
+--- !u!1 &1587746140131636
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4569378729427976}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4569378729427976
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587746140131636}
+  m_LocalRotation: {x: 0, y: 0, z: 0.527059, w: 0.8498287}
+  m_LocalPosition: {x: -10.670321, y: -1.4823262E-16, z: -3.1589306E-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -63.61392}
+  m_Children:
+  - {fileID: 4899425907149132}
+  m_Father: {fileID: 4124878248657109}
+--- !u!1 &1584191558296347
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4899425907149132}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4899425907149132
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584191558296347}
+  m_LocalRotation: {x: 0, y: 0, z: 0.28232232, w: 0.95931965}
+  m_LocalPosition: {x: -3.134776, y: 7.795588E-17, z: -4.1362294E-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -32.797714}
+  m_Children: []
+  m_Father: {fileID: 4569378729427976}
+--- !u!1 &1692390673746821
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4211115255329810}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4211115255329810
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1692390673746821}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0012298628, w: 0.9999993}
+  m_LocalPosition: {x: 4.552451, y: -0.6870875, z: -5.69525}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0.14093192}
+  m_Children:
+  - {fileID: 4845878218415601}
+  m_Father: {fileID: 4593515714559337}
+--- !u!1 &1077803223008942
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4845878218415601}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4845878218415601
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1077803223008942}
+  m_LocalRotation: {x: 0, y: 0, z: -0.08293504, w: 0.996555}
+  m_LocalPosition: {x: 7.226354, y: -7.972508E-09, z: 4.440892E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 9.514585}
+  m_Children:
+  - {fileID: 4582337249372476}
+  m_Father: {fileID: 4211115255329810}
+--- !u!1 &1279904738049317
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4582337249372476}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4582337249372476
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279904738049317}
+  m_LocalRotation: {x: 0, y: 0, z: 0.5270591, w: 0.8498287}
+  m_LocalPosition: {x: 10.670289, y: -7.92192E-06, z: 3.5527137E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -63.613922}
+  m_Children:
+  - {fileID: 4243131358351410}
+  m_Father: {fileID: 4845878218415601}
+--- !u!1 &1533775712261788
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4243131358351410}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4243131358351410
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533775712261788}
+  m_LocalRotation: {x: 0, y: 0, z: 0.28232232, w: 0.95931965}
+  m_LocalPosition: {x: 3.134776, y: 4.93078E-06, z: 2.6645353E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -32.797714}
+  m_Children: []
+  m_Father: {fileID: 4582337249372476}
+--- !u!1 &1418351483890448
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4026079548845467}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4026079548845467
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1418351483890448}
+  m_LocalRotation: {x: -2.4980018E-16, y: 3.0531133E-16, z: -0.045871917, w: 0.9989473}
+  m_LocalPosition: {x: -3.6739914, y: 3.330669E-15, z: 4.458021E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -3.019974E-14, y: -3.363619E-14, z: 5.25838}
+  m_Children:
+  - {fileID: 4460899341119188}
+  m_Father: {fileID: 4819846544097897}
+--- !u!1 &1375647785143699
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4460899341119188}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_spine_hi_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4460899341119188
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375647785143699}
+  m_LocalRotation: {x: -3.0531133E-16, y: 3.330669E-16, z: -0.04702625, w: 0.9988937}
+  m_LocalPosition: {x: -5.300233, y: 3.5527137E-15, z: 9.371015E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -3.6742226E-14, y: -3.647916E-14, z: 5.390799}
+  m_Children:
+  - {fileID: 4727704772840426}
+  m_Father: {fileID: 4026079548845467}
+--- !u!1 &1645030063004862
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4727704772840426}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_spine_end_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4727704772840426
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645030063004862}
+  m_LocalRotation: {x: 0, y: 0, z: 0.13251743, w: 0.9911807}
+  m_LocalPosition: {x: -3.104979, y: -1.7573425E-15, z: 7.7821644E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -15.230177}
+  m_Children:
+  - {fileID: 4619393197198923}
+  - {fileID: 4545965252667102}
+  - {fileID: 4602071691707916}
+  m_Father: {fileID: 4460899341119188}
+--- !u!1 &1241107253602297
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4619393197198923}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4619393197198923
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241107253602297}
+  m_LocalRotation: {x: -0.4850726, y: 0.6159243, z: -0.43510887, w: -0.44274384}
+  m_LocalPosition: {x: -1.6718928, y: 0.7988985, z: -4.1875243}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -155.09644, y: 75.355286, z: 122.91002}
+  m_Children:
+  - {fileID: 4758296661534634}
+  m_Father: {fileID: 4727704772840426}
+--- !u!1 &1077230077295713
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4758296661534634}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4758296661534634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1077230077295713}
+  m_LocalRotation: {x: 0.014318677, y: 0.102094285, z: 0.029581444, w: 0.9942317}
+  m_LocalPosition: {x: -5.060428, y: 2.4238985E-15, z: 1.8070523E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 2.0195215, y: -11.66351, z: -3.6147325}
+  m_Children:
+  - {fileID: 4218718985663665}
+  m_Father: {fileID: 4619393197198923}
+--- !u!1 &1546529089561164
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4218718985663665}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4218718985663665
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546529089561164}
+  m_LocalRotation: {x: 0.012703376, y: 0.07470161, z: -0.0006395773, w: 0.99712485}
+  m_LocalPosition: {x: -7.828253, y: 7.7005195E-16, z: 4.1373735E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.4625199, y: -8.568394, z: -0.036066208}
+  m_Children:
+  - {fileID: 4578975216262345}
+  m_Father: {fileID: 4758296661534634}
+--- !u!1 &1653085861368000
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4578975216262345}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4578975216262345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653085861368000}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.40512, y: 6.1749824E-15, z: 4.4430355E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4821510522584410}
+  m_Father: {fileID: 4218718985663665}
+--- !u!1 &1433028794707933
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4821510522584410}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4821510522584410
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1433028794707933}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.5527137E-15, y: 0, z: 8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4245893307936883}
+  - {fileID: 4164059635800458}
+  m_Father: {fileID: 4578975216262345}
+--- !u!1 &1133815368821275
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4245893307936883}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4245893307936883
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133815368821275}
+  m_LocalRotation: {x: -0.7104714, y: -0.16076244, z: 0.076136984, w: 0.6808737}
+  m_LocalPosition: {x: -3.7080657, y: 0.22597034, z: 1.1184744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.53207, y: 6.357487, z: -19.521988}
+  m_Children: []
+  m_Father: {fileID: 4821510522584410}
+--- !u!1 &1699428372469280
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4164059635800458}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4164059635800458
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699428372469280}
+  m_LocalRotation: {x: -0.73043436, y: 0.10200304, z: 0.45269, w: 0.50113153}
+  m_LocalPosition: {x: -1.479975, y: -0.85893744, z: 3.2197206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -97.82154, y: -49.77857, z: -28.1552}
+  m_Children: []
+  m_Father: {fileID: 4821510522584410}
+--- !u!1 &1288875812163410
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4545965252667102}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4545965252667102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1288875812163410}
+  m_LocalRotation: {x: 0.5160844, y: -0.48338073, z: 0.5160844, w: 0.48338073}
+  m_LocalPosition: {x: -3.5807753, y: -8.881784E-16, z: 1.9717233E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 93.74823, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4564659501816169}
+  m_Father: {fileID: 4727704772840426}
+--- !u!1 &1939747915726262
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4564659501816169}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4564659501816169
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939747915726262}
+  m_LocalRotation: {x: -0.083317004, y: 0, z: -0, w: 0.9965231}
+  m_LocalPosition: {x: -2.5663232E-16, y: 2.6552634, z: -7.1054274E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -9.558506, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4757123189954586}
+  m_Father: {fileID: 4545965252667102}
+--- !u!1 &1650166807125926
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4757123189954586}
+  m_Layer: 0
+  m_Name: femalewarrior:joint1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4757123189954586
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650166807125926}
+  m_LocalRotation: {x: -0.012790703, y: 0, z: -0, w: 0.9999182}
+  m_LocalPosition: {x: 2.736877E-14, y: 43.626846, z: -15.211147}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -1.4657466, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4564659501816169}
+--- !u!1 &1343646476352994
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4602071691707916}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4602071691707916
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343646476352994}
+  m_LocalRotation: {x: 0.6159243, y: 0.4850726, z: 0.44274384, w: -0.43510887}
+  m_LocalPosition: {x: -1.6718897, y: 0.79889596, z: 4.18752}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -155.09644, y: 75.355286, z: -57.089985}
+  m_Children:
+  - {fileID: 4801232403350903}
+  m_Father: {fileID: 4727704772840426}
+--- !u!1 &1953398986599352
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4801232403350903}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4801232403350903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953398986599352}
+  m_LocalRotation: {x: 0.014318677, y: 0.102094285, z: 0.029581444, w: 0.9942317}
+  m_LocalPosition: {x: 5.0604334, y: 4.431011E-06, z: 2.3744756E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 2.0195215, y: -11.66351, z: -3.6147325}
+  m_Children:
+  - {fileID: 4790910686514523}
+  m_Father: {fileID: 4602071691707916}
+--- !u!1 &1988841628005940
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4790910686514523}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4790910686514523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988841628005940}
+  m_LocalRotation: {x: 0.012703376, y: 0.07470161, z: -0.0006395773, w: 0.99712485}
+  m_LocalPosition: {x: 7.828257, y: -4.3131397E-05, z: 3.323265E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.4625199, y: -8.568394, z: -0.036066208}
+  m_Children:
+  - {fileID: 4788539236126825}
+  m_Father: {fileID: 4801232403350903}
+--- !u!1 &1661426927178899
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4788539236126825}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4788539236126825
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661426927178899}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.405118, y: 8.257534E-05, z: -2.460601E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4972563718990871}
+  - {fileID: 4278932797877516}
+  m_Father: {fileID: 4790910686514523}
+--- !u!1 &1824149561180290
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4972563718990871}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4972563718990871
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824149561180290}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4610192841893711}
+  - {fileID: 4749546203384097}
+  m_Father: {fileID: 4788539236126825}
+--- !u!1 &1498471067255380
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4610192841893711}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4610192841893711
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498471067255380}
+  m_LocalRotation: {x: -0.7104714, y: -0.16076244, z: 0.076136984, w: 0.6808737}
+  m_LocalPosition: {x: 3.7080526, y: -0.2259772, z: -1.1184806}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.53207, y: 6.357487, z: -19.521988}
+  m_Children: []
+  m_Father: {fileID: 4972563718990871}
+--- !u!1 &1504080111998053
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4749546203384097}
+  m_Layer: 0
+  m_Name: femalewarrior:Female_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4749546203384097
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504080111998053}
+  m_LocalRotation: {x: -0.73043436, y: 0.10200304, z: 0.45269, w: 0.50113153}
+  m_LocalPosition: {x: 1.4800078, y: 0.858879, z: -3.2197208}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -97.82154, y: -49.77857, z: -28.1552}
+  m_Children: []
+  m_Father: {fileID: 4972563718990871}
+--- !u!1 &1906716444212861
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4278932797877516}
+  m_Layer: 0
+  m_Name: femalewarrior:joint2
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4278932797877516
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906716444212861}
+  m_LocalRotation: {x: 0.99447805, y: -0.0836341, z: 0.063170575, w: 0.00531255}
+  m_LocalPosition: {x: 4.391679, y: 5.281805, z: -0.73971176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 7.2692423, z: 9.614353}
+  m_Children: []
+  m_Father: {fileID: 4788539236126825}
+--- !u!1 &1302866789268508
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4705338298467107}
+  m_Layer: 0
+  m_Name: femalewarrior:weightSpine_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4705338298467107
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1302866789268508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4543011245168735}
+--- !u!1 &1562924568619407
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4825033967205918}
+  m_Layer: 0
+  m_Name: femalewarrior:FemaleWarrior
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4825033967205918
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562924568619407}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4135148776680505}

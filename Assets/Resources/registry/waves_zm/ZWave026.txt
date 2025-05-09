@@ -1,0 +1,80 @@
+/ Inspired by Wave 43
+
+scene = InGame_underworld
+villageArchers = 7
+bell = 4
+
+[Commands]
+	SamuraiShield_Ice
+	2,2
+	Nobunaga
+	Frostie
+	Cart
+	Frostie
+	Nobunaga
+	2,2
+	SamuraiShield_Ice
+	Frostie
+	2,2
+	Nobunaga
+	Frostie
+	Nobunaga
+	Frostie
+	Nobunaga
+	2,2
+	SamuraiShield_Ice
+	Frostie
+	2,2
+	Takeda
+	Frostie
+	1,1
+	Takeda
+	Frostie	
+	1,1
+	Takeda
+	Frostie	
+	Priest
+	Frostie
+	Priest
+	Frostie
+	Swordsmith
+	1,1
+	SamuraiShield_Ice
+	Frostie
+	1,1
+	FarmerBig
+	Frostie
+	1,1
+	FarmerBig
+	Frostie
+	Nobunaga
+	Frostie
+	Nobunaga
+	Frostie
+	Nobunaga
+	Frostie
+	1,1
+	SamuraiShield_Ice
+	Frostie
+	Takeda
+	Frostie	
+	Takeda
+	Frostie	
+	Priest
+	Frostie
+	Priest
+	Frostie
+	Swordsmith
+	Frostie
+	Frostie
+	1,1
+	SamuraiShield_Ice
+	Nobunaga
+	Nobunaga
+	Nobunaga
+	Nobunaga
+	Nobunaga
+	Nobunaga
+	Priest
+	Priest
+	Swordsmith

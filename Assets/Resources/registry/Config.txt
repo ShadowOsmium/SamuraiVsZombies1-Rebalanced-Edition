@@ -1,0 +1,66 @@
+
+
+
+/ Put the path of the Audio Clip to play for specific GUI events.
+/ Simply use "none" if there's no sound associated.
+
+[DefaultSounds]
+	buttonPressed = Sounds/UI_Button_Press_ST_OS_01
+	buttonReleased = none
+	scrollListSelection = Sounds/UI_Button_ScrollSelect_ST_OS_01
+	selectSlot = Sounds/UI_Button_Press_ST_OS_01
+	resourceCollect = Sounds/UI_Coin_Pickup_01
+	bossalert = Sounds/UI_BossBanner_Appear_ST_OS_01
+	legionalert = Sounds/UI_LegionBanner_Appear_ST_OS_01
+	leadershipBecameUpgradable = Sounds/UI_Button_Press_ST_OS_01
+	upgradeLeadership = Sounds/UI_LeaderShip_Upgrade_01
+	presentOpening = Sounds/UI_Present_Pickup_01
+	multiplierx2 = Sounds/Pachinko_Multi_1x_01
+	multiplierx3 = Sounds/Pachinko_Multi_2x_01
+	multiplierx4 = Sounds/Pachinko_Multi_3x_01
+	multiplierx5 = Sounds/Pachinko_Multi_4x_01
+	
+[Game]
+	postWinTime = 7.0
+	endGameTime = 9.0
+	runbackspeedmult = 1.25
+	wavesPerBonusWave = 5
+
+[DefaultCriticals]
+	chance = 0.01
+	multiplier = 1.5
+
+[Store]
+	inGameCostMultiplier = 1.0,1.0
+	
+[waveLevelMultipliers]
+	enemiesHealth = 1.4
+	enemiesDamages = 1.4
+	drops = 1.0
+	
+[miscStore]
+	earnsDoubleCoinsCost = 0,25
+	ballsPackNum = 25
+	ballsPackCost = 0,5
+
+
+/ *************
+/ This is legacy stuff from some 1.X versions
+/ We keep this block here just to simplify
+/ creating unified asset bundles
+/ *************
+[fontsMapping]
+	/ iOS resolutions
+	480x320 = 480x320
+	960x640 = 960x640
+	1024x768 = default
+	
+	/ Android resolutions
+	800x480 = 800x480
+	854x480 = 800x480
+	960x540 = 960x640
+	1024x600 = 960x640
+	1280x720 = default
+	1280x752 = default
+	
+	

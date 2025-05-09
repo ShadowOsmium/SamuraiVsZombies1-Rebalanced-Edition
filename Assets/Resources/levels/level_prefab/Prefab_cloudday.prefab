@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1241817849840413}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1241817849840413
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4725037472469295}
+  - 33: {fileID: 33606863870503373}
+  - 23: {fileID: 23365423643256048}
+  - 111: {fileID: 111315343633383554}
+  - 114: {fileID: 114711376691926495}
+  - 114: {fileID: 114805863479703814}
+  - 114: {fileID: 114780211329813996}
+  - 114: {fileID: 114552826790069655}
+  m_Layer: 0
+  m_Name: Prefab_cloudday
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4725037472469295
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_LocalRotation: {x: 0, y: -0.059619684, z: 0, w: 0.99822116}
+  m_LocalPosition: {x: -1717.3677, y: 767.1621, z: 416.05933}
+  m_LocalScale: {x: 0.89171576, y: 0.9721749, z: 0.89171576}
+  m_LocalEulerAnglesHint: {x: 0, y: 6.835966, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!33 &33606863870503373
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_Mesh: {fileID: 4300000, guid: 8cda41af45a8dfe4fab4ed1ec2ee924b, type: 2}
+--- !u!23 &23365423643256048
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 314e3ea5e5bf17d4a8ed9a761a32f5ba, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!111 &111315343633383554
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_Enabled: 1
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114711376691926495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Levels/Level_Prefab/Prefab_cloudday.prefab
+  basePrefabPath: Assets/Resources/Levels/Level_summer/level_cloud.fbx
+  exemptObjects:
+  - {fileID: 23365423643256048}
+  - {fileID: 114711376691926495}
+  - {fileID: 114805863479703814}
+  - {fileID: 114780211329813996}
+--- !u!114 &114805863479703814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd0896d0446043191ff30e79ccdce0b, type: 3}
+  m_Name:
+  materialIndex: 0
+  uvAnimationRate: {x: -0.05, y: 0}
+  textureName: _MainTex
+--- !u!114 &114780211329813996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e21b7c34313d79fbaf69bd1c7012ad, type: 3}
+  m_Name:
+  hideOnSlowDrawCallDevices: 0
+  hideOnFastDrawCallDevices: 0
+  hideOnSlowAlphaDevices: 0
+  hideOnFastAlphaDevices: 0
+  dontDestroyWhenHide: 0
+--- !u!114 &114552826790069655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241817849840413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

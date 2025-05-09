@@ -1,0 +1,768 @@
+
+/------------------------------------------------------------------
+/ Play Modes
+/------------------------------------------------------------------
+
+playmode_classic = 클래식\n모드
+playmode_zombie = 좀비\n모드
+
+unlocked_zombies = 좀비 라이징을 여셨습니다!
+
+/------------------------------------------------------------------
+/ Freebies
+/------------------------------------------------------------------
+
+welcomeBack_title = 다시 오신 것을 환영합니다!
+welcomeBack_subtitle = 다시 만나게 되어 Glu Mobile은 정말 기뻐요.
+welcomeBack_body = 감사의 표시로 이 선물을 받아 주세요.
+
+giveonce_title = 당신을 위한 선물입니다!
+giveonce_subtitle = Glu Mobile은 당신이 플레이어라서 정말 기뻐요.
+giveonce_body = 감사의 표시로 이 선물을 받아 주세요.
+
+/------------------------------------------------------------------
+/ Special Events Stuff
+/------------------------------------------------------------------
+
+charm_olympics_name = 올림픽 힘의 부적
+charm_olympics_desc = 올림픽의 힘으로 좀비들에게 추가 데미지를 줍니다.
+dealpackolympics_name = 올림픽 스페셜 꾸러미
+dealpackolympics_desc = 사무라이와 병사들을 위한 올림픽 파티입니다! 올림픽 부적과 그외 여러 아이템이 있습니다!
+
+charm_julyforth_name = 빛나는 부적
+charm_julyforth_desc = 7월 4일의 힘을 빌어 좀비들에게 추가 대미지를 입히세요.
+dealpackjulyforth_name = 폭죽 스페셜 팩
+dealpackjulyforth_desc = 7월 4일 파티에 필요한 모든 장비! 빛나는 부적 등 다양한 아이템이 있습니다!
+
+/------------------------------------------------------------------
+/ Abilities
+/------------------------------------------------------------------
+
+ab_divine_name  =  신의 도움
+ab_trample_name  = 총공격
+ab_groundshock_name  =  폭파
+ab_slash_name  =  카타나 베기
+ab_lethargy_name  =  무기력
+ab_self_revive_name  = 자력 소생
+ab_lightning_name  =  번개 소환
+ab_tornadoes_name  = 돌개바람 소환
+
+ab_lifesteal_name = 생명 훔치기
+ab_gravehands_name = 묘비의 손
+ab_raisedead_name = 죽은 자의 소생
+ab_dragonattack_name = 좀비 드래곤
+ab_nightofthedead_name = 죽은 자의 밤
+
+/------------------------------------------------------------------
+/ Ability Descriptions
+/------------------------------------------------------------------
+
+ab_slash_desc  =  여러 명의 적을 베는 강력한 공격입니다.
+ab_lightning_desc  = 번개를 내리쳐 눈 앞의 적에게 데미지를 줍니다.
+ab_divine_desc  =  신께 불러낼 수 있는 병사를 보내달라고 빕니다. 아마 통할 겁니다...
+ab_lethargy_desc  =  모든 적을 일시적으로 느리게 하는 주문을 외웁니다.
+ab_village_archers_desc  = 항시 마을 탑을 지키는 궁수 보초를 고용합니다.
+ab_warding_bell  =  고대의 종은 이계에서 온 마물들에게 고통을 준다고 합니다.
+ab_gate  = 신성한 문의 방어력을 증가시킵니다.
+ab_gate_zombies = 지옥문이 견딜 수 있는 피해의 양을 증가시킵니다.
+ab_leadership  =  사무라이의 지휘력 시작 레벨을 업그레이드합니다. 지휘력을 써서 전장에 부대를 소환하세요!
+ab_brains = 업그레이드하시고 영웅의 시작 브레인 레벨을 올리세요. 브레인을 사용하여 배틀에 군인을 소환하세요!
+ab_trample_desc  =  대부대를 소환하여 적들을 짓밟아 버립니다.
+ab_tornadoes_desc  =  돌개바람을 소환합니다! 날아다니는 적에게 치명적입니다.
+
+ab_lifesteal_desc = 적으로부터 생명을 빼앗는 치명적인 타격
+ab_gravehands_desc = 적을 무덤으로 끌고 갑니다.
+ab_raisedead_desc = 죽은 자의 힘을 불러내어 당신의 대오에 합류합니다!
+ab_dragonattack_desc = 드래곤을 소환하여 근거리 총공격을 합니다!
+ab_nightofthedead_desc = 모든 좀비가 몇 초 동안 막을 수 없게 됩니다.
+
+/------------------------------------------------------------------
+/ Weapon Descriptions
+/------------------------------------------------------------------
+
+katana_desc  =  사무라이의 주무기. 가까운 거리에서 사용.
+katanafire_desc  =  사무라이의 주무기. 불꽃 데미지 추가!
+katanablue_desc  =  사무라이의 주무기. 푸른 불꽃 데미지 추가!
+crossbow_desc  =  사무라이의 원거리 무기. 적에게서 떨어져 사용.
+crossbowfire_desc  =  사무라이의 원거리 무기. 적에게서 떨어져 사용하는 불화살입니다!
+crossbowblue_desc  =  사무라이의 원거리 무기. 적에게서 떨어져 사용하는 푸른 불화살입니다!
+crossbowexpl_desc  =  사무라이의 원거리 무기. 적에게서 떨어져 사용하는 폭발하는 화살입니다!
+crossbowexpl2_desc  =  사무라이의 원거리 무기. 적에게서 떨어져 사용하는 크게 폭발하는 화살입니다!
+
+/------------------------------------------------------------------
+/ Helpers
+/------------------------------------------------------------------
+
+helper_farmer_name  = 농민병
+helper_samurai_name  = 일반병
+helper_samurai_archer  =  궁병
+helper_samurai_spearman  = 장창병
+helper_heavy_samurai  = 중갑병
+helper_Nobunaga  =  노부나가
+helper_swordsmith  = 도검장
+helper_priest  = 승려
+helper_ice_archer  =  얼음 궁병
+helper_rifleman  =  조총병
+helper_takeda  =  타케다 신겐
+helper_horseman  =  창기병
+helper_ninja_girl  = 닌자
+
+helper_crawler_name = 통통 튀는 몸통
+helper_chochinobake_name = 악령의 랜턴
+helper_ghostronin_name = 고스트 자객
+helper_jurogumo_name = 주로구모
+helper_komusou_name = 죽지 않은 음악가
+helper_necromancer_name = 주술사
+helper_oni_name = 오니
+helper_onibaba_name = 악령의 치유사
+helper_shogun_name = 좀비 쇼군
+helper_zombiearcher_name = 좀비 궁수
+helper_zombiehorseman_name = 좀비 기수
+helper_zombie_name = 좀비
+helper_zombiespear_name = 좀비 창사
+
+/------------------------------------------------------------------
+/ Helper Descriptions
+/------------------------------------------------------------------
+
+hero_desc  = 마을 제일의 용사. 그 힘으로 마을 사람들을 승리로 인도하십시오!
+helper_farmer_desc  = 그다지 강하진 않지만 충실한 병사입니다.
+helper_samurai_desc  = 마을의 수호자. 보통의 체력과 공격력을 갖습니다.
+helper_samurai_archer_desc  = 원거리 공격만 하고 근접 공격은 하지 않습니다.
+helper_samurai_spearman_desc  = 후열에 있지만 용감히 싸웁니다.
+helper_heavy_samurai_desc  = 방어력이 높지만 중갑옷때문에 공격 속도가 느립니다.
+helper_Nobunaga_desc  = 전설적인 전사. 무적이라 불립니다.
+helper_priest_desc  =  신성한 힘으로 아군을 치유합니다.
+helper_ice_archer_desc  =  얼음 화살이 적을 일시적으로 얼려 버립니다.
+helper_swordsmith_desc  = 도검장은 전장의 모든 농민병을 업그레이드시킵니다!
+helper_rifleman_desc  =  조총병은 전장의 모든 궁병을 업그레이드시킵니다!
+helper_takeda_desc  =  전설의 영웅! 이 위대한 전사는 말 위에서 장거리 공격을 합니다.
+helper_horseman_desc  =  말 위에서 중거리 공격을 합니다! 
+helper_ninja_girl_desc  =  민첩한 암살자! 공격 속도가 빠르고 근접 공격과 원거리 공격이 가능합니다!
+
+helper_crawler_desc = 다리는 목발입니다…
+helper_chochinobake_desc = 빨리 달리다가... 펑 터집니다!
+helper_ghostronin_desc = 최고의 고스트. 모든 공격으로 적을 둔화시킵니다.
+helper_jurogumo_desc = 반은 여자, 반은 거미, 아직 죽지 않았습니다.
+helper_komusou_desc = 노래를 너무 크게 불러 죽은 자들도 깨울 것입니다.
+helper_necromancer_desc = 주기적으로 더 많은 좀비를 무덤에서 일으킵니다.
+helper_oni_desc = 극도로 강하지만 무거운 무기가 공격 속도를 늦춥니다.
+helper_onibaba_desc = 좀비 치유사는 좀비를 더 죽게 만들까요? 아니면 덜 살아있게 할까요?
+helper_shogun_desc = 지옥의 쇼군, 뭘 더 바랄 수 있을까요?
+helper_zombiearcher_desc = 원거리 공격이지만, 타격을 입을 수 없습니다.
+helper_zombiehorseman_desc = 좀비 말은 어떻게 멈출까요? 브레인을 잡아당기세요.
+helper_zombie_desc = 죽은 사람치고는… 보통의 싸움꾼입니다.
+helper_zombiespear_desc = 피해는 많이 입히지만… 머리는 별로입니다.
+
+/------------------------------------------------------------------
+/ Enemies
+/------------------------------------------------------------------
+
+enemy_dummy_name  = 더미!
+enemy_l_zombie_u_name  =  무기 없는 경장갑 좀비
+enemy_l_zombie_a_name  =  도끼 든 경장갑 좀비
+enemy_l_zombie_s_name  =  검 든 경장갑 좀비
+enemy_l_zombie_sp_name  =  창 든 경장갑 좀비
+enemy_l_zombie_b_name  =  경장갑 궁수 좀비 
+enemy_h_zombie_u_name  =  무기 없는 중장갑 좀비
+enemy_oni_name  =  오니
+
+
+/------------------------------------------------------------------
+/ Heroes
+/------------------------------------------------------------------
+
+heroe_samurai_name  =  사무라이
+
+zombiehero_desc = 죽지 않은 자의 가장 멋진 챔피언. 죽은 자의 땅에 겁 없이 들어온 살아있는 자들을 쓰러뜨리세요.
+
+/------------------------------------------------------------------
+/ Charms
+/------------------------------------------------------------------
+
+charm_holy_name  =  신성한 부적
+charm_holy_desc  =  죽은 사무라이를 부활시키고 화면의 모든 적을 해치웁니다.
+
+charm_happiness_name  = 행복의 부적
+charm_happiness_desc  =  금화, 전리품이 사무라이에게 굴러옵니다.
+
+charm_power_name  = 힘의 부적
+charm_power_desc  =  치명타를 가할 확률을 늘립니다!
+
+charm_luck_name  = 행운의 부적
+charm_luck_desc  =  적으로부터 획득하는 전리품이 2배가 됩니다.
+
+charm_wealth_name  = 재물운의 부적
+charm_wealth_desc  = 재물운이 향상됩니다.
+
+charm_peace_name  = 평화의 부적
+charm_peace_desc  =  적이 주는 데미지가 50% 줄어들고 사기가 감소합니다.
+
+charm_haste_name  = 가속의 부적
+charm_haste_desc  =  소환한 병사의 발걸음이 빨라집니다.
+
+charm_friendship_name  = 일반병 소환 부적
+charm_friendship_desc  = 크고 아주 강한 은색 일반병을 소환합니다!
+
+charm_friendship_power_name  =  일반병 소환 부적+
+charm_friendship_power_desc  =  힘의 부적을 지니고 있는 매우 강한 은색 일반병을 소환합니다!
+
+charm_friendpanzer_name  = 중갑병 소환 부적
+charm_friendpanzer_desc  =  크고 아주 강한 금색 중갑병을 소환합니다! 
+
+charm_friendpanzer_luck_name  =  중갑병 소환 부적+
+charm_friendpanzer_luck_desc  =  행운의 부적을 지니고 있는 매우 강한 금색 중갑병을 소환합니다!
+
+charm_friendspearman_name  = 장창병 소환 부적
+charm_friendspearman_desc  = 크고 아주 강한 보라색 장창병을 소환합니다! 
+
+charm_friendspearman_haste_name  =  장창병 소환 부적+
+charm_friendspearman_haste_desc  =  가속의 부적을 지니고 있는 매우 강한 보라색 장창병을 소환합니다!
+
+charm_friendnobunaga_name = 노부나가 부적
+charm_friendnobunaga_desc =  거대한 노부나가를 소환합니다!
+
+charm_friendnobunaga_luck_name =행운의 노부나가 부적
+charm_friendnobunaga_luck_desc = 행운 부적을 지닌 거대한 노부나가를 소환합니다!
+
+charm_friendtakeda_name = 타케다 신겐 부적
+charm_friendtakeda_desc = 거대한 타케다 신겐을 소환합니다!
+
+charm_friendtakeda_wealth_name = 부의 타케다 신겐 부적
+charm_friendtakeda_wealth_desc = 재물 부적을 지닌 거대한 타케다를 소환합니다!
+
+charm_friendassassin_name = 닌자 부적
+charm_friendassassin_desc = 절친한 닌자를 소환합니다!
+
+charm_friendassassin_peace_name = 평화의 닌자 부적
+charm_friendassassin_peace_desc = 평화 부적을 지닌 절친한 닌자를 소환합니다!
+
+charm_friendfarmer_name = 농민병 부적
+charm_friendfarmer_desc = 거대하고 충성스러운 민병을 소환합니다.
+
+charm_friendfarmer_wealth_name = 부의 농민병 부적
+charm_friendfarmer_wealth_desc = 재물 부적을 지닌 거대하고 충성스러운 민병을 소환합니다!
+
+charm_z_holy_name = 죽은 자의 소생 부적
+charm_z_holy_desc = 죽은 영웅을 소생시키고 스크린의 모든 적을 죽입니다.
+
+charm_z_happiness_name = 행복 부적
+charm_z_happiness_desc = 코인과 브레인을 꺼내어 영웅 쪽으로 떨어뜨립니다.
+
+charm_z_power_name = 파워 부적
+charm_z_power_desc = 치명타의 기회를 높여줍니다.
+
+charm_z_luck_name = 행운 부적
+charm_z_luck_desc = 적에게서 나오는 드랍의 양을 두 배로 만듭니다.
+
+charm_z_wealth_name = 부유 부적
+charm_z_wealth_desc = 돈이 당신에게 반한 것 같은데요…
+
+charm_z_peace_name = 평화 부적
+charm_z_peace_desc = 적은 피해 50% 감소를 겪고 도망갑니다!
+
+charm_z_haste_name = 재촉 부적
+charm_z_haste_desc = 소환된 동맹이 서둘러 갑니다.
+
+charm_friendoni_name = 오니 부적
+charm_friendoni_desc = 오니를 당신의 편으로 부릅니다!
+
+charm_friendhorde_name = 무리 부적
+charm_friendhorde_desc = 무리를 당신의 편으로 부릅니다!
+
+
+/------------------------------------------------------------------
+/ Potions
+/------------------------------------------------------------------
+
+potion_healsmall_name  =  초밥
+potion_healsmall_desc  =  체력을 전부 회복합니다!
+
+potion_healbig_name  =  모듬 초밥
+potion_healbig_desc  =  사무라이와 병사의 체력을 모두 회복합니다!
+
+potion_leadersmall_name  =  찻잔
+potion_leadersmall_desc  =  지휘력+25! 지휘력으로 전장에 병사들을 소환하세요!
+
+potion_leaderbig_name  =  찻주전자
+potion_leaderbig_desc  =  지휘력+50! 지휘력으로 전장에 병사들을 소환하세요!
+
+potion_revive_name  =  부활
+potion_revive_desc  =  죽은 사무라이를 부활시킵니다!
+
+potion_z_healsmall_name = 썩은 스시
+potion_z_healsmall_desc = 건강을 완전히 보충합니다!
+
+potion_z_healbig_name = 썩은 스시 접시
+potion_z_healbig_desc = 영웅과 동맹의 건강을 완전히 보충합니다!
+
+potion_z_leadersmall_name = 무덤
+potion_z_leadersmall_desc = +25 브레인! 브레인을 사용하여 배틀에 좀비를 소환하세요!
+
+potion_z_leaderbig_name = 묘지
+potion_z_leaderbig_desc = +50 브레인! 브레인을 사용하여 배틀에 좀비를 소환하세요!
+
+potion_z_revive_name = 부활
+potion_z_revive_desc = 죽은 영웅을 부활시키세요!
+
+/------------------------------------------------------------------
+/ Deal Packs
+/------------------------------------------------------------------
+
+dealpack1_name  = 신입을 위한 특별 꾸러미!
+dealpack1_desc  =  귀중한 부활 2개, 회복 아이템, 부적을 갖고 시작합니다!
+
+dealpack2_name  = 중박 꾸러미!
+dealpack2_desc  =  어려운 상황에 처했을 때 도움이되는 꾸러미입니다!
+
+dealpack3_name  = 대박 꾸러미!
+dealpack3_desc  = 의욕이 절로 샘솟을 아이템들이 들어있는 꾸러미입니다!
+
+dealpack4_name  = 초대박 꾸러미!
+dealpack4_desc  = 희귀하고 강력한 여러 아이템들로 좀비들을 압도할 수 있는 꾸러미입니다!
+
+
+/------------------------------------------------------------------
+/ Store Menu
+/------------------------------------------------------------------
+
+store_title  =  사무라이 상점
+store_meditate_btn  =  명상하기
+
+store_tap_joy  = 무료 보석!
+
+store_unlockatwave  =  전투 {0}에서 잠금해제
+store_findInPresent  =  힌트: 선물 상자를 발견하세요!
+store_find_frostie  =  얼음 궁병을 찾아내세요!
+store_find_swordsmith  =  도검장을 찾아내세요!
+store_find_rifleman  =  조총병을 찾아내세요!
+store_find_takeda  =  타케다 신겐을 찾아내세요!
+store_find_ninja_girl  = 닌자를 찾아내세요!
+store_find_necromancer = 주술사를 찾아라!
+
+store_leadership_desc  =  지휘력이 {0}레벨에서 시작합니다.
+
+store_format_level_hero  =  사무라이 레벨업 {0}레벨
+store_format_recruit  =  모병 {0}
+store_format_levelup  =  {0} 레벨업 {1}레벨 
+store_format_smithy_levelup  =  지휘력 레벨업 {0}레벨
+store_format_sword_levelup  =  검 레벨업 {0}레벨
+store_format_bow_levelup  =  활 레벨업 {0}레벨
+store_format_gate_levelup  =  신성한 문 레벨업 {0}레벨
+store_format_purchase_atlevel  =  구입 {0}
+store_format_upgrade_tolevel  =  {0} 레벨업 {1}레벨 
+store_format_purchase_x_items  = {1} {0} 구입 
+store_format_purchase  =  구입 {0}
+
+store_format_zombiegate_levelup = 지옥문을 레벨 {0}로 레벨업하기
+store_format_brains_levelup = 브레인을 레벨 {0}로 레벨업하기
+
+undeath_levelup_name = 죽지 않음
+undeath_levelup_desc = 좀비가 건강을 회생하는 속도를 높입니다.
+
+store_currencytab0  = 금화 구매
+store_currencytab1  = 보석 구매
+
+store_percent_off  =  (-{0}%)
+store_free =  무료
+
+earnsdoublecoins_title  =  획득하는 금화가 항상 두배가 됩니다.
+earnsdoublecoins_desc = 이 한 번의 구입으로 두 가지 모드의 웨이브에서 가질 수 있는 코인의 가치가 두 배로 올라갑니다.
+pachinkopack_title  =  {0} 파칭코 구슬
+pachinkopack_desc  = {0}개의 파칭코 구슬이 들어있는 구슬 꾸러미로 파칭코 머신에서 사용할 수 있습니다.
+
+pachinkocounter_sing  =  {0} 구슬
+pachinkocounter_plurial  =  {0} 구슬
+
+revive_plural  =  남은 부활\n{0}개
+revive_singular  =  남은 부활\n1개
+revive_none  =  남은 부활\n없음
+
+legion_name = 부대
+legion_desc = 주기적으로 죽지 않은 군인 부대를 소환합니다.
+
+deathfromabove_name = 하늘에서 온 죽음
+deathfromabove_desc = 주기적으로 날아다니는 군인 무리를 소환합니다.
+
+bitten_name = 물림
+bitten_desc = 마을 궁수를 당신을 위해 싸우는 좀비로 바꿉니다!
+
+/------------------------------------------------------------------
+/ IAP Store Menu
+/------------------------------------------------------------------
+
+iap_error_syncfailed  =  App Store에서 이전 구매 내역을 불러낼 수 없습니다. 나중에 다시 시도해주십시오.
+iap_error_syncunknown  =  App Store에서 이전 구매 내역을 불러내는 과정에서 알 수 없는 문제가 발생했습니다. 나중에 다시 시도해주십시오.
+iap_error_requesttimedout  =  App Store 연결이 중지되었습니다. 인터넷 연결을 확인하고 나중에 다시 시도해주십시오.
+iap_error_requestfailed  =  App Store에 접속할 수 없습니다. 인터넷 연결을 확인하고 나중에 다시 시도해주십시오.
+iap_error_requestunknown  =  App Store에 접속하는 동안 알 수 없는 문제가 생겼습니다. 인터넷 연결을 확인하고 나중에 다시 시도해주십시오.
+iap_error_buycancelled  =  구입을 취소했습니다. 나중에 다시 시도해주십시오.
+iap_error_buyfailed  =  구입에 실패했습니다. 나중에 다시 시도해주십시오.
+iap_error_buyunknown  =  구입 처리 중 알 수 없는 문제가 발생하여 취소되었습니다. 나중에 다시 시도해주십시오.
+iap_error_novalidproducts  =  App Store에서 구매할 수 있는 상품을 찾을 수 없습니다. 나중에 다시 시도해주십시오.
+
+iap_error_parentalrestrictions  = 시스템 설정에서 어플리케이션 구입 허용이 차단으로 설정되어 있습니다.
+iap_error_unavailable  =  App Store에서의 거래가 처리되지 못했습니다. 나중에 다시 시도해주십시오.
+
+/------------------------------------------------------------------
+/ TapJoy
+/------------------------------------------------------------------
+TapJoy_Awarded_Gems_Message_Pre_Text  =  TapJoy로부터 보상을 받았습니다.
+TapJoy_Awarded_Gems_Message_Post_Text  =  참여해주셔서 감사합니다.
+
+/------------------------------------------------------------------
+/ iCloud
+/------------------------------------------------------------------
+iCloud_Message_Text  =  iCloud 계정을 사용해 게임을 저장하거나 불러오시겠습니까?
+iCloud_Load_Button_Text  = 불러오기
+iCloud_Save_Button_Text  = 저장하기
+No_iCloud_Notification_Message_Text  =  iCloud 서비스에 접속할 수 없습니다.
+iCloud_Save_Started_Notification_Message_Text  =  iCloud 서비스에 저장 파일이 업로드 대기 중입니다.
+iCloud_File_Not_Found_Notification_Message_Text  =  iCloud 서비스에 저장한 파일을 찾을 수 없습니다.
+iCloud_Data_Loaded_Message_Text  =  iCloud 서비스로부터 저장 데이터 불러오기에 성공하였습니다.
+iCloud_Timed_Out_Message_Text  =  데이터를 불러오기 전에 iCloud 서비스 연결이 끊어졌습니다. 나중에 다시 시도해주십시오.
+
+
+/------------------------------------------------------------------
+/ Debriefing Menu
+/------------------------------------------------------------------
+
+debrief_title  =  스테이지 {0}:
+debrief_title_bonus  =  보너스 스테이지: 
+
+debrief_you_unlocked  =  잠금 해제:
+debrief_awarded  =  승리 보상:
+debrief_collected  = 획득:
+debrief_total  =  합계:
+debrief_victory  =  승리!
+debrief_lost  =  패배!
+
+
+/------------------------------------------------------------------
+/ Chapters
+/------------------------------------------------------------------
+
+chapter_title_summer  =  여름
+chapter_title_fall  = 가을
+chapter_title_winter  =  겨울
+chapter_title_spring  =  봄
+chapter_title_hell  =  혼돈
+
+chapter_title_zombiehell1 = 지하세계
+chapter_title_zombiehell2 = 림보
+chapter_title_zombiehell3 = 혼란
+
+chapter_wave_num  =  스테이지 {0}
+
+chapter_screen_locked = 웨이브 {0}에서 승리하신 후에, 다시 플레이하고 싶으신 웨이브를 선택할 수 있습니다!
+
+waveselect_inst = 터치해서 웨이브를 선택하세요.
+
+/------------------------------------------------------------------
+/ Push Notifications
+/------------------------------------------------------------------
+
+Push_Notification_Message_Text  =  사무라이 vs 좀비 디펜스를 다시 플레이하고 일일 보상을 받으세요!
+Push_Notification_Button_Text  =  사무라이 vs 좀비
+
+No_Internet_Notification_Message_Text  =  이 기능은 인터넷 연결이 필요합니다.
+
+/------------------------------------------------------------------
+/ Tutorial
+/------------------------------------------------------------------
+
+tutorial_store_intro  =  사무라이 상점에 오신것을 환영합니다! 이곳에서는 사무라이의 업그레이드, 병사의 모집과 마을의 방어를 강화 시킬 수 있습니다.
+tutorial_dealpacks  =  사무라이가 힘을 갈구합니다. 오늘의 환영 꾸러미에서 얻은 귀중한 아이템을 건네주십시오!
+
+tutorial_ingame_gate  = 신성한 문을 지키십시오!
+tutorial_ingame_movements  =  화면의 좌우를 눌러서 움직입니다.
+tutorial_ingame_attack  =  사무라이는 공격범위 안의 적을 자동으로 공격합니다.
+tutorial_ingame_ability  =  카타나 베기 아이콘을 눌러서 특수 공격을 하세요!
+
+tutorial_ingame_leadership  =  지휘력이 충분합니다. 병사 아이콘을 눌러 소환하십시오!
+tutorial_ingame_allies  =  지휘력이 충분합니다. 농민병 아이콘을 눌러 소환하십시오!
+tutorial_ingame_flying  =  날아다니는 적은 활로만 쓰러뜨릴 수 있습니다. 뒤로 물러나 활을 쏘세요.
+
+tutorial_bonus_1  =  보너스 스테이지를 잠금 해제했습니다! 사무라이는 이 스테이지에서 적을 공격할 수 없습니다.
+tutorial_bonus_2  =  특별한 아군이 나타났습니다. 소환하여 좀비를 물리치세요!
+tutorial_bonus_3  =  보너스 스테이지에서는 부적을 지닌 채 시작하게 됩니다. 행운의 부적은 적으로부터 획득하는 전리품을 증가시켜줍니다!
+tutorial_bonus_4  =  5회의 스테이지 플레이마다 보너스 스테이지에 갈 수 있습니다.
+
+tutorial_pachinko_lever  =  손잡이를 당겨 파칭코 구슬을 쏘세요! 한 번에 구슬 여러 개를 쏠 수 있습니다! 연속으로 빠르게 구슬을 쏘아 보세요!
+tutorial_pachinko_spin  =  중앙을 노려 슬롯머신을 돌리고 경품을 받으세요! 금화, 보석, 초밥, 차, 부적이 있습니다!
+tutorial_pachinko_multiplier  =  구슬을 연속으로 넣을수록 배율이 올라갑니다. 배율을 올려 더 많은 금화를 획득하세요!
+tutorial_boosterpacks_free = 무료 부스터 팩을 획득했습니다. 여기를 눌러 포장을 벗겨보십시오!
+
+/------------------------------------------------------------------
+/ Daily Reward Popup
+/------------------------------------------------------------------
+Daily_Rewards  =  일일 보상
+Daily_Reward_Unlock_Subtitle  =  축하합니다!
+Daily_Reward_Unlock_Body  =  연일 플레이 한 보답으로 일일 보상을 획득했습니다!
+
+/------------------------------------------------------------------
+/ Options menu
+/------------------------------------------------------------------
+
+options_confirmreset  =  구입한 아이템을 포함한 모든 데이터를 삭제하려고 합니다. 계속하시겠습니까?
+
+
+/------------------------------------------------------------------
+/ Revive
+/------------------------------------------------------------------
+
+revive_title  =  죽었습니다. 부활하지 않으면 패배하고 맙니다.
+revive_title_nospoil  =  죽었습니다.
+revive_use1  =  부활을 사용하시겠습니까?
+revive_useX  =  부활 {0}개 중 하나를 사용하시겠습니까?
+revive_purchase  =  부활하시겠습니까?
+
+/------------------------------------------------------------------
+/ Pachinko
+/------------------------------------------------------------------
+
+pachinkohelp_title  =  파칭코 규칙
+pachinkohelp_desc  =  구슬을 던져서 슬롯머신이 돌아가도록 가운데에 넣으십시오. 나오는 그림 중 같은 그림 3개가 나오면 경품을 받습니다.
+pachinkohelp_food  =  초밥과 차
+pachinkohelp_revive  =  부활
+pachinkohelp_charms  =  부적
+pachinkohelp_coins  =  금화
+pachinkohelp_gems  =  보석
+
+pachinkosum_title  =  축하합니다!
+pachinkosum_desc  = 파칭코에서 획득한 경품:
+
+
+/------------------------------------------------------------------
+/ Rate My Game dialog
+/------------------------------------------------------------------
+rate_me_title  =  별 5개로 게임을 평가해주세요!
+like_our_game  =  사무라이 vs 좀비 디펜스를 즐기고 계십니까? 지속적인 업데이트를 위해 게임에 별 5개를 주세요!
+cancel_rating  =  다음 기회에
+rate_it  = 게임 평가하기
+rate_me_url  =  http://gcs.glu.com/gcs/iphone/iphone.jsp?t
+never_rate  = 다시 묻지 않음
+
+/------------------------------------------------------------------
+/ Version check
+/------------------------------------------------------------------
+New_Version_Notification_Message_Text  =  사무라이 vs 좀비 디펜스의 새 버전이 앱스토어에 있습니다. 진행하기 전에 업데이트하세요.
+version_file_location  =  https://s3.amazonaws.com/griptonite/svz/version.txt
+
+/------------------------------------------------------------------
+/ Hints (Recommandations dialog)
+/------------------------------------------------------------------
+hints_title  =  힌트!
+
+
+/------------------------------------------------------------------
+/ Booster Pack Store
+/------------------------------------------------------------------
+boosterstore_warning_helper = 경고! 이미{0}(이)가 최고 레벨에 도달한 상태입니다. 정말로 이 꾸러미를 구입하시겠습니까?
+
+normal_store_link_title  =  \n강화\n꾸러미
+
+boosterpack_title_free =  보상 팩
+boosterpack_title_1  =  초보용 꾸러미
+boosterpack_title_2  =  일반 꾸러미
+boosterpack_title_3  =  고급 꾸러미
+boosterpack_title_4  =  특대 꾸러미
+boosterpack_title_nobunaga =노부나가 꾸러미
+boosterpack_title_priest =승병 꾸러미
+boosterpack_title_swordsmith =도검장 꾸러미
+boosterpack_title_rifleman =조총병 꾸러미
+boosterpack_title_takeda =타케다 신겐 꾸러미
+boosterpack_title_frostee =얼음 궁병 꾸러미
+boosterpack_title_assassin =닌자 꾸러미
+boosterpack_desc_free = 일반 아이템 1개
+
+boosterpack_desc_free = 아이템 1개. 일반 아이템 1개를 부여합니다.
+boosterpack_desc_1  =  아이템 1개. 일반 아이템 1개를 부여합니다.
+boosterpack_desc_2  =  총 아이템 6개. 최소 1개 이상의 특별한 아이템이 나옵니다.
+boosterpack_desc_3  =  총 아이템 11개. 최소 1개 이상의 희귀한 아이템이 나옵니다.
+boosterpack_desc_4  =  총 아이템 21개. 최소 1개 이상의 매우 희귀한 아이템이 나옵니다.
+boosterpack_desc_nobunaga =총 아이템 31개. 최소한 극히 희귀 아이템 하나를 부여하고 노부나가를 업그레이드해줍니다.
+boosterpack_desc_priest =총 아이템 31개. 최소한 극히 희귀 아이템 하나를 부여하고 승병을 업그레이드해줍니다.
+boosterpack_desc_swordsmith =총 아이템 31개. 최소한 극히 희귀 아이템 하나를 부여하고 도검장을 업그레이드해줍니다.
+boosterpack_desc_rifleman =총 아이템 31개. 최소한 극히 희귀 아이템 하나를 부여하고 조총병을 업그레이드해줍니다.
+boosterpack_desc_takeda =총 아이템 31개. 최소한 극히 희귀 아이템 하나를 부여하고 타케다 신겐을 업그레이드해줍니다.
+boosterpack_desc_frostee =총 아이템 31개. 최소한 극히 희귀 아이템 하나를 부여하고 얼음 궁병을 업그레이드해줍니다.
+boosterpack_desc_assassin =총 아이템 31개. 최소한 극히 희귀 아이템 하나를 부여하고 닌자를 업그레이드해줍니다.
+
+boosterpack_rarity_common  =  일반
+boosterpack_rarity_uncommon  = 특별
+boosterpack_rarity_rare  =  희귀
+boosterpack_rarity_super  =  매우 희귀
+boosterpack_rarity_extreme  =  극히 희귀
+
+boosterpack_card_coins_title  =  금화 {0}개 
+boosterpack_card_coins_desc  =  이 카드는 금화를 {0}개 줍니다!
+boosterpack_card_gems_title  =  보석 {0}개 
+boosterpack_card_gems_desc  =  이 카드는 보석을 {0}개 줍니다!
+boosterpack_card_balls_title  =  파칭코 구슬 {0}개
+boosterpack_card_balls_desc  =  이 카드는 파칭코 구슬을 {0}개 줍니다!
+boosterpack_card_revive_title  =  부활 x{0}
+boosterpack_card_revive_desc  =  이 카드는 부활을 {0}개 줍니다!
+boosterpack_card_healthSmall_title  =  초밥 x{0}
+boosterpack_card_healthSmall_desc  =  이 카드는 초밥을 {0}개 줍니다!
+boosterpack_card_healthBig_title  =  모듬 초밥 x{0}
+boosterpack_card_healthBig_desc  =  이 카드는 모듬 초밥을 {0}개 줍니다!
+boosterpack_card_leadershipSmall_title  =  찻잔 x{0}
+boosterpack_card_leadershipSmall_desc  =  이 카드는 찻잔을 {0}개 줍니다!
+boosterpack_card_leadershipBig_title  =  찻주전자 x{0}
+boosterpack_card_leadershipBig_desc  =  이 카드는 찻주전자를 {0}개 줍니다!
+boosterpack_card_power_title  =  힘의 부적 x{0}
+boosterpack_card_power_desc  =  이 카드는 힘의 부적을 {0}개 줍니다!
+boosterpack_card_luck_title  =  행운의 부적 x{0}
+boosterpack_card_luck_desc  =  이 카드는 행운의 부적을 {0}개 줍니다!
+boosterpack_card_wealth_title  =  재물운의 부적 x{0}
+boosterpack_card_wealth_desc  =  이 카드는 재물운의 부적을 {0}개 줍니다!
+boosterpack_card_haste_title  =  가속의 부적 x{0}
+boosterpack_card_haste_desc  =  이 카드는 가속의 부적을 {0}개 줍니다!
+boosterpack_card_peace_title  =  평화의 부적 x{0}
+boosterpack_card_peace_desc  =  이 카드는 평화의 부적을 {0}개 줍니다!
+boosterpack_card_friendship_title  = 일반병 소환의 부적 x{0}
+boosterpack_card_friendship_desc  =  이 카드는 일반병 소환의 부적을 {0}개 줍니다!
+boosterpack_card_friendship+power_title  =  일반병 소환의 부적+ x{0}
+boosterpack_card_friendship+power_desc  =  이 카드는 일반병 소환의 부적+를 {0}개 줍니다!
+boosterpack_card_panzer_title  =  중갑병 소환 부적 x{0}
+boosterpack_card_panzer_desc  =  이 카드는 중갑병 소환 부적을 {0}개 줍니다!
+boosterpack_card_panzer+luck_title  =  중갑병 소환 부적+ x{0}
+boosterpack_card_panzer+luck_desc  =  이 카드는 중갑병 소환 부적+를 {0}개 줍니다!
+boosterpack_card_spear_title  =  장창병 소환 부적 x{0}
+boosterpack_card_spear_desc  =  이 카드는 장창병 소환 부적을 {0}개 줍니다!
+boosterpack_card_spear+haste_title  =  창기병 소환 부적 x{0}
+boosterpack_card_spear+haste_desc  =  이 카드는 창기병 소환 부적을 {0}개 줍니다!
+boosterpack_card_nobu_title = 노부나가 부적 x{0}
+boosterpack_card_nobu_desc = 이 카드로 {0}개의 노부나가 부적을 획득 할 수 있습니다!
+boosterpack_card_nobu+luck_title = 행운의 노부나가 부적 x{0}
+boosterpack_card_nobu+luck_desc = 이 카드로 {0}개의 행운의 노부나가 부적을 획득 할 수 있습니다!
+boosterpack_card_takedacharm_title =타케다 신겐 부적 x{0}
+boosterpack_card_takedacharm_desc = 이 카드로 {0}개의 타케다 신겐 부적을 획득 할 수 있습니다!
+boosterpack_card_takedacharm+wealth_title = 부의 타케다 신겐 부적 x{0}
+boosterpack_card_takedacharm+wealth_desc = 이 카드로 {0}개의 부의 타케다 신겐 부적을 획득 할 수 있습니다!
+boosterpack_card_assassincharm_title = 닌자 부적 x{0}
+boosterpack_card_assassincharm_desc = 이 카드로 {0}개의 닌자 부적을 획득 할 수 있습니다!
+boosterpack_card_assassincharm+peace_title = 평화의 닌자 부적 x{0}
+boosterpack_card_assassincharm+peace_desc = 이 카드로 {0}개의 평화의 닌자 부적을 획득 할 수 있습니다!
+boosterpack_card_farmer_title = 농민병 부적 x{0}
+boosterpack_card_farmer_desc = 이 카드로 {0}개의 농민병 부적을 획득 할 수 있습니다!
+boosterpack_card_farmer+wealth_title = 부의 농민병 부적 x{0}
+boosterpack_card_farmer+wealth_desc = 이 카드로 {0}개의 농민병 부적을 획득 할 수 있습니다!
+
+boosterpack_card_swordsmith_title  =  도검장 업그레이드 x{0}
+boosterpack_card_swordsmith_desc  =  도검장을 {0}레벨로 업그레이드해줍니다!
+boosterpack_card_rifleman_title  =  조총병 업그레이드 x{0}
+boosterpack_card_rifleman_desc  =  조총병을 {0}레벨로 업그레이드해줍니다!
+boosterpack_card_nobunaga_title  =  노부나가 업그레이드 x{0}
+boosterpack_card_nobunaga_desc  =  노부나가를 {0}레벨로 업그레이드해줍니다!
+boosterpack_card_priest_title  =  승려 업그레이드 x{0}
+boosterpack_card_priest_desc  =  승려를 {0}레벨로 업그레이드해줍니다!
+boosterpack_card_takeda_title  =  타케다 신겐 업그레이드 x{0}
+boosterpack_card_takeda_desc  =  타케다 신겐을 {0}레벨로 업그레이드해줍니다!
+boosterpack_card_frosty_title  =  얼음 궁병 업그레이드 x{0}
+boosterpack_card_frosty_desc  =  얼음 궁병을 {0}레벨로 업그레이드해줍니다!
+boosterpack_card_assassin_title  =  닌자 업그레이드 x{0}
+boosterpack_card_assassin_desc  =  닌자를 {0}레벨로 업그레이드해줍니다!
+
+
+/------------------------------------------------------------------
+/ Achievements
+/------------------------------------------------------------------
+
+achievement_notext  = 목표 달성!
+
+SAMUZOMBIE_ACHIEVE_TAKE_AIM  = 정조준
+SAMUZOMBIE_ACHIEVE_NEVER_GIVE_UP  =  불굴의 의지
+SAMUZOMBIE_ACHIEVE_RIDE_LIKE_THE_WIND  =  바람과 함께 달리다
+SAMUZOMBIE_ACHIEVE_HIS_AMBITION  =  야망
+SAMUZOMBIE_ACHIEVE_PANZER_BLITZ  = 중갑 전격전
+SAMUZOMBIE_ACHIEVE_THE_HORSE_LORD  = 풍림화산
+SAMUZOMBIE_ACHIEVE_HOLY_MOLEY  = 고승의 도력
+SAMUZOMBIE_ACHIEVE_AT_THE_READY  = 돌진 준비 완료
+SAMUZOMBIE_ACHIEVE_MUST_HAVE_MAGIC  =  요술이 틀림없어….
+SAMUZOMBIE_ACHIEVE_FROM_THE_FIELDS  = 농지를 떠나와서
+SAMUZOMBIE_ACHIEVE_NEVER_SAW_IT_COMING  = 신출귀몰
+SAMUZOMBIE_ACHIEVE_SOMEONE_UP_THERE  = 하늘 위에 계신 분
+SAMUZOMBIE_ACHIEVE_LAST_STAND  = 최후의 요새
+SAMUZOMBIE_ACHIEVE_FOLLOW_ANYWHERE  = 명장밑에 약졸 없듯
+SAMUZOMBIE_ACHIEVE_DING_DONG  = 전장의 종소리
+SAMUZOMBIE_ACHIEVE_FROM_THE_HEAVENS  = 백만볼트
+SAMUZOMBIE_ACHIEVE_GIVE_THEM_A_VOLLEY  =  일제사격
+SAMUZOMBIE_ACHIEVE_MUSHASHI  = 비검전수
+SAMUZOMBIE_ACHIEVE_SLOTH  = 굼뱅이
+SAMUZOMBIE_ACHIEVE_CATEGORY_5  = 비기계승
+SAMUZOMBIE_ACHIEVE_ALL_OUT_MELEE  =  전면 대공세
+SAMUZOMBIE_ACHIEVE_FIGHT_WITH_HONOR  =  명예를 건 싸움
+SAMUZOMBIE_ACHIEVE_WITHOUT_A_TRACE  =  흔적 없애기
+SAMUZOMBIE_ACHIEVE_THIS_LAND_IS_SAFE  =  안전지대
+SAMUZOMBIE_ACHIEVE_MONEY_BAGS  =  돈다발
+SAMUZOMBIE_ACHIEVE_SPIDER_DEMON  = 거미 요괴
+SAMUZOMBIE_ACHIEVE_NO_WAY  = 기사회생
+SAMUZOMBIE_ACHIEVE_HALFWAY_THERE  =  절반의 성공
+SAMUZOMBIE_ACHIEVE_GET_BACK_HERE  =  돌아와!
+SAMUZOMBIE_ACHIEVE_DONT_SPEND_ONE_PLACE  = 알뜰한 저축
+SAMUZOMBIE_ACHIEVE_SEND_THEM_BACK  = 오니 퇴치
+SAMUZOMBIE_ACHIEVE_ALL_WE_NEED  = 일당백
+SAMUZOMBIE_ACHIEVE_CLEAR_THE_ROOM  =  섬멸
+SAMUZOMBIE_ACHIEVE_EVERY_ABLE_BODY  = 티끌모아 태산
+SAMUZOMBIE_ACHIEVE_WE_NEED_SHOTGUNS  = 티끌모아 산탄총
+SAMUZOMBIE_ACHIEVE_MUST_PROTECT_HOUSE  =  집 지키기
+SAMUZOMBIE_ACHIEVE_SO_LONG  = 악마 퇴치
+SAMUZOMBIE_ACHIEVE_COMPLETIONIST  = 업그레이드 종결자
+SAMUZOMBIE_ACHIEVE_COWARD  =  겁쟁이
+SAMUZOMBIE_ACHIEVE_THEY_GOT_THIS  = 이거면 충분
+SAMUZOMBIE_ACHIEVE_RAZOR_SHARP  =  예리함의 극치
+SAMUZOMBIE_ACHIEVE_WHOS_ALL_HERE  = 총집합
+SAMUZOMBIE_ACHIEVE_FINALLY  =  결전의 순간
+SAMUZOMBIE_ACHIEVE_THAT_TOOK_FOREVER  = 한계를 넘어
+SAMUZOMBIE_ACHIEVE_YOU_ARE_WINNER  = 파칭코 슈터
+SAMUZOMBIE_ACHIEVE_SO_SHARP  = 검의 달인
+SAMUZOMBIE_ACHIEVE_TAKE_THE_SHOT  = 백발백중
+SAMUZOMBIE_ACHIEVE_TEA_EARL_GREY_HOT  = 식후에 한잔
+SAMUZOMBIE_ACHIEVE_WHERES_THE_WASABI  = 고추냉이를 곁들여서
+
+
+/------------------------------------------------------------------
+/ Narratives
+/------------------------------------------------------------------
+
+narrative_01  = 좀비가 마을 입구를 발견했다. 신성한 관문을 지켜라! 좀비에게 관문을 파괴당하면 마을은 끝장이다!
+narrative_04  = 가을! 좀비들의 왕, 오니가 나타났다! 전설의 타케다 신겐이 도와줄 것이다. 전장에서 특별한 황금 선물 상자를 발견하고 강력한 장수를 아군으로 삼자! 스테이지가 6회 남았다!
+
+narrative_07  = 잘했다, 사무라이여. 그러나 죽음의 왕 오니가 앞길을 가로막고 있다. 어둠과 싸울 만큼 더 강해져야만 한다! 3회의 스테이지가 남아있다!
+narrative_10  =  지금이다, 사무라이여!  좀비의 왕 오니를 무찌르고 보석 5개, 부활 1개, 행운 부적 1개를 손에 넣어라!
+narrative_11  = 승리를 손에 넣었지만 아직 끝나지 않았다. 지금은 가을, 더 많은 좀비들이 이계의 입구에서 쏟아져 나올것이다. 새로운 좀비들의 왕이 배후에 있는듯하다…
+narrative_12  =  얼음 궁병이 도와줄 것이다!  얼음 궁병의 화살은 적을 느리게 만든다.  전장에서 희귀한 황금 선물 상자를 찾아내 강력한 궁병을 손에 넣어라.
+narrative_15  =  강력한 좀비의 왕 텐구가 곧 나타난다.  대비하라!  5번의 전투가 남았다!
+narrative_18  =  텐구가 겨울 바람을 몰고 온다. 부대를 정비하라!  2번의 전투가 남았다!
+narrative_20  =  큰 전투가 다가온다!  텐구를 물리치고 보석 5개, 부활 1개, 우정 부적 1개를 손에 넣어라!
+
+/------------------------------------------------------------------
+/ Misc
+/------------------------------------------------------------------
+
+bell_name  =  액막이 종
+village_archers_name  =  마을 궁수
+yes  =  예
+no  =  아니오
+ok  =  승인
+exit  =  나가기
+leadership_level  =lvl {0}
+stat_level  =  레벨 {0}
+
+coins  =  금화
+gems  =  보석
+coinsNum  =  {0} 금화
+gemsNum  =  {0} 보석
+ballsNum  =  {0} 파칭코 구슬
+
+add_wave = 스테이지 {0}
+add_bonus_wave =  보너스 스테이지
+
+/------------------------------------------------------------------
+/ Sub Files
+/------------------------------------------------------------------
+
+credits_file  =  DefaultCredits
+legal_file  =  DefaultLegal

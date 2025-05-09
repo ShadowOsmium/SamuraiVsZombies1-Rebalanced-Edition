@@ -1,0 +1,120 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_zombie_name
+desc = @helper_zombie_desc
+prefab = Characters/PFLZombieSword
+HUDIcon = Sprites/Icons/enemy_zombie_melee
+weaponMeleePrefab = Props/samuraibasesword
+waveToUnlock = 4
+resourcesCost = 5.0
+cooldownTimer = 2.0
+attackFrequency = 2.0
+usesBladeWeapon = true
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 200,0
+	health = 257
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 9
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[002]
+	cost = 700,0
+	health = 410
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 12
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[003]
+	cost = 2100,0
+	health = 529
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 17
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[004]
+	cost = 6300,0
+	health = 663
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 22
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[005]
+	cost = 18900,0
+	health = 832
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 29
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[006]
+	cost = 0,10
+	health = 1052
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 36
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[007]
+	cost = 0,14
+	health = 1431
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 43
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[008]
+	cost = 0,20
+	health = 1797
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 60
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[009]
+	cost = 0,26
+	health = 2215
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 73
+	knockbackPower = 15
+	knockbackResistance = 10
+
+[010]
+	cost = 0,32
+	health = 2510
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 125
+	meleeDamage = 83
+	knockbackPower = 15
+	knockbackResistance = 10

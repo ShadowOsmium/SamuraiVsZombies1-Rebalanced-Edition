@@ -1,0 +1,111 @@
+
+/ NOTE: Stats based on the "Samurai Archer"
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_zombiearcher_name
+desc = @helper_zombiearcher_desc
+prefab = Characters/PFLzombieArcher
+HUDIcon = Sprites/Icons/enemy_zombie_archer
+weaponRangedPrefab = Props/PFlzombiebow
+waveToUnlock = 6
+resourcesCost = 10.0
+cooldownTimer = 3.0
+attackFrequency = 2.5
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 300,0
+	health = 29
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 12
+	projectile = Arrow
+	
+[002]
+	cost = 1500,0
+	health = 50
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 20
+	projectile = Arrow
+
+[003]
+	cost = 3000,0
+	health = 75
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 24
+	projectile = Arrow
+
+[004]
+	cost = 6000,0
+	health = 103
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 32
+	projectile = Arrow
+
+[005]
+	cost = 12000,0
+	health = 127
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 45
+	projectile = Arrow
+
+[006]
+	cost = 0,20
+	health = 198
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 64
+	projectile = Arrow
+
+[007]
+	cost = 0,25
+	health = 302
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 83
+	projectile = Arrow
+
+[008]
+	cost = 0,30
+	health = 407
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 94
+	projectile = Arrow
+
+[009]
+	cost = 0,35
+	health = 500
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 119
+	projectile = Arrow
+
+[010]
+	cost = 0,40
+	health = 666
+	speedMin = 85
+	speedMax = 85
+	bowRange = 325
+	bowDamage = 140
+	projectile = Arrow

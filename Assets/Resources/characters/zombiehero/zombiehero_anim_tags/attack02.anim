@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: attack02
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 30.000002
+        tangentMode: 0
+      - time: 1.1666667
+        value: 35.000004
+        inSlope: 30.000002
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: animFrame
+    path:
+    classID: 114
+    script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 3
+        outSlope: 3
+        tangentMode: 0
+      - time: 0.33333334
+        value: 1
+        inSlope: Infinity
+        outSlope: 3
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: attackActive
+    path:
+    classID: 114
+    script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.85714287
+        outSlope: -0.85714287
+        tangentMode: 0
+      - time: 1.1666666
+        value: 0
+        inSlope: -0.85714287
+        outSlope: -0.85714287
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: ShouldAddSections
+    path: zombiehero/zombiehero:Hero_Skeleton_grp/zombiehero:Hero_spine_low_jnt/zombiehero:Hero_spine_mid_jnt/zombiehero:Hero_spine_hi_jnt/zombiehero:Hero_spine_end_jnt/zombiehero:Hero_lf_clavicle_jnt/zombiehero:Hero_lf_upArm_jnt/zombiehero:Hero_lf_elbow_jnt/zombiehero:Hero_lf_wrist_jnt/zombiehero:Hero_lf_hand_jnt/zombiehero:Hero_Sword1_jnt/HeroPolyTrail2
+    classID: 114
+    script: {fileID: 11500000, guid: 77f9eba4f7cc0786a2648c134fa87b46, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.85714287
+        outSlope: -0.85714287
+        tangentMode: 0
+      - time: 1.1666666
+        value: 0
+        inSlope: -0.85714287
+        outSlope: -0.85714287
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: ShouldAddSections
+    path: zombiehero/zombiehero:Hero_Skeleton_grp/zombiehero:Hero_spine_low_jnt/zombiehero:Hero_spine_mid_jnt/zombiehero:Hero_spine_hi_jnt/zombiehero:Hero_spine_end_jnt/zombiehero:Hero_rt_clavicle_jnt/zombiehero:Hero_rt_upArm_jnt/zombiehero:Hero_rt_elbow_jnt/zombiehero:Hero_rt_wrist_jnt/zombiehero:Hero_Sword_jnt/HeroPolyTrail1
+    classID: 114
+    script: {fileID: 11500000, guid: 77f9eba4f7cc0786a2648c134fa87b46, type: 3}
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events:
+  - time: 0
+    functionName: OnAnimStart
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.2
+    functionName: PlaySoundEvent
+    data: Swoosh
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.23333333
+    functionName: PlaySoundEvent
+    data: AtkEmote
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: DeliverAttack
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6
+    functionName: PlaySoundEvent
+    data: Swoosh
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6333333
+    functionName: PlaySoundEvent
+    data: AtkEmote
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.73333335
+    functionName: DeliverAttack
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1666667
+    functionName: OnAnimDone
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

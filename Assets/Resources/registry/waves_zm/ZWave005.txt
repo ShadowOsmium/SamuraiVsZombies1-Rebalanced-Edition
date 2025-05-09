@@ -1,0 +1,56 @@
+/ Inspired by Wave 15
+
+scene = InGame_hell_brown
+
+[Commands]
+	FarmerSword
+	4,4
+	FarmerSword
+	4,4
+	FarmerSword
+	4,4
+	FarmerSword
+	4,4
+	Samurai
+	7,7
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	(
+	NinjaGirl
+	.5,.5
+	FarmerSword
+	.5,.5
+	NinjaGirl
+	.5,.5
+	NinjaGirl
+	.5,.5
+	FarmerSword
+	.5,.5
+	NinjaGirl
+	.5,.5
+	)
+	Samurai
+	4,4
+	FarmerSword
+	4,4
+	FarmerSword
+	4,4
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	1,1
+	SamuraiArcher
+	5,5
+	FarmerSword
+	.5,.5
+	FarmerSword
+	.5,.5
+	FarmerSword
+	.5,.5

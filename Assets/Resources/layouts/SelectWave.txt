@@ -1,0 +1,418 @@
+
+transitionSpeed = 1.0
+
+[_data]
+	normalColor = 1.0, 1.0, 1.0
+	selectedColor = 0.6, 0.8, 1.0
+
+
+[bg]
+	type = sprite
+	file = Sprites/Menus/bg_wave_select_main
+	keepAspectRatio = false
+	priority = 0
+	hotspot = 0, 0
+	position = 0, 0
+
+[bg_overlay]
+	type = sprite
+	file = Sprites/Menus/bg_wave_select_overlay
+	keepAspectRatio = false
+	priority = 50
+	hotspot = 0, 0
+	position = 0, 0
+
+[title]
+	type = sprite
+	file = Sprites/Localized/title_wave_select
+	position = 620, 50
+	priority = 50
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -50
+		[alpha]
+			alpha = 0.0
+
+[continue]
+	type = button
+	normalFrame = Sprites/Menus/continue_button
+	position = E-60, E-70
+	keepAspectRatio = yes
+	offsetWhenPressed = 4, 4
+	priority = 1
+	[transition]
+		[position]
+			anim = BackOut
+			animRange = 0, 0.6
+			offset = 120, 120
+		[alpha]
+			animRange = 0, 0.6
+			alpha = 0.0
+
+/--------------------------------------------------------
+/	Slots
+/	Note:	the are not positioned, they are meant to be 
+/			distributed around the screen by the code.
+/--------------------------------------------------------
+
+[slot_selector]
+	type = sprite
+	file = Sprites/Menus/wave_button_glow
+	keepAspectRatio = yes
+	priority = 1.1
+	position = 0, 20
+	visible = no
+	[effect]
+		[alphaPingPong]
+			min = 0.6
+			max = 1.0
+			speed = 0.5
+
+[slot0_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot0_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	/scale = 0.3, 1
+	keepAspectRatio = yes
+	priority = 1
+	position = 0, 20
+
+[slot0_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot0_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot1_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot1_sprite]
+	type = sprite
+	keepAspectRatio = yes
+	file = Sprites/Menus/wave_button
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot1_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot1_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot2_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot2_sprite]
+	type = sprite
+	keepAspectRatio = yes
+	file = Sprites/Menus/wave_button
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot2_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot2_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot3_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot3_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	keepAspectRatio = yes
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot3_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot3_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot4_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot4_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	keepAspectRatio = yes
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot4_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot4_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot5_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot5_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	keepAspectRatio = true
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot5_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot5_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot6_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot6_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	keepAspectRatio = true
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot6_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot6_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot7_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot7_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	keepAspectRatio = true
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot7_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot7_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot8_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot8_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	keepAspectRatio = true
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot8_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot8_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180
+
+/---------------------------
+
+[slot9_title]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	maxWidth = 120
+	position = 0, -40
+	priority = 2
+	anchor = LowerCenter
+	alignment = Center
+
+[slot9_sprite]
+	type = sprite
+	file = Sprites/Menus/wave_button
+	keepAspectRatio = true
+	/scale = 0.3, 1
+	priority = 1
+	position = 0, 20
+
+[slot9_level]
+	type = label
+	font = default64
+	shadowOffset = 4,4
+	shadowColor = black
+	position = 0, 20
+	priority = 2
+	anchor = MiddleCenter
+	alignment = Center
+
+[slot9_trigger]
+	type = touchArea
+	rect = -55, -90, 110, 180

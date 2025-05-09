@@ -1,0 +1,29 @@
+
+transitionSpeed = 1.0
+
+[wave]
+	type = label
+	font = default64
+	priority = 101
+	position = C, 460
+	shadowOffset = 4, 4
+	shadowColor = 0, 0, 0
+	anchor = MiddleCenter
+	[transition]
+		[position]
+			anim = BackOut
+			position = C, 760
+		[alpha]
+			alpha = 0.0
+
+[banner]
+	type = sprite
+	file = Sprites/Menus/coin
+	priority = 101
+	position = 512, 300
+	[transition]
+		[position]
+			anim = BackOut
+			position = C, 0
+		[alpha]
+			alpha = 0.0

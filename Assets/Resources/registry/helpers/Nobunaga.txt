@@ -1,0 +1,123 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_Nobunaga
+desc = @helper_Nobunaga_desc
+prefab = Characters/PFNobunaga
+lane = front
+HUDIcon = Sprites/Icons/ally_nobanoga
+waveToUnlock = 17
+resourcesCost = 55.0
+cooldownTimer = 1.0
+attackFrequency = 3.0
+usesBladeWeapon = true
+unique = true
+
+achievementGC = SAMUZOMBIE_ACHIEVE_HIS_AMBITION
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 0,20
+	health = 2450
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 29
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[002]
+	cost = 0,20
+	health = 3200
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 35
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[003]
+	cost = 0,20
+	health = 4200
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 40
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[004]
+	cost = 0,24
+	health = 5350
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 50
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[005]
+	cost = 0,24
+	health = 7000
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 60
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[006]
+	cost = 0,24
+	health = 9150
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[007]
+	cost = 0,30
+	health = 11150
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 75
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[008]
+	cost = 0,30
+	health = 14450
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 80
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[009]
+	cost = 0,30
+	health = 17300
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 87
+	knockbackPower = 40
+	knockbackResistance = 80
+
+[010]
+	cost = 0,40
+	health = 20800
+	speedMin = 100
+	speedMax = 100
+	meleeRange = 100
+	meleeDamage = 93
+	knockbackPower = 40
+	knockbackResistance = 80

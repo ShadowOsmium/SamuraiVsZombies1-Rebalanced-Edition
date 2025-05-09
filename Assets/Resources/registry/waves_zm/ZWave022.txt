@@ -1,0 +1,84 @@
+/ Inspired by Wave 42
+
+scene = InGame_underworld
+villageArchers = 5
+bell = 2
+
+[Commands]
+	Cart
+	SamuraiRifleman
+	1,1
+	SamuraiShield_Ice
+	SamuraiRifleman
+	Swordsmith
+	1,1
+	SamuraiShield_Green
+	SamuraiRifleman
+	2,2
+	FarmerBig
+	SamuraiShield_Ice
+	Priest
+	Priest
+	SamuraiRifleman
+	SamuraiRifleman
+	SamuraiRifleman
+	2,2
+	Swordsmith
+	SamuraiRifleman
+	Nobunaga
+	Cart
+	3,3
+	Takeda
+	SamuraiRifleman
+	SamuraiRifleman
+	Nobunaga
+	1,1
+	SamuraiShield_Green
+	Takeda
+	SamuraiRifleman
+	SamuraiRifleman
+	Nobunaga
+	Swordsmith
+	Priest
+	Priest
+	1,1
+	Takeda
+	SamuraiRifleman
+	Frostie
+	SamuraiRifleman
+	Nobunaga
+	FarmerStilts
+	SpearHorseman
+	FarmerBig
+	1,1
+	SamuraiShield_Green
+	SamuraiHeavy
+	Nobunaga
+	Swordsmith
+	SamuraiRifleman
+	SamuraiRifleman
+	SamuraiRifleman
+	SamuraiRifleman
+	SpearHorseman
+	Priest
+	Priest
+	1,1
+	SamuraiShield_Green
+	SamuraiShield_Ice
+	FarmerBig
+	Takeda
+	Nobunaga
+	SamuraiRifleman
+	SamuraiRifleman
+	SamuraiRifleman
+	SamuraiRifleman
+	SpearHorseman
+	1,1
+	SamuraiHeavy
+	Nobunaga
+	Swordsmith
+	SamuraiRifleman
+	Frostie
+	SpearHorseman
+	Priest
+	Priest

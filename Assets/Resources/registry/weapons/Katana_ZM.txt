@@ -1,0 +1,137 @@
+
+/--------------------------------------------
+/	General
+/--------------------------------------------
+
+type = melee
+isBladeWeapon = true
+
+infiniteUpgradeCost = 0,25
+/infiniteUpgradeExtraPulse = Sprites/Localized/on_sale
+infiniteUpgradeDamage = 0.05
+
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	cost = 0,0
+	attackRange = 145
+	attackFrequency = 1
+	damage = 6
+	knockbackPower = 100
+	prefab = Props/PFZombieHeroSword01
+	prefab2 = Props/PFZombieHeroSword02
+	icon = 
+	desc = 
+	title = 
+	
+[002]
+	cost = 250,0
+	attackRange = 145
+	attackFrequency = 1
+	damage = 8
+	knockbackPower = 100
+	prefab = Props/PFZombieHeroSword01
+	prefab2 = Props/PFZombieHeroSword02
+	icon = Sprites/Icons/upgrade_zombie_sword
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+	
+[003]
+	cost = 750,0
+	attackRange = 145
+	attackFrequency = 1
+	damage = 15
+	knockbackPower = 100
+	prefab = Props/PFZombieHeroSword01
+	prefab2 = Props/PFZombieHeroSword02
+	icon = Sprites/Icons/upgrade_zombie_sword
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+
+[004]
+	cost = 2500,0
+	attackRange = 145
+	attackFrequency = 1
+	damage = 17
+	knockbackPower = 125
+	prefab = Props/PFZombieHeroSword01
+	prefab2 = Props/PFZombieHeroSword02
+	icon = Sprites/Icons/upgrade_zombie_sword
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+
+[005]
+	cost = 4500,0
+	attackRange = 145
+	attackFrequency = 1
+	damage = 20
+	knockbackPower = 125
+	prefab = Props/PFZombieHeroSword01
+	prefab2 = Props/PFZombieHeroSword02
+	icon = Sprites/Icons/upgrade_zombie_sword
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+
+[006]
+	cost = 0,12
+	attackRange = 145
+	attackFrequency = 1
+	damage =30
+	knockbackPower = 125
+	prefab = Props/PFZombieHeroSwordUpgrade01
+	prefab2 = Props/PFZombieHeroSwordUpgrade02
+	icon = Sprites/Icons/upgrade_zombie_sword_01
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+
+[007]
+	cost = 0,16
+	attackRange = 145
+	attackFrequency = 1
+	damage = 50
+	knockbackPower = 125
+	prefab = Props/PFZombieHeroSwordUpgrade01
+	prefab2 = Props/PFZombieHeroSwordUpgrade02
+	icon = Sprites/Icons/upgrade_zombie_sword_01
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+
+[008]
+	cost = 0,20
+	attackRange = 145
+	attackFrequency = 1
+	damage = 75
+	knockbackPower = 125
+	prefab = Props/PFZombieHeroSwordUpgrade01
+	prefab2 = Props/PFZombieHeroSwordUpgrade02
+	icon = Sprites/Icons/upgrade_zombie_sword_01
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+
+[009]
+	cost = 0,24
+	attackRange = 145
+	attackFrequency = 1
+	damage = 100
+	knockbackPower = 125
+	prefab = Props/PFZombieHeroSwordUpgrade01
+	prefab2 = Props/PFZombieHeroSwordUpgrade02
+	icon = Sprites/Icons/upgrade_zombie_sword_01
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+
+[010]
+	cost = 0,28
+	attackRange = 145
+	attackFrequency = 1
+	damage = 125
+	knockbackPower = 125
+	prefab = Props/PFZombieHeroSwordUpgrade01
+	prefab2 = Props/PFZombieHeroSwordUpgrade02
+	icon = Sprites/Icons/upgrade_zombie_sword_01
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+

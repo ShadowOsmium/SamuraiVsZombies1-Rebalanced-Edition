@@ -1,0 +1,135 @@
+scene = InGame_winternight
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 2
+/	Bow = 2
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	L_Zombie_Sword
+	1,1
+	L_Zombie_Sword
+	1,1
+	L_Zombie_Sword
+	1,1
+	L_Zombie_Warhammer
+	2,2
+	L_Zombie_Warhammer
+	2,2
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Sword
+	1,1
+	L_Zombie_Sword
+	1,1
+	L_Zombie_Warhammer
+	10,10
+	Wayundo_Fire	
+	3,3
+	H_Zombie_Sword
+	3,3
+	H_Zombie_Sword
+	3,3
+	Tengu
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Taiko_Drummer
+	1,1
+	Horseman
+	1,1
+	Horseman
+	12,12
+	Tengu
+	3,3
+	Tengu
+	1,1
+	Wayundo_Fire
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	H_Zombie_Bow
+	H_Zombie_Bow
+	H_Zombie_BoW
+	Taiko_Drummer
+	12,12
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	Wayundo_Fire
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Tengu
+	1,1
+	Horseman
+	Horseman

@@ -1,0 +1,252 @@
+[all]
+	/booster_free -- Do not include the free one in the list!
+	booster_1
+	booster_2
+	booster_3
+	booster_4
+	booster_nobunaga
+	booster_priest
+	booster_swordsmith
+	booster_rifleman
+	booster_takeda
+	booster_frostee
+	booster_assassin
+
+
+[booster_free]
+	cost = 0,0
+	title = @boosterpack_title_free
+	desc = @boosterpack_desc_free
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_coins
+	[recipe]
+		numCards = 1
+		default = common
+
+[booster_1]
+	cost = 0,15
+	title = @boosterpack_title_1
+	desc = @boosterpack_desc_1
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_coins
+	[recipe]
+		numCards = 1
+		default = common
+		[random]
+			uncommon = 0.2
+
+[booster_2]
+	cost = 0,35
+	title = @boosterpack_title_2
+	desc = @boosterpack_desc_2
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_revive
+	[recipe]
+		numCards = 6
+		default = common
+		[fixed]
+			uncommon = 1
+		[random]
+			uncommon = 0.5
+			rare = 0.05
+
+[booster_3]
+	cost = 0,50
+	title = @boosterpack_title_3
+	desc = @boosterpack_desc_3
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_luck_charm
+	[recipe]
+		numCards = 6
+		default = common
+		[fixed]
+			rare = 1
+			uncommon = 2
+		[random]
+			uncommon = 0.8
+			rare = 0.2
+			super = 0.05
+
+[booster_4]
+	cost = 0,75
+	title = @boosterpack_title_4
+	desc = @boosterpack_desc_4
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_assassin_friend
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[fixed]
+			super = 1
+			rare = 2
+			uncommon = 2
+		[random]
+			uncommon = 0.5
+			rare = 0.4
+			super = 0.1
+			extreme = 0.05
+
+[booster_nobunaga]
+	cost = 0,125
+	title = @boosterpack_title_nobunaga
+	desc = @boosterpack_desc_nobunaga
+	warningCheck = Nobunaga
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_nobunaga
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[specific]
+			Nobunaga:super = 1
+		[fixed]
+			extreme = 1
+			super = 1
+		[random]
+			rare = 0.8
+			super = 0.25
+			extreme = 0.1
+
+[booster_priest]
+	cost = 0,125
+	title = @boosterpack_title_priest
+	desc = @boosterpack_desc_priest
+	warningCheck = Priest
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_priest
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[specific]
+			Priest:super = 1
+		[fixed]
+			extreme = 1
+			super = 1
+		[random]
+			rare = 0.8
+			super = 0.25
+			extreme = 0.1
+
+[booster_swordsmith]
+	cost = 0,125
+	title = @boosterpack_title_swordsmith
+	desc = @boosterpack_desc_swordsmith
+	warningCheck = Swordsmith
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_swordsmith
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[specific]
+			Swordsmith:super = 1
+		[fixed]
+			extreme = 1
+			super = 1
+		[random]
+			rare = 0.8
+			super = 0.25
+			extreme = 0.1
+
+[booster_rifleman]
+	cost = 0,125
+	title = @boosterpack_title_rifleman
+	desc = @boosterpack_desc_rifleman
+	warningCheck = Rifleman
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_rifleman
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[specific]
+			Rifleman:super = 1
+		[fixed]
+			extreme = 1
+			super = 1
+		[random]
+			rare = 0.8
+			super = 0.25
+			extreme = 0.1
+
+[booster_takeda]
+	cost = 0,125
+	title = @boosterpack_title_takeda
+	desc = @boosterpack_desc_takeda
+	warningCheck = Takeda
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_takeda
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[specific]
+			Takeda:extreme = 1
+		[fixed]
+			extreme = 1
+			super = 1
+		[random]
+			rare = 0.8
+			super = 0.25
+			extreme = 0.1
+
+[booster_frostee]
+	cost = 0,125
+	title = @boosterpack_title_frostee
+	desc = @boosterpack_desc_frostee
+	warningCheck = IceArcher
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_frostee
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[specific]
+			IceArcher:extreme = 1
+		[fixed]
+			extreme = 1
+			super = 1
+		[random]
+			rare = 0.8
+			super = 0.25
+			extreme = 0.1
+
+[booster_assassin]
+	cost = 0,125
+	title = @boosterpack_title_assassin
+	desc = @boosterpack_desc_assassin
+	warningCheck = NinjaGirl
+	/extraTicker = Sprites/Localized/new_item
+	[render]
+		layer1 = Sprites/BoosterPacks/booster_pack_standard
+		layer2 = Sprites/BoosterPacks/booster_pack_assassin
+	[recipe]
+		numCards = 6
+		default = uncommon
+		[specific]
+			NinjaGirl:extreme = 1
+		[fixed]
+			extreme = 1
+			super = 1
+		[random]
+			rare = 0.8
+			super = 0.25
+			extreme = 0.1
+

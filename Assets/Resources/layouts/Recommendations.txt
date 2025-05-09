@@ -1,0 +1,46 @@
+
+{Layouts/DefaultDialog}
+
+[title32]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	text = @hints_title
+	position = C, C-70
+	maxWidth = 600
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	[transition]
+		[alpha]
+			alpha = 0
+
+[title18]
+	type = label
+	font = default18
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, C-70
+	maxWidth = 600
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+[okBtn]
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 512, 540
+	textOffset = 0, 5
+	offsetWhenPressed = 4, 4
+	priority = 1
+	text = @ok
+	[transition]
+		[alpha]
+			alpha = 0
+

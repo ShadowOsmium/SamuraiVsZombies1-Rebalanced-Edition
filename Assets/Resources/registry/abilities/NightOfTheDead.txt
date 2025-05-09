@@ -1,0 +1,60 @@
+
+/--------------------------------------------
+/	General
+/--------------------------------------------
+
+displayName = @ab_nightofthedead_name
+desc = @ab_nightofthedead_desc
+icon = Sprites/Icons/ab_enemy_night
+waveToUnlock = 3
+coolDown = 23.0
+
+infiniteUpgradeCost = 0,25
+/infiniteUpgradeExtraPulse = Sprites/Localized/on_sale
+infiniteUpgradeDuration = 0.5
+
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	cost = 5000
+	Duration = 4
+
+[002]
+	cost = 10000
+	Duration = 5
+
+[003]
+	cost = 25000
+	Duration = 5.5
+
+[004]
+	cost = 40000
+	Duration = 6
+
+[005]
+	cost = 65000
+	Duration = 6.5
+
+[006]
+	cost = 0,16
+	Duration = 7
+
+[007]
+	cost = 0,16
+	Duration = 7.5
+
+[008]
+	cost = 0,20
+	Duration = 8
+
+[009]
+	cost = 0,20
+	Duration = 8.5
+
+[010]
+	cost = 0,24
+	Duration = 9
+

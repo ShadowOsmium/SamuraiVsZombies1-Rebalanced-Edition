@@ -1,0 +1,110 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_samurai_archer
+desc = @helper_samurai_archer_desc
+prefab = Characters/PFSamuraiarcher
+HUDIcon = Sprites/Icons/ally_samurai_archer
+weaponRangedPrefab = Props/PFsamuraibow
+waveToUnlock = 6
+resourcesCost = 10.0
+cooldownTimer = 3.0
+attackFrequency = 2.0
+
+achievementGC = SAMUZOMBIE_ACHIEVE_TAKE_AIM
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 300,0
+	health = 29
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 12
+	projectile = Arrow
+	
+[002]
+	cost = 750,0
+	health = 40
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 17
+	projectile = Arrow
+
+[003]
+	cost = 1500,0
+	health = 59
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 24
+	projectile = Arrow
+
+[004]
+	cost = 4500,0
+	health = 85
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 32
+	projectile = Arrow
+
+[005]
+	cost = 9500,0
+	health = 113
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 45
+	projectile = Arrow
+
+[006]
+	cost = 0,12
+	health = 165
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 64
+	projectile = Arrow
+
+[007]
+	cost = 0,18
+	health = 230
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 83
+	projectile = Arrow
+
+[008]
+	cost = 0,22
+	health = 320
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 94
+	projectile = Arrow
+
+[009]
+	cost = 0,26
+	health = 480
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 119
+	projectile = Arrow
+
+[010]
+	cost = 0,30
+	health = 719
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 140
+	projectile = Arrow

@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1289225951269646}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1289225951269646
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4731056147358139}
+  - 114: {fileID: 114515634570736911}
+  - 114: {fileID: 114880702765700684}
+  - 114: {fileID: 114420798802673598}
+  m_Layer: 0
+  m_Name: BabyJuroSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4731056147358139
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289225951269646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 841.23846, y: 793.7622, z: 1080.9965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114515634570736911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289225951269646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: AtkEmote
+    clips:
+    - {fileID: 8300000, guid: 167335afd16575a48bd8b4ec4af15cdb, type: 3}
+    - {fileID: 8300000, guid: 78d2ec613663dcf4d9bf807d03118183, type: 3}
+    - {fileID: 8300000, guid: f47068fe4a481284989d912bd983703a, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: 80c8e2cf5cc008844ae84542d6b9a851, type: 3}
+    - {fileID: 8300000, guid: f736cdb413df54342876243b3fdc5441, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Idle
+    clips:
+    - {fileID: 8300000, guid: fade4482777b318419d28f6263b7e3ac, type: 3}
+    - {fileID: 8300000, guid: 6940655cc5e41ba468d63b48d88b58fc, type: 3}
+    - {fileID: 8300000, guid: e3e9978b6eaa56044b7dd49f532945cd, type: 3}
+    percentChanceNone: 75
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: SpinSwoosh
+    clips:
+    - {fileID: 8300000, guid: da2708a846264f94da8722c01fa1fa38, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Walk
+    clips:
+    - {fileID: 8300000, guid: 28c3fd9ff989ef141a0944c57b59901a, type: 3}
+    - {fileID: 8300000, guid: 62b3e1975ed1185438ba7f4fa1971c9a, type: 3}
+    - {fileID: 8300000, guid: a39822a4dd9b92242ba7ffaad09e8df9, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0.2
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 1
+    minDistanceOverride: 50
+    maxDistanceOverride: 2500
+    useLogarithmicRolloff: 0
+--- !u!114 &114880702765700684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289225951269646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/BabyJuroSFXTheme.prefab
+  basePrefabPath: Assets/Game/Prefabs/SoundThemes/JorogumoSFXTheme.prefab
+  exemptObjects:
+  - {fileID: 114515634570736911}
+--- !u!114 &114420798802673598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289225951269646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

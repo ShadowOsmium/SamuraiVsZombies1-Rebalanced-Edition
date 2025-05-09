@@ -1,0 +1,164 @@
+
+transitionSpeed = 1.0
+
+
+/-------------------------------------------------
+/	Basic Screen Elements
+/-------------------------------------------------
+
+[bg]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_main
+	hotspot = 0, 0
+	position = 0, 0
+	keepAspectRatio = no
+
+[bg_overlay_top_left]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_top_left
+	hotspot = 0, 0
+	position = 0, 0
+	priority = 49
+	keepAspectRatio = no
+
+[bg_overlay_top_right]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_top_right
+	hotspot = 114, 0
+	position = 1024, 0
+	priority = 49
+	keepAspectRatio = no
+
+[bg_overlay_bottom_left]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_bottom_left
+	hotspot = 0, 287
+	position = 0, 768
+	priority = 49
+	keepAspectRatio = no
+
+[bg_overlay_bottom_right]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_bottom_right
+	hotspot = 167, 287
+	position = 1024, 768
+	priority = 49
+	keepAspectRatio = no
+
+[bg_overlay_mid]
+	type = sprite
+	file = Sprites/BoosterPacks/bg_booster_mid
+	position = C, C+60
+	priority = 49.1
+	keepAspectRatio = no
+
+[title]
+	type = sprite
+	file = Sprites/Localized/title_booster_packs
+	position = C-110, 50
+	priority = 50
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, -110
+		[alpha]
+			alpha = 0.0
+
+[continue]
+	type = button
+	normalFrame = Sprites/Menus/continue_button
+	position = E-60, E-70
+	keepAspectRatio = true
+	offsetWhenPressed = 4, 4
+	priority = 51
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 120, 120
+		[alpha]
+			alpha = 0.0
+
+
+/-------------------------------------------------
+/	Description bar
+/-------------------------------------------------
+
+[packTitle]
+	type = label
+	font = default32
+	position = 152, 378
+	shadowOffset = 2, 2
+	shadowColor = black
+	priority = 50
+	anchor = UpperLeft
+	alignment = left
+	maxWidth = 450
+	maxLines = 1
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+[packDesc]
+	type = label
+	font = default18
+	position = 152, 418
+	fontColor = black
+	priority = 50
+	anchor = UpperLeft
+	alignment = left
+	maxWidth = 450
+	maxLines = 3
+	[transition]
+		[alpha]
+			alpha = 0.0
+
+[buyPackButton]
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = 730, 435
+	/text = @boosterpack_purchase
+	/textOffset = 0, 5
+	offsetWhenPressed = 4, 4
+	priority = 50
+	visible = no
+	[transition]
+		[alpha]
+			alpha = 0
+
+
+/-------------------------------------------------
+/	Coin & Gem counter
+/-------------------------------------------------
+
+[currencyCounter]
+	type = label
+	font = default32
+	position = E-192, 46
+	shadowOffset = 2, 2
+	shadowColor = 0,0,0
+	priority = 601
+	anchor = MiddleRight
+	alignment = right
+	text = 0\n0
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 110, -110
+		[alpha]
+			alpha = 0.0
+
+[currencyIcons]
+	type = sprite
+	file = Sprites/Menus/coin_gem
+	position = E-170, 50
+	priority = 600
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 110, -110
+		[alpha]
+			alpha = 0.0
+			
+			

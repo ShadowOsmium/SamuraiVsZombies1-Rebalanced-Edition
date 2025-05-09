@@ -1,0 +1,29 @@
+[events]
+	lever
+	spin
+	multiplier
+
+[lever]
+	condition = 1
+	endCondition = touchScreen
+	blocking = yes
+	text = @tutorial_pachinko_lever
+	position = C+40, 480
+	rightArrow = 740, 710
+
+[spin]
+	condition = 0
+	endCondition = touchScreen
+	blocking = yes
+	text = @tutorial_pachinko_spin
+	position = C+40, 280
+	rightArrow = C+60, C+60
+
+[multiplier]
+	condition = 0
+	endCondition = touchScreen
+	blocking = yes
+	text = @tutorial_pachinko_multiplier
+	position = C+40, 380
+	rightArrow = 560, 160
+

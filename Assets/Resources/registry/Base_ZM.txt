@@ -1,0 +1,22 @@
+storeTitle = @store_format_zombiegate_levelup
+desc = @ab_gate_zombies
+
+[001]
+	icon = Sprites/Icons/upgrade_hell_gate
+	cost = 0
+	health = 500
+
+[002]
+	icon = Sprites/Icons/upgrade_hell_gate
+	cost = 1000
+	health = 1000
+
+[003]
+	icon = Sprites/Icons/upgrade_hell_gate
+	cost = 10000
+	health = 5000
+
+[004]
+	icon = Sprites/Icons/upgrade_hell_gate
+	cost = 30000
+	health = 10000

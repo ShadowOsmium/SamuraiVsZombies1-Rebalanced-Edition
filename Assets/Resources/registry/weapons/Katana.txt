@@ -1,0 +1,127 @@
+
+/--------------------------------------------
+/	General
+/--------------------------------------------
+
+type = melee
+isBladeWeapon = true
+
+infiniteUpgradeCost = 0,25
+/infiniteUpgradeExtraPulse = Sprites/Localized/on_sale
+infiniteUpgradeDamage = 0.05
+
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	cost = 0,0
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 8
+	knockbackPower = 100
+	prefab = Props/PFKatana
+	icon = 
+	desc = 
+	title = 
+	
+[002]
+	cost = 250,0
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 11
+	knockbackPower = 100
+	prefab = Props/PFKatana
+	icon = Sprites/Icons/upgrade_sword
+	desc = @katana_desc
+	title = @store_format_sword_levelup
+	
+[003]
+	cost = 750,0
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 17
+	knockbackPower = 100
+	prefab = Props/PFKatanaUpgrade1
+	icon = Sprites/Icons/upgrade_sword_01
+	desc = @katanafire_desc
+	title = @store_format_sword_levelup
+
+[004]
+	cost = 2500,0
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 21
+	knockbackPower = 125
+	prefab = Props/PFKatanaUpgrade2
+	icon = Sprites/Icons/upgrade_sword_02
+	desc = @katanablue_desc
+	title = @store_format_sword_levelup
+
+[005]
+	cost = 4500,0
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 30
+	knockbackPower = 125
+	prefab = Props/PFKatanaUpgrade3
+	icon = Sprites/Icons/upgrade_sword_03
+	desc = @katanablue_desc
+	title = @store_format_sword_levelup
+
+[006]
+	cost = 0,12
+	attackRange = 145
+	attackFrequency = 1.5
+	damage =40
+	knockbackPower = 125
+	prefab = Props/PFKatanaUpgrade3
+	icon = Sprites/Icons/upgrade_sword_03
+	desc = @katanablue_desc
+	title = @store_format_sword_levelup
+
+[007]
+	cost = 0,16
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 72
+	knockbackPower = 125
+	prefab = Props/PFKatanaUpgrade3
+	icon = Sprites/Icons/upgrade_sword_03
+	desc = @katanablue_desc
+	title = @store_format_sword_levelup
+
+[008]
+	cost = 0,20
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 100
+	knockbackPower = 125
+	prefab = Props/PFKatanaUpgrade3
+	icon = Sprites/Icons/upgrade_sword_03
+	desc = @katanablue_desc
+	title = @store_format_sword_levelup
+
+[009]
+	cost = 0,24
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 115
+	knockbackPower = 125
+	prefab = Props/PFKatanaUpgrade3
+	icon = Sprites/Icons/upgrade_sword_03
+	desc = @katanablue_desc
+	title = @store_format_sword_levelup
+
+[010]
+	cost = 0,28
+	attackRange = 145
+	attackFrequency = 1.5
+	damage = 136
+	knockbackPower = 125
+	prefab = Props/PFKatanaUpgrade3
+	icon = Sprites/Icons/upgrade_sword_03
+	desc = @katanablue_desc
+	title = @store_format_sword_levelup
+

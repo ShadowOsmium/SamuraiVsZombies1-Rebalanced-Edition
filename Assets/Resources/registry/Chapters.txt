@@ -1,0 +1,53 @@
+
+/---------------------------------------------------------------
+/	All chapters, in order of presentations
+/---------------------------------------------------------------
+
+[all]
+	Summer
+	Fall
+	Winter
+	Spring
+	Chaos
+	Hell1
+	Hell2
+
+
+/---------------------------------------------------------------
+/	Descriptions for all chapters
+/---------------------------------------------------------------
+
+[Summer]
+	displayName = @chapter_title_summer
+	icon = Sprites/Icons/wave_summer
+	wavesRange = 1, 10
+	
+[Fall]
+	displayName = @chapter_title_fall
+	icon = Sprites/Icons/wave_fall
+	wavesRange = 11, 20
+	
+[Winter]
+	displayName = @chapter_title_winter
+	icon = Sprites/Icons/wave_winter
+	wavesRange = 21, 30
+	
+[Spring]
+	displayName = @chapter_title_spring
+	icon = Sprites/Icons/wave_spring
+	wavesRange = 31, 40
+
+[Chaos]
+	displayName = @chapter_title_hell
+	icon = Sprites/Icons/wave_chaos
+	wavesRange = 41, 50
+
+[Hell1]
+	displayName = @chapter_title_new1
+	icon = Sprites/Icons/wave_hell
+	wavesRange = 51, 60
+
+[Hell2]
+	displayName = @chapter_title_new2
+	icon = Sprites/Icons/wave_hell
+	wavesRange = 61, 70

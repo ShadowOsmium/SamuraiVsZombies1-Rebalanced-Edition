@@ -1,0 +1,203 @@
+scene = InGame_hell
+
+selectedCharm = luck
+initialleadershiplevel = 3
+baselevel = 2
+belllevel = 3
+archerlevel = 4
+[abilitylevels]
+	summonlightning = 10
+	giantwave = 1
+[selectedabilities]
+	000 = SummonLightning
+	001 = GiantWave
+[helperlevels]
+	farmer = 10
+	swordsmith = 1
+	samuraiarcher = 10
+	rifleman = 1
+	samurai = 10
+	
+[selectedhelpers]
+	000 = Farmer
+	001 = SwordSmith
+	002 = SamuraiArcher
+	003 = Rifleman
+	004 = Samurai
+	
+[Commands]
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt
+	1,1
+	Chochinobake_alt

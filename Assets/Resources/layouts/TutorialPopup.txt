@@ -1,0 +1,57 @@
+[panel]
+	type = sprite
+	file = Sprites/Menus/pop_up_screen_small
+	scale = 1, 1.5
+	priority = 400
+	position = C, 200
+	visible = no
+
+[text]
+	type = label
+	font = default32
+	position = C, 194
+	priority = 400.1
+	maxWidth = 560
+	alignment = center
+	anchor = MiddleCenter
+	visible = no
+
+[circle]
+	type = sprite
+	file = Sprites/Menus/tutorial_circle
+	priority = 400.2
+	hotspot = 75, 72
+	position = C, 200
+	visible = no
+	[effect]
+		[scalepingpong]
+			min = 1.0
+			max = 1.2
+			speed = 0.5
+	
+[arrowRight]
+	type = sprite
+	file = Sprites/Menus/tutorial_arrow
+	/hotspot = 176, 75
+	priority = 400.2
+	position = C, 200
+	visible = no
+	[effect]
+		[scalepingpong]
+			min = 0.9
+			max = 1.0
+			speed = 0.6
+
+[arrowLeft]
+	type = sprite
+	file = Sprites/Menus/tutorial_arrow
+	/hotspot = 176, 75
+	priority = 400.2
+	position = C, 200
+	visible = no
+	[effect]
+		[scalepingpong]
+			min = -1.0
+			max = -0.9
+			speed = 0.6
+	

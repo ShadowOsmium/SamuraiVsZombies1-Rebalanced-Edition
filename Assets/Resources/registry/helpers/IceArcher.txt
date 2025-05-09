@@ -1,0 +1,109 @@
+/--------------------------------------------------
+
+displayName = @helper_ice_archer
+desc = @helper_ice_archer_desc
+prefab = Characters/PFSamuraiarcherice
+HUDIcon = Sprites/Icons/ally_samurai_archer_ice
+weaponRangedPrefab = Props/PFsamuraibow
+waveToUnlock = 999
+resourcesCost = 20.0
+cooldownTimer = 3.0
+attackFrequency = 4.0
+availableAtWave = 11
+
+achievementGC = SAMUZOMBIE_ACHIEVE_MUST_HAVE_MAGIC
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	specialUnlockText = @store_find_frostie
+	cost = 150,0
+	health = 29
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 12
+	projectile = IceArrow
+	
+[002]
+	cost = 2000,0
+	health = 40
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 17
+	projectile = IceArrow
+
+[003]
+	cost = 3550,0
+	health = 59
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 24
+	projectile = IceArrow
+
+[004]
+	cost = 6000,0
+	health = 85
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 32
+	projectile = IceArrow
+
+[005]
+	cost = 9550,0
+	health = 113
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 45
+	projectile = IceArrow
+
+[006]
+	cost = 0,12
+	health = 165
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 64
+	projectile = IceArrow
+
+[007]
+	cost = 0,18
+	health = 230
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 83
+	projectile = IceArrow
+
+[008]
+	cost = 0,22
+	health = 320
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 94
+	projectile = IceArrow
+
+[009]
+	cost = 0,26
+	health = 480
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 119
+	projectile = IceArrow
+
+[010]
+	cost = 0,30
+	health = 719
+	speedMin = 100
+	speedMax = 100
+	bowRange = 450
+	bowDamage = 140
+	projectile = IceArrow

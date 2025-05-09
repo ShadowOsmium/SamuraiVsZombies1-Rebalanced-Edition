@@ -1,0 +1,775 @@
+
+/------------------------------------------------------------------
+/ Play Modes
+/------------------------------------------------------------------
+
+playmode_classic = クラシック\nモード
+playmode_zombie = ゾンビ\nモード
+
+unlocked_zombies = ゾンビ・ライズを解除した！
+
+/------------------------------------------------------------------
+/ Freebies
+/------------------------------------------------------------------
+
+welcomeBack_title = おかえりなさい！
+welcomeBack_subtitle = GluMobileはあなたにまた会えてうれしいです。
+welcomeBack_body = 私達からのお礼として、このプレゼントを受け取ってください。
+
+giveonce_title = あなたにプレゼント！
+giveonce_subtitle = あなたがゲームプレイヤーでいてくれて、GluMobileはうれしいです。
+giveonce_body = 私達からのお礼として、このプレゼントを受け取ってください。
+
+
+/------------------------------------------------------------------
+/ Special Events Stuff
+/------------------------------------------------------------------
+
+charm_olympics_name = オリンピックのお守り
+charm_olympics_desc = オリンピックの聖なる力でゾンビに追加のダメージを与える
+dealpackolympics_name = オリンピックスペシャルパック
+dealpackolympics_desc = オリンピックのお守りなどが入っているスペシャルパック。これでオリンピックを楽しもう！
+
+charm_julyforth_name = 花火チャーム
+charm_julyforth_desc = 独立記念日の力を使ってゾンビに大ダメージを与えよう。
+dealpackjulyforth_name = スペシャル花火パック
+dealpackjulyforth_desc = 独立記念日パーティーに必要な材料がパックになった！花火チャームなどいろいろ！
+
+
+/------------------------------------------------------------------
+/ Abilities
+/------------------------------------------------------------------
+
+ab_divine_name  = 援軍
+ab_trample_name  = 踏み荒らし
+ab_groundshock_name  = 地響き
+ab_slash_name  = 回転斬り
+ab_lethargy_name  = 減速
+ab_self_revive_name  = 自己蘇生
+ab_lightning_name  = 雷召喚
+ab_tornadoes_name  = 竜巻召喚
+
+ab_lifesteal_name = ライフ・スティール
+ab_gravehands_name = グレイヴ・ハンズ
+ab_raisedead_name = レイズ・デッド
+ab_dragonattack_name = ゾンビ・ドラゴン
+ab_nightofthedead_name = デッド・ナイト
+
+/------------------------------------------------------------------
+/ Ability Descriptions
+/------------------------------------------------------------------
+
+ab_slash_desc  = 複数の敵を斬る強力な攻撃
+ab_lightning_desc  = 強力な雷を呼び寄せ、眼前の敵を打つ
+ab_divine_desc  = 神に祈りを捧げ、同行している味方を呼び寄せる…ことができるかも
+ab_lethargy_desc  = 敵を一時的に減速させる呪文を唱える
+ab_village_archers_desc  = 村の塔を守る射手を雇う
+ab_warding_bell  = 異界の魔物に痛みを与えると言われる古代の鐘
+ab_gate  = 鳥居の防御力を上げる
+ab_gate_zombies = ヘル・ゲートが受けられるダメージの量を増やす。
+ab_leadership  = アップグレードしてサムライの将器を上げる。戦闘中、将器に表示されるゲージを消費して援軍を呼ぼう！
+ab_brains = アップグレードしてスタート時のヒーローのブレイン・レベルを増やそう。ブレインを使って戦いの最中に部隊を呼び出そう！
+ab_trample_desc  = 大軍を呼び寄せて敵を蹂躙する
+ab_tornadoes_desc  = 竜巻を召喚！ 敵を吹き飛ばせ！
+
+ab_lifesteal_desc = 敵から命を盗み取る致命的なストライク。
+ab_gravehands_desc = 敵を墓に引っ張りこむ。
+ab_raisedead_desc = あなたの兵として参加するように、死者の力を呼び寄せる。
+ab_dragonattack_desc = 大乱闘に参加させるため、ドラゴンを呼び寄せる！
+ab_nightofthedead_desc = 全てのゾンビが数秒間止められなくなる。
+
+/------------------------------------------------------------------
+/ Weapon Descriptions
+/------------------------------------------------------------------
+
+katana_desc  = サムライの基本武器。 近づいて使う
+katanafire_desc  = サムライの基本武器。 刀身に炎を纏う
+katanablue_desc  = サムライの基本武器。 刀身に青い炎を纏う
+crossbow_desc  = サムライの遠距離用武器。 一歩下がって使う
+crossbowfire_desc  = サムライの遠距離用武器。一歩下がって使う。炎の矢！
+crossbowblue_desc  = サムライの遠距離用武器。一歩下がって使う。青い炎の矢！
+crossbowexpl_desc  = サムライの遠距離用武器。一歩下がって使う。爆発する矢！
+crossbowexpl2_desc  = サムライの遠距離用武器。一歩下がって使う。爆砕する矢！
+
+/------------------------------------------------------------------
+/ Helpers
+/------------------------------------------------------------------
+
+helper_farmer_name  = 農民
+helper_samurai_name  = 武士
+helper_samurai_archer  = 射手
+helper_samurai_spearman  = 槍手
+helper_heavy_samurai  = 鎧武者
+helper_Nobunaga  = 信長
+helper_swordsmith  = 刀鍛冶
+helper_priest  = 僧侶
+helper_ice_archer  = 氷の射手
+helper_rifleman  = 銃手
+helper_takeda  = 信玄
+helper_horseman  = 槍騎手
+helper_ninja_girl  = 忍者
+
+helper_crawler_name = 跳ねる胴体
+helper_chochinobake_name = 呪われたランタン
+helper_ghostronin_name = ゆうれい浪人
+helper_jurogumo_name = ジョロウグモ
+helper_komusou_name = 不死のミンストレル
+helper_necromancer_name = 黒魔術師
+helper_oni_name = オニ
+helper_onibaba_name = 悪魔の治療師
+helper_shogun_name = ゾンビ将軍
+helper_zombiearcher_name = ゾンビ射手
+helper_zombiehorseman_name = ゾンビ騎士
+helper_zombie_name = ゾンビ
+helper_zombiespear_name = ゾンビ槍兵
+
+/------------------------------------------------------------------
+/ Helper Descriptions
+/------------------------------------------------------------------
+
+hero_desc  = 村で最も勇敢なサムライ。彼の力で、村人を勝利へ導こう！
+helper_farmer_desc  = 力は弱いが、忠誠心は強い
+helper_samurai_desc  = 村の守護人。平均的な攻撃力と体力
+helper_samurai_archer_desc  = 遠距離攻撃が得意だが、近接戦が苦手
+helper_samurai_spearman_desc  = 前線の後ろで戦うが、決して臆病者ではない
+helper_heavy_samurai_desc  = 高い体力を誇るが、鎧の分だけ攻撃速度は遅い
+helper_Nobunaga_desc  = 伝説の将軍。誰もその進軍を止めることはできない
+helper_priest_desc  = 神秘の力で味方を癒す
+helper_ice_archer_desc  = 氷の射手。凍てつく矢は敵を一時的に凍らせる
+helper_swordsmith_desc  = 刀鍛冶は戦場にいるすべての農夫を強化する
+helper_rifleman_desc  = 銃手は戦場にいるすべての射手を強化する
+helper_takeda_desc  = 伝説の将軍！馬上から中距離攻撃ができる
+helper_horseman_desc  = 馬上から中距離攻撃をする
+helper_ninja_girl_desc  = 俊敏な暗殺者！敵への攻撃が速く、近距離、遠距離両方の攻撃を使い分ける
+
+helper_crawler_desc = 足は松葉杖･･･
+helper_chochinobake_desc = 早く走って･･･ドカンと爆発！
+helper_ghostronin_desc = 沢山を備え持つゆうれい。攻撃の度に敵をスローダウンさせる。
+helper_jurogumo_desc = 一部がレディー、一部はクモ、どの部分も完全には死んでいない。
+helper_komusou_desc = 大声で歌を歌い、死者を目覚めさせる。
+helper_necromancer_desc = もっと沢山のゾンビを定期的に墓から呼び起こす。
+helper_oni_desc = とても強いが、重い武器のせいで攻撃スピードは遅い。
+helper_onibaba_desc = 治療を受けると、ゾンビはもっと死んだ状態になるのか、それとも生気が減るのだろうか。
+helper_shogun_desc = 地獄の将軍、これ以上望むことはあるだろうか。
+helper_zombiearcher_desc = 長距離、でも打撃は受けない。
+helper_zombiehorseman_desc = ゾンビ馬はどうやったら止められるのか。脳みそを引っ張れ。
+helper_zombie_desc = 平均的な戦士･･･死者としては。
+helper_zombiespear_desc = 多大なダメージ･･･脳みそは極小。
+
+/------------------------------------------------------------------
+/ Enemies
+/------------------------------------------------------------------
+
+enemy_dummy_name  = ダミー！
+enemy_l_zombie_u_name  = 非武装ゾンビ
+enemy_l_zombie_a_name  = ゾンビ（斧）
+enemy_l_zombie_s_name  = ゾンビ（刀）
+enemy_l_zombie_sp_name  = ゾンビ（槍）
+enemy_l_zombie_b_name  = ゾンビ（弓）
+enemy_h_zombie_u_name  = 重量ゾンビ
+enemy_oni_name  = 鬼
+
+
+/------------------------------------------------------------------
+/ Heroes
+/------------------------------------------------------------------
+
+heroe_samurai_name  = サムライ
+
+zombiehero_desc = 不死の者たちの最大のチャンピオン。リビングを壊し、不死の者たちの土地へ冒険に出よう。
+
+/------------------------------------------------------------------
+/ Charms
+/------------------------------------------------------------------
+
+charm_holy_name  = 神秘のお守り
+charm_holy_desc  = 死んだサムライを蘇らせ、画面上の敵をすべて倒す
+
+charm_happiness_name  = 幸福のお守り
+charm_happiness_desc  = 敵が落としたアイテムをすべて引き寄せる
+
+charm_power_name  = 力のお守り
+charm_power_desc  = クリティカルヒットの確率を上げる
+
+charm_luck_name  = 幸運のお守り
+charm_luck_desc  = 敵が落とすアイテムの量を２倍にする
+
+charm_friendship_name  = 友情のお守り
+charm_friendship_desc  = 強力な銀色の武士を召喚
+
+charm_friendship_power_name  = 友情のお守り+
+charm_friendship_power_desc  = 力のお守りを持つ、強力な銀色の武士を召喚
+
+charm_friendpanzer_name  = 友誼のお守り
+charm_friendpanzer_desc  = 超強力な金色の武士を召喚
+
+charm_friendpanzer_luck_name  = 友誼のお守り+
+charm_friendpanzer_luck_desc  = 幸運のお守りを持つ、超強力な金色の武士を召喚
+
+charm_friendspearman_name  = 友愛のお守り
+charm_friendspearman_desc  = 強力な紫色の槍手を召喚できる
+
+charm_friendspearman_haste_name  = 友愛のお守り+
+charm_friendspearman_haste_desc  = 足軽のお守りを持つ、強力な紫色の槍手を召喚できる
+
+charm_wealth_name  = 富豪のお守り
+charm_wealth_desc  = お金が吸い寄せられるだろう・・・
+
+charm_peace_name  = 平和のお守り
+charm_peace_desc  = 敵から受けるダメージが５０％減少する
+
+charm_haste_name  = 足軽のお守り
+charm_haste_desc  = 味方が普段より早く駆けつけてくれる
+
+
+charm_friendnobunaga_name =友誼のお守り（信長）
+charm_friendnobunaga_desc = 最強な見方、大きな信長を召喚する
+
+charm_friendnobunaga_luck_name =幸運のお守り（信長）
+charm_friendnobunaga_luck_desc = 幸運のお守りをパックされる大きな信長を召喚する
+
+charm_friendtakeda_name =友誼のお守り（信玄）
+charm_friendtakeda_desc = 最強な見方、大きな信玄を召喚する
+
+charm_friendtakeda_wealth_name =富豪のお守り（信玄）
+charm_friendtakeda_wealth_desc = 健康のお守りをバックされる大きな信玄を召喚する
+
+charm_friendassassin_name =友誼のお守り（忍者）
+charm_friendassassin_desc = 優しい見方氷の射手を召喚する
+
+charm_friendassassin_peace_name =平和のお守り（忍者）
+charm_friendassassin_peace_desc = 平和のお守りをバックされる優しい氷の射手を召喚する
+
+charm_friendfarmer_name =友誼のお守り（農民）
+charm_friendfarmer_desc = 忠実な見方、大きな農夫を召喚する
+
+charm_friendfarmer_wealth_name =富豪のお守り（農民）
+charm_friendfarmer_wealth_desc = 富豪のお守りをバックされる大きな農夫を召喚する
+
+charm_z_holy_name = よみがえりのお守り
+charm_z_holy_desc = 死んだ後にヒーローを復活させ、スクリーン上全ての敵を死なせる。
+
+charm_z_happiness_name = 幸せのお守り
+charm_z_happiness_desc = コインとブレインとドロップをヒーローの方へ寄せ付ける。
+
+charm_z_power_name = パワーのお守り
+charm_z_power_desc = クリティカル・ヒットの頻度を増やす！
+
+charm_z_luck_name = 幸運のお守り
+charm_z_luck_desc = 敵からのドロップ量を2倍にする！
+
+charm_z_wealth_name = 財産のお守り
+charm_z_wealth_desc = お金があなたにひきつけられるみたいだ･･･
+
+charm_z_peace_name = 平和のお守り
+charm_z_peace_desc = ダメージが半減し、敵は困って怖気づく！
+
+charm_z_haste_name = スピードのお守り
+charm_z_haste_desc = 呼び出した仲間の足元に泉をつくる。
+
+charm_friendoni_name = オニのお守り
+charm_friendoni_desc = オニを呼び出して味方につける！
+
+charm_friendhorde_name = 軍団のお守り
+charm_friendhorde_desc = 軍団を呼び出して味方につける！
+
+
+/------------------------------------------------------------------
+/ Potions
+/------------------------------------------------------------------
+
+potion_healsmall_name  = 寿司
+potion_healsmall_desc  = 体力を完全に回復させる！
+
+potion_healbig_name  = 寿司スペシャル
+potion_healbig_desc  = サムライと仲間の体力を完全に回復させる
+
+potion_leadersmall_name  = お茶
+potion_leadersmall_desc  = 指揮＋２５ アップ！指揮のゲージを消費して味方を戦場に呼ぼう
+
+potion_leaderbig_name  = お茶スペシャル
+potion_leaderbig_desc  = 指揮＋５０ アップ！指揮のゲージを消費して味方を戦場に呼ぼう
+
+potion_revive_name  = 蘇生
+potion_revive_desc  = 死んだサムライを蘇らせる！
+
+potion_z_healsmall_name = くさった寿司
+potion_z_healsmall_desc = ヘルスを完全回復！
+
+potion_z_healbig_name = くさった寿司定食
+potion_z_healbig_desc = ヒーローと味方のヘルスを完全回復！
+
+potion_z_leadersmall_name = グレイヴ
+potion_z_leadersmall_desc = ブレインが25個プラス！戦いでブレインを使ってゾンビを呼び出せ！
+
+potion_z_leaderbig_name = グレイヴヤード
+potion_z_leaderbig_desc = ブレインが50個プラス！戦いでブレインを使ってゾンビを呼び出せ！
+
+potion_z_revive_name = リバイブ
+potion_z_revive_desc = 死んだヒーローを生き返らせる！
+
+
+/------------------------------------------------------------------
+/ Deal Packs
+/------------------------------------------------------------------
+
+dealpack1_name  = ウェルカムパック
+dealpack1_desc  = 蘇生２個の他、消費アイテムとお守りを持ってゲームをスタート！
+
+dealpack2_name  = お得なバリューパック
+dealpack2_desc  = 苦戦しているときに役立つパック！
+
+dealpack3_name  = スーパーバリューパック
+dealpack3_desc  = 元気が出るアイテムが盛りだくさん！
+
+dealpack4_name  = スペシャルバリューパック
+dealpack4_desc  = レアで強力なアイテムを組み合わせてゾンビを完全攻略！
+
+
+/------------------------------------------------------------------
+/ Store Menu
+/------------------------------------------------------------------
+
+store_title  = サムライ・ショップ
+store_meditate_btn  = 瞑想する
+
+store_tap_joy  = 無料でゲット！
+
+store_unlockatwave  = ステージ {0} で解除
+store_findInPresent  = ヒント：プレゼント箱をみつけよう！
+store_find_frostie  = 氷の射手を探せ！
+store_find_swordsmith  = 刀鍛冶を探せ！
+store_find_rifleman  = 銃手を探せ！
+store_find_takeda  = 信玄を探せ！
+store_find_ninja_girl  = 暗殺者を探せ！
+store_find_necromancer = ネクロマンサーを見つけよう！
+
+store_leadership_desc  = 指揮をレベル {0} からスタートさせる
+
+store_format_level_hero  = サムライをレベル {0} にする
+store_format_recruit  = {0} を仲間にする
+store_format_levelup  = {0} をレベル {1} にする
+store_format_smithy_levelup  = 指揮をレベル {0} にする
+store_format_sword_levelup  = 刀をレベル {0} にする
+store_format_bow_levelup  = 弓をレベル {0} にする
+store_format_gate_levelup  = 鳥居をレベル {0} にする
+store_format_purchase_atlevel  = {0} を買う
+store_format_upgrade_tolevel  = {0} をレベル {1} にする
+store_format_purchase_x_items  = {1} を {0} つ買う
+store_format_purchase  = {0} を買う
+
+store_format_zombiegate_levelup = ヘル・ゲートを {0}までレベルアップ
+store_format_brains_levelup = ブレインを {0}までレベルアップ
+
+undeath_levelup_name = 不死
+undeath_levelup_desc = ゾンビのヘルス回復率をスピードアップ。
+
+store_currencytab0  = 金貨を購入
+store_currencytab1  = 宝石を購入
+
+store_percent_off  =  (-{0}%)
+store_free = 無料！
+
+earnsdoublecoins_title  = 獲得金貨 2 倍
+earnsdoublecoins_desc = この一度の購入で、両方のモードでウェイブ中に拾うコインの価値を２倍にできる。
+pachinkopack_title  = パチンコ玉 {0} 個
+pachinkopack_desc  = パチンコで使えるパチンコ玉 {0} 個のパック
+
+pachinkocounter_sing  = {0} 個
+pachinkocounter_plurial  = {0} 個
+
+revive_plural  = 蘇生\n残り {0} 回
+revive_singular  = 蘇生\n残り 1回
+revive_none  = 蘇生\n残り 0回
+
+legion_name = 部隊
+legion_desc = 定期的に不死軍の部隊を呼び出す。
+
+deathfromabove_name = 上からの死
+deathfromabove_desc = 定期的に飛行部隊の軍団を呼び出す。
+
+bitten_name 
+bitten_desc = 町の射手をゾンビにして、あなたのために戦わせる！
+
+/------------------------------------------------------------------
+/ IAP Store Menu
+/------------------------------------------------------------------
+
+iap_error_syncfailed  = 前回のアップルストアでの購入を同期できませんでした。しばらくしてからお試しください
+iap_error_syncunknown  = 前回のアップルストアでの購入を同期している際に、不明な問題が発生しました。しばらくしてからお試しください
+iap_error_requesttimedout  = アップルストアとの接続がタイムアウトになりました。インターネット接続を確認し、再度お試しください
+iap_error_requestfailed  = アップルストアに接続できませんでした。インターネット接続を確認し、再度お試しください
+iap_error_requestunknown  = アップルストアへの接続中に不明な問題が発生しました。インターネット接続を確認し、再度お試しください
+iap_error_buycancelled  = 購入がキャンセルされました。しばらくしてからお試しください
+iap_error_buyfailed  = 購入に失敗しました。しばらくしてからお試しください
+iap_error_buyunknown  = 購入の処理中に不明な問題が発生したため、注文はキャンセルされました。しばらくしてからお試しください
+iap_error_novalidproducts  = アップルストアで該当する商品が見つかりませんでした。しばらくしてからお試しください
+
+iap_error_parentalrestrictions  = システム設定でアプリ内課金が無効となっています
+iap_error_unavailable  = 現在、アップルストアでの購入が利用できません。しばらくしてからお試しください
+
+/------------------------------------------------------------------
+/ TapJoy
+/------------------------------------------------------------------
+TapJoy_Awarded_Gems_Message_Pre_Text  = Tapjoy から景品を受け取りました
+TapJoy_Awarded_Gems_Message_Post_Text  = ご参加ありがとうございました
+
+/------------------------------------------------------------------
+/ iCloud
+/------------------------------------------------------------------
+iCloud_Message_Text  = iCloud アカウントを使ってゲームをロードまたはセーブしますか？
+iCloud_Load_Button_Text  = ロード
+iCloud_Save_Button_Text  = セーブ
+No_iCloud_Notification_Message_Text  = iCloud サービスに接続できませんでした
+iCloud_Save_Started_Notification_Message_Text  = セーブファイルは iCloud サービスへアップロードされます
+iCloud_File_Not_Found_Notification_Message_Text  = iCloud サービス上にセーブファイルが見つかりませんでした
+iCloud_Data_Loaded_Message_Text  = iCloud サービスからセーブデータが正常にロードされました
+iCloud_Timed_Out_Message_Text  = データのロードが完了する前に、iCloud サービスへの接続が中断されました。再度お試しください
+
+
+/------------------------------------------------------------------
+/ Debriefing Menu
+/------------------------------------------------------------------
+
+debrief_title  = ステージ {0}：
+debrief_title_bonus  = ボーナスステージ：
+
+debrief_you_unlocked  = 解除：
+debrief_awarded  = 報酬：
+debrief_collected  = 収集：
+debrief_total  = 合計：
+debrief_victory  = 勝利！
+debrief_lost  = 敗北！
+
+
+/------------------------------------------------------------------
+/ Chapters
+/------------------------------------------------------------------
+
+chapter_title_summer  = 夏
+chapter_title_fall  = 秋
+chapter_title_winter  = 冬
+chapter_title_spring  = 春
+chapter_title_hell  = 混沌
+
+chapter_title_zombiehell1 = 地価の世界
+chapter_title_zombiehell2 = 天国と地獄の間
+chapter_title_zombiehell3 = 混沌
+
+chapter_wave_num  = ステージ {0}
+
+chapter_screen_locked = ウェイブ{0}を倒すと、リプレイしたいウェイブを選択できるようになります！
+
+waveselect_inst = タップしてウェイブを選択
+
+/------------------------------------------------------------------
+/ Push Notifications
+/------------------------------------------------------------------
+
+Push_Notification_Message_Text  = サムライ VS ゾンビディフェンスをプレイして、デイリーボーナスを手に入れよう！
+Push_Notification_Button_Text  = “サムライ vs ゾンビ” 
+
+No_Internet_Notification_Message_Text  = この機能にはインターネットの接続が必要です
+
+/------------------------------------------------------------------
+/ Tutorial
+/------------------------------------------------------------------
+
+tutorial_store_intro  = サムライショップへようこそ！ここではサムライをアップグレードしたり、村人を仲間にしたり、鳥居の防御力を高めたりできるぞ！
+tutorial_dealpacks  = 君のサムライは力を欲している。ウェルカムパック内のアイテムを渡してあげよう！
+
+tutorial_ingame_gate  = 鳥居を守れ！
+tutorial_ingame_movements  = 画面の右か左をタップして動こう
+tutorial_ingame_attack  = サムライは敵の範囲内に近づくと、自動的に攻撃する
+tutorial_ingame_ability  = 回転斬りのアイコンをタップしてスペシャル攻撃をしよう！
+
+tutorial_ingame_leadership  = 指揮のゲージが溜まった。仲間のアイコンをタップして戦場に召喚だ！
+tutorial_ingame_allies  = 指揮のゲージが溜まった。農民のアイコンをタップして戦場に召喚だ！
+tutorial_ingame_flying  = 飛んでいる敵は矢でしか倒せない。後ろに下がって弓を使おう
+
+tutorial_bonus_1  = ボーナスステージ解除！このステージの中では、サムライは攻撃ができない
+tutorial_bonus_2  = 強力な味方を得たぞ。召喚してゾンビを倒すんだ！
+tutorial_bonus_3  = ボーナスステージには最初から幸運のお守りがついてくる。幸運のお守りは敵が落とすアイテムを増やしてくれるぞ！
+tutorial_bonus_4  = ５ステージごとにボーナスステージが解除されるぞ！
+
+tutorial_pachinko_lever  = レバーを弾いてパチンコ玉を発射しよう。複数の玉をパチンコ台に送り込むこともできるぞ。素早く連射してみよう！
+tutorial_pachinko_spin  = 真ん中を狙ってリールを回転させ、景品を獲得しよう！景品には金貨、宝石、寿司、お茶、お守りなどがあるぞ！
+tutorial_pachinko_multiplier  = ボールを連射すると倍率が上がっていくぞ。倍率を上げて、獲得できる金貨の枚数を増やそう
+tutorial_boosterpacks_free = 無料のブースターパックを受け取りました。ここをタップして中身を確認しよう！
+
+/------------------------------------------------------------------
+/ Daily Reward Popup
+/------------------------------------------------------------------
+Daily_Rewards  = デイリーボーナス
+Daily_Reward_Unlock_Subtitle  = おめでとう！
+Daily_Reward_Unlock_Body  = 毎日続けてプレイしたので、ボーナスが解除された！
+
+/------------------------------------------------------------------
+/ Options menu
+/------------------------------------------------------------------
+
+options_confirmreset  = これまで購入したアイテムを含め、すべてのデータを削除しようとしています。続けますか？
+
+
+/------------------------------------------------------------------
+/ Revive
+/------------------------------------------------------------------
+
+revive_title  = 討死にしました。蘇生を使わないと敗北します：
+revive_title_nospoil  = 討死にしました
+revive_use1  = 蘇生を使いますか？
+revive_useX  = 残り {0} 回の蘇生を使いますか？
+revive_purchase  = 蘇生しますか？
+
+/------------------------------------------------------------------
+/ Pachinko
+/------------------------------------------------------------------
+
+pachinkohelp_title  = パチンコのルール
+pachinkohelp_desc  = スロットマシーンを回すには、出来るだけ真ん中を狙って発射しよう。以下のアイコンが３つならぶと当りです：
+pachinkohelp_food  = 寿司とお茶
+pachinkohelp_revive  = 蘇生
+pachinkohelp_charms  = お守り
+pachinkohelp_coins  = 金貨
+pachinkohelp_gems  = 宝石
+
+pachinkosum_title  = おめでとう！
+pachinkosum_desc  = パチンコで以下の景品を獲得しました：
+
+
+/------------------------------------------------------------------
+/ Rate My Game dialog
+/------------------------------------------------------------------
+rate_me_title  = このゲームに５つ星の評価を！
+like_our_game  = サムライ VS ゾンビディフェンスを楽しんでいますか？これからのアップデートのため、ゲームに５つ星の評価をください
+cancel_rating  = レビューしない
+rate_it  = ゲームをレビューする！
+rate_me_url  =  http://gcs.glu.com/gcs/iphone/iphone.jsp?t
+never_rate  = 今後ともレビューしない
+
+/------------------------------------------------------------------
+/ Version check
+/------------------------------------------------------------------
+New_Version_Notification_Message_Text  = サムライVSゾンビディフェンスの新バージョンがApp Storeで公開されました。まずはアップデートをダウンロードしてください
+version_file_location  =  https://s3.amazonaws.com/griptonite/svz/version.txt
+
+/------------------------------------------------------------------
+/ Hints (Recommandations dialog)
+/------------------------------------------------------------------
+hints_title  = ヒント！
+
+
+/------------------------------------------------------------------
+/ Booster Pack Store
+/------------------------------------------------------------------
+boosterstore_warning_helper = 警告！{0}のレベルはすでに上限に達しています。それでもこのパックを購入しますか？
+
+normal_store_link_title  = \nブースター\nパック
+
+boosterpack_title_free = ボーナスパック
+boosterpack_title_1  = スタートパック
+boosterpack_title_2  = スタンダードパック
+boosterpack_title_3  = プレミアムパック
+boosterpack_title_4  = ジャンボパック
+boosterpack_title_nobunaga = 信長パック
+boosterpack_title_priest = 僧侶パック
+boosterpack_title_swordsmith = 刀鍛冶パック
+boosterpack_title_rifleman = 銃手パック
+boosterpack_title_takeda = 信玄パック
+boosterpack_title_frostee = 氷の射手パック
+boosterpack_title_assassin = 忍者パック
+boosterpack_desc_free = よくあるアイテム1
+
+boosterpack_desc_free = アイテム１個のパック。よくあるアイテムが必ず１つ入っている
+boosterpack_desc_1  = アイテム１個のパック。よくあるアイテムが１つ入っている
+boosterpack_desc_2  = アイテム６個のパック。珍しいアイテムが必ず１つ入っている
+boosterpack_desc_3  = アイテム１１個のパック。レア・アイテムが必ず１つ入っている
+boosterpack_desc_4  = アイテム２１個のパック。超レア・アイテムが必ず１つ入っている
+boosterpack_desc_nobunaga = アイテム３１個のパック。激レア・アイテムと信長のアップグレードが必ず１つ入っている
+boosterpack_desc_priest = アイテム３１個のパック。激レア・アイテムと僧侶のアップグレードが必ず１つ入っている
+boosterpack_desc_swordsmith = アイテム３１個のパック。激レア・アイテムと刀鍛冶のアップグレードが必ず１つ入っている
+boosterpack_desc_rifleman = アイテム３１個のパック。激レア・アイテムと銃手のアップグレードが必ず１つ入っている
+boosterpack_desc_takeda = アイテム３１個のパック。激レア・アイテムと信玄のアップグレードが必ず１つ入っている
+boosterpack_desc_frostee = アイテム３１個のパック。激レア・アイテムと氷の射手のアップグレードが必ず１つ入っている
+boosterpack_desc_assassin = アイテム３１個のパック。激レア・アイテムと忍者のアップグレードが必ず１つ入っている
+
+boosterpack_rarity_common  = ありふれた
+boosterpack_rarity_uncommon  = やや珍しい
+boosterpack_rarity_rare  = レア
+boosterpack_rarity_super  = 超レア
+boosterpack_rarity_extreme  = 激レア
+
+boosterpack_card_coins_title  = 金貨 {0} 枚
+boosterpack_card_coins_desc  = このカードで {0} 枚の金貨が手に入る！
+boosterpack_card_gems_title  = 宝石 {0} 個
+boosterpack_card_gems_desc  = このカードで {0} 個の宝石が手に入る！
+boosterpack_card_balls_title  = パチンコ玉 {0} 個
+boosterpack_card_balls_desc  = このカードで {0} 個のパチンコ玉が手に入る！
+boosterpack_card_revive_title  = 蘇生 x{0} 回
+boosterpack_card_revive_desc  = このカードで {0} 回の蘇生が手に入る！
+boosterpack_card_healthSmall_title  = 寿司 x{0} 個
+boosterpack_card_healthSmall_desc  = このカードで {0} 個の寿司が手に入る！
+boosterpack_card_healthBig_title  = 寿司スペシャル x{0} 個
+boosterpack_card_healthBig_desc  = このカードで {0} 個の寿司スペシャルが手に入る！
+boosterpack_card_leadershipSmall_title  = お茶 x{0} 個
+boosterpack_card_leadershipSmall_desc  = このカードで {0} 個のお茶が手に入る！
+boosterpack_card_leadershipBig_title  = お茶スペシャル x{0} 個
+boosterpack_card_leadershipBig_desc  = このカードで {0} 個のお茶スペシャルが手に入る！
+boosterpack_card_power_title  = 力のお守り x{0} 枚
+boosterpack_card_power_desc  = このカードで {0} 枚の力のお守りが手に入る！
+boosterpack_card_luck_title  = 幸運のお守り x{0} 枚
+boosterpack_card_luck_desc  = このカードで {0} 枚の幸運のお守りが手に入る！
+boosterpack_card_wealth_title  = 富豪のお守り x{0} 枚
+boosterpack_card_wealth_desc  = このカードで {0} 枚の富豪のお守りが手に入る！
+boosterpack_card_haste_title  = 足軽のお守り x{0} 枚
+boosterpack_card_haste_desc  = このカードで {0} 枚の足軽のお守りが手に入る！
+boosterpack_card_peace_title  = 平和のお守り x{0} 枚
+boosterpack_card_peace_desc  = このカードで {0} 枚の平和のお守りが手に入る！
+boosterpack_card_friendship_title  = 友情のお守り x{0} 枚
+boosterpack_card_friendship_desc  = このカードで {0} 枚の友情のお守りが手に入る！
+boosterpack_card_friendship+power_title  = 友情のお守り+ x{0} 枚
+boosterpack_card_friendship+power_desc  = このカードで {0} 枚の友情のお守り+が手に入る！
+boosterpack_card_panzer_title  = 友誼のお守り x{0}
+boosterpack_card_panzer_desc  = このカードで {0} 枚の友誼のお守りが手に入る！
+boosterpack_card_panzer+luck_title  = 友誼のお守り+ x{0}
+boosterpack_card_panzer+luck_desc  = このカードで x{0} 枚の友誼のお守り+が手に入る！
+boosterpack_card_spear_title  = 友愛のお守り x{0} 枚
+boosterpack_card_spear_desc  = このカードで x{0} 枚の友愛のお守りが手に入る！
+boosterpack_card_spear+haste_title  = 友愛のお守り+ x{0} 枚
+boosterpack_card_spear+haste_desc  = このカードで x{0} 枚の友愛のお守り+が手に入る！
+boosterpack_card_nobu_title =信長のお守り x{0}
+boosterpack_card_nobu_desc =このカードで x{0} 枚の信長のお守りが手に入る！
+boosterpack_card_nobu+luck_title =幸運のお守り（信長）
+boosterpack_card_nobu+luck_desc =このカードで x{0} 枚の幸運のお守り（信長）が手に入る！
+boosterpack_card_takedacharm_title =信玄のお守り x{0}
+boosterpack_card_takedacharm_desc =このカードで x{0} 枚の信玄のお守りが手に入る！
+boosterpack_card_takedacharm+wealth_title =富豪のお守り（信玄） x{0}
+boosterpack_card_takedacharm+wealth_desc =このカードで x{0} 枚の富豪のお守り（信玄）が手に入る！
+boosterpack_card_assassincharm_title =忍者のお守り x{0}
+boosterpack_card_assassincharm_desc =このカードで x{0} 枚の忍者のお守りが手に入る！
+boosterpack_card_assassincharm+peace_title =平和のお守り（忍者） x{0}
+boosterpack_card_assassincharm+peace_desc =このカードで x{0} 枚の平和のお守り（忍者）が手に入る！
+boosterpack_card_farmer_title =農民のお守り x{0}
+boosterpack_card_farmer_desc =このカードで x{0} 枚の農民のお守りが手に入る！
+boosterpack_card_farmer+wealth_title =富豪のお守り（農民） x{0} 
+boosterpack_card_farmer+wealth_desc =このカードで x{0} 枚の富豪のお守り（農民）が手に入る！
+
+boosterpack_card_swordsmith_title  = 刀鍛冶アップグレード x{0}
+boosterpack_card_swordsmith_desc  = 刀鍛冶を {0} 段階アップグレードさせる
+boosterpack_card_rifleman_title  = 銃手アップグレード x{0}
+boosterpack_card_rifleman_desc  = 銃手を {0} 段階アップグレードさせる
+boosterpack_card_nobunaga_title  = 信長アップグレード x{0}
+boosterpack_card_nobunaga_desc  = 信長を {0} 段階アップグレードさせる
+boosterpack_card_priest_title  = 僧侶アップグレード x{0}
+boosterpack_card_priest_desc  = 僧侶を {0} 段階アップグレードさせる
+boosterpack_card_takeda_title  = 信玄アップグレード x{0}
+boosterpack_card_takeda_desc  = 信玄を {0} 段階アップグレードさせる
+boosterpack_card_frosty_title  = 氷の射手アップグレード x{0}
+boosterpack_card_frosty_desc  = 氷の射手を {0} 段階アップグレードさせる
+boosterpack_card_assassin_title  = 忍者アップグレード x{0}
+boosterpack_card_assassin_desc  = 忍者を {0} 段階アップグレードさせる
+
+
+/------------------------------------------------------------------
+/ Achievements
+/------------------------------------------------------------------
+
+achievement_notext  = 達成項目解除
+
+SAMUZOMBIE_ACHIEVE_TAKE_AIM  = 孤高の曲線
+SAMUZOMBIE_ACHIEVE_NEVER_GIVE_UP  = 不滅の忠義
+SAMUZOMBIE_ACHIEVE_RIDE_LIKE_THE_WIND  = 風を駆る者
+SAMUZOMBIE_ACHIEVE_HIS_AMBITION  = 天下布武
+SAMUZOMBIE_ACHIEVE_PANZER_BLITZ  = 重量級
+SAMUZOMBIE_ACHIEVE_THE_HORSE_LORD  = 風林火山
+SAMUZOMBIE_ACHIEVE_HOLY_MOLEY  = 高僧の閃き
+SAMUZOMBIE_ACHIEVE_AT_THE_READY  = 猪突猛進
+SAMUZOMBIE_ACHIEVE_MUST_HAVE_MAGIC  = 滴水成氷
+SAMUZOMBIE_ACHIEVE_FROM_THE_FIELDS  = 農民一揆
+SAMUZOMBIE_ACHIEVE_NEVER_SAW_IT_COMING  = 神出鬼没
+SAMUZOMBIE_ACHIEVE_SOMEONE_UP_THERE  = 人知及ばず
+SAMUZOMBIE_ACHIEVE_LAST_STAND  = 最後の砦
+SAMUZOMBIE_ACHIEVE_FOLLOW_ANYWHERE  = 覇王の力
+SAMUZOMBIE_ACHIEVE_DING_DONG  = 除夜の鐘
+SAMUZOMBIE_ACHIEVE_FROM_THE_HEAVENS  = 紫電一閃
+SAMUZOMBIE_ACHIEVE_GIVE_THEM_A_VOLLEY  = 高みの見物
+SAMUZOMBIE_ACHIEVE_MUSHASHI  = 免許皆伝
+SAMUZOMBIE_ACHIEVE_SLOTH  = 鶴と亀
+SAMUZOMBIE_ACHIEVE_CATEGORY_5  = 奥義継承
+SAMUZOMBIE_ACHIEVE_ALL_OUT_MELEE  = 関ヶ原
+SAMUZOMBIE_ACHIEVE_FIGHT_WITH_HONOR  = 高潔な武士
+SAMUZOMBIE_ACHIEVE_WITHOUT_A_TRACE  = 雲散霧消
+SAMUZOMBIE_ACHIEVE_THIS_LAND_IS_SAFE  = 安全地帯
+SAMUZOMBIE_ACHIEVE_MONEY_BAGS  = 守銭奴
+SAMUZOMBIE_ACHIEVE_SPIDER_DEMON  = 人面蜘蛛
+SAMUZOMBIE_ACHIEVE_NO_WAY  = 起死回生
+SAMUZOMBIE_ACHIEVE_HALFWAY_THERE  = 折り返し地点
+SAMUZOMBIE_ACHIEVE_GET_BACK_HERE  = 右往左往
+SAMUZOMBIE_ACHIEVE_DONT_SPEND_ONE_PLACE  = 貯金箱
+SAMUZOMBIE_ACHIEVE_SEND_THEM_BACK  = 鬼退治
+SAMUZOMBIE_ACHIEVE_ALL_WE_NEED  = 一匹狼
+SAMUZOMBIE_ACHIEVE_CLEAR_THE_ROOM  = 一石二鳥
+SAMUZOMBIE_ACHIEVE_EVERY_ABLE_BODY  = 猫の手も借りたい
+SAMUZOMBIE_ACHIEVE_WE_NEED_SHOTGUNS  = 孫の手も借りたい
+SAMUZOMBIE_ACHIEVE_MUST_PROTECT_HOUSE  = 出る杭は打たれる
+SAMUZOMBIE_ACHIEVE_SO_LONG  = 決別の時
+SAMUZOMBIE_ACHIEVE_COMPLETIONIST  = 完全主義者
+SAMUZOMBIE_ACHIEVE_COWARD  = 臆病者
+SAMUZOMBIE_ACHIEVE_THEY_GOT_THIS  = 心配無用
+SAMUZOMBIE_ACHIEVE_RAZOR_SHARP  = 妖刀使い
+SAMUZOMBIE_ACHIEVE_WHOS_ALL_HERE  = 全員集合
+SAMUZOMBIE_ACHIEVE_FINALLY  = ようやく・・・
+SAMUZOMBIE_ACHIEVE_THAT_TOOK_FOREVER  = 限界を超えて
+SAMUZOMBIE_ACHIEVE_YOU_ARE_WINNER  = 賭博王
+SAMUZOMBIE_ACHIEVE_SO_SHARP  = 菊一文字
+SAMUZOMBIE_ACHIEVE_TAKE_THE_SHOT  = 正射必中
+SAMUZOMBIE_ACHIEVE_TEA_EARL_GREY_HOT  = お茶を点てて
+SAMUZOMBIE_ACHIEVE_WHERES_THE_WASABI  = さび抜きで
+
+
+/------------------------------------------------------------------
+/ Narratives
+/------------------------------------------------------------------
+
+narrative_01  = ゾンビが村への入り口を発見した！鳥居を守れ！門を破壊されたら一巻の終わりだ！
+narrative_04  = 秋が来た！ゾンビの君主の赤鬼が現れたぞ！兵士たちをアップグレードして戦え！伝説の将軍、武田信玄が手助けしてくれるぞ。戦場のどこかで金の箱を見つけ、強力な武将を味方につけろ。残り６ステージ！
+narrative_07  = なかなかいい動きだ。しかし先には恐ろしい赤鬼が待っている。もっと力をつけて異界の闇を討て！残り３ステージだ！
+narrative_10  = いよいよ決戦だ！ゾンビの君主、赤鬼を倒そう！倒せば宝石５つ、蘇生１回、幸運のお守り１枚が手に入るぞ！
+narrative_11  = 勝利をおさめたが、戦いは終わっていない。秋も深まり、さらに多くのゾンビが入り口からあふれ出てくる。新しいゾンビ君主の仕業のようだ
+narrative_12  = 氷の射手が手助けしてくれるぞ！凍てつく矢は敵の動きを鈍らせる。戦場にある金の箱を探し出し、力強い味方を加えよう！
+narrative_15  = 破壊を呼ぶゾンビたちの君主、天狗がまもなく現れるぞ。しっかり準備をしておこう。残り５ステージだ！
+narrative_18  = 天狗が冬を連れて近づいている。心の準備は出来ているか？残り２ステージだ！
+narrative_20  = 決戦の時が来た！天狗を討て！倒せば宝石５つ、蘇生１回、そして友情のお守りが手に入る！
+
+/------------------------------------------------------------------
+/ Misc
+/------------------------------------------------------------------
+
+bell_name  = 魔除けの鐘
+village_archers_name  = 村の射手
+yes  = はい
+no  = いいえ
+ok  = OK
+exit  = 終了
+leadership_level  = lvl {0}
+stat_level  = レベル {0}
+
+coins  = 金貨
+gems  = 宝石
+coinsNum  = 金貨 {0} 枚
+gemsNum  = 宝石 {0} 個
+ballsNum  = パチンコ玉 {0} 個
+
+
+/------------------------------------------------------------------
+/ Sub Files
+/------------------------------------------------------------------
+
+credits_file  = DefaultCredits
+legal_file  = DefaultLegal
+/------------------------------------------------------------------
+/ add by xu.liu
+/------------------------------------------------------------------
+
+add_bonus_wave = ボーナスステージ 
+add_wave = ステージ {0}

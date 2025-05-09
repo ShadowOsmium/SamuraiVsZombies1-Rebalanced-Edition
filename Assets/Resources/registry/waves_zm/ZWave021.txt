@@ -1,0 +1,82 @@
+/ Inspired by Wave 41
+
+scene = InGame_underworld
+villageArchers = 4
+bell = 1
+
+[Commands]
+	SamuraiShield_Ice
+	2,2
+	Takeda
+	SamuraiRifleman
+	SamuraiRifleman
+	1,1
+	Nobunaga
+	SamuraiRifleman
+	SamuraiRifleman
+	1,1
+	Nobunaga
+	SamuraiRifleman
+	SamuraiRifleman
+	3,3
+	Takeda
+	Swordsmith
+	Priest
+	FarmerBig
+	SamuraiShield_Ice
+	1,1
+	Cart
+	SamuraiRifleman
+	SamuraiHeavy
+	1,1
+	Nobunaga
+	1,1
+	Nobunaga
+	SamuraiRifleman
+	Cart
+	1,1
+	Nobunaga
+	SamuraiRifleman
+	1,1
+	Nobunaga
+	FarmerStilts
+	SamuraiRifleman
+	1,1
+	SamuraiRifleman
+	FarmerBig
+	1,1
+	Nobunaga
+	1,1
+	Nobunaga
+	SamuraiRifleman
+	FarmerStilts
+	1,1
+	Nobunaga
+	SamuraiRifleman
+	FarmerStilts
+	1,1
+	Nobunaga
+	FarmerStilts
+	SamuraiRifleman
+	1,1
+	SamuraiHeavy
+	Takeda
+	Priest
+	Swordsmith
+	SamuraiHeavy
+	6,6
+	SamuraiShield_Ice
+	SamuraiRifleman
+	SamuraiRifleman
+	3,3
+	FarmerBig
+	SamuraiRifleman
+	SamuraiRifleman
+	1,1
+	Takeda
+	SamuraiRifleman
+	SamuraiRifleman
+	1,1
+	Takeda
+	SamuraiRifleman
+	SamuraiRifleman

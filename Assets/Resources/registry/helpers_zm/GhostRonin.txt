@@ -1,0 +1,141 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_ghostronin_name
+desc = @helper_ghostronin_desc
+prefab = Characters/PFGhostRonin
+HUDIcon = Sprites/Icons/enemy_ghost-ronin
+weaponMeleePrefab = Props/PFGhostroninblade
+waveToUnlock = 7
+resourcesCost = 10.0
+cooldownTimer = 1.0
+attackFrequency = 1.0
+usesBladeWeapon = true
+unique = true
+lane = front
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 600,0
+	health = 323
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 20
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[002]
+	cost = 3000,0
+	health = 412
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 30
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[003]
+	cost = 6000,0
+	health = 675
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 40
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[004]
+	cost = 12000,0
+	health = 1000
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 59
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[005]
+	cost = 24000,0
+	health = 1456
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 75
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[006]
+	cost = 0,20
+	health = 1876
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 98
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[007]
+	cost = 0,30
+	health = 2226
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 125
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[008]
+	cost = 0,40
+	health = 2987
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 150
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[009]
+	cost = 0,50
+	health = 3450
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 175
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+[010]
+	cost = 0,60
+	health = 4000
+	speedMin = 200
+	speedMax = 200
+	meleeRange = 100
+	meleeDamage = 220
+	knockbackPower = 5
+	knockbackResistance = 100
+	meleeFreeze = 2.0
+
+
+
+
+
+
+
+
+

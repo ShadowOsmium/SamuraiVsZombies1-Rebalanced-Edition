@@ -1,0 +1,8 @@
+
+[flyingEnemies]
+	condition = flyingEnemyInView
+	endCondition = touchScreen
+	blocking = yes
+	text = @tutorial_ingame_flying
+	position = C-200, 220
+	rightArrow = 700, 220

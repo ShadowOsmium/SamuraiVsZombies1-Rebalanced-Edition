@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1160776034210059}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1160776034210059
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4377840460523370}
+  - 114: {fileID: 114848927777292652}
+  - 114: {fileID: 114389426275777101}
+  - 114: {fileID: 114784150263298457}
+  m_Layer: 0
+  m_Name: PriestSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4377840460523370
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160776034210059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -254.8099, y: 58.67906, z: 171.0188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114848927777292652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160776034210059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: Cast
+    clips:
+    - {fileID: 8300000, guid: 5874b76a545b49246b9235f2904516ee, type: 3}
+    - {fileID: 8300000, guid: 6c3d4826ad923fd44802d4c6c353ba8f, type: 3}
+    - {fileID: 8300000, guid: abad52bdf404bc947a00d2c434daac0f, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.5
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 50
+    maxDistanceOverride: 3000
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: 08f3c5578bd4b564ea2a28bf43860e6d, type: 3}
+    - {fileID: 8300000, guid: d6b4ed8cfa838b54aa881ba402a1d3df, type: 3}
+    - {fileID: 8300000, guid: 980c5beb79baa8342bcdcee3c2c30d13, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: Spawn
+    clips:
+    - {fileID: 8300000, guid: ab558e03e4bc82d4b82ac8224b4e92a3, type: 3}
+    - {fileID: 8300000, guid: d628c7a995f06fa48aa399e06a3b7e94, type: 3}
+    - {fileID: 8300000, guid: 7e1bbe9741ade29469743a6c6f7416e6, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 0
+    maxDistanceOverride: 0
+    useLogarithmicRolloff: 0
+  - name: Walk
+    clips:
+    - {fileID: 8300000, guid: e6d4b68f78d7e6f42a1dc7dcbfdd5229, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 0.5
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 1
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 1
+    minDistanceOverride: 50
+    maxDistanceOverride: 2000
+    useLogarithmicRolloff: 0
+--- !u!114 &114389426275777101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160776034210059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/PriestSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114784150263298457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160776034210059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

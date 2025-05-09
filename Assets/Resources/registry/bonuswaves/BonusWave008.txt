@@ -1,0 +1,133 @@
+scene = InGame_hell
+
+selectedCharm = haste
+initialleadershiplevel = 4
+baselevel = 2
+belllevel = 3
+archerlevel = 4
+[abilitylevels]
+	lethargy = 10
+	giantwave = 2
+[selectedabilities]
+	000 = Lethargy
+	001 = GiantWave
+[helperlevels]
+	spearhorseman = 6
+	heavysamurai = 10
+	priest = 1
+	nobunaga = 8
+	takeda = 8
+	
+[selectedhelpers]
+	000 = SpearHorseman
+	001 = HeavySamurai
+	002 = Priest
+	003 = Nobunaga
+	004 = Takeda
+
+[Commands]
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	Wayundo_Fire
+	Wayundo_Wood
+	Wayundo_wood
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	1,1
+	Horseman
+	Wayundo_Fire
+	Wayundo_Wood
+	Wayundo_wood
+	1,1
+	Horseman
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	1,1
+	Horseman
+	Wayundo_Fire
+	

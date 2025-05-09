@@ -1,0 +1,118 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_komusou_name
+desc = @helper_komusou_desc
+prefab = Characters/PFUndeadKomusou
+HUDIcon = Sprites/Icons/enemy_komusou
+waveToUnlock = 17
+resourcesCost = 20.0
+cooldownTimer = 1.0
+attackFrequency = 1.0
+unique = true
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 10000,0
+	health = 37
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .25
+
+[002]
+	cost = 0,12
+	health = 50
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .35
+
+[003]
+	cost = 0,12
+	health = 70
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .45
+
+[004]
+	cost = 0,12
+	health = 100
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .55
+
+[005]
+	cost = 0,24
+	health = 140
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .65
+
+[006]
+	cost = 0,24
+	health = 188
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .75
+
+[007]
+	cost = 0,24
+	health = 265
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .85
+
+[008]
+	cost = 0,24
+	health = 370
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = .95
+[009]
+	cost = 0,24
+	health = 550
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = 1
+
+[010]
+	cost = 0,24
+	health = 845
+	speedMin = 75
+	speedMax = 75
+	bowRange = 425
+	knockbackPower = 5
+	knockbackResistance = 100
+	damageBuffPercent = 1.05

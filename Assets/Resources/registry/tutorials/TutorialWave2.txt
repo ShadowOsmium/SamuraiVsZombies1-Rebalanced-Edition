@@ -1,0 +1,17 @@
+[events]
+	leadership
+	summonAlly
+
+[leadership]
+	condition = 0
+	endCondition = 5
+	text = @tutorial_ingame_leadership
+	leftArrow = 240, 560
+
+[summonAlly]
+	condition = firstHelperAvailable
+	endCondition = summonAlly
+	text = @tutorial_ingame_allies
+	leftArrow = 220, 700
+	circle = 74, E-66
+	

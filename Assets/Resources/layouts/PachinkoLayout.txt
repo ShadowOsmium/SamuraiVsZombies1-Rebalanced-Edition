@@ -1,0 +1,89 @@
+
+[back]
+	type = button
+	normalFrame = Sprites/Menus/continue_button
+	position = 75, E-60
+	offsetWhenPressed = 4, 4
+	priority = 1
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -120, 120
+		[alpha]
+			alpha = 0.0
+
+[coinsCounter]
+	type = label
+	font = default32
+	fontColor = black
+	position = 204, 168
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	text = 0
+	
+[gemsCounter]
+	type = label
+	font = default32
+	fontColor = black
+	position = 204, 210
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	text = 0
+
+[ballsCounter]
+	type = label
+	font = default32
+	fontColor = black
+	position = 738, 748
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	text = 0
+	
+[winner]
+	type = sprite
+	file = Sprites/Localized/winner
+	hotspot = 310,84
+	position = C+210,C-80
+	[effect]
+		[alphaPingPong]
+			min = 0.2
+			max = 1.0
+			speed = 0.3
+									
+[prizeName]
+	type = label
+	font = default18
+	fontColor = black
+	position = 185, 483
+	priority = 1
+	anchor = MiddleCenter
+	alignment = center
+	maxWidth = 184
+	text = 
+	
+[purchaseBtn]
+	type = button
+	normalFrame = Sprites/Icons/buy_balls
+	position = 415, 700
+	offsetWhenPressed = 4, 4
+	priority = 1
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 0, 60
+		[alpha]
+			alpha = 0.0
+	
+[helpBtn]
+	type = button
+	normalFrame = Sprites/Localized/help_button
+	position = 180, 600
+	offsetWhenPressed = 4, 4
+	priority = 1
+	[transition]
+		[alpha]
+			alpha = 0.0
+	

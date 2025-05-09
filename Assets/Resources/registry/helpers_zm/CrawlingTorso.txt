@@ -1,0 +1,129 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_crawler_name
+desc = @helper_crawler_desc
+prefab = Characters/PFCrawlingtorso
+HUDIcon = Sprites/Icons/enemy_crawling_torso
+weaponMeleePrefab = Props/PFKatana
+waveToUnlock = 1
+resourcesCost = 2.0
+cooldownTimer = 1.0
+attackFrequency = 1.0
+usesBladeWeapon = true
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 300,0
+	health = 8
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 12
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[002]
+	cost = 1500,0
+	health = 12
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 30
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[003]
+	cost = 3000,0
+	health = 17
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 50
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[004]
+	cost = 6000,0
+	health = 25
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 65
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[005]
+	cost = 12000,0
+	health = 35
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 75
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[006]
+	cost = 24000,0
+	health = 45
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 100
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[007]
+	cost = 48000,0
+	health = 65
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 124
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[008]
+	cost = 96000,0
+	health = 83
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 158
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[009]
+	cost = 192000,0
+	health = 112
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 195
+	knockbackPower = 5
+	knockbackResistance = 10
+
+[010]
+	cost = 384000,0
+	health = 211
+	speedMin = 85
+	speedMax = 95
+	meleeRange = 100
+	meleeDamage = 245
+	knockbackPower = 5
+	knockbackResistance = 10
+
+
+
+
+
+
+
+
+

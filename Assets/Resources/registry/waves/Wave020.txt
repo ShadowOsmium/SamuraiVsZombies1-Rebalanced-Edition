@@ -1,0 +1,221 @@
+scene = InGame_fallnight
+
+[rewards]
+	balls, 100
+	gems, 10
+	revivePotion, 1
+	power, 1
+	luck, 1
+	friendship, 1
+	wealth, 1
+	haste, 1
+	peace, 1
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 2
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 2
+/	Bow = 9
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 2
+/	VillageArchers = 3
+/	Bell = 4
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	L_Zombie_Warhammer
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	1,1
+	L_Zombie_Bow
+	15,15
+	Wayundo_wood
+	2,2
+	oni_small
+	3,3
+	oni_small
+	1,1
+	H_Zombie_Warhammer
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	(
+	Oni_Small	
+	1,1
+	Oni_Small
+	1,1
+	Oni_Small
+	1,1
+	Wayundo_wood
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Nobusuma_alt
+ 	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	)
+	Wayundo_wood
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	Oni_small
+	1,1
+	Oni_small
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	(
+	Nobusuma_alt
+ 	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Nobusuma_alt
+	1,1
+	Wayundo_wood
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	1,1
+	Chochinobake
+	)
+	Wayundo_wood
+	1,1
+	Oni_small
+	1,1
+	Oni_small
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Spear
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	1,1
+	H_Zombie_Bow
+	5,5
+	@bossalert 
+	Tengu
+	3,3
+	Tengu
+	3,3
+	Tengu
+	10,10
+	Tengu
+	1,1
+	Tengu_Air
+	1,1
+	Tengu_Air

@@ -1,0 +1,29 @@
+
+/---------------------------------------------------------------
+/	All chapters, in order of presentations
+/---------------------------------------------------------------
+
+[all]
+	ZombieHell1
+	ZombieHell2
+	ZombieHell3
+
+
+/---------------------------------------------------------------
+/	Descriptions for all chapters
+/---------------------------------------------------------------
+
+[ZombieHell1]
+	displayName = @chapter_title_zombiehell1
+	icon = Sprites/Icons/wave_zombie_hell
+	wavesRange = 1, 10
+	
+[ZombieHell2]
+	displayName = @chapter_title_zombiehell2
+	icon = Sprites/Icons/wave_zombie_hell
+	wavesRange = 11, 20
+	
+[ZombieHell3]
+	displayName = @chapter_title_zombiehell3
+	icon = Sprites/Icons/wave_zombie_underworld
+	wavesRange = 21, 30

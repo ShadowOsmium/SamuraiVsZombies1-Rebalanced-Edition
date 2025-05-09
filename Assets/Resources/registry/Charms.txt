@@ -1,0 +1,301 @@
+
+/ This is a list of all charms, in order they should show in the interface
+
+[All]
+	/ Special event charms always on top
+	charm_olympics+berserk
+	charm_julyforth+berserk
+
+	/ Normal Charms
+	power
+	luck
+	wealth
+	haste
+	peace
+	friendship
+	friendship+power
+	friend_panzer
+	friend_panzer+luck
+	friend_spearman
+	friend_spearman+haste
+	friend_nobunaga
+	friend_nobunaga+luck
+	friend_takeda
+	friend_takeda+wealth
+	friend_assassin
+	friend_assassin+peace
+	friend_farmer
+	friend_farmer+wealth
+
+	/ Zombie playmode versions
+	z+power
+	z+luck
+	z+wealth
+	z+haste
+	z+peace
+	z+oni
+	z+horde
+
+/---------------------- NORMAL CHARMS -----------------------
+
+[power]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_power_name
+	storeDesc = @charm_power_desc
+	icon = Sprites/Icons/charm_orange
+	criticalChance = 0.25
+	criticalMultiplier = 1.5
+
+[z+power]
+	cost = 0,200
+	playmode = zombies
+	displayName = @charm_z_power_name
+	storeDesc = @charm_z_power_desc
+	icon = Sprites/Icons/charm_zombie_orange
+	criticalChance = 0.25
+	criticalMultiplier = 1.5
+
+[luck]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_luck_name
+	storeDesc = @charm_luck_desc
+	icon = Sprites/Icons/charm_purple
+
+[z+luck]
+	cost = 0,200
+	playmode = zombies
+	displayName = @charm_z_luck_name
+	storeDesc = @charm_z_luck_desc
+	icon = Sprites/Icons/charm_zombie_purple
+
+[wealth]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_wealth_name
+	storeDesc = @charm_wealth_desc
+	icon = Sprites/Icons/charm_gold
+	magnetRange = 600
+	magnetMinPullSpeed = 100
+	magnetMaxPullSpeed = 500
+
+[z+wealth]
+	cost = 0,200
+	playmode = zombies
+	displayName = @charm_z_wealth_name
+	storeDesc = @charm_z_wealth_desc
+	icon = Sprites/Icons/charm_zombie_gold
+	magnetRange = 600
+	magnetMinPullSpeed = 100
+	magnetMaxPullSpeed = 500
+
+[haste]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_haste_name
+	storeDesc = @charm_haste_desc
+	icon = Sprites/Icons/charm_blue
+	speedMultiplier = 1.5
+
+[z+haste]
+	cost = 0,200
+	playmode = zombies
+	displayName = @charm_z_haste_name
+	storeDesc = @charm_z_haste_desc
+	icon = Sprites/Icons/charm_zombie_blue
+	speedMultiplier = 1.5
+
+[peace]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_peace_name
+	storeDesc = @charm_peace_desc
+	icon = Sprites/Icons/charm_pink
+	damageMultiplier = 0.5
+
+[z+peace]
+	cost = 0,200
+	playmode = zombies
+	displayName = @charm_z_peace_name
+	storeDesc = @charm_z_peace_desc
+	icon = Sprites/Icons/charm_zombie_pink
+	damageMultiplier = 0.5
+
+
+/---------------------- FRIENDSHIP CHARMS -----------------------
+
+
+[friendship]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendship_name
+	storeDesc = @charm_friendship_desc
+	icon = Sprites/Icons/charm_white
+	helper = CharmSamurai
+
+[friendship+power]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendship_power_name
+	storeDesc = @charm_friendship_power_desc
+	icon = Sprites/Icons/charm_white_attached
+	helper = CharmSamurai
+	criticalChance = 0.25
+	criticalMultiplier = 1.5
+
+
+[friend_panzer]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendpanzer_name
+	storeDesc = @charm_friendpanzer_desc
+	icon = Sprites/Icons/charm_panzer
+	helper = CharmPanzer
+
+[friend_panzer+luck]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendpanzer_luck_name
+	storeDesc = @charm_friendpanzer_luck_desc
+	icon = Sprites/Icons/charm_panzer_attached
+	helper = CharmPanzer
+
+
+[friend_spearman]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendspearman_name
+	storeDesc = @charm_friendspearman_desc
+	icon = Sprites/Icons/charm_spearman
+	helper = CharmSpearman
+
+[friend_spearman+haste]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendspearman_haste_name
+	storeDesc = @charm_friendspearman_haste_desc
+	icon = Sprites/Icons/charm_spearman_attached
+	helper = CharmSpearman
+	speedMultiplier = 1.5
+
+
+[friend_nobunaga]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendnobunaga_name
+	storeDesc = @charm_friendnobunaga_desc
+	icon = Sprites/Icons/charm_nobanoga
+	helper = CharmNobunaga
+
+[friend_nobunaga+luck]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendnobunaga_luck_name
+	storeDesc = @charm_friendnobunaga_luck_desc
+	icon = Sprites/Icons/charm_nobanoga_attached
+	helper = CharmNobunaga
+
+	
+[friend_takeda]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendtakeda_name
+	storeDesc = @charm_friendtakeda_desc
+	icon = Sprites/Icons/charm_takeda
+	helper = CharmTakeda
+
+[friend_takeda+wealth]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendtakeda_wealth_name
+	storeDesc = @charm_friendtakeda_wealth_desc
+	icon = Sprites/Icons/charm_takeda_attached
+	helper = CharmTakeda
+	magnetRange = 600
+	magnetMinPullSpeed = 100
+	magnetMaxPullSpeed = 500
+
+
+[friend_assassin]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendassassin_name
+	storeDesc = @charm_friendassassin_desc
+	icon = Sprites/Icons/charm_assassin
+	helper = CharmAssassin
+
+[friend_assassin+peace]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendassassin_peace_name
+	storeDesc = @charm_friendassassin_peace_desc
+	icon = Sprites/Icons/charm_assassin_attached
+	helper = CharmAssassin
+	damageMultiplier = 0.5
+
+
+[friend_farmer]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendfarmer_name
+	storeDesc = @charm_friendfarmer_desc
+	icon = Sprites/Icons/charm_farmer
+	helper = CharmFarmer
+
+[friend_farmer+wealth]
+	cost = 0,200
+	playmode = classic
+	displayName = @charm_friendfarmer_wealth_name
+	storeDesc = @charm_friendfarmer_wealth_desc
+	icon = Sprites/Icons/charm_farmer_attached
+	helper = CharmFarmer
+	magnetRange = 600
+	magnetMinPullSpeed = 100
+	magnetMaxPullSpeed = 500
+
+[z+oni]
+	cost = 0,200
+	playmode = zombies
+	displayName = @charm_friendoni_name
+	storeDesc = @charm_friendoni_desc
+	icon = Sprites/Icons/charm_oni
+	helper = Oni
+
+[z+horde]
+	cost = 0,200
+	playmode = zombies
+	displayName = @charm_friendhorde_name
+	storeDesc = @charm_friendhorde_desc
+	icon = Sprites/Icons/charm_horde
+	legionOnTheLooseBonus = 1
+
+
+/---------------------- EVENTS CHARMS -----------------------
+
+[charm_olympics+berserk]
+	cost = 0,200
+	eventID = olympics
+	playmode = classic
+	store = yes
+	displayName = @charm_olympics_name
+	storeDesc = @charm_olympics_desc
+	icon = Sprites/Icons/charm_olympic
+	heroDamageMultiplier = 1.5
+	meleePrefab = Props/PFOlympicTorch
+	[heroPrefabSwap]
+		Characters/PFHero01 = Characters/PFHeroOlympics
+
+[charm_julyforth+berserk]
+	cost = 0,200
+	eventID = julyforth
+	playmode = classic
+	store = yes
+	displayName = @charm_julyforth_name
+	storeDesc = @charm_julyforth_desc
+	icon = Sprites/Icons/charm_4th
+	heroDamageMultiplier = 1.5
+	meleePrefab = Props/PFSparkler
+	[heroPrefabSwap]
+		Characters/PFHero01 = Characters/PFHeroJuly
+

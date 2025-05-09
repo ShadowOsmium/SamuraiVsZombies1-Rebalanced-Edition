@@ -1,0 +1,66 @@
+/ Inspired by Wave 12
+
+scene = InGame_hell_brown
+
+[Commands]
+	Farmer
+	1,1
+	Farmer
+	1,1
+	Farmer
+	1,2
+	FarmerSword
+	1,1
+	FarmerAx
+	3,4
+	FarmerStilts
+	1,2
+	FarmerSword
+	1,1
+	Farmer
+	1,1
+	FarmerAx
+	1,3
+	FarmerSword
+	1,1
+	Farmer
+	1,1
+	1,1
+	FarmerSword
+	1,2
+	FarmerSword
+	1,1
+	Farmer
+	3,4
+	FarmerStilts
+	1,1
+	FarmerAx
+	1,2
+	Farmer
+	1,1
+	FarmerAx
+	1,1
+	Farmer
+	1,1
+	FarmerSword
+	1,1
+	FarmerSword
+	.25,.25
+	FarmerSword
+	1,1
+	FarmerSword
+	3,4
+	FarmerStilts
+	1,1
+	FarmerAx
+	3,4
+	FarmerStilts
+	1,2
+	FarmerSword
+	1,1
+	Farmer
+	1,1
+	FarmerAx
+	1,3
+	FarmerSword
+

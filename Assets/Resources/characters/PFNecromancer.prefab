@@ -1,0 +1,1592 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1652024072487938}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1652024072487938
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4212506869883707}
+  - 114: {fileID: 114070372854282560}
+  - 111: {fileID: 111701661795369383}
+  - 114: {fileID: 114345081527534597}
+  - 114: {fileID: 114286473512021883}
+  - 114: {fileID: 114762096159099732}
+  - 114: {fileID: 114180504695468956}
+  - 114: {fileID: 114575570473691620}
+  - 114: {fileID: 114404473503858178}
+  m_Layer: 0
+  m_Name: PFNecromancer
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4212506869883707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.661785, y: -0.77619934, z: 1658.1615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4388309582879259}
+  m_Father: {fileID: 0}
+--- !u!114 &114070372854282560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23147a98738dd3f21f8523d6dbc0a95, type: 3}
+  m_Name:
+  joints:
+  - label: melee_weapon
+    joint: {fileID: 4773124959852911}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: impact_target
+    joint: {fileID: 4878580128247898}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: body_effect
+    joint: {fileID: 4923890660183627}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+  - label: buff_icon
+    joint: {fileID: 4923890660183627}
+    autoAttachPrefab: {fileID: 0}
+    transformOffset:
+      position: {x: 0, y: 300, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0, y: 0, z: 0}
+--- !u!111 &111701661795369383
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: b59b6bbeac5f5b440a466223745b4727, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5585bef19dbfb2540a621b40cce9104c, type: 2}
+  - {fileID: 7400000, guid: b59b6bbeac5f5b440a466223745b4727, type: 2}
+  - {fileID: 7400000, guid: 1196136351261644daf849e57b24529d, type: 2}
+  - {fileID: 7400000, guid: 68d942681ee3656468436634ea30d38a, type: 2}
+  - {fileID: 7400000, guid: 909726b801743c04ea17d28594fc400e, type: 2}
+  - {fileID: 7400000, guid: 85891ee00bdcbd34da43d5a38f8fef70, type: 2}
+  - {fileID: 7400000, guid: b326c1b9fda517a4a9084a36e25a62d2, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114345081527534597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6245a8adae9bb55440fcfe8cafc69a, type: 3}
+  m_Name:
+  jointAnimation: {fileID: 111155500618080120}
+  defaultBlendSpeed: 0.3
+  specificAnimSettings: []
+  alsoPlayOnAllChildren: 0
+  animFrame: 0
+  extraAnimPlayers: []
+  extraTaggedAnimPlayers: []
+--- !u!114 &114286473512021883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ef4aa966cbc2b226b4b1bfbc09eb3d, type: 3}
+  m_Name:
+  attackActive: 0
+  animatedWalkSpeed: 100
+  randomAnimSets: []
+  arrowImpactEffect: {fileID: 0}
+  bladeImpactEffect: {fileID: 0}
+  bladeCriticalImpactEffect: {fileID: 0}
+  bluntImpactEffect: {fileID: 0}
+  bluntCriticalImpactEffect: {fileID: 0}
+  snapToGround: 1
+--- !u!114 &114762096159099732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/PFNecromancer.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114180504695468956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9deb42e7ebc7d9000d6a75dff5974047, type: 3}
+  m_Name:
+  playRandomAnimAtStartup: 0
+  cameraShakeIntensityMult: 1
+--- !u!114 &114575570473691620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dbae7d6e4503ccce4e243938d2e0ad, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114460640504141833, guid: fdd320af39fb3544cb500f5a1d3e5550, type: 2}
+  defaultMinDistance: 1
+  defaultMaxDistance: 500
+  defaultCustomEffect: {fileID: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  autoPlayEvent: Spawn
+  events: []
+--- !u!114 &114404473503858178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652024072487938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:
+--- !u!1 &1118273631036995
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4388309582879259}
+  - 111: {fileID: 111155500618080120}
+  - 114: {fileID: 114023594133083554}
+  m_Layer: 0
+  m_Name: necromancer
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4388309582879259
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118273631036995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4923890660183627}
+  - {fileID: 4366032063386574}
+  m_Father: {fileID: 4212506869883707}
+--- !u!111 &111155500618080120
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118273631036995}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 57598e7c0cd71c14a9a9e925177b89be, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: c7e1855a5a8751f46a0dedb615d35621, type: 2}
+  - {fileID: 7400000, guid: 57598e7c0cd71c14a9a9e925177b89be, type: 2}
+  - {fileID: 7400000, guid: 1801c368a129aab4b81e1db024b92e4d, type: 2}
+  - {fileID: 7400000, guid: e69da83fe2314ea4db2f5c072c727777, type: 2}
+  - {fileID: 7400000, guid: 576c9bae06502654f87d5b48953cb813, type: 2}
+  - {fileID: 7400000, guid: deebd63aaa307604c8f6a3fad4cef5ae, type: 2}
+  - {fileID: 7400000, guid: 49730ef74476bd249b145abfd216de97, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114023594133083554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118273631036995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Characters/Necromancer/necromancer.fbx
+  basePrefabPath:
+  exemptObjects:
+  - {fileID: 114023594133083554}
+--- !u!1 &1726095587566773
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4923890660183627}
+  m_Layer: 0
+  m_Name: necromancer:Necromancer
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4923890660183627
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726095587566773}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4388309582879259}
+--- !u!1 &1107847622791168
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4366032063386574}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_Skeleton_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4366032063386574
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107847622791168}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4389260020383911}
+  - {fileID: 4763937440008322}
+  m_Father: {fileID: 4388309582879259}
+--- !u!1 &1881606336195963
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4389260020383911}
+  m_Layer: 0
+  m_Name: necromancer:weightSpine_grp
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4389260020383911
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881606336195963}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4366032063386574}
+--- !u!1 &1028771018116426
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4763937440008322}
+  - 137: {fileID: 137411894105664726}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_spine_low_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4763937440008322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028771018116426}
+  m_LocalRotation: {x: 0.47913316, y: -0.5200302, z: -0.47913316, w: 0.5200302}
+  m_LocalPosition: {x: -0, y: 38.483612, z: -0.03725773}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 90, y: 4.687763, z: 90}
+  m_Children:
+  - {fileID: 4878580128247898}
+  - {fileID: 4986341028480495}
+  m_Father: {fileID: 4366032063386574}
+--- !u!137 &137411894105664726
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028771018116426}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 92551e3759c8d1a43856a8139db61955, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 5dd0e9e34cf6c834a92455127a5a2596, type: 2}
+  m_Bones:
+  - {fileID: 4763937440008322}
+  - {fileID: 4986341028480495}
+  - {fileID: 4077980972978829}
+  - {fileID: 4215544678258174}
+  - {fileID: 4006461785389497}
+  - {fileID: 4959996516298418}
+  - {fileID: 4095907383413626}
+  - {fileID: 4682037629163387}
+  - {fileID: 4633749512028315}
+  - {fileID: 4403744253592737}
+  - {fileID: 4703169262519783}
+  - {fileID: 4760874452349736}
+  - {fileID: 4503921582468449}
+  - {fileID: 4615806990898186}
+  - {fileID: 4490819559461892}
+  - {fileID: 4773124959852911}
+  - {fileID: 4009003818240674}
+  - {fileID: 4421331528493262}
+  - {fileID: 4858550380840649}
+  - {fileID: 4174600083275960}
+  - {fileID: 4830015235901669}
+  - {fileID: 4454035819155615}
+  - {fileID: 4688782011890133}
+  - {fileID: 4517604289225195}
+  - {fileID: 4160489176400161}
+  - {fileID: 4878580128247898}
+  - {fileID: 4188388446568062}
+  - {fileID: 4339089161110362}
+  - {fileID: 4461368092486636}
+  - {fileID: 4300139062854611}
+  - {fileID: 4540488200838617}
+  - {fileID: 4706553230938839}
+  - {fileID: 4711833954113876}
+  - {fileID: 4402527493664773}
+  - {fileID: 4380164633167825}
+  - {fileID: 4602718277832287}
+  - {fileID: 4438346884106758}
+  - {fileID: 4370939393841219}
+  m_AABB:
+    m_Center: {x: -46.22821, y: -12.99918, z: -11.536907}
+    m_Extent: {x: 100.073105, y: 114.554016, z: 84.11522}
+  m_DirtyAABB: 0
+--- !u!1 &1900024733567915
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4878580128247898}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_hip_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4878580128247898
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900024733567915}
+  m_LocalRotation: {x: -1.9428903E-16, y: -1.6653344E-16, z: -0.039943054, w: 0.99920195}
+  m_LocalPosition: {x: 5.479472, y: -0.43878448, z: -1.3628319E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -2.148387E-14, y: 1.9957385E-14, z: 4.578355}
+  m_Children:
+  - {fileID: 4380164633167825}
+  - {fileID: 4438346884106758}
+  - {fileID: 4188388446568062}
+  - {fileID: 4540488200838617}
+  m_Father: {fileID: 4763937440008322}
+--- !u!1 &1010008354863088
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4380164633167825}
+  m_Layer: 0
+  m_Name: necromancer:LeftSkirt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4380164633167825
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1010008354863088}
+  m_LocalRotation: {x: -0.10045892, y: 0.65911764, z: 0.7365755, w: 0.11370411}
+  m_LocalPosition: {x: -5.327322, y: 0.112043455, z: 13.473885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 83.326004, y: -17.330309, z: -177.89432}
+  m_Children:
+  - {fileID: 4602718277832287}
+  m_Father: {fileID: 4878580128247898}
+--- !u!1 &1230768533235548
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4602718277832287}
+  m_Layer: 0
+  m_Name: necromancer:LeftSkirt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4602718277832287
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1230768533235548}
+  m_LocalRotation: {x: 0.032874756, y: 0.04478746, z: -0.59080803, w: 0.804897}
+  m_LocalPosition: {x: -15.921364, y: 2.6645353E-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 2.1041309E-07, y: -6.3697314, z: 72.5586}
+  m_Children: []
+  m_Father: {fileID: 4380164633167825}
+--- !u!1 &1029576715153268
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4438346884106758}
+  m_Layer: 0
+  m_Name: necromancer:RightSkirt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4438346884106758
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1029576715153268}
+  m_LocalRotation: {x: -0.10045892, y: 0.65911764, z: 0.7365755, w: 0.11370411}
+  m_LocalPosition: {x: -5.3272853, y: 0.11204336, z: -13.4739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 83.326004, y: -17.330309, z: -177.89432}
+  m_Children:
+  - {fileID: 4370939393841219}
+  m_Father: {fileID: 4878580128247898}
+--- !u!1 &1560103012979045
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4370939393841219}
+  m_Layer: 0
+  m_Name: necromancer:RightSkirt1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4370939393841219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560103012979045}
+  m_LocalRotation: {x: 0.053087942, y: 0.01638097, z: 0.0051079122, w: 0.9984424}
+  m_LocalPosition: {x: -13.095837, y: -8.993278, z: -1.0523314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 6.0982, y: -1.8434415, z: -0.6844349}
+  m_Children: []
+  m_Father: {fileID: 4438346884106758}
+--- !u!1 &1710768430816214
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4188388446568062}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4188388446568062
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1710768430816214}
+  m_LocalRotation: {x: 0.047254335, y: 0.801663, z: -0.59493893, w: 0.033929113}
+  m_LocalPosition: {x: 7.237327, y: -0.08251458, z: 10.344801}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -106.952736, y: -6.351421, z: -177.9592}
+  m_Children:
+  - {fileID: 4339089161110362}
+  m_Father: {fileID: 4878580128247898}
+--- !u!1 &1754715243836247
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4339089161110362}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4339089161110362
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754715243836247}
+  m_LocalRotation: {x: 0.93035537, y: 0.04663089, z: -0.060067408, w: 0.35868704}
+  m_LocalPosition: {x: -12.699595, y: -1.3948343E-16, z: -1.5742411E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 138.01765, y: -8.35001, z: -2.5300722}
+  m_Children:
+  - {fileID: 4461368092486636}
+  m_Father: {fileID: 4188388446568062}
+--- !u!1 &1598458661098286
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4461368092486636}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4461368092486636
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1598458661098286}
+  m_LocalRotation: {x: -0.28504252, y: 0.10480079, z: 0.5128048, w: 0.8029937}
+  m_LocalPosition: {x: -9.218766, y: -2.0256012E-15, z: 7.066765E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -23.244568, y: -27.429127, z: -59.378963}
+  m_Children:
+  - {fileID: 4300139062854611}
+  m_Father: {fileID: 4339089161110362}
+--- !u!1 &1480613761429264
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4300139062854611}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4300139062854611
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1480613761429264}
+  m_LocalRotation: {x: 0.013583014, y: -0.03750697, z: 0.2978468, w: 0.9537799}
+  m_LocalPosition: {x: -4.771814, y: 6.9574884E-16, z: -2.5754418E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.20506866, y: 4.5677643, z: -34.67695}
+  m_Children: []
+  m_Father: {fileID: 4461368092486636}
+--- !u!1 &1310118523350465
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4540488200838617}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_upLeg_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4540488200838617
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310118523350465}
+  m_LocalRotation: {x: -0.801663, y: 0.047254458, z: 0.03392902, w: 0.59493893}
+  m_LocalPosition: {x: 7.237366, y: -0.08251444, z: -10.3448}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -106.952736, y: -6.351421, z: 2.0408196}
+  m_Children:
+  - {fileID: 4706553230938839}
+  m_Father: {fileID: 4878580128247898}
+--- !u!1 &1017368463960410
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4706553230938839}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_knee_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4706553230938839
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017368463960410}
+  m_LocalRotation: {x: 0.93035537, y: 0.04663069, z: -0.060067136, w: 0.3586872}
+  m_LocalPosition: {x: 12.699519, y: -7.0935926E-08, z: -3.1412958E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 138.01764, y: -8.349974, z: -2.5300608}
+  m_Children:
+  - {fileID: 4711833954113876}
+  m_Father: {fileID: 4540488200838617}
+--- !u!1 &1805326907581209
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4711833954113876}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_ankle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4711833954113876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805326907581209}
+  m_LocalRotation: {x: -0.28504255, y: 0.10480076, z: 0.5128046, w: 0.8029938}
+  m_LocalPosition: {x: 9.218802, y: -1.25893785E-05, z: -3.4045468E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -23.244581, y: -27.429123, z: -59.378944}
+  m_Children:
+  - {fileID: 4402527493664773}
+  m_Father: {fileID: 4706553230938839}
+--- !u!1 &1271897991997373
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4402527493664773}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_ball_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4402527493664773
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271897991997373}
+  m_LocalRotation: {x: 0.013583, y: -0.037506968, z: 0.2978468, w: 0.9537799}
+  m_LocalPosition: {x: 4.771821, y: -5.5669324E-07, z: -1.4290844E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.20506726, y: 4.5677633, z: -34.67695}
+  m_Children: []
+  m_Father: {fileID: 4711833954113876}
+--- !u!1 &1359529779789079
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4986341028480495}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_spine_mid_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4986341028480495
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1359529779789079}
+  m_LocalRotation: {x: 0.9999338, y: 0.011507363, z: 2.1888736E-16, w: 5.871741E-17}
+  m_LocalPosition: {x: -5.8557644, y: 0, z: -1.5136013E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: 2.5003555E-14, z: -1.3186758}
+  m_Children:
+  - {fileID: 4077980972978829}
+  m_Father: {fileID: 4763937440008322}
+--- !u!1 &1106158265607923
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4077980972978829}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_spine_hi_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4077980972978829
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106158265607923}
+  m_LocalRotation: {x: -1.6653345E-16, y: 2.220446E-16, z: -0.014236823, w: 0.9998987}
+  m_LocalPosition: {x: -7.327674, y: -3.1974423E-14, z: 1.8524155E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -1.9443643E-14, y: -2.5170174E-14, z: 1.6314749}
+  m_Children:
+  - {fileID: 4326956214775113}
+  - {fileID: 4215544678258174}
+  m_Father: {fileID: 4986341028480495}
+--- !u!1 &1373565754844353
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4326956214775113}
+  m_Layer: 0
+  m_Name: necromancer:transform1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4326956214775113
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1373565754844353}
+  m_LocalRotation: {x: 0.53219175, y: -0.46558774, z: 0.53219175, w: 0.46558774}
+  m_LocalPosition: {x: 51.31984, y: 5.5880194, z: 6.691436E-15}
+  m_LocalScale: {x: 0.7692308, y: 0.7692308, z: 0.7692308}
+  m_LocalEulerAnglesHint: {x: 97.63791, y: 90, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4077980972978829}
+--- !u!1 &1049842755629056
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4215544678258174}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_spine_end_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4215544678258174
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1049842755629056}
+  m_LocalRotation: {x: 0, y: 0, z: 0.12982982, w: 0.9915363}
+  m_LocalPosition: {x: -9.38294, y: -1.4773523E-14, z: 2.5811834E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -14.919516}
+  m_Children:
+  - {fileID: 4633749512028315}
+  - {fileID: 4006461785389497}
+  - {fileID: 4421331528493262}
+  m_Father: {fileID: 4077980972978829}
+--- !u!1 &1023568588076289
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4633749512028315}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4633749512028315
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023568588076289}
+  m_LocalRotation: {x: 0.5706752, y: -0.5543136, z: 0.363645, w: 0.48459116}
+  m_LocalPosition: {x: -0.2608615, y: 1.7830496, z: -7.347836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 150.57826, y: 72.22774, z: 66.64615}
+  m_Children:
+  - {fileID: 4403744253592737}
+  m_Father: {fileID: 4215544678258174}
+--- !u!1 &1257802416238268
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4403744253592737}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4403744253592737
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1257802416238268}
+  m_LocalRotation: {x: -0.006102257, y: 0.17140609, z: 0.11851289, w: 0.97802734}
+  m_LocalPosition: {x: -6.5709333, y: -7.0371345E-15, z: -7.637227E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.7461139, y: -19.677532, z: -14.121157}
+  m_Children:
+  - {fileID: 4703169262519783}
+  m_Father: {fileID: 4633749512028315}
+--- !u!1 &1487493527321798
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4703169262519783}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4703169262519783
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487493527321798}
+  m_LocalRotation: {x: 0.0019055149, y: 0.022412974, z: -0.00018690844, w: 0.999747}
+  m_LocalPosition: {x: -21.131807, y: -7.164356E-15, z: 2.7277379E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.21804021, y: -2.568589, z: 0.016535318}
+  m_Children:
+  - {fileID: 4040591920634183}
+  - {fileID: 4760874452349736}
+  m_Father: {fileID: 4403744253592737}
+--- !u!1 &1001088311922715
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4040591920634183}
+  m_Layer: 0
+  m_Name: necromancer:transform3
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4040591920634183
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1001088311922715}
+  m_LocalRotation: {x: -0.0025496534, y: -0.060220342, z: -0.0422242, w: 0.9972884}
+  m_LocalPosition: {x: 28.574638, y: -63.261364, z: 8.531616}
+  m_LocalScale: {x: 0.7692308, y: 0.7692308, z: 0.7692308}
+  m_LocalEulerAnglesHint: {x: 1.8356391E-06, y: 6.911114, z: 4.848797}
+  m_Children:
+  - {fileID: 4009003818240674}
+  m_Father: {fileID: 4703169262519783}
+--- !u!1 &1536804189179430
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4009003818240674}
+  m_Layer: 0
+  m_Name: necromancer:lfsleeve_flap
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4009003818240674
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536804189179430}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -51.75752, y: 65.425934, z: -3.94811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4040591920634183}
+--- !u!1 &1686976242463181
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4760874452349736}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4760874452349736
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686976242463181}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.737501, y: -5.496588E-16, z: 1.3159041E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4503921582468449}
+  m_Father: {fileID: 4703169262519783}
+--- !u!1 &1879160629610870
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4503921582468449}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4503921582468449
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879160629610870}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 7.1054274E-15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4773124959852911}
+  - {fileID: 4490819559461892}
+  - {fileID: 4615806990898186}
+  m_Father: {fileID: 4760874452349736}
+--- !u!1 &1301268927618921
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4773124959852911}
+  m_Layer: 0
+  m_Name: necromancer:prop1
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4773124959852911
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301268927618921}
+  m_LocalRotation: {x: -0.002549667, y: -0.060220283, z: -0.0422242, w: 0.9972884}
+  m_LocalPosition: {x: -6.5382366, y: -6.778145, z: 0.053849027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -9.435098E-09, y: 6.9111075, z: 4.848797}
+  m_Children: []
+  m_Father: {fileID: 4503921582468449}
+--- !u!1 &1946086995199470
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4490819559461892}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4490819559461892
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946086995199470}
+  m_LocalRotation: {x: -0.7125456, y: -0.035266317, z: 0.010098094, w: 0.70066625}
+  m_LocalPosition: {x: -5.89961, y: 0.2672423, z: 0.519218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -91.02799, y: 2.0074322, z: -3.6951628}
+  m_Children: []
+  m_Father: {fileID: 4503921582468449}
+--- !u!1 &1023497892230373
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4615806990898186}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_lf_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4615806990898186
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023497892230373}
+  m_LocalRotation: {x: 0.7143642, y: -0.15963799, z: -0.47383368, w: -0.48957244}
+  m_LocalPosition: {x: -2.9822645, y: -1.685204, z: 2.1125178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -97.44157, y: -56.438026, z: -25.255594}
+  m_Children: []
+  m_Father: {fileID: 4503921582468449}
+--- !u!1 &1120775871207586
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4006461785389497}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_neck_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4006461785389497
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120775871207586}
+  m_LocalRotation: {x: 0.47377256, y: -0.5249186, z: 0.47377256, w: 0.5249186}
+  m_LocalPosition: {x: -9.61547, y: 0, z: 3.7062274E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 84.136536, y: 90, z: 0}
+  m_Children:
+  - {fileID: 4959996516298418}
+  m_Father: {fileID: 4215544678258174}
+--- !u!1 &1559063230995111
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4959996516298418}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_head_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4959996516298418
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559063230995111}
+  m_LocalRotation: {x: 0.03277746, y: 0, z: -0, w: 0.99946266}
+  m_LocalPosition: {x: 2.3921114E-17, y: 4.463485, z: 8.881784E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 3.756693, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4058153997238555}
+  - {fileID: 4095907383413626}
+  m_Father: {fileID: 4006461785389497}
+--- !u!1 &1299244694657228
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4058153997238555}
+  m_Layer: 0
+  m_Name: necromancer:transform4
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4058153997238555
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299244694657228}
+  m_LocalRotation: {x: -0.045143593, y: -1.5945708E-16, z: 2.9318764E-16, w: 0.9989805}
+  m_LocalPosition: {x: 3.1639913E-14, y: -74.49338, z: 7.9518623}
+  m_LocalScale: {x: 0.7692308, y: 0.7692308, z: 0.7692308}
+  m_LocalEulerAnglesHint: {x: -5.1748333, y: 1.6737125E-14, z: -3.438746E-14}
+  m_Children:
+  - {fileID: 4682037629163387}
+  m_Father: {fileID: 4959996516298418}
+--- !u!1 &1929092605331562
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4682037629163387}
+  m_Layer: 0
+  m_Name: necromancer:beard
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4682037629163387
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929092605331562}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.759792E-30, y: 88.33134, z: 37.59982}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4058153997238555}
+--- !u!1 &1834778224122760
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4095907383413626}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_head_b_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4095907383413626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834778224122760}
+  m_LocalRotation: {x: -0.045143593, y: 0, z: -0, w: 0.9989805}
+  m_LocalPosition: {x: 6.2305046E-15, y: 52.257973, z: 9.226653E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -5.1748333, y: -0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4959996516298418}
+--- !u!1 &1940622511345663
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4421331528493262}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_clavicle_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4421331528493262
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940622511345663}
+  m_LocalRotation: {x: 0.5543136, y: 0.5706752, z: 0.48459116, w: -0.363645}
+  m_LocalPosition: {x: -0.26088116, y: 1.7830478, z: 7.34784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 150.57826, y: 72.22774, z: -113.35386}
+  m_Children:
+  - {fileID: 4858550380840649}
+  m_Father: {fileID: 4215544678258174}
+--- !u!1 &1271046356985425
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4858550380840649}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_upArm_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4858550380840649
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271046356985425}
+  m_LocalRotation: {x: -0.006102257, y: 0.17140609, z: 0.11851289, w: 0.97802734}
+  m_LocalPosition: {x: 6.570937, y: 4.119919E-05, z: 1.2180934E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.7461139, y: -19.677532, z: -14.121157}
+  m_Children:
+  - {fileID: 4174600083275960}
+  m_Father: {fileID: 4421331528493262}
+--- !u!1 &1562919783786412
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4174600083275960}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_elbow_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4174600083275960
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562919783786412}
+  m_LocalRotation: {x: 0.0019055149, y: 0.022412974, z: -0.00018690844, w: 0.999747}
+  m_LocalPosition: {x: 21.131779, y: -6.829642E-05, z: 1.5533215E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0.21804021, y: -2.568589, z: 0.016535318}
+  m_Children:
+  - {fileID: 4028111880093216}
+  - {fileID: 4830015235901669}
+  m_Father: {fileID: 4858550380840649}
+--- !u!1 &1278836164036571
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4028111880093216}
+  m_Layer: 0
+  m_Name: necromancer:transform2
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4028111880093216
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1278836164036571}
+  m_LocalRotation: {x: 0.9972884, y: -0.0422242, z: 0.060220353, w: 0.002549664}
+  m_LocalPosition: {x: -28.574625, y: 63.26141, z: -8.531621}
+  m_LocalScale: {x: 0.7692308, y: 0.7692308, z: 0.7692308}
+  m_LocalEulerAnglesHint: {x: -180, y: 6.9111156, z: 4.848797}
+  m_Children:
+  - {fileID: 4160489176400161}
+  m_Father: {fileID: 4174600083275960}
+--- !u!1 &1685585050048865
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4160489176400161}
+  m_Layer: 0
+  m_Name: necromancer:rtsleeveflap
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4160489176400161
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1685585050048865}
+  m_LocalRotation: {x: 1, y: -1.719558E-16, z: -1.5716226E-16, w: 6.123234E-17}
+  m_LocalPosition: {x: 51.7575, y: 65.4259, z: -3.94811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180, y: -1.8009469E-14, z: 1.9704683E-14}
+  m_Children: []
+  m_Father: {fileID: 4028111880093216}
+--- !u!1 &1590158152447021
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4830015235901669}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_wrist_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4830015235901669
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590158152447021}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.737534, y: 4.7157875E-05, z: -1.9393904E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4454035819155615}
+  m_Father: {fileID: 4174600083275960}
+--- !u!1 &1497535699885467
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4454035819155615}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_hand_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4454035819155615
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497535699885467}
+  m_LocalRotation: {x: 1.3940029E-16, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 7.1054274E-15, z: 1.7763568E-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 1.5974096E-14, y: -0, z: 0}
+  m_Children:
+  - {fileID: 4517604289225195}
+  - {fileID: 4688782011890133}
+  m_Father: {fileID: 4830015235901669}
+--- !u!1 &1568257672117417
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4517604289225195}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_index_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4517604289225195
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1568257672117417}
+  m_LocalRotation: {x: -0.7125456, y: -0.035266317, z: 0.010098098, w: 0.70066625}
+  m_LocalPosition: {x: 5.89958, y: -0.26722717, z: -0.5192229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -91.02799, y: 2.0074317, z: -3.695163}
+  m_Children: []
+  m_Father: {fileID: 4454035819155615}
+--- !u!1 &1520033675995170
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4688782011890133}
+  m_Layer: 0
+  m_Name: necromancer:Zomb_rt_thumb_a_jnt
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4688782011890133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1520033675995170}
+  m_LocalRotation: {x: 0.71436423, y: -0.15963799, z: -0.47383368, w: -0.4895724}
+  m_LocalPosition: {x: 2.982275, y: 1.6852498, z: -2.1125145}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -97.44159, y: -56.43803, z: -25.25559}
+  m_Children: []
+  m_Father: {fileID: 4454035819155615}

@@ -1,0 +1,88 @@
+scene = InGame
+
+/The following numbers are the recommended level each helper/ability for this wave
+[RecommendedAllies]
+/	Farmer = 2
+/	Samurai = 7
+/	SamuraiArcher = 2
+/	HeavySamurai = 2
+/	Priest = 2
+/	Nobunaga = 2
+/	IceArcher = 2
+/	SpearHorseman = 2
+/	Takeda = 2
+	
+
+[RecommendUpgrades]
+/	HeroSamurai = 2
+/	Katana = 9
+/	Bow = 2
+/	Smithy = 2
+/	Base = 2
+/	KatanaSlash = 2
+/	SummonLightning = 7
+/	VillageArchers = 2
+/	Bell = 2
+/	Lethargy = 2
+/	DivineIntervention = 2
+/	SummonTornadoes = 2
+/	GiantWave = 2
+/	GroundShock = 2
+
+[RecommendedUseForThisWave]		
+/Helpers
+/	Farmer
+/	Samurai
+/	SamuraiArcher
+/	HeavySamurai
+/	Priest
+/	Nobunaga
+/	IceArcher
+/	SpearHorseman
+/	Takeda
+
+/Abilities
+/	KatanaSlash
+/	SummonLightning
+/	Lethargy
+/	DivineIntervention
+/	SummonTornadoes
+/	GroundShock
+/	GiantWave
+
+/Charms
+/	power
+/	luck
+/	friendship
+/	wealth
+/	haste
+/	peace
+
+
+[Commands]	
+	H_Zombie_Ax
+	6,6
+	H_Zombie_Sword
+	8,8
+	H_Zombie_Spear
+	8,8
+	H_Zombie_Sword
+	8,8
+	H_Zombie_Sword
+	8,8
+	H_Zombie_Ax
+	8,8
+	H_Zombie_Sword
+	8,8
+	H_Zombie_spear
+	(
+	H_Zombie_Ax
+	4,4
+	H_Zombie_Sword
+	4,4
+	H_Zombie_Sword
+	4,4
+	H_Zombie_Spear
+	4,4
+	H_Zombie_Spear
+	)

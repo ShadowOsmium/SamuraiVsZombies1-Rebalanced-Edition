@@ -1,0 +1,120 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_priest
+desc = @helper_priest_desc
+prefab = Characters/PFPriest
+HUDIcon = Sprites/Icons/ally_priest
+lane = front
+waveToUnlock = 15
+resourcesCost = 40.0
+cooldownTimer = 1.0
+attackFrequency = 3.5
+unique = true
+
+achievementGC = SAMUZOMBIE_ACHIEVE_HOLY_MOLEY
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 0,18
+	health = 200
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 45
+	projectile = HealBolt
+
+[002]
+	cost = 0,18
+	health = 235
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 50
+	projectile = HealBolt
+	
+
+[003]
+	cost = 0,18
+	health = 280
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 60
+	projectile = HealBolt
+	
+
+[004]
+	cost = 0,20
+	health = 320
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 70
+	projectile = HealBolt
+	
+
+[005]
+	cost = 0,20
+	health = 420
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 85
+	projectile = HealBolt
+	
+
+[006]
+	cost = 0,20
+	health = 475
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 100
+	projectile = HealBolt
+	
+
+[007]
+	cost = 0,24
+	health = 550
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 130
+	projectile = HealBolt
+	
+
+[008]
+	cost = 0,24
+	health = 650
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 170
+	projectile = HealBolt
+	
+
+[009]
+	cost = 0,24
+	health = 720
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 250
+	projectile = HealBolt
+	
+
+[010]
+	cost = 0,30
+	health = 795
+	speedMin = 100
+	speedMax = 100
+	bowRange = 375
+	bowDamage = 340
+	projectile = HealBolt
+	

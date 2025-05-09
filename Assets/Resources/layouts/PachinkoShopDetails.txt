@@ -1,0 +1,28 @@
+
+{Layouts/ShopDetails}
+
+
+
+[exit]
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	position = 682, 550
+	offsetWhenPressed = 4, 4
+	pressedSound = Sounds/UI_Purchase_Press_ST_OS_01
+	priority = 5
+	[transition]
+		[alpha]
+			alpha = 0
+			
+[exitText]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = 682, 550
+	priority = 999
+	anchor = MiddleCenter
+	text = Exit Now
+	[transition]
+		[alpha]
+			alpha = 0			

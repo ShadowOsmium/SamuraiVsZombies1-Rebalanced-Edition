@@ -1,0 +1,126 @@
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_jurogumo_name
+desc = @helper_jurogumo_desc
+prefab = Characters/PFJurogumo
+HUDIcon = Sprites/Icons/enemy_jurogumo
+waveToUnlock = 21
+resourcesCost = 70.0
+cooldownTimer = 1.0
+attackFrequency = 1.0
+
+spawnOnDeath = JurogumoBaby
+spawnOnDeathCount = 3
+
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 0,34
+	health = 1810
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 405
+	knockbackPower = 50
+	knockbackResistance = 75
+
+[002]
+	cost = 0,34
+	health = 1965
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 450
+	knockbackPower = 50
+	knockbackResistance = 75
+
+[003]
+	cost = 0,34
+	health = 2145
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 490
+	knockbackPower = 50
+	knockbackResistance = 75
+
+[004]
+	cost = 0,40
+	health = 2357
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 523
+	knockbackPower = 55
+	knockbackResistance = 75
+
+[005]
+	cost = 0,40
+	health = 2591
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 585
+	knockbackPower = 55
+	knockbackResistance = 75
+
+[006]
+	cost = 0,40
+	health = 2850
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 632
+	knockbackPower = 55
+	knockbackResistance = 75
+
+[007]
+	cost = 0,46
+	health = 3135
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 670
+	knockbackPower = 60
+	knockbackResistance = 75
+
+[008]
+	cost = 0,46
+	health = 3450
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 750
+	knockbackPower = 60
+	knockbackResistance = 75
+
+[009]
+	cost = 0,46
+	health = 4140
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 818
+	knockbackPower = 60
+	knockbackResistance = 75
+
+[010]
+	cost = 0,50
+	health = 4965
+	speedMin = 150
+	speedMax = 150
+	meleeRange = 100
+	meleeDamage = 891
+	knockbackPower = 60
+	knockbackResistance = 75
+
+
+
+
+

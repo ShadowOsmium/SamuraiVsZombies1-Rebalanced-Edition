@@ -1,0 +1,92 @@
+
+/--------------------------------------------
+/	General
+/--------------------------------------------
+
+displayName = @heroe_samurai_name
+desc = @hero_desc
+store_levelup = @store_format_level_hero
+icon = Sprites/Icons/hero01
+prefab = Characters/PFHero01
+ghostPrefab = Characters/PFHeroGhost
+rangedWeaponPrefab = Props/PFHeroBow
+meleeSlashFXPrefab = FX/PFKatanaSlash
+
+infiniteUpgradeCost = 0,5
+/infiniteUpgradeExtraPulse = Sprites/Localized/on_sale
+infiniteUpgradeHealth = 0.05
+infiniteUpgradeHealthRecovery = 0.05
+
+
+/--------------------------------------------
+/	Levels
+/--------------------------------------------
+
+[001]
+	cost = 0,0
+	health = 200
+	healthRecovery = 4
+	speed = 300
+
+
+[002]
+	cost = 250,0
+	health = 250
+	healthRecovery = 5
+	speed = 300
+	
+		
+[003]
+	cost = 850,0
+	health = 350
+	healthRecovery = 7
+	speed = 300
+
+
+[004]
+	cost = 2700,0
+	health = 450
+	healthRecovery = 9
+	speed = 300
+
+
+[005]
+	cost = 5500,0
+	health = 550
+	healthRecovery = 10
+	speed = 300
+
+
+[006]
+	cost = 11000,0
+	health = 845
+	healthRecovery = 15
+	speed = 300
+
+
+[007]
+	cost = 16000,0
+	health = 1140
+	healthRecovery = 22.75
+	speed = 300
+
+
+[008]
+	cost = 22000,0
+	health = 1710
+	healthRecovery = 35
+	speed = 300
+
+
+[009]
+	cost = 35000,0
+	health = 2225
+	healthRecovery = 50
+	speed = 300
+
+
+[010]
+	cost = 50000,0
+	health = 2756
+	healthRecovery = 75
+	speed = 300

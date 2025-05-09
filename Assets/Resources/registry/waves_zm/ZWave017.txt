@@ -1,0 +1,103 @@
+/ Inspired by Wave 37
+
+scene = InGame_hell_green
+villageArchers = 3
+
+[Commands]
+	Samurai
+	2,2
+	Samurai
+	2,2
+	Samurai
+	3,3
+	SamuraiShield_Ice
+	3,3
+	Nobunaga
+	1,1
+	Nobunaga
+	1,1
+	Nobunaga
+	2,2
+	Swordsmith
+	Priest
+	SamuraiHeavy
+	1,1
+	SamuraiHeavy
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	Nobunaga	
+	1,1
+	Nobunaga
+	Swordsmith
+	3,3
+	SamuraiShield_Ice
+	2,2
+	Nobunaga
+	2,2
+	Nobunaga
+	1,1
+	Priest
+	Priest
+	1,1
+	SamuraiHeavy
+	1,1
+	SamuraiHeavy
+	1,1
+	SamuraiHeavy
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	4,4
+	SamuraiShield_Ice
+	3,3
+	Nobunaga
+	1,1
+	Nobunaga
+	1,1
+	Nobunaga
+	Nobunaga
+	1,1
+	Nobunaga
+	1,1
+	Nobunaga
+	2,2
+	Swordsmith
+	Priest
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	1,1
+	SpearHorseman
+	SamuraiRifleman
+	
+	
+	
+	

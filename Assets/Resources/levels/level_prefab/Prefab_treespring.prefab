@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1197907625059664}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1197907625059664
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4865166141985124}
+  - 33: {fileID: 33156824374916047}
+  - 23: {fileID: 23627303702104035}
+  - 111: {fileID: 111505667896472153}
+  - 114: {fileID: 114448986457335760}
+  - 114: {fileID: 114456882792343251}
+  m_Layer: 0
+  m_Name: Prefab_treespring
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4865166141985124
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197907625059664}
+  m_LocalRotation: {x: 0.13585581, y: -0.4041877, z: -0.042521827, w: 0.90353054}
+  m_LocalPosition: {x: -671.46454, y: 52.499863, z: -635.0307}
+  m_LocalScale: {x: 0.87763935, y: 0.89067024, z: 0.87763935}
+  m_LocalEulerAnglesHint: {x: 23.74036, y: 45.95864, z: 15.575618}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!33 &33156824374916047
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197907625059664}
+  m_Mesh: {fileID: 4300000, guid: 6d2d51904c4519b42a6b923d014a9592, type: 2}
+--- !u!23 &23627303702104035
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197907625059664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: a871c34a903a4274aa1cd4b789e1b618, type: 2}
+  - {fileID: 2100000, guid: bb7d36cf990d81145a1fb27f87707ec6, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!111 &111505667896472153
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197907625059664}
+  m_Enabled: 1
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &114448986457335760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197907625059664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Resources/Levels/Level_Prefab/Prefab_treespring.prefab
+  basePrefabPath: Assets/Resources/Props/tree_spring.fbx
+  exemptObjects:
+  - {fileID: 23627303702104035}
+  - {fileID: 114448986457335760}
+--- !u!114 &114456882792343251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197907625059664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

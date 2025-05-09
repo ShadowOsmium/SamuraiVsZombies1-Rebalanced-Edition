@@ -1,0 +1,11 @@
+
+[classic]
+	[wave_4]
+		Sprites/Localized/narrative_04
+	
+	[wave_7]
+		Sprites/Localized/narrative_07
+	
+	[wave_11]
+		Sprites/Localized/narrative_11
+

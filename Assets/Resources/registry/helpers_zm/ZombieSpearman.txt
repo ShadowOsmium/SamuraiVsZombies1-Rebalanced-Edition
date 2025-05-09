@@ -1,0 +1,121 @@
+
+/ NOTE: Stats based on the Spear Samurai
+
+/--------------------------------------------------
+/ General
+/--------------------------------------------------
+
+displayName = @helper_zombiespear_name
+desc = @helper_zombiespear_desc
+prefab = Characters/PFLzombiespear
+HUDIcon = Sprites/Icons/enemy_zombie_spearman
+weaponMeleePrefab = Props/PFSpear
+waveToUnlock = 5
+resourcesCost = 15.0
+cooldownTimer = 3.0
+attackFrequency = 4.0
+usesBladeWeapon = true
+
+/--------------------------------------------------
+/ Levels
+/--------------------------------------------------
+
+[001]
+	cost = 300,0
+	health = 31
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 40
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[002]
+	cost = 750,0
+	health = 40
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 58
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[003]
+	cost = 2500,0
+	health = 60
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 82
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[004]
+	cost = 7500,0
+	health = 82
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 118
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[005]
+	cost = 20000,0
+	health = 112
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 168
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[006]
+	cost = 0,15
+	health = 161
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 244
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[007]
+	cost = 0,20
+	health = 227
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 340
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[008]
+	cost = 0,25
+	health = 312
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 466
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[009]
+	cost = 0,30
+	health = 470
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 660
+	knockbackPower = 20
+	knockbackResistance = 15
+
+[010]
+	cost = 0,35
+	health = 706
+	speedMin = 85
+	speedMax = 85
+	meleeRange = 200
+	meleeDamage = 920
+	knockbackPower = 20
+	knockbackResistance = 15

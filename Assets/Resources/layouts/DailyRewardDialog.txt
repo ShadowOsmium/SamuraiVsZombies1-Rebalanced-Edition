@@ -1,0 +1,103 @@
+
+{Layouts/HighPriorityDialog}
+
+[title64]
+	type = label
+	font = default64
+	shadowOffset = 3,3
+	shadowColor = black
+	position = C, C-250
+	priority = 1001
+	anchor = MiddleCenter
+	[transition]
+		[alpha]
+			alpha = 0
+	
+[title32]
+	type = label
+	font = default32
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, C-180
+	maxWidth = 600
+	priority = 1001
+	anchor = MiddleCenter
+	alignment = center
+	[transition]
+		[alpha]
+			alpha = 0
+
+[title18]
+	type = label
+	font = default18
+	shadowOffset = 2,2
+	shadowColor = black
+	position = C, C-120
+	maxWidth = 600
+	priority = 1001
+	anchor = MiddleCenter
+	alignment = center
+	[transition]
+		[alpha]
+			alpha = 0
+
+[day1]
+	type = sprite
+	file = Sprites/Localized/rewards_day_01
+	keepAspectRatio = true
+	priority = 1001
+	hotspot = 163,0
+	visible = false
+	scale = 0.5,0.5
+	
+[day2]
+	type = sprite
+	file = Sprites/Localized/rewards_day_02
+	keepAspectRatio = true
+	priority = 1001
+	hotspot = 163,0
+	visible = false
+	scale = 0.5,0.5
+
+[day3]
+	type = sprite
+	file = Sprites/Localized/rewards_day_03
+	keepAspectRatio = true
+	priority = 1001
+	hotspot = 163,0
+	visible = false
+	scale = 0.5,0.5
+
+[day4]
+	type = sprite
+	file = Sprites/Localized/rewards_day_04
+	keepAspectRatio = true
+	priority = 1001
+	hotspot = 163,0
+	visible = false
+	scale = 0.5,0.5
+
+[day5]
+	type = sprite
+	file = Sprites/Localized/rewards_day_05
+	keepAspectRatio = true
+	priority = 1001
+	hotspot = 163,0
+	visible = false
+	scale = 0.5,0.5
+
+
+[yesBtn]
+	type = button
+	normalFrame = Sprites/Menus/stats_button
+	font = default32
+	position = C, 580
+	textOffset = 0, 5
+	offsetWhenPressed = 4, 4
+	priority = 1001
+	scale = 1.0,0.5
+	text = @yes
+	[transition]
+		[alpha]
+			alpha = 0
+

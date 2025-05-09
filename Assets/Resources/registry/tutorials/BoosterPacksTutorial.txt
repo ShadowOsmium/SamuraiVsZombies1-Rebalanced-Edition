@@ -1,0 +1,10 @@
+[events]
+	freePack
+
+[freePack]
+	condition = free_booster_packs
+	endCondition = touchScreen
+	blocking = no
+	text = @tutorial_boosterpacks_free
+	position = 600, 580
+	leftArrow = 880, 440

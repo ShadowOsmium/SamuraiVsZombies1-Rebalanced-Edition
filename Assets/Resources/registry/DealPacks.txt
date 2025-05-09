@@ -1,0 +1,40 @@
+
+[available]
+	/ Special Events always on top
+	pack_olympics
+	pack_julyforth
+	
+	
+/--------------------------------------------------------------------
+/	Packs Descriptions
+/--------------------------------------------------------------------
+
+		
+[pack_olympics]
+	displayName = @dealpackolympics_name
+	description = @dealpackolympics_desc
+	icon = Sprites/Icons/consume_deal_pack_olympic
+	cost = 0,50
+	eventID = olympics
+	[content]
+		charm_olympics+berserk = 5
+		power = 2
+		luck = 2
+		wealth = 2
+		haste = 2
+		peace = 2
+		
+[pack_julyforth]
+	displayName = @dealpackjulyforth_name
+	description = @dealpackjulyforth_desc
+	icon = Sprites/Icons/consume_deal_pack_4th
+	cost = 0,50
+	eventID = julyforth
+	[content]
+		charm_julyforth+berserk = 5
+		power = 2
+		luck = 2
+		wealth = 2
+		haste = 2
+		peace = 2
+

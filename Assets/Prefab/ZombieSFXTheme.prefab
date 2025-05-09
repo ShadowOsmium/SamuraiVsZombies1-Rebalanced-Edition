@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1684438941249613}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1684438941249613
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4303111578127525}
+  - 114: {fileID: 114460640504141833}
+  - 114: {fileID: 114796129515334029}
+  - 114: {fileID: 114918971745554458}
+  m_Layer: 0
+  m_Name: ZombieSFXTheme
+  m_TagString: Untagged
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+  m_Icon: {fileID: 0}
+--- !u!4 &4303111578127525
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1684438941249613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1281.9282, y: -165.36066, z: -125.35275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114460640504141833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1684438941249613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a601efe3b0ca39d5e3b419a22b773e, type: 3}
+  m_Name:
+  baseTheme: {fileID: 114249314497856133, guid: f3160de8891c8fb4ab10b772189e1ad8, type: 2}
+  events:
+  - name: Spawn
+    clips:
+    - {fileID: 8300000, guid: b9829f3302f4dfd47be0ce964f0ffd9f, type: 3}
+    - {fileID: 8300000, guid: acd56158e8ed9214c8cb3a925436ac6b, type: 3}
+    - {fileID: 8300000, guid: e7e80f6e72e39a74ab0ae594b9acb56f, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 500
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: AtkEmote
+    clips:
+    - {fileID: 8300000, guid: f6abedd808886c547a700aa303f925c3, type: 3}
+    - {fileID: 8300000, guid: 33c0bf5c80927344e9d664f8e3892cb8, type: 3}
+    - {fileID: 8300000, guid: ebd35205e3b587b458d5deee547a2db1, type: 3}
+    - {fileID: 8300000, guid: a9f07970278b92546b6cd33d46c23b94, type: 3}
+    - {fileID: 8300000, guid: a67272b065cf0ab459e5f0a7cb560e0d, type: 3}
+    percentChanceNone: 75
+    pitchVariance: 0
+    volume: 1
+    isVoice: 1
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 5000
+    useLogarithmicRolloff: 0
+  - name: DeathEmote
+    clips:
+    - {fileID: 8300000, guid: f05da117f891f394aac9d6dfa4c8010e, type: 3}
+    - {fileID: 8300000, guid: 51f6bd7bc6ff4184f93339bf0b927eb0, type: 3}
+    - {fileID: 8300000, guid: 0872f0ab33f3b7c4da224919930737ee, type: 3}
+    - {fileID: 8300000, guid: 9090e095cfc609f4f9dc3752705774c4, type: 3}
+    percentChanceNone: 0
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 100
+    maxDistanceOverride: 4000
+    useLogarithmicRolloff: 0
+  - name: Idle
+    clips:
+    - {fileID: 8300000, guid: cbe086269e7b1534ea96a7e10b017b85, type: 3}
+    - {fileID: 8300000, guid: 4b1ef706a8664e045804fb2d5b7a46a5, type: 3}
+    - {fileID: 8300000, guid: 938d377c8ad66f04987b6925f5065ab9, type: 3}
+    percentChanceNone: 80
+    pitchVariance: 0
+    volume: 1
+    isVoice: 0
+    playLimit: 0
+    priority: 0
+    trackPositionAndLifetime: 0
+    fadeInTime: 0
+    fadeOutTime: 0
+    customEffect: {fileID: 0}
+    loop: 0
+    minDistanceOverride: 200
+    maxDistanceOverride: 5500
+    useLogarithmicRolloff: 0
+--- !u!114 &114796129515334029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1684438941249613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee05443b9b67f14985305ef056de27, type: 3}
+  m_Name:
+  sourcePrefabPath: Assets/Game/Prefabs/SoundThemes/ZombieSFXTheme.prefab
+  basePrefabPath:
+  exemptObjects: []
+--- !u!114 &114918971745554458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1684438941249613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name:

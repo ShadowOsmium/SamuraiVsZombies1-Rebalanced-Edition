@@ -1,0 +1,28 @@
+
+[continue]
+	type = button
+	normalFrame = Sprites/Menus/continue_button
+	position = E-60, E-70
+	keepAspectRatio = true
+	offsetWhenPressed = 4, 4
+	priority = 51
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 120, 120
+		[alpha]
+			alpha = 0.0
+
+[back]
+	type = button
+	normalFrame = Sprites/Menus/back_button
+	position = 60, E-60
+	offsetWhenPressed = 4, 4
+	priority = 51
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -120, 120
+		[alpha]
+			alpha = 0.0
+

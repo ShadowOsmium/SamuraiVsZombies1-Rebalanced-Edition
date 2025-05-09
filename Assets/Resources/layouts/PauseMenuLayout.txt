@@ -1,0 +1,76 @@
+
+transitionSpeed = 1.0
+
+[title]
+	type = sprite
+	file = Sprites/Localized/paused
+	priority = 501
+	position = 512, 190
+	[transition]
+		[position]
+			anim = BackOut
+			position = 512, -80
+		[alpha]
+			animRange = 0, 0.7
+			alpha = 0.0
+
+[resumeBtn]
+	type = button
+	normalFrame = Sprites/Localized/resume_button
+	position = 312, 340
+	priority = 501
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -600, 0
+		[alpha]
+			animRange = 0, 0.7
+			alpha = 0.0
+
+
+[restartBtn]
+	type = button
+	normalFrame = Sprites/Localized/restart_button
+	position = 712, 340
+	priority = 501
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = BackOut
+			offset = 600, 0
+		[alpha]
+			animRange = 0, 0.7
+			alpha = 0.0
+
+[quitBtn]
+	type = button
+	normalFrame = Sprites/Localized/quit_button
+	position = 512, 490
+	priority = 501
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = BackOut
+			offset = -600, 0
+		[alpha]
+			animRange = 0, 0.7
+			alpha = 0.0
+
+
+/-------------------------------------------------------------------
+/	Game Center
+/-------------------------------------------------------------------
+
+[gameCenter]
+	type = button
+	normalframe = Sprites/Menus/icon_game_center
+	priority = 501
+	position = 50, 50
+	offsetWhenPressed = 4, 4
+	[transition]
+		[position]
+			anim = CircOut
+			offset = 0, -500
+			animRange = 0.4, 0.8
+			
