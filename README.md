@@ -14,6 +14,6 @@ PC.SVZ1.Rebalanced.Edition.zip
 
 4.) For PC, extact the .zip file with any file manager (For Android,, You Can Skip All Of The Next Steps As You Can Just Click On The File And It Will Install)
 
-5.) After extracting the file, you can then place that whereever you would like and then just run the .exe file
+5.) After extracting the file, you can then place that where ever you would like and then just run the .exe file
 
 6.) After you have ran the exe file, it will boot up and you can now enjoy the mod! (For the other mods/recomps, repeat the steps above)
