@@ -1,6 +1,6 @@
 READ THIS FOR DOWNLOAD INSTRUCTIONS
 
-1.) Find the releases tab on GitHub. PC is the first image and Android is the second image. (Scroll down to the very bottom on mobile)
+1.) Find the releases tab on GitHub. PC is the first image and Android is the second image. (Scroll down to the very bottom on mobile to find where the screenshot came from on the repository)
 
 ![image](https://github.com/user-attachments/assets/80335d40-d2c1-42e3-8852-47f63bfe44b6)
 
