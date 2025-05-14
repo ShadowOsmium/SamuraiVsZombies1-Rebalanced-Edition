@@ -6,11 +6,9 @@ READ THIS FOR DOWNLOAD INSTRUCTIONS
 
 ![image](https://github.com/user-attachments/assets/f246e9fc-b139-4b3e-9b12-71bf520f6dec)
 
-2.) Click on this download if you are an android player (If not, skip to step 3)
-Android.SVZ1.Rebalanced.Edition.apk
+2.) Click on this download if you are an android player (If not, skip to step 3) |  Android.SVZ1.Rebalanced.Edition.apk
 
-3.) Click on this download if you are a pc player
-PC.SVZ1.Rebalanced.Edition.zip
+3.) Click on this download if you are a pc player |  PC.SVZ1.Rebalanced.Edition.zip
 
 4.) For PC, extact the .zip file with any file manager (For Android,, You Can Skip All Of The Next Steps As You Can Just Click On The File And It Will Install)
 
